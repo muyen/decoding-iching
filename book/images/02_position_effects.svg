@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="700" height="400" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">爻位效應 | Position Effects</text>
+  <text x="350" y="55" text-anchor="middle" font-size="12" fill="#666">吉率指數 (Auspiciousness Index)</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="80" x2="80" y2="320" stroke="#333" stroke-width="1"/>
+
+  <!-- Y-axis labels -->
+  <text x="70" y="100" text-anchor="end" font-size="11" fill="#666">+0.5</text>
+  <text x="70" y="160" text-anchor="end" font-size="11" fill="#666">+0.3</text>
+  <text x="70" y="200" text-anchor="end" font-size="11" fill="#666">+0.2</text>
+  <text x="70" y="260" text-anchor="end" font-size="11" fill="#666">0</text>
+  <text x="70" y="320" text-anchor="end" font-size="11" fill="#666">-0.3</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="260" x2="650" y2="260" stroke="#333" stroke-width="1"/>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="100" x2="650" y2="100" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="160" x2="650" y2="160" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="200" x2="650" y2="200" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="320" x2="650" y2="320" stroke="#eee" stroke-width="1"/>
+
+  <!-- Bars -->
+  <!-- Position 5: +0.422 (Best) -->
+  <rect x="120" y="96" width="70" height="164" fill="#4caf50" rx="4"/>
+  <text x="155" y="85" text-anchor="middle" font-size="11" font-weight="bold" fill="#4caf50">+0.422</text>
+  <text x="155" y="280" text-anchor="middle" font-size="12" fill="#333">五</text>
+  <text x="155" y="295" text-anchor="middle" font-size="10" fill="#666">Position 5</text>
+
+  <!-- Position 2: +0.344 -->
+  <rect x="210" y="115" width="70" height="145" fill="#8bc34a" rx="4"/>
+  <text x="245" y="105" text-anchor="middle" font-size="11" font-weight="bold" fill="#8bc34a">+0.344</text>
+  <text x="245" y="280" text-anchor="middle" font-size="12" fill="#333">二</text>
+  <text x="245" y="295" text-anchor="middle" font-size="10" fill="#666">Position 2</text>
+
+  <!-- Position 4: +0.266 -->
+  <rect x="300" y="140" width="70" height="120" fill="#cddc39" rx="4"/>
+  <text x="335" y="130" text-anchor="middle" font-size="11" font-weight="bold" fill="#9e9d24">+0.266</text>
+  <text x="335" y="280" text-anchor="middle" font-size="12" fill="#333">四</text>
+  <text x="335" y="295" text-anchor="middle" font-size="10" fill="#666">Position 4</text>
+
+  <!-- Position 1: +0.234 -->
+  <rect x="390" y="150" width="70" height="110" fill="#ffeb3b" rx="4"/>
+  <text x="425" y="140" text-anchor="middle" font-size="11" font-weight="bold" fill="#f57f17">+0.234</text>
+  <text x="425" y="280" text-anchor="middle" font-size="12" fill="#333">初</text>
+  <text x="425" y="295" text-anchor="middle" font-size="10" fill="#666">Position 1</text>
+
+  <!-- Position 6: +0.031 -->
+  <rect x="480" y="250" width="70" height="10" fill="#ff9800" rx="4"/>
+  <text x="515" y="240" text-anchor="middle" font-size="11" font-weight="bold" fill="#ff9800">+0.031</text>
+  <text x="515" y="280" text-anchor="middle" font-size="12" fill="#333">上</text>
+  <text x="515" y="295" text-anchor="middle" font-size="10" fill="#666">Position 6</text>
+
+  <!-- Position 3: -0.219 (Worst) -->
+  <rect x="570" y="260" width="70" height="53" fill="#f44336" rx="4"/>
+  <text x="605" y="330" text-anchor="middle" font-size="11" font-weight="bold" fill="#f44336">-0.219</text>
+  <text x="605" y="280" text-anchor="middle" font-size="12" fill="#333">三</text>
+  <text x="605" y="295" text-anchor="middle" font-size="10" fill="#666">Position 3</text>
+
+  <!-- Annotations -->
+  <text x="155" y="350" text-anchor="middle" font-size="10" fill="#4caf50" font-weight="bold">★ 最佳</text>
+  <text x="605" y="350" text-anchor="middle" font-size="10" fill="#f44336" font-weight="bold">✗ 最差</text>
+
+  <!-- Ancient text reference -->
+  <text x="350" y="380" text-anchor="middle" font-size="11" fill="#666" font-style="italic">「五多功，三多凶」— 繫辭下傳</text>
+</svg>

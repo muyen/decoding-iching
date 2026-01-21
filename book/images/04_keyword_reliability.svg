@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="700" height="450" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">關鍵詞可信度 | Keyword Reliability</text>
+  <text x="350" y="55" text-anchor="middle" font-size="12" fill="#666">判吉的實際準確率 (Actual Accuracy for Auspicious Prediction)</text>
+
+  <!-- Y-axis -->
+  <line x1="120" y1="80" x2="120" y2="380" stroke="#333" stroke-width="1"/>
+
+  <!-- Y-axis labels -->
+  <text x="110" y="90" text-anchor="end" font-size="11" fill="#666">100%</text>
+  <text x="110" y="140" text-anchor="end" font-size="11" fill="#666">80%</text>
+  <text x="110" y="190" text-anchor="end" font-size="11" fill="#666">60%</text>
+  <text x="110" y="240" text-anchor="end" font-size="11" fill="#666">40%</text>
+  <text x="110" y="290" text-anchor="end" font-size="11" fill="#666">20%</text>
+  <text x="110" y="340" text-anchor="end" font-size="11" fill="#666">0%</text>
+
+  <!-- X-axis -->
+  <line x1="120" y1="340" x2="650" y2="340" stroke="#333" stroke-width="1"/>
+
+  <!-- Grid lines -->
+  <line x1="120" y1="90" x2="650" y2="90" stroke="#f5f5f5" stroke-width="1"/>
+  <line x1="120" y1="140" x2="650" y2="140" stroke="#f5f5f5" stroke-width="1"/>
+  <line x1="120" y1="190" x2="650" y2="190" stroke="#f5f5f5" stroke-width="1"/>
+  <line x1="120" y1="240" x2="650" y2="240" stroke="#f5f5f5" stroke-width="1"/>
+  <line x1="120" y1="290" x2="650" y2="290" stroke="#f5f5f5" stroke-width="1"/>
+
+  <!-- 50% threshold line -->
+  <line x1="120" y1="215" x2="650" y2="215" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="655" y="220" font-size="10" fill="#ff9800">50% 門檻</text>
+
+  <!-- Bars - Reliable Keywords -->
+  <!-- 元吉: 100% -->
+  <rect x="140" y="90" width="50" height="250" fill="#4caf50" rx="4"/>
+  <text x="165" y="80" text-anchor="middle" font-size="10" font-weight="bold" fill="#4caf50">100%</text>
+  <text x="165" y="360" text-anchor="middle" font-size="11" fill="#333">元吉</text>
+
+  <!-- 大吉: 100% -->
+  <rect x="200" y="90" width="50" height="250" fill="#4caf50" rx="4"/>
+  <text x="225" y="80" text-anchor="middle" font-size="10" font-weight="bold" fill="#4caf50">100%</text>
+  <text x="225" y="360" text-anchor="middle" font-size="11" fill="#333">大吉</text>
+
+  <!-- 貞吉: 97% -->
+  <rect x="260" y="97" width="50" height="243" fill="#66bb6a" rx="4"/>
+  <text x="285" y="87" text-anchor="middle" font-size="10" font-weight="bold" fill="#66bb6a">97%</text>
+  <text x="285" y="360" text-anchor="middle" font-size="11" fill="#333">貞吉</text>
+
+  <!-- 吉: 96% -->
+  <rect x="320" y="100" width="50" height="240" fill="#81c784" rx="4"/>
+  <text x="345" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#81c784">96%</text>
+  <text x="345" y="360" text-anchor="middle" font-size="11" fill="#333">吉</text>
+
+  <!-- Separator -->
+  <line x1="390" y1="80" x2="390" y2="345" stroke="#ccc" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Bars - Unreliable Keywords -->
+  <!-- 利: 36% -->
+  <rect x="410" y="250" width="50" height="90" fill="#ff9800" rx="4"/>
+  <text x="435" y="240" text-anchor="middle" font-size="10" font-weight="bold" fill="#ff9800">36%</text>
+  <text x="435" y="360" text-anchor="middle" font-size="11" fill="#333">利</text>
+  <text x="435" y="375" text-anchor="middle" font-size="9" fill="#f44336">✗ 不可靠</text>
+
+  <!-- 无咎: 28% -->
+  <rect x="470" y="270" width="50" height="70" fill="#f44336" rx="4"/>
+  <text x="495" y="260" text-anchor="middle" font-size="10" font-weight="bold" fill="#f44336">28%</text>
+  <text x="495" y="360" text-anchor="middle" font-size="11" fill="#333">无咎</text>
+  <text x="495" y="375" text-anchor="middle" font-size="9" fill="#f44336">✗ 65%是中!</text>
+
+  <!-- 吝: 0% (never auspicious, always neutral) -->
+  <rect x="530" y="338" width="50" height="2" fill="#9e9e9e" rx="1"/>
+  <text x="555" y="328" text-anchor="middle" font-size="10" font-weight="bold" fill="#9e9e9e">0%</text>
+  <text x="555" y="360" text-anchor="middle" font-size="11" fill="#333">吝</text>
+  <text x="555" y="375" text-anchor="middle" font-size="9" fill="#9e9e9e">100%是中</text>
+
+  <!-- Legend -->
+  <rect x="140" y="400" width="15" height="15" fill="#4caf50" rx="2"/>
+  <text x="160" y="412" font-size="11" fill="#333">高可信 (可直接判定)</text>
+
+  <rect x="320" y="400" width="15" height="15" fill="#ff9800" rx="2"/>
+  <text x="340" y="412" font-size="11" fill="#333">低可信 (需其他線索)</text>
+
+  <rect x="500" y="400" width="15" height="15" fill="#f44336" rx="2"/>
+  <text x="520" y="412" font-size="11" fill="#333">誤導性 (傳統誤解)</text>
+
+  <!-- Annotation -->
+  <text x="350" y="435" text-anchor="middle" font-size="11" fill="#666" font-style="italic">「无咎」「吝」被誤解了三千年</text>
+</svg>

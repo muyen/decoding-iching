@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1321"/>
+      <stop offset="50%" style="stop-color:#1d2d44"/>
+      <stop offset="100%" style="stop-color:#0d1321"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#3e5c76;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#0d1321;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="2560" fill="url(#bgGrad)"/>
+  <rect width="1600" height="2560" fill="url(#glowGrad)"/>
+
+  <!-- Decorative lines -->
+  <line x1="200" y1="350" x2="1400" y2="350" stroke="#748cab" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="1900" x2="1400" y2="1900" stroke="#748cab" stroke-width="2" opacity="0.5"/>
+
+  <!-- Yin Yang Symbol -->
+  <g transform="translate(800, 1100)">
+    <!-- Outer circle -->
+    <circle cx="0" cy="0" r="320" fill="none" stroke="#c9b896" stroke-width="3"/>
+
+    <!-- Yin (black) half -->
+    <path d="M 0,-320 A 320,320 0 0,1 0,320 A 160,160 0 0,1 0,0 A 160,160 0 0,0 0,-320" fill="#1d2d44"/>
+
+    <!-- Yang (white) half -->
+    <path d="M 0,-320 A 320,320 0 0,0 0,320 A 160,160 0 0,0 0,0 A 160,160 0 0,1 0,-320" fill="#c9b896"/>
+
+    <!-- Yin dot -->
+    <circle cx="0" cy="-160" r="40" fill="#c9b896"/>
+
+    <!-- Yang dot -->
+    <circle cx="0" cy="160" r="40" fill="#1d2d44"/>
+
+    <!-- Eight trigrams around -->
+    <g font-family="Arial, sans-serif" font-size="36" fill="#748cab" text-anchor="middle">
+      <!-- Trigram symbols positioned around -->
+      <text x="0" y="-400" fill="#c9b896" font-size="48">☰</text>
+      <text x="283" y="-283" fill="#c9b896" font-size="48">☱</text>
+      <text x="400" y="15" fill="#c9b896" font-size="48">☲</text>
+      <text x="283" y="313" fill="#c9b896" font-size="48">☳</text>
+      <text x="0" y="430" fill="#c9b896" font-size="48">☷</text>
+      <text x="-283" y="313" fill="#c9b896" font-size="48">☴</text>
+      <text x="-400" y="15" fill="#c9b896" font-size="48">☵</text>
+      <text x="-283" y="-283" fill="#c9b896" font-size="48">☶</text>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <text x="800" y="480" text-anchor="middle" font-family="Songti TC, STSong, serif" font-size="180" fill="#e8d5b7" font-weight="bold">解碼易經</text>
+
+  <!-- Subtitle -->
+  <text x="800" y="620" text-anchor="middle" font-family="Songti TC, STSong, serif" font-size="52" fill="#c9b896">用數據科學重新理解古老智慧</text>
+
+  <!-- English subtitle -->
+  <text x="800" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#748cab" font-style="italic">Decoding the I Ching with Data Science</text>
+
+  <!-- Author -->
+  <text x="800" y="2100" text-anchor="middle" font-family="Songti TC, STSong, serif" font-size="70" fill="#c9b896">李沐諺</text>
+
+  <!-- Decorative bottom element -->
+  <text x="800" y="2250" text-anchor="middle" font-family="Arial" font-size="28" fill="#748cab">64卦 · 384爻 · 數據分析</text>
+</svg>

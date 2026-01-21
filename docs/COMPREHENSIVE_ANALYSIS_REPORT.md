@@ -4,18 +4,29 @@
 
 This report synthesizes findings from multiple analytical approaches applied to the 384 yaos (爻) of the I Ching, seeking to understand which structural patterns determine 吉凶 (auspicious/inauspicious) outcomes.
 
-**Key Finding**: Structure alone explains approximately **38-44% accuracy** in predicting 吉凶, meaning that **56-62% of the determination requires reading the actual 爻辭 (line texts)**.
+**Key Finding**: Structure alone explains approximately **~50% accuracy** in predicting 吉凶, meaning that **~50% of the determination requires reading the actual 爻辭 (line texts)**.
+
+**Important Correction**: Earlier research (V17) claimed 62.2% accuracy, but this was **overfitting** to only 90 samples (15 hexagrams). When validated on the complete 384 yaos with 5-fold cross-validation, the true structural prediction limit is **~50%**.
 
 ---
 
 ## 1. ML Prediction Model Results
 
-### Model Performance
+### Model Performance (Full 384 Yaos, 5-Fold CV)
 | Model | Accuracy | vs Random (33.3%) |
 |-------|----------|-------------------|
-| Rule-Based (Expert) | 43.8% | +10.5% |
-| Naive Bayes ML | 38.6% | +5.3% |
-| Random Baseline | 33.3% | - |
+| Always predict "中" | 46.4% | +13.1% |
+| Rule-Based (Position) | 45-49% | +12-16% |
+| ML with all features | ~50% | +17% |
+| ML + 五行 features | 50.3% | +17% |
+| **Structural Limit** | **~50%** | **+17%** |
+
+### Historical Note
+| Model | Reported Accuracy | Sample Size | Status |
+|-------|-------------------|-------------|--------|
+| V17 | 62.2% | 90 (15 hexagrams) | ⚠️ Overfitting |
+| V18 (Full validation) | 45.1% | 384 yaos | ✓ Valid |
+| Final best | ~50% | 384 yaos (5-fold CV) | ✓ Valid |
 
 ### Feature Importance (by correlation)
 | Rank | Feature | Correlation |
@@ -145,37 +156,44 @@ Position effects are **ROBUST across both sequences**. The patterns we found are
 
 Based on all analyses, 吉凶 determination follows three layers:
 
-### Layer 1: Structural (40% predictable)
+### Layer 1: Structural (~35% predictable)
 - **Position** is dominant (χ² = 39.11, p < 0.00001)
 - Position 5 (九五之尊): 51.6% 吉率
-- Position 3 (下卦之極): 50% 凶率
+- Position 3 (下卦之極): highest 凶率
 - Position 2 (中): 46.9% 吉率
 
-### Layer 2: Relational (15% additional)
+### Layer 2: Relational + 五行 (~15% additional)
 - 比關係 (adjacent polarity match): +10% 吉率
 - 錯卦 correlation: 71.9%
-- Same trigram: slight positive effect
+- 五行關係：
+  - 相生: 44-47% 吉, **5.6% 凶** (safest)
+  - 比和: 29.8% 吉, **21.4% 凶** (most dangerous)
+  - 相剋: 35-38% 吉, 17% 凶
 
-### Layer 3: Textual (45% requires 爻辭)
+### Layer 3: Textual (~50% requires 爻辭)
 - Cannot be predicted from structure alone
 - Semantic content of line texts
 - Historical/situational context
 - Symbolic imagery
+
+**Note**: Total structural prediction achieves ~50% accuracy maximum.
 
 ---
 
 ## 7. Practical Implications
 
 ### For Divination Practice
-1. **Always read the 爻辭** - structure only gets you 40% accuracy
+1. **Always read the 爻辭** - structure only gets you ~50% accuracy
 2. **Pay attention to position** - it's the most reliable structural indicator
 3. **Position 5 is favorable**, Position 3 requires caution
 4. **Extreme hexagrams (5 or 1 yang)** tend toward difficulty
+5. **五行關係**: 相生 relationships are safest (only 5.6% 凶); 比和 (same element) is most dangerous (21.4% 凶)
 
 ### For Research
 1. The 馬王堆 and 文王 sequences show the patterns are not sequence artifacts
 2. 錯卦 correlation (71.9%) deserves further investigation
 3. NLP analysis of 爻辭 text is essential for deeper understanding
+4. **Important**: Always validate on full 384 yaos with cross-validation to avoid overfitting
 
 ---
 

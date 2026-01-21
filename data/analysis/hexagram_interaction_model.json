@@ -1,0 +1,2237 @@
+{
+  "hexagram_properties": {
+    "1": {
+      "name": "乾",
+      "lower": "乾",
+      "upper": "乾",
+      "yang_count": 6,
+      "balance": 0.0,
+      "is_symmetric": true,
+      "same_trigram": true,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "2": {
+      "name": "坤",
+      "lower": "坤",
+      "upper": "坤",
+      "yang_count": 0,
+      "balance": 0.0,
+      "is_symmetric": true,
+      "same_trigram": true,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "3": {
+      "name": "屯",
+      "lower": "艮",
+      "upper": "坎",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "4": {
+      "name": "蒙",
+      "lower": "坎",
+      "upper": "震",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "5": {
+      "name": "需",
+      "lower": "乾",
+      "upper": "坎",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "6": {
+      "name": "訟",
+      "lower": "坎",
+      "upper": "乾",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": -1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "7": {
+      "name": "師",
+      "lower": "坎",
+      "upper": "坤",
+      "yang_count": 1,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": 1,
+        "3": -1,
+        "4": 0,
+        "5": -1,
+        "6": 0
+      }
+    },
+    "8": {
+      "name": "比",
+      "lower": "坤",
+      "upper": "坎",
+      "yang_count": 1,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": -1
+      }
+    },
+    "9": {
+      "name": "小畜",
+      "lower": "乾",
+      "upper": "兌",
+      "yang_count": 5,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "10": {
+      "name": "履",
+      "lower": "巽",
+      "upper": "乾",
+      "yang_count": 5,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": -1,
+        "4": 1,
+        "5": -1,
+        "6": 1
+      }
+    },
+    "11": {
+      "name": "泰",
+      "lower": "乾",
+      "upper": "坤",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": true,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "12": {
+      "name": "否",
+      "lower": "坤",
+      "upper": "乾",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": true,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "13": {
+      "name": "同人",
+      "lower": "離",
+      "upper": "乾",
+      "yang_count": 5,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "14": {
+      "name": "大有",
+      "lower": "乾",
+      "upper": "離",
+      "yang_count": 5,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "15": {
+      "name": "謙",
+      "lower": "震",
+      "upper": "坤",
+      "yang_count": 1,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "16": {
+      "name": "豫",
+      "lower": "坤",
+      "upper": "艮",
+      "yang_count": 1,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": 1,
+        "3": -1,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "17": {
+      "name": "隨",
+      "lower": "艮",
+      "upper": "巽",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": -1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "18": {
+      "name": "蠱",
+      "lower": "兌",
+      "upper": "震",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": -1,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "19": {
+      "name": "臨",
+      "lower": "巽",
+      "upper": "坤",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "20": {
+      "name": "觀",
+      "lower": "坤",
+      "upper": "兌",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "21": {
+      "name": "噬嗑",
+      "lower": "艮",
+      "upper": "離",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "22": {
+      "name": "賁",
+      "lower": "離",
+      "upper": "震",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "23": {
+      "name": "剝",
+      "lower": "坤",
+      "upper": "震",
+      "yang_count": 1,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": -1,
+        "3": 0,
+        "4": -1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "24": {
+      "name": "復",
+      "lower": "艮",
+      "upper": "坤",
+      "yang_count": 1,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "25": {
+      "name": "无妄",
+      "lower": "艮",
+      "upper": "乾",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": -1,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "26": {
+      "name": "大畜",
+      "lower": "乾",
+      "upper": "震",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "27": {
+      "name": "頤",
+      "lower": "艮",
+      "upper": "震",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": true,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": -1,
+        "3": -1,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "28": {
+      "name": "大過",
+      "lower": "兌",
+      "upper": "巽",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": true,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": -1,
+        "4": 1,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "29": {
+      "name": "坎",
+      "lower": "坎",
+      "upper": "坎",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": true,
+      "same_trigram": true,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "30": {
+      "name": "離",
+      "lower": "離",
+      "upper": "離",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": true,
+      "same_trigram": true,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": -1,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "31": {
+      "name": "咸",
+      "lower": "震",
+      "upper": "巽",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": true,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "32": {
+      "name": "恆",
+      "lower": "兌",
+      "upper": "艮",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": true,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "33": {
+      "name": "遯",
+      "lower": "震",
+      "upper": "乾",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "34": {
+      "name": "大壯",
+      "lower": "乾",
+      "upper": "艮",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": 1,
+        "3": -1,
+        "4": 1,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "35": {
+      "name": "晉",
+      "lower": "坤",
+      "upper": "離",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": -1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "36": {
+      "name": "明夷",
+      "lower": "離",
+      "upper": "坤",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "37": {
+      "name": "家人",
+      "lower": "離",
+      "upper": "兌",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "38": {
+      "name": "睽",
+      "lower": "巽",
+      "upper": "離",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "39": {
+      "name": "蹇",
+      "lower": "震",
+      "upper": "坎",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "40": {
+      "name": "解",
+      "lower": "坎",
+      "upper": "艮",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "41": {
+      "name": "損",
+      "lower": "巽",
+      "upper": "震",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": true,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": -1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "42": {
+      "name": "益",
+      "lower": "艮",
+      "upper": "兌",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": true,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": -1,
+        "4": 0,
+        "5": 1,
+        "6": -1
+      }
+    },
+    "43": {
+      "name": "夬",
+      "lower": "乾",
+      "upper": "巽",
+      "yang_count": 5,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": -1,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "44": {
+      "name": "姤",
+      "lower": "兌",
+      "upper": "乾",
+      "yang_count": 5,
+      "balance": 0.33333333333333337,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": -1,
+        "4": -1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "45": {
+      "name": "萃",
+      "lower": "坤",
+      "upper": "巽",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "46": {
+      "name": "升",
+      "lower": "兌",
+      "upper": "坤",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "47": {
+      "name": "困",
+      "lower": "坎",
+      "upper": "巽",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": -1,
+        "3": -1,
+        "4": 0,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "48": {
+      "name": "井",
+      "lower": "兌",
+      "upper": "坎",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "49": {
+      "name": "革",
+      "lower": "離",
+      "upper": "巽",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": -1,
+        "4": 1,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "50": {
+      "name": "鼎",
+      "lower": "兌",
+      "upper": "離",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": -1,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "51": {
+      "name": "震",
+      "lower": "艮",
+      "upper": "艮",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": true,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": -1,
+        "3": -1,
+        "4": 0,
+        "5": -1,
+        "6": -1
+      }
+    },
+    "52": {
+      "name": "艮",
+      "lower": "震",
+      "upper": "震",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": true,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": -1,
+        "4": 0,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "53": {
+      "name": "漸",
+      "lower": "震",
+      "upper": "兌",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": -1,
+        "4": 0,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "54": {
+      "name": "歸妹",
+      "lower": "巽",
+      "upper": "艮",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "55": {
+      "name": "豐",
+      "lower": "離",
+      "upper": "艮",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": -1
+      }
+    },
+    "56": {
+      "name": "旅",
+      "lower": "震",
+      "upper": "離",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": 0,
+        "3": -1,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "57": {
+      "name": "巽",
+      "lower": "兌",
+      "upper": "兌",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": true,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": -1
+      }
+    },
+    "58": {
+      "name": "兌",
+      "lower": "巽",
+      "upper": "巽",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": false,
+      "same_trigram": true,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 1,
+        "3": -1,
+        "4": 1,
+        "5": -1,
+        "6": 0
+      }
+    },
+    "59": {
+      "name": "渙",
+      "lower": "坎",
+      "upper": "兌",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "60": {
+      "name": "節",
+      "lower": "巽",
+      "upper": "坎",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": -1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": -1
+      }
+    },
+    "61": {
+      "name": "中孚",
+      "lower": "巽",
+      "upper": "兌",
+      "yang_count": 4,
+      "balance": 0.6666666666666667,
+      "is_symmetric": true,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "62": {
+      "name": "小過",
+      "lower": "震",
+      "upper": "艮",
+      "yang_count": 2,
+      "balance": 0.6666666666666667,
+      "is_symmetric": true,
+      "same_trigram": false,
+      "complementary": false,
+      "reaction_coefficients": {
+        "1": -1,
+        "2": 0,
+        "3": -1,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "63": {
+      "name": "既濟",
+      "lower": "離",
+      "upper": "坎",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": true,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": -1
+      }
+    },
+    "64": {
+      "name": "未濟",
+      "lower": "坎",
+      "upper": "離",
+      "yang_count": 3,
+      "balance": 1.0,
+      "is_symmetric": false,
+      "same_trigram": false,
+      "complementary": true,
+      "reaction_coefficients": {
+        "1": 0,
+        "2": 1,
+        "3": -1,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      }
+    }
+  },
+  "trigram_characteristics": {
+    "坤": {
+      "inner_reactions": {
+        "1": 0.125,
+        "2": 0.625,
+        "3": -0.125
+      },
+      "outer_reactions": {
+        "4": 0.25,
+        "5": 0.5,
+        "6": 0.0
+      },
+      "inner_total": 0.625,
+      "outer_total": 0.75,
+      "polarity": 0.125
+    },
+    "艮": {
+      "inner_reactions": {
+        "1": 0.625,
+        "2": 0.0,
+        "3": -0.5
+      },
+      "outer_reactions": {
+        "4": 0.25,
+        "5": 0.25,
+        "6": -0.25
+      },
+      "inner_total": 0.125,
+      "outer_total": 0.25,
+      "polarity": 0.125
+    },
+    "坎": {
+      "inner_reactions": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": -0.25
+      },
+      "outer_reactions": {
+        "4": 0.25,
+        "5": 0.375,
+        "6": -0.125
+      },
+      "inner_total": 0.0,
+      "outer_total": 0.5,
+      "polarity": 0.5
+    },
+    "巽": {
+      "inner_reactions": {
+        "1": 0.625,
+        "2": 0.125,
+        "3": -0.125
+      },
+      "outer_reactions": {
+        "4": 0.5,
+        "5": 0.125,
+        "6": 0.0
+      },
+      "inner_total": 0.625,
+      "outer_total": 0.625,
+      "polarity": 0.0
+    },
+    "震": {
+      "inner_reactions": {
+        "1": -0.125,
+        "2": 0.25,
+        "3": -0.25
+      },
+      "outer_reactions": {
+        "4": 0.25,
+        "5": 0.75,
+        "6": 0.375
+      },
+      "inner_total": -0.125,
+      "outer_total": 1.375,
+      "polarity": 1.5
+    },
+    "離": {
+      "inner_reactions": {
+        "1": 0.0,
+        "2": 0.625,
+        "3": -0.125
+      },
+      "outer_reactions": {
+        "4": 0.0,
+        "5": 0.5,
+        "6": 0.25
+      },
+      "inner_total": 0.5,
+      "outer_total": 0.75,
+      "polarity": 0.25
+    },
+    "兌": {
+      "inner_reactions": {
+        "1": 0.375,
+        "2": 0.5,
+        "3": -0.25
+      },
+      "outer_reactions": {
+        "4": 0.25,
+        "5": 0.5,
+        "6": -0.25
+      },
+      "inner_total": 0.625,
+      "outer_total": 0.5,
+      "polarity": -0.125
+    },
+    "乾": {
+      "inner_reactions": {
+        "1": 0.25,
+        "2": 0.375,
+        "3": -0.125
+      },
+      "outer_reactions": {
+        "4": 0.375,
+        "5": 0.375,
+        "6": 0.25
+      },
+      "inner_total": 0.5,
+      "outer_total": 1.0,
+      "polarity": 0.5
+    }
+  },
+  "hexagram_reaction_characteristics": {
+    "1": {
+      "name": "乾",
+      "total_reaction": 0,
+      "sensitive_positions": [],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "2": {
+      "name": "坤",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        2,
+        5
+      ],
+      "stable_positions": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "3": {
+      "name": "屯",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        1,
+        4
+      ],
+      "stable_positions": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "4": {
+      "name": "蒙",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        2,
+        5
+      ],
+      "stable_positions": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "5": {
+      "name": "需",
+      "total_reaction": 4,
+      "sensitive_positions": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "stable_positions": [
+        3,
+        4
+      ],
+      "inner_outer_diff": 0
+    },
+    "6": {
+      "name": "訟",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "stable_positions": [
+        6
+      ],
+      "inner_outer_diff": 1
+    },
+    "7": {
+      "name": "師",
+      "total_reaction": -2,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "stable_positions": [
+        4,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "8": {
+      "name": "比",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "stable_positions": [
+        3
+      ],
+      "inner_outer_diff": -1
+    },
+    "9": {
+      "name": "小畜",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        1,
+        2,
+        6
+      ],
+      "stable_positions": [
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": -3
+    },
+    "10": {
+      "name": "履",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "stable_positions": [
+        1
+      ],
+      "inner_outer_diff": 1
+    },
+    "11": {
+      "name": "泰",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        1,
+        5
+      ],
+      "stable_positions": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "12": {
+      "name": "否",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        1,
+        2,
+        5
+      ],
+      "stable_positions": [
+        3,
+        4,
+        6
+      ],
+      "inner_outer_diff": -1
+    },
+    "13": {
+      "name": "同人",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        4
+      ],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "inner_outer_diff": 1
+    },
+    "14": {
+      "name": "大有",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        5,
+        6
+      ],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "inner_outer_diff": 2
+    },
+    "15": {
+      "name": "謙",
+      "total_reaction": 5,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "stable_positions": [
+        6
+      ],
+      "inner_outer_diff": -1
+    },
+    "16": {
+      "name": "豫",
+      "total_reaction": -1,
+      "sensitive_positions": [
+        1,
+        2,
+        3
+      ],
+      "stable_positions": [
+        4,
+        5,
+        6
+      ],
+      "inner_outer_diff": 1
+    },
+    "17": {
+      "name": "隨",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        1,
+        4,
+        5
+      ],
+      "stable_positions": [
+        2,
+        3,
+        6
+      ],
+      "inner_outer_diff": -1
+    },
+    "18": {
+      "name": "蠱",
+      "total_reaction": 0,
+      "sensitive_positions": [
+        1,
+        3
+      ],
+      "stable_positions": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "19": {
+      "name": "臨",
+      "total_reaction": 5,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "stable_positions": [
+        4
+      ],
+      "inner_outer_diff": -1
+    },
+    "20": {
+      "name": "觀",
+      "total_reaction": 0,
+      "sensitive_positions": [],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "21": {
+      "name": "噬嗑",
+      "total_reaction": 0,
+      "sensitive_positions": [
+        4,
+        6
+      ],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "inner_outer_diff": 0
+    },
+    "22": {
+      "name": "賁",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        3,
+        5
+      ],
+      "stable_positions": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "23": {
+      "name": "剝",
+      "total_reaction": -2,
+      "sensitive_positions": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "stable_positions": [
+        3,
+        6
+      ],
+      "inner_outer_diff": 2
+    },
+    "24": {
+      "name": "復",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        1,
+        2,
+        6
+      ],
+      "stable_positions": [
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": -3
+    },
+    "25": {
+      "name": "无妄",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        1,
+        3,
+        5
+      ],
+      "stable_positions": [
+        2,
+        4,
+        6
+      ],
+      "inner_outer_diff": 1
+    },
+    "26": {
+      "name": "大畜",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        3,
+        4,
+        5
+      ],
+      "stable_positions": [
+        1,
+        2,
+        6
+      ],
+      "inner_outer_diff": 1
+    },
+    "27": {
+      "name": "頤",
+      "total_reaction": 0,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "stable_positions": [],
+      "inner_outer_diff": 6
+    },
+    "28": {
+      "name": "大過",
+      "total_reaction": 0,
+      "sensitive_positions": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "stable_positions": [
+        1,
+        5
+      ],
+      "inner_outer_diff": 0
+    },
+    "29": {
+      "name": "坎",
+      "total_reaction": -2,
+      "sensitive_positions": [
+        1,
+        6
+      ],
+      "stable_positions": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": 0
+    },
+    "30": {
+      "name": "離",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        2,
+        3,
+        5
+      ],
+      "stable_positions": [
+        1,
+        4,
+        6
+      ],
+      "inner_outer_diff": 1
+    },
+    "31": {
+      "name": "咸",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        4
+      ],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "inner_outer_diff": 1
+    },
+    "32": {
+      "name": "恆",
+      "total_reaction": -2,
+      "sensitive_positions": [
+        1,
+        6
+      ],
+      "stable_positions": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": 0
+    },
+    "33": {
+      "name": "遯",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "stable_positions": [
+        2
+      ],
+      "inner_outer_diff": 3
+    },
+    "34": {
+      "name": "大壯",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "stable_positions": [
+        5
+      ],
+      "inner_outer_diff": 3
+    },
+    "35": {
+      "name": "晉",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "stable_positions": [
+        3
+      ],
+      "inner_outer_diff": -1
+    },
+    "36": {
+      "name": "明夷",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        2
+      ],
+      "stable_positions": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "inner_outer_diff": -1
+    },
+    "37": {
+      "name": "家人",
+      "total_reaction": 4,
+      "sensitive_positions": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "stable_positions": [
+        1,
+        3
+      ],
+      "inner_outer_diff": 2
+    },
+    "38": {
+      "name": "睽",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        1,
+        6
+      ],
+      "stable_positions": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": 0
+    },
+    "39": {
+      "name": "蹇",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        6
+      ],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": 1
+    },
+    "40": {
+      "name": "解",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        2,
+        5,
+        6
+      ],
+      "stable_positions": [
+        1,
+        3,
+        4
+      ],
+      "inner_outer_diff": 1
+    },
+    "41": {
+      "name": "損",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "stable_positions": [
+        1,
+        3
+      ],
+      "inner_outer_diff": 4
+    },
+    "42": {
+      "name": "益",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "stable_positions": [
+        4
+      ],
+      "inner_outer_diff": -1
+    },
+    "43": {
+      "name": "夬",
+      "total_reaction": -2,
+      "sensitive_positions": [
+        3,
+        6
+      ],
+      "stable_positions": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "inner_outer_diff": 0
+    },
+    "44": {
+      "name": "姤",
+      "total_reaction": -1,
+      "sensitive_positions": [
+        1,
+        3,
+        4
+      ],
+      "stable_positions": [
+        2,
+        5,
+        6
+      ],
+      "inner_outer_diff": -1
+    },
+    "45": {
+      "name": "萃",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        2,
+        4,
+        5
+      ],
+      "stable_positions": [
+        1,
+        3,
+        6
+      ],
+      "inner_outer_diff": 1
+    },
+    "46": {
+      "name": "升",
+      "total_reaction": 4,
+      "sensitive_positions": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "stable_positions": [
+        3,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "47": {
+      "name": "困",
+      "total_reaction": -1,
+      "sensitive_positions": [
+        2,
+        3,
+        6
+      ],
+      "stable_positions": [
+        1,
+        4,
+        5
+      ],
+      "inner_outer_diff": 3
+    },
+    "48": {
+      "name": "井",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        6
+      ],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": 1
+    },
+    "49": {
+      "name": "革",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "stable_positions": [
+        1,
+        5
+      ],
+      "inner_outer_diff": 2
+    },
+    "50": {
+      "name": "鼎",
+      "total_reaction": 3,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "stable_positions": [
+        5
+      ],
+      "inner_outer_diff": -3
+    },
+    "51": {
+      "name": "震",
+      "total_reaction": -3,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "stable_positions": [
+        4
+      ],
+      "inner_outer_diff": -1
+    },
+    "52": {
+      "name": "艮",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        1,
+        3,
+        6
+      ],
+      "stable_positions": [
+        2,
+        4,
+        5
+      ],
+      "inner_outer_diff": 1
+    },
+    "53": {
+      "name": "漸",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "stable_positions": [
+        1,
+        4
+      ],
+      "inner_outer_diff": 2
+    },
+    "54": {
+      "name": "歸妹",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        1,
+        5
+      ],
+      "stable_positions": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "55": {
+      "name": "豐",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "stable_positions": [
+        1,
+        3
+      ],
+      "inner_outer_diff": 0
+    },
+    "56": {
+      "name": "旅",
+      "total_reaction": -3,
+      "sensitive_positions": [
+        1,
+        3,
+        6
+      ],
+      "stable_positions": [
+        2,
+        4,
+        5
+      ],
+      "inner_outer_diff": 1
+    },
+    "57": {
+      "name": "巽",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        2,
+        5,
+        6
+      ],
+      "stable_positions": [
+        1,
+        3,
+        4
+      ],
+      "inner_outer_diff": -1
+    },
+    "58": {
+      "name": "兌",
+      "total_reaction": 1,
+      "sensitive_positions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "stable_positions": [
+        6
+      ],
+      "inner_outer_diff": -1
+    },
+    "59": {
+      "name": "渙",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        1,
+        4
+      ],
+      "stable_positions": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "inner_outer_diff": 0
+    },
+    "60": {
+      "name": "節",
+      "total_reaction": -1,
+      "sensitive_positions": [
+        2,
+        5,
+        6
+      ],
+      "stable_positions": [
+        1,
+        3,
+        4
+      ],
+      "inner_outer_diff": 1
+    },
+    "61": {
+      "name": "中孚",
+      "total_reaction": 0,
+      "sensitive_positions": [
+        1,
+        6
+      ],
+      "stable_positions": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": -2
+    },
+    "62": {
+      "name": "小過",
+      "total_reaction": -3,
+      "sensitive_positions": [
+        1,
+        3,
+        6
+      ],
+      "stable_positions": [
+        2,
+        4,
+        5
+      ],
+      "inner_outer_diff": 1
+    },
+    "63": {
+      "name": "既濟",
+      "total_reaction": -1,
+      "sensitive_positions": [
+        6
+      ],
+      "stable_positions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "inner_outer_diff": -1
+    },
+    "64": {
+      "name": "未濟",
+      "total_reaction": 2,
+      "sensitive_positions": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "stable_positions": [
+        1,
+        6
+      ],
+      "inner_outer_diff": 2
+    }
+  }
+}

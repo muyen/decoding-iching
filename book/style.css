@@ -1,0 +1,296 @@
+/* ============================================================
+   Book Stylesheet - 解碼易經
+   Modern, clean design for Amazon KDP
+   ============================================================ */
+
+/* Base Typography */
+:root {
+  --primary-color: #333333;
+  --secondary-color: #666666;
+  --accent-color: #2196f3;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --danger-color: #f44336;
+  --background-color: #ffffff;
+  --light-gray: #f5f5f5;
+  --border-color: #e0e0e0;
+}
+
+body {
+  font-family: "Noto Sans CJK TC", "Microsoft YaHei", "PingFang SC", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraphs */
+p {
+  margin: 1em 0;
+  text-align: justify;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--accent-color);
+  margin: 1.5em 0;
+  padding: 0.5em 1.5em;
+  background-color: var(--light-gray);
+  font-style: italic;
+}
+
+blockquote p {
+  margin: 0.5em 0;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: "Noto Sans Mono CJK TC", "Consolas", "Monaco", monospace;
+  font-size: 0.9em;
+}
+
+code {
+  background-color: var(--light-gray);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: var(--light-gray);
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+}
+
+th, td {
+  padding: 0.75em 1em;
+  text-align: left;
+  border: 1px solid var(--border-color);
+}
+
+th {
+  background-color: var(--light-gray);
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 2em 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+}
+
+/* Special classes for the book */
+
+/* Chapter markers */
+.chapter-number {
+  font-size: 3rem;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+/* Highlight boxes */
+.highlight-box {
+  background-color: #e3f2fd;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1.5em 0;
+}
+
+.highlight-box.success {
+  background-color: #e8f5e9;
+  border-color: var(--success-color);
+}
+
+.highlight-box.warning {
+  background-color: #fff3e0;
+  border-color: var(--warning-color);
+}
+
+.highlight-box.danger {
+  background-color: #ffebee;
+  border-color: var(--danger-color);
+}
+
+/* Summary boxes (used in chapters) */
+.summary-box {
+  background-color: var(--light-gray);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 2em 0;
+}
+
+/* Key points */
+.key-points {
+  list-style: none;
+  padding-left: 0;
+}
+
+.key-points li {
+  padding-left: 1.5em;
+  position: relative;
+}
+
+.key-points li::before {
+  content: "•";
+  color: var(--accent-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Table of Contents */
+#TOC {
+  background-color: var(--light-gray);
+  padding: 1.5em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 1em;
+}
+
+#TOC > ul {
+  padding-left: 0;
+}
+
+#TOC a {
+  color: var(--primary-color);
+}
+
+#TOC a:hover {
+  color: var(--accent-color);
+}
+
+/* Print styles */
+@media print {
+  body {
+    font-size: 11pt;
+    max-width: none;
+    padding: 0;
+  }
+
+  h1 {
+    page-break-before: always;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  pre, blockquote, table {
+    page-break-inside: avoid;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  table {
+    font-size: 0.85em;
+  }
+
+  th, td {
+    padding: 0.5em;
+  }
+}

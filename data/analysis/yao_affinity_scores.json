@@ -1,0 +1,6530 @@
+[
+  {
+    "hex_num": 1,
+    "hex_name": "乾",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 23.5
+    }
+  },
+  {
+    "hex_num": 1,
+    "hex_name": "乾",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 31.2,
+      "trigram_pos": 37.5,
+      "total": 32.7
+    }
+  },
+  {
+    "hex_num": 1,
+    "hex_name": "乾",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 1,
+    "hex_name": "乾",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 28.1,
+      "trigram_pos": 37.5,
+      "total": 28.8
+    }
+  },
+  {
+    "hex_num": 1,
+    "hex_name": "乾",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 1,
+    "hex_name": "乾",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 2,
+    "hex_name": "坤",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 12.5,
+      "total": 18.4
+    }
+  },
+  {
+    "hex_num": 2,
+    "hex_name": "坤",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 2,
+    "hex_name": "坤",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 2,
+    "hex_name": "坤",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 2,
+    "hex_name": "坤",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 2,
+    "hex_name": "坤",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 3,
+    "hex_name": "屯",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 3,
+    "hex_name": "屯",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 20.1
+    }
+  },
+  {
+    "hex_num": 3,
+    "hex_name": "屯",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": -25.0,
+      "trigram_pos": -50.0,
+      "total": -23.0
+    }
+  },
+  {
+    "hex_num": 3,
+    "hex_name": "屯",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 3,
+    "hex_name": "屯",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 3,
+    "hex_name": "屯",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": -9.4,
+      "trigram_pos": -12.5,
+      "total": 0.7
+    }
+  },
+  {
+    "hex_num": 4,
+    "hex_name": "蒙",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": 9.4,
+      "trigram_pos": 0.0,
+      "total": 14.6
+    }
+  },
+  {
+    "hex_num": 4,
+    "hex_name": "蒙",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 0.0,
+      "combo": 31.2,
+      "trigram_pos": 25.0,
+      "total": 29.0
+    }
+  },
+  {
+    "hex_num": 4,
+    "hex_name": "蒙",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": -25.0,
+      "trigram_pos": -25.0,
+      "total": -15.5
+    }
+  },
+  {
+    "hex_num": 4,
+    "hex_name": "蒙",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 4,
+    "hex_name": "蒙",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 50.0,
+      "trigram_pos": 75.0,
+      "total": 46.5
+    }
+  },
+  {
+    "hex_num": 4,
+    "hex_name": "蒙",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 45.8,
+      "combo": 15.6,
+      "trigram_pos": 37.5,
+      "total": 17.1
+    }
+  },
+  {
+    "hex_num": 5,
+    "hex_name": "需",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 23.5
+    }
+  },
+  {
+    "hex_num": 5,
+    "hex_name": "需",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 31.2,
+      "trigram_pos": 37.5,
+      "total": 32.7
+    }
+  },
+  {
+    "hex_num": 5,
+    "hex_name": "需",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 5,
+    "hex_name": "需",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 5,
+    "hex_name": "需",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 5,
+    "hex_name": "需",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": -9.4,
+      "trigram_pos": -12.5,
+      "total": 0.7
+    }
+  },
+  {
+    "hex_num": 6,
+    "hex_name": "訟",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": 9.4,
+      "trigram_pos": 0.0,
+      "total": 14.6
+    }
+  },
+  {
+    "hex_num": 6,
+    "hex_name": "訟",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 0.0,
+      "combo": 31.2,
+      "trigram_pos": 25.0,
+      "total": 29.0
+    }
+  },
+  {
+    "hex_num": 6,
+    "hex_name": "訟",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": -25.0,
+      "trigram_pos": -25.0,
+      "total": -15.5
+    }
+  },
+  {
+    "hex_num": 6,
+    "hex_name": "訟",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 28.1,
+      "trigram_pos": 37.5,
+      "total": 28.8
+    }
+  },
+  {
+    "hex_num": 6,
+    "hex_name": "訟",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 6,
+    "hex_name": "訟",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 7,
+    "hex_name": "師",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": 9.4,
+      "trigram_pos": 0.0,
+      "total": 14.6
+    }
+  },
+  {
+    "hex_num": 7,
+    "hex_name": "師",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 0.0,
+      "combo": 31.2,
+      "trigram_pos": 25.0,
+      "total": 29.0
+    }
+  },
+  {
+    "hex_num": 7,
+    "hex_name": "師",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": -25.0,
+      "trigram_pos": -25.0,
+      "total": -15.5
+    }
+  },
+  {
+    "hex_num": 7,
+    "hex_name": "師",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 7,
+    "hex_name": "師",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 7,
+    "hex_name": "師",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 8,
+    "hex_name": "比",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 12.5,
+      "total": 18.4
+    }
+  },
+  {
+    "hex_num": 8,
+    "hex_name": "比",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 8,
+    "hex_name": "比",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 8,
+    "hex_name": "比",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 8,
+    "hex_name": "比",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 8,
+    "hex_name": "比",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": -9.4,
+      "trigram_pos": -12.5,
+      "total": 0.7
+    }
+  },
+  {
+    "hex_num": 9,
+    "hex_name": "小畜",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 23.5
+    }
+  },
+  {
+    "hex_num": 9,
+    "hex_name": "小畜",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 31.2,
+      "trigram_pos": 37.5,
+      "total": 32.7
+    }
+  },
+  {
+    "hex_num": 9,
+    "hex_name": "小畜",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 9,
+    "hex_name": "小畜",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 9,
+    "hex_name": "小畜",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 50.0,
+      "total": 40.4
+    }
+  },
+  {
+    "hex_num": 9,
+    "hex_name": "小畜",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 15.6,
+      "trigram_pos": -25.0,
+      "total": -1.7
+    }
+  },
+  {
+    "hex_num": 10,
+    "hex_name": "履",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 10,
+    "hex_name": "履",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 12.5,
+      "total": 25.2
+    }
+  },
+  {
+    "hex_num": 10,
+    "hex_name": "履",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 10,
+    "hex_name": "履",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 28.1,
+      "trigram_pos": 37.5,
+      "total": 28.8
+    }
+  },
+  {
+    "hex_num": 10,
+    "hex_name": "履",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 10,
+    "hex_name": "履",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 11,
+    "hex_name": "泰",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 23.5
+    }
+  },
+  {
+    "hex_num": 11,
+    "hex_name": "泰",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 31.2,
+      "trigram_pos": 37.5,
+      "total": 32.7
+    }
+  },
+  {
+    "hex_num": 11,
+    "hex_name": "泰",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 11,
+    "hex_name": "泰",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 11,
+    "hex_name": "泰",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 11,
+    "hex_name": "泰",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 12,
+    "hex_name": "否",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 12.5,
+      "total": 18.4
+    }
+  },
+  {
+    "hex_num": 12,
+    "hex_name": "否",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 12,
+    "hex_name": "否",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 12,
+    "hex_name": "否",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 28.1,
+      "trigram_pos": 37.5,
+      "total": 28.8
+    }
+  },
+  {
+    "hex_num": 12,
+    "hex_name": "否",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 12,
+    "hex_name": "否",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 13,
+    "hex_name": "同人",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 16.0
+    }
+  },
+  {
+    "hex_num": 13,
+    "hex_name": "同人",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 13,
+    "hex_name": "同人",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 13,
+    "hex_name": "同人",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 28.1,
+      "trigram_pos": 37.5,
+      "total": 28.8
+    }
+  },
+  {
+    "hex_num": 13,
+    "hex_name": "同人",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 13,
+    "hex_name": "同人",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 14,
+    "hex_name": "大有",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 23.5
+    }
+  },
+  {
+    "hex_num": 14,
+    "hex_name": "大有",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 31.2,
+      "trigram_pos": 37.5,
+      "total": 32.7
+    }
+  },
+  {
+    "hex_num": 14,
+    "hex_name": "大有",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 14,
+    "hex_name": "大有",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 28.1,
+      "trigram_pos": 0.0,
+      "total": 17.6
+    }
+  },
+  {
+    "hex_num": 14,
+    "hex_name": "大有",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 14,
+    "hex_name": "大有",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 15,
+    "hex_name": "謙",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 9.4,
+      "trigram_pos": -12.5,
+      "total": 10.9
+    }
+  },
+  {
+    "hex_num": 15,
+    "hex_name": "謙",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 27.6
+    }
+  },
+  {
+    "hex_num": 15,
+    "hex_name": "謙",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": -4.2,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 15,
+    "hex_name": "謙",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 15,
+    "hex_name": "謙",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 15,
+    "hex_name": "謙",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 16,
+    "hex_name": "豫",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 12.5,
+      "total": 18.4
+    }
+  },
+  {
+    "hex_num": 16,
+    "hex_name": "豫",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 16,
+    "hex_name": "豫",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 16,
+    "hex_name": "豫",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 8.3,
+      "combo": 28.1,
+      "trigram_pos": 25.0,
+      "total": 25.1
+    }
+  },
+  {
+    "hex_num": 16,
+    "hex_name": "豫",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": 50.0,
+      "trigram_pos": 25.0,
+      "total": 31.5
+    }
+  },
+  {
+    "hex_num": 16,
+    "hex_name": "豫",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": -9.4,
+      "trigram_pos": -25.0,
+      "total": -3.0
+    }
+  },
+  {
+    "hex_num": 17,
+    "hex_name": "隨",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 17,
+    "hex_name": "隨",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 20.1
+    }
+  },
+  {
+    "hex_num": 17,
+    "hex_name": "隨",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": -25.0,
+      "trigram_pos": -50.0,
+      "total": -23.0
+    }
+  },
+  {
+    "hex_num": 17,
+    "hex_name": "隨",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 28.1,
+      "trigram_pos": 50.0,
+      "total": 32.6
+    }
+  },
+  {
+    "hex_num": 17,
+    "hex_name": "隨",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 34.4,
+      "trigram_pos": 12.5,
+      "total": 29.1
+    }
+  },
+  {
+    "hex_num": 17,
+    "hex_name": "隨",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 18,
+    "hex_name": "蠱",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 37.5,
+      "total": 25.9
+    }
+  },
+  {
+    "hex_num": 18,
+    "hex_name": "蠱",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 50.0,
+      "total": 36.5
+    }
+  },
+  {
+    "hex_num": 18,
+    "hex_name": "蠱",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 18,
+    "hex_name": "蠱",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 18,
+    "hex_name": "蠱",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 50.0,
+      "trigram_pos": 75.0,
+      "total": 46.5
+    }
+  },
+  {
+    "hex_num": 18,
+    "hex_name": "蠱",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 45.8,
+      "combo": 15.6,
+      "trigram_pos": 37.5,
+      "total": 17.1
+    }
+  },
+  {
+    "hex_num": 19,
+    "hex_name": "臨",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 19,
+    "hex_name": "臨",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 12.5,
+      "total": 25.2
+    }
+  },
+  {
+    "hex_num": 19,
+    "hex_name": "臨",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 19,
+    "hex_name": "臨",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 19,
+    "hex_name": "臨",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 19,
+    "hex_name": "臨",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 20,
+    "hex_name": "觀",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 12.5,
+      "total": 18.4
+    }
+  },
+  {
+    "hex_num": 20,
+    "hex_name": "觀",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 20,
+    "hex_name": "觀",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 20,
+    "hex_name": "觀",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 20,
+    "hex_name": "觀",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 50.0,
+      "total": 40.4
+    }
+  },
+  {
+    "hex_num": 20,
+    "hex_name": "觀",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 15.6,
+      "trigram_pos": -25.0,
+      "total": -1.7
+    }
+  },
+  {
+    "hex_num": 21,
+    "hex_name": "噬嗑",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 21,
+    "hex_name": "噬嗑",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 20.1
+    }
+  },
+  {
+    "hex_num": 21,
+    "hex_name": "噬嗑",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": -25.0,
+      "trigram_pos": -50.0,
+      "total": -23.0
+    }
+  },
+  {
+    "hex_num": 21,
+    "hex_name": "噬嗑",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 28.1,
+      "trigram_pos": 0.0,
+      "total": 17.6
+    }
+  },
+  {
+    "hex_num": 21,
+    "hex_name": "噬嗑",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 21,
+    "hex_name": "噬嗑",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 22,
+    "hex_name": "賁",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 16.0
+    }
+  },
+  {
+    "hex_num": 22,
+    "hex_name": "賁",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 22,
+    "hex_name": "賁",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 22,
+    "hex_name": "賁",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 22,
+    "hex_name": "賁",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 50.0,
+      "trigram_pos": 75.0,
+      "total": 46.5
+    }
+  },
+  {
+    "hex_num": 22,
+    "hex_name": "賁",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 45.8,
+      "combo": 15.6,
+      "trigram_pos": 37.5,
+      "total": 17.1
+    }
+  },
+  {
+    "hex_num": 23,
+    "hex_name": "剝",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 12.5,
+      "total": 18.4
+    }
+  },
+  {
+    "hex_num": 23,
+    "hex_name": "剝",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 23,
+    "hex_name": "剝",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 23,
+    "hex_name": "剝",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 23,
+    "hex_name": "剝",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 50.0,
+      "trigram_pos": 75.0,
+      "total": 46.5
+    }
+  },
+  {
+    "hex_num": 23,
+    "hex_name": "剝",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 45.8,
+      "combo": 15.6,
+      "trigram_pos": 37.5,
+      "total": 17.1
+    }
+  },
+  {
+    "hex_num": 24,
+    "hex_name": "復",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 24,
+    "hex_name": "復",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 20.1
+    }
+  },
+  {
+    "hex_num": 24,
+    "hex_name": "復",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": -25.0,
+      "trigram_pos": -50.0,
+      "total": -23.0
+    }
+  },
+  {
+    "hex_num": 24,
+    "hex_name": "復",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 24,
+    "hex_name": "復",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 24,
+    "hex_name": "復",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 25,
+    "hex_name": "无妄",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 25,
+    "hex_name": "无妄",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 20.1
+    }
+  },
+  {
+    "hex_num": 25,
+    "hex_name": "无妄",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": -25.0,
+      "trigram_pos": -50.0,
+      "total": -23.0
+    }
+  },
+  {
+    "hex_num": 25,
+    "hex_name": "无妄",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 28.1,
+      "trigram_pos": 37.5,
+      "total": 28.8
+    }
+  },
+  {
+    "hex_num": 25,
+    "hex_name": "无妄",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 25,
+    "hex_name": "无妄",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 26,
+    "hex_name": "大畜",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 23.5
+    }
+  },
+  {
+    "hex_num": 26,
+    "hex_name": "大畜",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 31.2,
+      "trigram_pos": 37.5,
+      "total": 32.7
+    }
+  },
+  {
+    "hex_num": 26,
+    "hex_name": "大畜",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 26,
+    "hex_name": "大畜",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 26,
+    "hex_name": "大畜",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 50.0,
+      "trigram_pos": 75.0,
+      "total": 46.5
+    }
+  },
+  {
+    "hex_num": 26,
+    "hex_name": "大畜",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 45.8,
+      "combo": 15.6,
+      "trigram_pos": 37.5,
+      "total": 17.1
+    }
+  },
+  {
+    "hex_num": 27,
+    "hex_name": "頤",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 27,
+    "hex_name": "頤",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 20.1
+    }
+  },
+  {
+    "hex_num": 27,
+    "hex_name": "頤",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": -25.0,
+      "trigram_pos": -50.0,
+      "total": -23.0
+    }
+  },
+  {
+    "hex_num": 27,
+    "hex_name": "頤",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 27,
+    "hex_name": "頤",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 50.0,
+      "trigram_pos": 75.0,
+      "total": 46.5
+    }
+  },
+  {
+    "hex_num": 27,
+    "hex_name": "頤",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 45.8,
+      "combo": 15.6,
+      "trigram_pos": 37.5,
+      "total": 17.1
+    }
+  },
+  {
+    "hex_num": 28,
+    "hex_name": "大過",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 37.5,
+      "total": 25.9
+    }
+  },
+  {
+    "hex_num": 28,
+    "hex_name": "大過",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 50.0,
+      "total": 36.5
+    }
+  },
+  {
+    "hex_num": 28,
+    "hex_name": "大過",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 28,
+    "hex_name": "大過",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 28.1,
+      "trigram_pos": 50.0,
+      "total": 32.6
+    }
+  },
+  {
+    "hex_num": 28,
+    "hex_name": "大過",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 34.4,
+      "trigram_pos": 12.5,
+      "total": 29.1
+    }
+  },
+  {
+    "hex_num": 28,
+    "hex_name": "大過",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 29,
+    "hex_name": "坎",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": 9.4,
+      "trigram_pos": 0.0,
+      "total": 14.6
+    }
+  },
+  {
+    "hex_num": 29,
+    "hex_name": "坎",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 0.0,
+      "combo": 31.2,
+      "trigram_pos": 25.0,
+      "total": 29.0
+    }
+  },
+  {
+    "hex_num": 29,
+    "hex_name": "坎",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": -25.0,
+      "trigram_pos": -25.0,
+      "total": -15.5
+    }
+  },
+  {
+    "hex_num": 29,
+    "hex_name": "坎",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 29,
+    "hex_name": "坎",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 29,
+    "hex_name": "坎",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": -9.4,
+      "trigram_pos": -12.5,
+      "total": 0.7
+    }
+  },
+  {
+    "hex_num": 30,
+    "hex_name": "離",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 16.0
+    }
+  },
+  {
+    "hex_num": 30,
+    "hex_name": "離",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 30,
+    "hex_name": "離",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 30,
+    "hex_name": "離",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 28.1,
+      "trigram_pos": 0.0,
+      "total": 17.6
+    }
+  },
+  {
+    "hex_num": 30,
+    "hex_name": "離",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 30,
+    "hex_name": "離",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 31,
+    "hex_name": "咸",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 9.4,
+      "trigram_pos": -12.5,
+      "total": 10.9
+    }
+  },
+  {
+    "hex_num": 31,
+    "hex_name": "咸",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 27.6
+    }
+  },
+  {
+    "hex_num": 31,
+    "hex_name": "咸",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": -4.2,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 31,
+    "hex_name": "咸",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 28.1,
+      "trigram_pos": 50.0,
+      "total": 32.6
+    }
+  },
+  {
+    "hex_num": 31,
+    "hex_name": "咸",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 34.4,
+      "trigram_pos": 12.5,
+      "total": 29.1
+    }
+  },
+  {
+    "hex_num": 31,
+    "hex_name": "咸",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 32,
+    "hex_name": "恆",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 37.5,
+      "total": 25.9
+    }
+  },
+  {
+    "hex_num": 32,
+    "hex_name": "恆",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 50.0,
+      "total": 36.5
+    }
+  },
+  {
+    "hex_num": 32,
+    "hex_name": "恆",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 32,
+    "hex_name": "恆",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 8.3,
+      "combo": 28.1,
+      "trigram_pos": 25.0,
+      "total": 25.1
+    }
+  },
+  {
+    "hex_num": 32,
+    "hex_name": "恆",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": 50.0,
+      "trigram_pos": 25.0,
+      "total": 31.5
+    }
+  },
+  {
+    "hex_num": 32,
+    "hex_name": "恆",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": -9.4,
+      "trigram_pos": -25.0,
+      "total": -3.0
+    }
+  },
+  {
+    "hex_num": 33,
+    "hex_name": "遯",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 9.4,
+      "trigram_pos": -12.5,
+      "total": 10.9
+    }
+  },
+  {
+    "hex_num": 33,
+    "hex_name": "遯",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 27.6
+    }
+  },
+  {
+    "hex_num": 33,
+    "hex_name": "遯",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": -4.2,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 33,
+    "hex_name": "遯",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 28.1,
+      "trigram_pos": 37.5,
+      "total": 28.8
+    }
+  },
+  {
+    "hex_num": 33,
+    "hex_name": "遯",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 33,
+    "hex_name": "遯",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 34,
+    "hex_name": "大壯",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 23.5
+    }
+  },
+  {
+    "hex_num": 34,
+    "hex_name": "大壯",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 31.2,
+      "trigram_pos": 37.5,
+      "total": 32.7
+    }
+  },
+  {
+    "hex_num": 34,
+    "hex_name": "大壯",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 34,
+    "hex_name": "大壯",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 8.3,
+      "combo": 28.1,
+      "trigram_pos": 25.0,
+      "total": 25.1
+    }
+  },
+  {
+    "hex_num": 34,
+    "hex_name": "大壯",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": 50.0,
+      "trigram_pos": 25.0,
+      "total": 31.5
+    }
+  },
+  {
+    "hex_num": 34,
+    "hex_name": "大壯",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": -9.4,
+      "trigram_pos": -25.0,
+      "total": -3.0
+    }
+  },
+  {
+    "hex_num": 35,
+    "hex_name": "晉",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 12.5,
+      "total": 18.4
+    }
+  },
+  {
+    "hex_num": 35,
+    "hex_name": "晉",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 35,
+    "hex_name": "晉",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 35,
+    "hex_name": "晉",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 28.1,
+      "trigram_pos": 0.0,
+      "total": 17.6
+    }
+  },
+  {
+    "hex_num": 35,
+    "hex_name": "晉",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 35,
+    "hex_name": "晉",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 36,
+    "hex_name": "明夷",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 16.0
+    }
+  },
+  {
+    "hex_num": 36,
+    "hex_name": "明夷",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 36,
+    "hex_name": "明夷",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 36,
+    "hex_name": "明夷",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 36,
+    "hex_name": "明夷",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 36,
+    "hex_name": "明夷",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 37,
+    "hex_name": "家人",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 16.0
+    }
+  },
+  {
+    "hex_num": 37,
+    "hex_name": "家人",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 37,
+    "hex_name": "家人",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 37,
+    "hex_name": "家人",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 37,
+    "hex_name": "家人",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 50.0,
+      "total": 40.4
+    }
+  },
+  {
+    "hex_num": 37,
+    "hex_name": "家人",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 15.6,
+      "trigram_pos": -25.0,
+      "total": -1.7
+    }
+  },
+  {
+    "hex_num": 38,
+    "hex_name": "睽",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 38,
+    "hex_name": "睽",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 12.5,
+      "total": 25.2
+    }
+  },
+  {
+    "hex_num": 38,
+    "hex_name": "睽",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 38,
+    "hex_name": "睽",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 28.1,
+      "trigram_pos": 0.0,
+      "total": 17.6
+    }
+  },
+  {
+    "hex_num": 38,
+    "hex_name": "睽",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 38,
+    "hex_name": "睽",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 39,
+    "hex_name": "蹇",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 9.4,
+      "trigram_pos": -12.5,
+      "total": 10.9
+    }
+  },
+  {
+    "hex_num": 39,
+    "hex_name": "蹇",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 27.6
+    }
+  },
+  {
+    "hex_num": 39,
+    "hex_name": "蹇",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": -4.2,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 39,
+    "hex_name": "蹇",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 39,
+    "hex_name": "蹇",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 39,
+    "hex_name": "蹇",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": -9.4,
+      "trigram_pos": -12.5,
+      "total": 0.7
+    }
+  },
+  {
+    "hex_num": 40,
+    "hex_name": "解",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": 9.4,
+      "trigram_pos": 0.0,
+      "total": 14.6
+    }
+  },
+  {
+    "hex_num": 40,
+    "hex_name": "解",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 0.0,
+      "combo": 31.2,
+      "trigram_pos": 25.0,
+      "total": 29.0
+    }
+  },
+  {
+    "hex_num": 40,
+    "hex_name": "解",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": -25.0,
+      "trigram_pos": -25.0,
+      "total": -15.5
+    }
+  },
+  {
+    "hex_num": 40,
+    "hex_name": "解",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 8.3,
+      "combo": 28.1,
+      "trigram_pos": 25.0,
+      "total": 25.1
+    }
+  },
+  {
+    "hex_num": 40,
+    "hex_name": "解",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": 50.0,
+      "trigram_pos": 25.0,
+      "total": 31.5
+    }
+  },
+  {
+    "hex_num": 40,
+    "hex_name": "解",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": -9.4,
+      "trigram_pos": -25.0,
+      "total": -3.0
+    }
+  },
+  {
+    "hex_num": 41,
+    "hex_name": "損",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 41,
+    "hex_name": "損",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 12.5,
+      "total": 25.2
+    }
+  },
+  {
+    "hex_num": 41,
+    "hex_name": "損",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 41,
+    "hex_name": "損",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 41,
+    "hex_name": "損",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 50.0,
+      "trigram_pos": 75.0,
+      "total": 46.5
+    }
+  },
+  {
+    "hex_num": 41,
+    "hex_name": "損",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 45.8,
+      "combo": 15.6,
+      "trigram_pos": 37.5,
+      "total": 17.1
+    }
+  },
+  {
+    "hex_num": 42,
+    "hex_name": "益",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 42,
+    "hex_name": "益",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 20.1
+    }
+  },
+  {
+    "hex_num": 42,
+    "hex_name": "益",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": -25.0,
+      "trigram_pos": -50.0,
+      "total": -23.0
+    }
+  },
+  {
+    "hex_num": 42,
+    "hex_name": "益",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 42,
+    "hex_name": "益",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 50.0,
+      "total": 40.4
+    }
+  },
+  {
+    "hex_num": 42,
+    "hex_name": "益",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 15.6,
+      "trigram_pos": -25.0,
+      "total": -1.7
+    }
+  },
+  {
+    "hex_num": 43,
+    "hex_name": "夬",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 23.5
+    }
+  },
+  {
+    "hex_num": 43,
+    "hex_name": "夬",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 31.2,
+      "trigram_pos": 37.5,
+      "total": 32.7
+    }
+  },
+  {
+    "hex_num": 43,
+    "hex_name": "夬",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 43,
+    "hex_name": "夬",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 28.1,
+      "trigram_pos": 50.0,
+      "total": 32.6
+    }
+  },
+  {
+    "hex_num": 43,
+    "hex_name": "夬",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 34.4,
+      "trigram_pos": 12.5,
+      "total": 29.1
+    }
+  },
+  {
+    "hex_num": 43,
+    "hex_name": "夬",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 44,
+    "hex_name": "姤",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 37.5,
+      "total": 25.9
+    }
+  },
+  {
+    "hex_num": 44,
+    "hex_name": "姤",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 50.0,
+      "total": 36.5
+    }
+  },
+  {
+    "hex_num": 44,
+    "hex_name": "姤",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 44,
+    "hex_name": "姤",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 28.1,
+      "trigram_pos": 37.5,
+      "total": 28.8
+    }
+  },
+  {
+    "hex_num": 44,
+    "hex_name": "姤",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 44,
+    "hex_name": "姤",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "乾",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 33.3,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 45,
+    "hex_name": "萃",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 12.5,
+      "total": 18.4
+    }
+  },
+  {
+    "hex_num": 45,
+    "hex_name": "萃",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 45,
+    "hex_name": "萃",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 45,
+    "hex_name": "萃",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 28.1,
+      "trigram_pos": 50.0,
+      "total": 32.6
+    }
+  },
+  {
+    "hex_num": 45,
+    "hex_name": "萃",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 34.4,
+      "trigram_pos": 12.5,
+      "total": 29.1
+    }
+  },
+  {
+    "hex_num": 45,
+    "hex_name": "萃",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 46,
+    "hex_name": "升",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 37.5,
+      "total": 25.9
+    }
+  },
+  {
+    "hex_num": 46,
+    "hex_name": "升",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 50.0,
+      "total": 36.5
+    }
+  },
+  {
+    "hex_num": 46,
+    "hex_name": "升",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 46,
+    "hex_name": "升",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 46,
+    "hex_name": "升",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 46,
+    "hex_name": "升",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坤",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 47,
+    "hex_name": "困",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": 9.4,
+      "trigram_pos": 0.0,
+      "total": 14.6
+    }
+  },
+  {
+    "hex_num": 47,
+    "hex_name": "困",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 0.0,
+      "combo": 31.2,
+      "trigram_pos": 25.0,
+      "total": 29.0
+    }
+  },
+  {
+    "hex_num": 47,
+    "hex_name": "困",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": -25.0,
+      "trigram_pos": -25.0,
+      "total": -15.5
+    }
+  },
+  {
+    "hex_num": 47,
+    "hex_name": "困",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 28.1,
+      "trigram_pos": 50.0,
+      "total": 32.6
+    }
+  },
+  {
+    "hex_num": 47,
+    "hex_name": "困",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 34.4,
+      "trigram_pos": 12.5,
+      "total": 29.1
+    }
+  },
+  {
+    "hex_num": 47,
+    "hex_name": "困",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 48,
+    "hex_name": "井",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 37.5,
+      "total": 25.9
+    }
+  },
+  {
+    "hex_num": 48,
+    "hex_name": "井",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 50.0,
+      "total": 36.5
+    }
+  },
+  {
+    "hex_num": 48,
+    "hex_name": "井",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 48,
+    "hex_name": "井",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 48,
+    "hex_name": "井",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 48,
+    "hex_name": "井",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": -9.4,
+      "trigram_pos": -12.5,
+      "total": 0.7
+    }
+  },
+  {
+    "hex_num": 49,
+    "hex_name": "革",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 16.0
+    }
+  },
+  {
+    "hex_num": 49,
+    "hex_name": "革",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 49,
+    "hex_name": "革",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 49,
+    "hex_name": "革",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 28.1,
+      "trigram_pos": 50.0,
+      "total": 32.6
+    }
+  },
+  {
+    "hex_num": 49,
+    "hex_name": "革",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 34.4,
+      "trigram_pos": 12.5,
+      "total": 29.1
+    }
+  },
+  {
+    "hex_num": 49,
+    "hex_name": "革",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 50,
+    "hex_name": "鼎",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 37.5,
+      "total": 25.9
+    }
+  },
+  {
+    "hex_num": 50,
+    "hex_name": "鼎",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 50.0,
+      "total": 36.5
+    }
+  },
+  {
+    "hex_num": 50,
+    "hex_name": "鼎",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 50,
+    "hex_name": "鼎",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 28.1,
+      "trigram_pos": 0.0,
+      "total": 17.6
+    }
+  },
+  {
+    "hex_num": 50,
+    "hex_name": "鼎",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 50,
+    "hex_name": "鼎",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 51,
+    "hex_name": "震",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 51,
+    "hex_name": "震",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 20.1
+    }
+  },
+  {
+    "hex_num": 51,
+    "hex_name": "震",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 4.2,
+      "combo": -25.0,
+      "trigram_pos": -50.0,
+      "total": -23.0
+    }
+  },
+  {
+    "hex_num": 51,
+    "hex_name": "震",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 8.3,
+      "combo": 28.1,
+      "trigram_pos": 25.0,
+      "total": 25.1
+    }
+  },
+  {
+    "hex_num": 51,
+    "hex_name": "震",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": 50.0,
+      "trigram_pos": 25.0,
+      "total": 31.5
+    }
+  },
+  {
+    "hex_num": 51,
+    "hex_name": "震",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": -9.4,
+      "trigram_pos": -25.0,
+      "total": -3.0
+    }
+  },
+  {
+    "hex_num": 52,
+    "hex_name": "艮",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 9.4,
+      "trigram_pos": -12.5,
+      "total": 10.9
+    }
+  },
+  {
+    "hex_num": 52,
+    "hex_name": "艮",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 27.6
+    }
+  },
+  {
+    "hex_num": 52,
+    "hex_name": "艮",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": -4.2,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 52,
+    "hex_name": "艮",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 52,
+    "hex_name": "艮",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 45.8,
+      "combo": 50.0,
+      "trigram_pos": 75.0,
+      "total": 46.5
+    }
+  },
+  {
+    "hex_num": 52,
+    "hex_name": "艮",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 45.8,
+      "combo": 15.6,
+      "trigram_pos": 37.5,
+      "total": 17.1
+    }
+  },
+  {
+    "hex_num": 53,
+    "hex_name": "漸",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 9.4,
+      "trigram_pos": -12.5,
+      "total": 10.9
+    }
+  },
+  {
+    "hex_num": 53,
+    "hex_name": "漸",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 27.6
+    }
+  },
+  {
+    "hex_num": 53,
+    "hex_name": "漸",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": -4.2,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 53,
+    "hex_name": "漸",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 53,
+    "hex_name": "漸",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 50.0,
+      "total": 40.4
+    }
+  },
+  {
+    "hex_num": 53,
+    "hex_name": "漸",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 15.6,
+      "trigram_pos": -25.0,
+      "total": -1.7
+    }
+  },
+  {
+    "hex_num": 54,
+    "hex_name": "歸妹",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 54,
+    "hex_name": "歸妹",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 12.5,
+      "total": 25.2
+    }
+  },
+  {
+    "hex_num": 54,
+    "hex_name": "歸妹",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 54,
+    "hex_name": "歸妹",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 8.3,
+      "combo": 28.1,
+      "trigram_pos": 25.0,
+      "total": 25.1
+    }
+  },
+  {
+    "hex_num": 54,
+    "hex_name": "歸妹",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": 50.0,
+      "trigram_pos": 25.0,
+      "total": 31.5
+    }
+  },
+  {
+    "hex_num": 54,
+    "hex_name": "歸妹",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": -9.4,
+      "trigram_pos": -25.0,
+      "total": -3.0
+    }
+  },
+  {
+    "hex_num": 55,
+    "hex_name": "豐",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 16.0
+    }
+  },
+  {
+    "hex_num": 55,
+    "hex_name": "豐",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 55,
+    "hex_name": "豐",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 55,
+    "hex_name": "豐",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 8.3,
+      "combo": 28.1,
+      "trigram_pos": 25.0,
+      "total": 25.1
+    }
+  },
+  {
+    "hex_num": 55,
+    "hex_name": "豐",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": 50.0,
+      "trigram_pos": 25.0,
+      "total": 31.5
+    }
+  },
+  {
+    "hex_num": 55,
+    "hex_name": "豐",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": -9.4,
+      "trigram_pos": -25.0,
+      "total": -3.0
+    }
+  },
+  {
+    "hex_num": 56,
+    "hex_name": "旅",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 9.4,
+      "trigram_pos": -12.5,
+      "total": 10.9
+    }
+  },
+  {
+    "hex_num": 56,
+    "hex_name": "旅",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 27.6
+    }
+  },
+  {
+    "hex_num": 56,
+    "hex_name": "旅",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": -4.2,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 56,
+    "hex_name": "旅",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 28.1,
+      "trigram_pos": 0.0,
+      "total": 17.6
+    }
+  },
+  {
+    "hex_num": 56,
+    "hex_name": "旅",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 56,
+    "hex_name": "旅",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  },
+  {
+    "hex_num": 57,
+    "hex_name": "巽",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": 9.4,
+      "trigram_pos": 37.5,
+      "total": 25.9
+    }
+  },
+  {
+    "hex_num": 57,
+    "hex_name": "巽",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 50.0,
+      "total": 36.5
+    }
+  },
+  {
+    "hex_num": 57,
+    "hex_name": "巽",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 57,
+    "hex_name": "巽",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 57,
+    "hex_name": "巽",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 50.0,
+      "total": 40.4
+    }
+  },
+  {
+    "hex_num": 57,
+    "hex_name": "巽",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 15.6,
+      "trigram_pos": -25.0,
+      "total": -1.7
+    }
+  },
+  {
+    "hex_num": 58,
+    "hex_name": "兌",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 58,
+    "hex_name": "兌",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 12.5,
+      "total": 25.2
+    }
+  },
+  {
+    "hex_num": 58,
+    "hex_name": "兌",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 58,
+    "hex_name": "兌",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 28.1,
+      "trigram_pos": 50.0,
+      "total": 32.6
+    }
+  },
+  {
+    "hex_num": 58,
+    "hex_name": "兌",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 34.4,
+      "trigram_pos": 12.5,
+      "total": 29.1
+    }
+  },
+  {
+    "hex_num": 58,
+    "hex_name": "兌",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -9.4,
+      "trigram_pos": 0.0,
+      "total": 4.5
+    }
+  },
+  {
+    "hex_num": 59,
+    "hex_name": "渙",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": 9.4,
+      "trigram_pos": 0.0,
+      "total": 14.6
+    }
+  },
+  {
+    "hex_num": 59,
+    "hex_name": "渙",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 0.0,
+      "combo": 31.2,
+      "trigram_pos": 25.0,
+      "total": 29.0
+    }
+  },
+  {
+    "hex_num": 59,
+    "hex_name": "渙",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": -25.0,
+      "trigram_pos": -25.0,
+      "total": -15.5
+    }
+  },
+  {
+    "hex_num": 59,
+    "hex_name": "渙",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 59,
+    "hex_name": "渙",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 50.0,
+      "total": 40.4
+    }
+  },
+  {
+    "hex_num": 59,
+    "hex_name": "渙",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 15.6,
+      "trigram_pos": -25.0,
+      "total": -1.7
+    }
+  },
+  {
+    "hex_num": 60,
+    "hex_name": "節",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 60,
+    "hex_name": "節",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 12.5,
+      "total": 25.2
+    }
+  },
+  {
+    "hex_num": 60,
+    "hex_name": "節",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 60,
+    "hex_name": "節",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 60,
+    "hex_name": "節",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 60,
+    "hex_name": "節",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": -9.4,
+      "trigram_pos": -12.5,
+      "total": 0.7
+    }
+  },
+  {
+    "hex_num": 61,
+    "hex_name": "中孚",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 34.7
+    }
+  },
+  {
+    "hex_num": 61,
+    "hex_name": "中孚",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 20.8,
+      "combo": 31.2,
+      "trigram_pos": 12.5,
+      "total": 25.2
+    }
+  },
+  {
+    "hex_num": 61,
+    "hex_name": "中孚",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "巽",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 20.8,
+      "combo": -25.0,
+      "trigram_pos": -12.5,
+      "total": -11.8
+    }
+  },
+  {
+    "hex_num": 61,
+    "hex_name": "中孚",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 61,
+    "hex_name": "中孚",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 50.0,
+      "total": 40.4
+    }
+  },
+  {
+    "hex_num": 61,
+    "hex_name": "中孚",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "兌",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 15.6,
+      "trigram_pos": -25.0,
+      "total": -1.7
+    }
+  },
+  {
+    "hex_num": 62,
+    "hex_name": "小過",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 9.4,
+      "trigram_pos": -12.5,
+      "total": 10.9
+    }
+  },
+  {
+    "hex_num": 62,
+    "hex_name": "小過",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": -4.2,
+      "combo": 37.5,
+      "trigram_pos": 25.0,
+      "total": 27.6
+    }
+  },
+  {
+    "hex_num": 62,
+    "hex_name": "小過",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "震",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": -4.2,
+      "combo": -18.8,
+      "trigram_pos": -25.0,
+      "total": -14.2
+    }
+  },
+  {
+    "hex_num": 62,
+    "hex_name": "小過",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 8.3,
+      "combo": 28.1,
+      "trigram_pos": 25.0,
+      "total": 25.1
+    }
+  },
+  {
+    "hex_num": 62,
+    "hex_name": "小過",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": 50.0,
+      "trigram_pos": 25.0,
+      "total": 31.5
+    }
+  },
+  {
+    "hex_num": 62,
+    "hex_name": "小過",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "艮",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 8.3,
+      "combo": -9.4,
+      "trigram_pos": -25.0,
+      "total": -3.0
+    }
+  },
+  {
+    "hex_num": 63,
+    "hex_name": "既濟",
+    "position": 1,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 0.0,
+      "total": 16.0
+    }
+  },
+  {
+    "hex_num": 63,
+    "hex_name": "既濟",
+    "position": 2,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 37.5,
+      "trigram_pos": 62.5,
+      "total": 38.9
+    }
+  },
+  {
+    "hex_num": 63,
+    "hex_name": "既濟",
+    "position": 3,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": -18.8,
+      "trigram_pos": -12.5,
+      "total": -10.4
+    }
+  },
+  {
+    "hex_num": 63,
+    "hex_name": "既濟",
+    "position": 4,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": 25.0,
+      "trigram_pos": 25.0,
+      "total": 23.7
+    }
+  },
+  {
+    "hex_num": 63,
+    "hex_name": "既濟",
+    "position": 5,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 21.4,
+      "trigram": 16.7,
+      "combo": 34.4,
+      "trigram_pos": 37.5,
+      "total": 36.6
+    }
+  },
+  {
+    "hex_num": 63,
+    "hex_name": "既濟",
+    "position": 6,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": false,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 14.6,
+      "trigram": 16.7,
+      "combo": -9.4,
+      "trigram_pos": -12.5,
+      "total": 0.7
+    }
+  },
+  {
+    "hex_num": 64,
+    "hex_name": "未濟",
+    "position": 1,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 23.4,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": 9.4,
+      "trigram_pos": 0.0,
+      "total": 14.6
+    }
+  },
+  {
+    "hex_num": 64,
+    "hex_name": "未濟",
+    "position": 2,
+    "yao_type": "陽",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 34.4,
+      "yao_type": 21.4,
+      "trigram": 0.0,
+      "combo": 31.2,
+      "trigram_pos": 25.0,
+      "total": 29.0
+    }
+  },
+  {
+    "hex_num": 64,
+    "hex_name": "未濟",
+    "position": 3,
+    "yao_type": "陰",
+    "trigram": "坎",
+    "is_inner": true,
+    "actual_label": "凶",
+    "affinity_scores": {
+      "position": -21.9,
+      "yao_type": 14.6,
+      "trigram": 0.0,
+      "combo": -25.0,
+      "trigram_pos": -25.0,
+      "total": -15.5
+    }
+  },
+  {
+    "hex_num": 64,
+    "hex_name": "未濟",
+    "position": 4,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 26.6,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 28.1,
+      "trigram_pos": 0.0,
+      "total": 17.6
+    }
+  },
+  {
+    "hex_num": 64,
+    "hex_name": "未濟",
+    "position": 5,
+    "yao_type": "陰",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "吉",
+    "affinity_scores": {
+      "position": 42.2,
+      "yao_type": 14.6,
+      "trigram": 25.0,
+      "combo": 50.0,
+      "trigram_pos": 50.0,
+      "total": 39.0
+    }
+  },
+  {
+    "hex_num": 64,
+    "hex_name": "未濟",
+    "position": 6,
+    "yao_type": "陽",
+    "trigram": "離",
+    "is_inner": false,
+    "actual_label": "中",
+    "affinity_scores": {
+      "position": 3.1,
+      "yao_type": 21.4,
+      "trigram": 25.0,
+      "combo": 15.6,
+      "trigram_pos": 25.0,
+      "total": 13.3
+    }
+  }
+]

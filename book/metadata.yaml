@@ -1,0 +1,66 @@
+---
+# Book Metadata for Amazon KDP
+# Used by Pandoc for EPUB/PDF generation
+
+title: "解碼易經：用數據科學逆向工程三千年預測系統"
+subtitle: "Decoding the I Ching: Reverse-Engineering a 3,000-Year-Old Prediction System with Data Science"
+author: "李沐諺 (Arsene Lee)"
+date: "2026"
+lang: zh-TW
+description: |
+  這本書用現代統計方法完整解碼了易經的吉凶判定邏輯。
+  不是玄學，不是算命，不是預測未來——是對古代系統的逆向工程。
+  我們還原了周文王設計的規則，不是發明了預測命運的公式。
+
+# Publisher info
+publisher: "[Publisher Name]"
+rights: "Copyright © 2026 李沐諺. All rights reserved."
+
+# Cover image (to be added)
+# cover-image: images/cover.jpg
+
+# EPUB specific settings
+epub-chapter-level: 1
+toc-depth: 2
+toc-title: "目錄 | Table of Contents"
+
+# PDF specific settings (for print)
+documentclass: book
+papersize: a5
+fontsize: 11pt
+geometry:
+  - top=2.5cm
+  - bottom=2.5cm
+  - left=2cm
+  - right=2cm
+mainfont: "Noto Sans CJK TC"
+sansfont: "Noto Sans CJK TC"
+monofont: "Noto Sans Mono CJK TC"
+
+# Header/Footer for PDF
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhead[LE,RO]{\thepage}
+  - \fancyhead[RE]{\leftmark}
+  - \fancyhead[LO]{\rightmark}
+
+# Keywords for KDP
+keywords:
+  - 易經
+  - I Ching
+  - 數據科學
+  - Data Science
+  - 決策框架
+  - Decision Framework
+  - 古典智慧
+  - Ancient Wisdom
+  - 統計分析
+  - Statistical Analysis
+
+# Categories for KDP
+categories:
+  - "Religion & Spirituality > New Age & Spirituality > Divination > I Ching"
+  - "Self-Help > Personal Transformation"
+  - "Business & Money > Skills > Decision-Making & Problem Solving"
+---

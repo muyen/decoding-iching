@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 650" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="700" height="650" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">卦德交互效應 | Trigram Virtue Interactions</text>
+  <text x="350" y="55" text-anchor="middle" font-size="12" fill="#666">吉率偏差熱力圖 (Auspiciousness Deviation Heatmap)</text>
+
+  <!-- Axis Labels -->
+  <text x="380" y="80" text-anchor="middle" font-size="12" fill="#666">上卦 (Upper Trigram)</text>
+  <text x="40" y="340" text-anchor="middle" font-size="12" fill="#666" transform="rotate(-90, 40, 340)">下卦 (Lower Trigram)</text>
+
+  <!-- Header Row - Upper Trigrams with Virtues -->
+  <g font-size="11" text-anchor="middle" fill="#333">
+    <text x="140" y="100">乾</text><text x="140" y="112" font-size="9" fill="#666">健</text>
+    <text x="200" y="100">兌</text><text x="200" y="112" font-size="9" fill="#666">說</text>
+    <text x="260" y="100">離</text><text x="260" y="112" font-size="9" fill="#666">麗</text>
+    <text x="320" y="100">震</text><text x="320" y="112" font-size="9" fill="#666">動</text>
+    <text x="380" y="100">巽</text><text x="380" y="112" font-size="9" fill="#666">入</text>
+    <text x="440" y="100">坎</text><text x="440" y="112" font-size="9" fill="#666">陷</text>
+    <text x="500" y="100">艮</text><text x="500" y="112" font-size="9" fill="#666">止</text>
+    <text x="560" y="100">坤</text><text x="560" y="112" font-size="9" fill="#666">順</text>
+  </g>
+
+  <!-- Row Labels - Lower Trigrams with Virtues -->
+  <g font-size="11" text-anchor="end" fill="#333">
+    <text x="95" y="155">乾 健</text>
+    <text x="95" y="210">兌 說</text>
+    <text x="95" y="265">離 麗</text>
+    <text x="95" y="320">震 動</text>
+    <text x="95" y="375">巽 入</text>
+    <text x="95" y="430">坎 陷</text>
+    <text x="95" y="485">艮 止</text>
+    <text x="95" y="540">坤 順</text>
+  </g>
+
+  <!-- Heatmap Grid - 8x8 cells with colors based on auspiciousness -->
+  <!-- Color scale: Green (good) → Yellow (neutral) → Red (bad) -->
+
+  <!-- Row 1: 乾 as Lower -->
+  <rect x="110" y="125" width="55" height="50" fill="#c8e6c9"/><text x="137" y="155" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+  <rect x="170" y="125" width="55" height="50" fill="#fff9c4"/><text x="197" y="155" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="230" y="125" width="55" height="50" fill="#fff9c4"/><text x="257" y="155" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="290" y="125" width="55" height="50" fill="#c8e6c9"/><text x="317" y="155" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+  <rect x="350" y="125" width="55" height="50" fill="#c8e6c9"/><text x="377" y="155" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+  <rect x="410" y="125" width="55" height="50" fill="#fff9c4"/><text x="437" y="155" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="470" y="125" width="55" height="50" fill="#fff9c4"/><text x="497" y="155" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="530" y="125" width="55" height="50" fill="#e8f5e9"/><text x="557" y="155" text-anchor="middle" font-size="10" fill="#333">+0.50</text>
+
+  <!-- Row 2: 兌 as Lower -->
+  <rect x="110" y="180" width="55" height="50" fill="#fff9c4"/><text x="137" y="210" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="170" y="180" width="55" height="50" fill="#fff9c4"/><text x="197" y="210" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="230" y="180" width="55" height="50" fill="#c8e6c9"/><text x="257" y="210" text-anchor="middle" font-size="10" fill="#333">+0.67</text>
+  <rect x="290" y="180" width="55" height="50" fill="#fff9c4"/><text x="317" y="210" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="350" y="180" width="55" height="50" fill="#fff9c4"/><text x="377" y="210" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="410" y="180" width="55" height="50" fill="#ffcdd2"/><text x="437" y="210" text-anchor="middle" font-size="10" fill="#333">-0.17</text>
+  <rect x="470" y="180" width="55" height="50" fill="#fff9c4"/><text x="497" y="210" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="530" y="180" width="55" height="50" fill="#c8e6c9"/><text x="557" y="210" text-anchor="middle" font-size="10" fill="#333">+0.50</text>
+
+  <!-- Row 3: 離 as Lower -->
+  <rect x="110" y="235" width="55" height="50" fill="#fff9c4"/><text x="137" y="265" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="170" y="235" width="55" height="50" fill="#fff9c4"/><text x="197" y="265" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="230" y="235" width="55" height="50" fill="#fff9c4"/><text x="257" y="265" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="290" y="235" width="55" height="50" fill="#ef9a9a"/><text x="317" y="265" text-anchor="middle" font-size="10" fill="#c62828">-0.50</text>
+  <rect x="350" y="235" width="55" height="50" fill="#c8e6c9"/><text x="377" y="265" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+  <rect x="410" y="235" width="55" height="50" fill="#fff9c4"/><text x="437" y="265" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="470" y="235" width="55" height="50" fill="#fff9c4"/><text x="497" y="265" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="530" y="235" width="55" height="50" fill="#fff9c4"/><text x="557" y="265" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+
+  <!-- Row 4: 震 as Lower -->
+  <rect x="110" y="290" width="55" height="50" fill="#fff9c4"/><text x="137" y="320" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="170" y="290" width="55" height="50" fill="#fff9c4"/><text x="197" y="320" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="230" y="290" width="55" height="50" fill="#fff9c4"/><text x="257" y="320" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="290" y="290" width="55" height="50" fill="#fff9c4"/><text x="317" y="320" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="350" y="290" width="55" height="50" fill="#c8e6c9"/><text x="377" y="320" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+  <rect x="410" y="290" width="55" height="50" fill="#fff9c4"/><text x="437" y="320" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="470" y="290" width="55" height="50" fill="#ef9a9a"/><text x="497" y="320" text-anchor="middle" font-size="10" fill="#c62828">-0.50</text>
+  <rect x="530" y="290" width="55" height="50" fill="#c8e6c9"/><text x="557" y="320" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+
+  <!-- Row 5: 巽 as Lower -->
+  <rect x="110" y="345" width="55" height="50" fill="#fff9c4"/><text x="137" y="375" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="170" y="345" width="55" height="50" fill="#fff9c4"/><text x="197" y="375" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="230" y="345" width="55" height="50" fill="#fff9c4"/><text x="257" y="375" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="290" y="345" width="55" height="50" fill="#fff9c4"/><text x="317" y="375" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="350" y="345" width="55" height="50" fill="#fff9c4"/><text x="377" y="375" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="410" y="345" width="55" height="50" fill="#fff9c4"/><text x="437" y="375" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="470" y="345" width="55" height="50" fill="#fff9c4"/><text x="497" y="375" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="530" y="345" width="55" height="50" fill="#c8e6c9"/><text x="557" y="375" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+
+  <!-- Row 6: 坎 as Lower -->
+  <rect x="110" y="400" width="55" height="50" fill="#c8e6c9"/><text x="137" y="430" text-anchor="middle" font-size="10" fill="#333">+0.67</text>
+  <rect x="170" y="400" width="55" height="50" fill="#fff9c4"/><text x="197" y="430" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="230" y="400" width="55" height="50" fill="#fff9c4"/><text x="257" y="430" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="290" y="400" width="55" height="50" fill="#fff9c4"/><text x="317" y="430" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="350" y="400" width="55" height="50" fill="#fff9c4"/><text x="377" y="430" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="410" y="400" width="55" height="50" fill="#ef9a9a"/><text x="437" y="430" text-anchor="middle" font-size="10" fill="#c62828">-0.33</text>
+  <rect x="470" y="400" width="55" height="50" fill="#fff9c4"/><text x="497" y="430" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="530" y="400" width="55" height="50" fill="#fff9c4"/><text x="557" y="430" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+
+  <!-- Row 7: 艮 as Lower (Worst base) -->
+  <rect x="110" y="455" width="55" height="50" fill="#fff9c4"/><text x="137" y="485" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="170" y="455" width="55" height="50" fill="#fff9c4"/><text x="197" y="485" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="230" y="455" width="55" height="50" fill="#fff9c4"/><text x="257" y="485" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="290" y="455" width="55" height="50" fill="#ef9a9a"/><text x="317" y="485" text-anchor="middle" font-size="10" fill="#c62828">-0.50</text>
+  <rect x="350" y="455" width="55" height="50" fill="#fff9c4"/><text x="377" y="485" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="410" y="455" width="55" height="50" fill="#fff9c4"/><text x="437" y="485" text-anchor="middle" font-size="10" fill="#333">+0.00</text>
+  <rect x="470" y="455" width="55" height="50" fill="#ef9a9a" stroke="#c62828" stroke-width="2"/><text x="497" y="485" text-anchor="middle" font-size="10" fill="#c62828">-0.50</text>
+  <rect x="530" y="455" width="55" height="50" fill="#ffcdd2"/><text x="557" y="485" text-anchor="middle" font-size="10" fill="#333">-0.17</text>
+
+  <!-- Row 8: 坤 as Lower (Best base) -->
+  <rect x="110" y="510" width="55" height="50" fill="#c8e6c9"/><text x="137" y="540" text-anchor="middle" font-size="10" fill="#333">+0.50</text>
+  <rect x="170" y="510" width="55" height="50" fill="#c8e6c9"/><text x="197" y="540" text-anchor="middle" font-size="10" fill="#333">+0.50</text>
+  <rect x="230" y="510" width="55" height="50" fill="#c8e6c9"/><text x="257" y="540" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+  <rect x="290" y="510" width="55" height="50" fill="#81c784" stroke="#4caf50" stroke-width="2"/><text x="317" y="540" text-anchor="middle" font-size="10" fill="#2e7d32">+0.83</text>
+  <rect x="350" y="510" width="55" height="50" fill="#81c784" stroke="#4caf50" stroke-width="2"/><text x="377" y="540" text-anchor="middle" font-size="10" fill="#2e7d32">+0.83</text>
+  <rect x="410" y="510" width="55" height="50" fill="#c8e6c9"/><text x="437" y="540" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+  <rect x="470" y="510" width="55" height="50" fill="#fff9c4"/><text x="497" y="540" text-anchor="middle" font-size="10" fill="#333">+0.17</text>
+  <rect x="530" y="510" width="55" height="50" fill="#c8e6c9"/><text x="557" y="540" text-anchor="middle" font-size="10" fill="#333">+0.33</text>
+
+  <!-- Legend -->
+  <text x="140" y="585" font-size="11" font-weight="bold" fill="#333">圖例 | Legend:</text>
+
+  <rect x="140" y="595" width="20" height="15" fill="#81c784" rx="2"/>
+  <text x="165" y="607" font-size="10" fill="#333">最佳 (+0.5~+1.0)</text>
+
+  <rect x="280" y="595" width="20" height="15" fill="#c8e6c9" rx="2"/>
+  <text x="305" y="607" font-size="10" fill="#333">好 (+0.2~+0.5)</text>
+
+  <rect x="400" y="595" width="20" height="15" fill="#fff9c4" rx="2"/>
+  <text x="425" y="607" font-size="10" fill="#333">中 (-0.2~+0.2)</text>
+
+  <rect x="510" y="595" width="20" height="15" fill="#ef9a9a" rx="2"/>
+  <text x="535" y="607" font-size="10" fill="#333">差 (-0.5~-0.2)</text>
+
+  <!-- Key findings -->
+  <text x="350" y="635" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="bold">★ 最佳: 坤+震、坤+巽 (+0.83)</text>
+  <text x="350" y="648" text-anchor="middle" font-size="11" fill="#c62828" font-weight="bold">✗ 最差: 艮+艮、離+震、艮+震 (-0.50)</text>
+</svg>

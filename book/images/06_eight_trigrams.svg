@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="700" height="400" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">八卦與卦德 | Eight Trigrams and Their Virtues</text>
+
+  <!-- Row 1: First 4 Trigrams -->
+  <!-- 乾 -->
+  <g transform="translate(50, 70)">
+    <rect width="130" height="130" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">乾</text>
+    <text x="65" y="45" text-anchor="middle" font-size="12" fill="#666">Qián (Heaven)</text>
+
+    <!-- Trigram lines - all solid (yang) -->
+    <line x1="30" y1="60" x2="100" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="75" x2="100" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="90" x2="100" y2="90" stroke="#333" stroke-width="4"/>
+
+    <text x="65" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#2196f3">健</text>
+    <text x="65" y="125" text-anchor="middle" font-size="10" fill="#666">一直衝、不停</text>
+  </g>
+
+  <!-- 兌 -->
+  <g transform="translate(200, 70)">
+    <rect width="130" height="130" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">兌</text>
+    <text x="65" y="45" text-anchor="middle" font-size="12" fill="#666">Duì (Lake)</text>
+
+    <!-- Trigram lines - broken, solid, solid -->
+    <line x1="30" y1="60" x2="55" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="60" x2="100" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="75" x2="100" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="90" x2="100" y2="90" stroke="#333" stroke-width="4"/>
+
+    <text x="65" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#4caf50">說</text>
+    <text x="65" y="125" text-anchor="middle" font-size="10" fill="#666">開心、交流</text>
+  </g>
+
+  <!-- 離 -->
+  <g transform="translate(350, 70)">
+    <rect width="130" height="130" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">離</text>
+    <text x="65" y="45" text-anchor="middle" font-size="12" fill="#666">Lí (Fire)</text>
+
+    <!-- Trigram lines - solid, broken, solid -->
+    <line x1="30" y1="60" x2="100" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="75" x2="55" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="75" x2="100" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="90" x2="100" y2="90" stroke="#333" stroke-width="4"/>
+
+    <text x="65" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#ff9800">麗</text>
+    <text x="65" y="125" text-anchor="middle" font-size="10" fill="#666">依附、靠著</text>
+  </g>
+
+  <!-- 震 -->
+  <g transform="translate(500, 70)">
+    <rect width="130" height="130" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">震</text>
+    <text x="65" y="45" text-anchor="middle" font-size="12" fill="#666">Zhèn (Thunder)</text>
+
+    <!-- Trigram lines - broken, broken, solid -->
+    <line x1="30" y1="60" x2="55" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="60" x2="100" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="75" x2="55" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="75" x2="100" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="90" x2="100" y2="90" stroke="#333" stroke-width="4"/>
+
+    <text x="65" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#f44336">動</text>
+    <text x="65" y="125" text-anchor="middle" font-size="10" fill="#666">突然爆發</text>
+  </g>
+
+  <!-- Row 2: Last 4 Trigrams -->
+  <!-- 巽 -->
+  <g transform="translate(50, 220)">
+    <rect width="130" height="130" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">巽</text>
+    <text x="65" y="45" text-anchor="middle" font-size="12" fill="#666">Xùn (Wind)</text>
+
+    <!-- Trigram lines - solid, solid, broken -->
+    <line x1="30" y1="60" x2="100" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="75" x2="100" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="90" x2="55" y2="90" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="90" x2="100" y2="90" stroke="#333" stroke-width="4"/>
+
+    <text x="65" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#9c27b0">入</text>
+    <text x="65" y="125" text-anchor="middle" font-size="10" fill="#666">慢慢滲透</text>
+  </g>
+
+  <!-- 坎 -->
+  <g transform="translate(200, 220)">
+    <rect width="130" height="130" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">坎</text>
+    <text x="65" y="45" text-anchor="middle" font-size="12" fill="#666">Kǎn (Water)</text>
+
+    <!-- Trigram lines - broken, solid, broken -->
+    <line x1="30" y1="60" x2="55" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="60" x2="100" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="75" x2="100" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="90" x2="55" y2="90" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="90" x2="100" y2="90" stroke="#333" stroke-width="4"/>
+
+    <text x="65" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#3f51b5">陷</text>
+    <text x="65" y="125" text-anchor="middle" font-size="10" fill="#666">危險、陷阱</text>
+  </g>
+
+  <!-- 艮 -->
+  <g transform="translate(350, 220)">
+    <rect width="130" height="130" fill="#ffebee" stroke="#f44336" stroke-width="1" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">艮</text>
+    <text x="65" y="45" text-anchor="middle" font-size="12" fill="#666">Gèn (Mountain)</text>
+
+    <!-- Trigram lines - solid, broken, broken -->
+    <line x1="30" y1="60" x2="100" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="75" x2="55" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="75" x2="100" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="90" x2="55" y2="90" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="90" x2="100" y2="90" stroke="#333" stroke-width="4"/>
+
+    <text x="65" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#795548">止</text>
+    <text x="65" y="125" text-anchor="middle" font-size="10" fill="#666">停下來、擋住</text>
+  </g>
+
+  <!-- 坤 -->
+  <g transform="translate(500, 220)">
+    <rect width="130" height="130" fill="#e8f5e9" stroke="#4caf50" stroke-width="1" rx="8"/>
+    <text x="65" y="25" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">坤</text>
+    <text x="65" y="45" text-anchor="middle" font-size="12" fill="#666">Kūn (Earth)</text>
+
+    <!-- Trigram lines - all broken (yin) -->
+    <line x1="30" y1="60" x2="55" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="60" x2="100" y2="60" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="75" x2="55" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="75" x2="100" y2="75" stroke="#333" stroke-width="4"/>
+    <line x1="30" y1="90" x2="55" y2="90" stroke="#333" stroke-width="4"/>
+    <line x1="75" y1="90" x2="100" y2="90" stroke="#333" stroke-width="4"/>
+
+    <text x="65" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#4caf50">順</text>
+    <text x="65" y="125" text-anchor="middle" font-size="10" fill="#666">穩穩撐住、配合</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(50, 365)">
+    <rect width="15" height="15" fill="#e8f5e9" stroke="#4caf50" rx="2"/>
+    <text x="20" y="12" font-size="10" fill="#333">坤當下卦最好 (Best as lower)</text>
+
+    <rect x="200" width="15" height="15" fill="#ffebee" stroke="#f44336" rx="2"/>
+    <text x="220" y="12" font-size="10" fill="#333">艮當下卦最差 (Worst as lower)</text>
+
+    <line x1="400" y1="7" x2="430" y2="7" stroke="#333" stroke-width="4"/>
+    <text x="435" y="12" font-size="10" fill="#333">陽爻 (Yang)</text>
+
+    <line x1="520" y1="7" x2="535" y2="7" stroke="#333" stroke-width="4"/>
+    <line x1="545" y1="7" x2="560" y2="7" stroke="#333" stroke-width="4"/>
+    <text x="565" y="12" font-size="10" fill="#333">陰爻 (Yin)</text>
+  </g>
+</svg>

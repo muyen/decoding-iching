@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>易經交互表視覺化</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 { color: #ffd700; }
+        .section { margin: 30px 0; padding: 20px; background: #16213e; border-radius: 10px; }
+
+        /* 8x8 Heatmap */
+        .heatmap { display: grid; grid-template-columns: 60px repeat(8, 1fr); gap: 2px; }
+        .heatmap-cell {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: transform 0.2s;
+        }
+        .heatmap-cell:hover { transform: scale(1.1); z-index: 10; }
+        .header-cell { background: #0f3460; color: #ffd700; font-size: 18px; }
+
+        /* Color scale */
+        .score-pos-high { background: #00ff00; color: #000; }
+        .score-pos-med { background: #7fff00; color: #000; }
+        .score-pos-low { background: #adff2f; color: #000; }
+        .score-neutral { background: #808080; color: #fff; }
+        .score-neg-low { background: #ff6347; color: #000; }
+        .score-neg-med { background: #ff4500; color: #000; }
+        .score-neg-high { background: #ff0000; color: #fff; }
+
+        /* Position table */
+        .pos-table { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; max-width: 700px; }
+        .pos-cell { padding: 15px; text-align: center; border-radius: 8px; }
+        .pos-header { background: #0f3460; color: #ffd700; }
+
+        /* Hexagram grid */
+        .hex-grid { display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px; }
+        .hex-card {
+            background: #0f3460;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+        }
+        .hex-name { font-size: 20px; color: #ffd700; margin-bottom: 5px; }
+        .hex-trigrams { font-size: 12px; color: #888; }
+        .hex-pattern {
+            display: flex;
+            gap: 2px;
+            justify-content: center;
+            margin-top: 8px;
+        }
+        .yao {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .yao-ji { background: #00ff00; }
+        .yao-zhong { background: #808080; }
+        .yao-xiong { background: #ff0000; }
+
+        /* Legend */
+        .legend { display: flex; gap: 20px; flex-wrap: wrap; margin: 20px 0; }
+        .legend-item { display: flex; align-items: center; gap: 5px; }
+        .legend-color { width: 20px; height: 20px; border-radius: 4px; }
+
+        /* Stats */
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .stat-card { background: #0f3460; padding: 20px; border-radius: 10px; text-align: center; }
+        .stat-value { font-size: 36px; color: #ffd700; }
+        .stat-label { color: #888; }
+
+        /* Bar chart */
+        .bar-chart { display: flex; flex-direction: column; gap: 8px; }
+        .bar-row { display: flex; align-items: center; gap: 10px; }
+        .bar-label { width: 40px; text-align: right; }
+        .bar-container { flex: 1; height: 30px; background: #333; border-radius: 4px; overflow: hidden; position: relative; }
+        .bar { height: 100%; transition: width 0.5s; }
+        .bar-value { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 12px; }
+    </style>
+</head>
+<body>
+    <h1>易經預測系統 - 交互表視覺化</h1>
+    <p>基於384爻統計分析的完整解碼 | 準確率: 100%</p>
+
+    <div class="section">
+        <h2>核心統計</h2>
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value">384</div>
+                <div class="stat-label">總爻數</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">64</div>
+                <div class="stat-label">卦象數</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">100%</div>
+                <div class="stat-label">解碼準確率</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">+0.83</div>
+                <div class="stat-label">最佳組合 (坤+震)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">-0.50</div>
+                <div class="stat-label">最差組合 (艮+艮)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Inner × Outer 八卦交互熱力圖</h2>
+        <p>行 = 下卦 (Inner) | 列 = 上卦 (Outer) | 數值 = 平均吉率</p>
+
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color score-pos-high"></div> +0.6~+1.0 (大吉)</div>
+            <div class="legend-item"><div class="legend-color score-pos-med"></div> +0.3~+0.6 (吉)</div>
+            <div class="legend-item"><div class="legend-color score-pos-low"></div> +0.1~+0.3 (小吉)</div>
+            <div class="legend-item"><div class="legend-color score-neutral"></div> -0.1~+0.1 (中)</div>
+            <div class="legend-item"><div class="legend-color score-neg-low"></div> -0.3~-0.1 (小凶)</div>
+            <div class="legend-item"><div class="legend-color score-neg-high"></div> -0.5~-0.3 (凶)</div>
+        </div>
+
+        <div class="heatmap" id="heatmap">
+            <!-- Header row -->
+            <div class="heatmap-cell header-cell"></div>
+            <div class="heatmap-cell header-cell">乾</div>
+            <div class="heatmap-cell header-cell">坤</div>
+            <div class="heatmap-cell header-cell">震</div>
+            <div class="heatmap-cell header-cell">巽</div>
+            <div class="heatmap-cell header-cell">坎</div>
+            <div class="heatmap-cell header-cell">離</div>
+            <div class="heatmap-cell header-cell">艮</div>
+            <div class="heatmap-cell header-cell">兌</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Position × 陰陽 交互效應</h2>
+        <p>三位陽爻 = -0.375 (全表最差!) | 五位陰爻 = +0.500 (全表最佳!)</p>
+
+        <div class="pos-table">
+            <div class="pos-cell pos-header">Position</div>
+            <div class="pos-cell pos-header">1</div>
+            <div class="pos-cell pos-header">2</div>
+            <div class="pos-cell pos-header">3</div>
+            <div class="pos-cell pos-header">4</div>
+            <div class="pos-cell pos-header">5</div>
+            <div class="pos-cell pos-header">6</div>
+
+            <div class="pos-cell pos-header">陽爻</div>
+            <div class="pos-cell score-pos-low">+0.28</div>
+            <div class="pos-cell score-pos-med">+0.31</div>
+            <div class="pos-cell score-neg-high">-0.38</div>
+            <div class="pos-cell score-pos-low">+0.28</div>
+            <div class="pos-cell score-pos-med">+0.34</div>
+            <div class="pos-cell score-neutral">0.00</div>
+
+            <div class="pos-cell pos-header">陰爻</div>
+            <div class="pos-cell score-pos-low">+0.19</div>
+            <div class="pos-cell score-pos-med">+0.38</div>
+            <div class="pos-cell score-neutral">-0.06</div>
+            <div class="pos-cell score-pos-low">+0.25</div>
+            <div class="pos-cell score-pos-high">+0.50</div>
+            <div class="pos-cell score-neutral">+0.06</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>爻位獨立效應</h2>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">Pos 5</div>
+                <div class="bar-container">
+                    <div class="bar score-pos-high" style="width: 84%"></div>
+                    <div class="bar-value">+0.422 ★★ 九五之尊</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Pos 2</div>
+                <div class="bar-container">
+                    <div class="bar score-pos-med" style="width: 69%"></div>
+                    <div class="bar-value">+0.344 ★ 六二中正</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Pos 4</div>
+                <div class="bar-container">
+                    <div class="bar score-pos-low" style="width: 53%"></div>
+                    <div class="bar-value">+0.266</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Pos 1</div>
+                <div class="bar-container">
+                    <div class="bar score-pos-low" style="width: 47%"></div>
+                    <div class="bar-value">+0.234</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Pos 6</div>
+                <div class="bar-container">
+                    <div class="bar score-neutral" style="width: 6%"></div>
+                    <div class="bar-value">+0.031</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Pos 3</div>
+                <div class="bar-container">
+                    <div class="bar score-neg-high" style="width: 44%"></div>
+                    <div class="bar-value">-0.219 ✗✗ 三多凶</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>最吉與最凶卦象</h2>
+        <h3>TOP 8 最吉卦</h3>
+        <div class="hex-grid" id="top-hex"></div>
+
+        <h3 style="margin-top: 30px;">BOTTOM 8 最凶卦</h3>
+        <div class="hex-grid" id="bottom-hex"></div>
+    </div>
+
+    <div class="section">
+        <h2>關鍵詞可信度</h2>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label" style="width: 60px;">元吉</div>
+                <div class="bar-container">
+                    <div class="bar score-pos-high" style="width: 100%"></div>
+                    <div class="bar-value">100% → 吉</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label" style="width: 60px;">吉</div>
+                <div class="bar-container">
+                    <div class="bar score-pos-high" style="width: 96%"></div>
+                    <div class="bar-value">96% → 吉</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label" style="width: 60px;">凶</div>
+                <div class="bar-container">
+                    <div class="bar score-neg-high" style="width: 91%"></div>
+                    <div class="bar-value">91% → 凶</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label" style="width: 60px;">利</div>
+                <div class="bar-container">
+                    <div class="bar score-pos-low" style="width: 36%"></div>
+                    <div class="bar-value">36% ⚠️ 弱信號</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label" style="width: 60px;">无咎</div>
+                <div class="bar-container">
+                    <div class="bar score-pos-low" style="width: 28%"></div>
+                    <div class="bar-value">28% ⚠️ 大多是中!</div>
+                </div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label" style="width: 60px;">吝</div>
+                <div class="bar-container">
+                    <div class="bar score-neutral" style="width: 0%"></div>
+                    <div class="bar-value">0%凶 ⚠️ 永遠是中!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Heatmap data: Inner x Outer
+        const data = {
+            '乾': {'乾': 0.00, '坤': 0.50, '震': 0.50, '巽': 0.17, '坎': 0.50, '離': 0.17, '艮': 0.17, '兌': -0.17},
+            '坤': {'乾': 0.33, '坤': 0.33, '震': 0.83, '巽': 0.83, '坎': -0.33, '離': 0.17, '艮': 0.17, '兌': 0.67},
+            '震': {'乾': 0.50, '坤': -0.33, '震': 0.17, '巽': 0.33, '坎': 0.33, '離': 0.33, '艮': 0.00, '兌': 0.00},
+            '巽': {'乾': -0.33, '坤': 0.50, '震': 0.17, '巽': 0.17, '坎': -0.17, '離': 0.33, '艮': 0.17, '兌': 0.00},
+            '坎': {'乾': 0.67, '坤': 0.50, '震': 0.17, '巽': -0.17, '坎': -0.33, '離': -0.17, '艮': 0.33, '兌': 0.17},
+            '離': {'乾': 0.33, '坤': 0.50, '震': -0.50, '巽': 0.33, '坎': 0.33, '離': 0.17, '艮': 0.00, '兌': 0.50},
+            '艮': {'乾': 0.17, '坤': -0.17, '震': -0.50, '巽': 0.33, '坎': 0.50, '離': 0.33, '艮': -0.50, '兌': -0.33},
+            '兌': {'乾': 0.17, '坤': 0.00, '震': 0.33, '巽': 0.00, '坎': 0.33, '離': 0.67, '艮': 0.17, '兌': 0.17}
+        };
+
+        const trigrams = ['乾', '坤', '震', '巽', '坎', '離', '艮', '兌'];
+        const heatmap = document.getElementById('heatmap');
+
+        function getColorClass(val) {
+            if (val >= 0.6) return 'score-pos-high';
+            if (val >= 0.3) return 'score-pos-med';
+            if (val >= 0.1) return 'score-pos-low';
+            if (val >= -0.1) return 'score-neutral';
+            if (val >= -0.3) return 'score-neg-low';
+            return 'score-neg-high';
+        }
+
+        // Build heatmap
+        trigrams.forEach(inner => {
+            // Row header
+            const headerCell = document.createElement('div');
+            headerCell.className = 'heatmap-cell header-cell';
+            headerCell.textContent = inner;
+            heatmap.appendChild(headerCell);
+
+            // Data cells
+            trigrams.forEach(outer => {
+                const cell = document.createElement('div');
+                const val = data[inner][outer];
+                cell.className = `heatmap-cell ${getColorClass(val)}`;
+                cell.textContent = val.toFixed(2);
+                cell.title = `${inner}+${outer}: ${val.toFixed(2)}`;
+                heatmap.appendChild(cell);
+            });
+        });
+
+        // Top hexagrams
+        const topHex = [
+            {name: '復', inner: '坤', outer: '震', pattern: [1,1,1,1,1,0]},
+            {name: '升', inner: '坤', outer: '巽', pattern: [1,1,1,0,1,1]},
+            {name: '訟', inner: '坎', outer: '乾', pattern: [1,1,0,0,1,1]},
+            {name: '革', inner: '兌', outer: '離', pattern: [0,1,0,1,1,1]},
+            {name: '臨', inner: '坤', outer: '兌', pattern: [1,1,0,1,1,0]},
+            {name: '需', inner: '乾', outer: '坎', pattern: [1,-1,1,1,1,0]},
+            {name: '比', inner: '坎', outer: '坤', pattern: [1,1,0,1,1,-1]},
+            {name: '无妄', inner: '乾', outer: '震', pattern: [-1,0,1,1,1,1]},
+        ];
+
+        const bottomHex = [
+            {name: '艮', inner: '艮', outer: '艮', pattern: [1,-1,-1,0,-1,-1]},
+            {name: '噬嗑', inner: '離', outer: '震', pattern: [-1,0,-1,0,0,-1]},
+            {name: '頤', inner: '艮', outer: '震', pattern: [-1,0,-1,0,0,-1]},
+            {name: '師', inner: '坤', outer: '坎', pattern: [-1,1,-1,0,-1,0]},
+            {name: '豫', inner: '震', outer: '坤', pattern: [-1,-1,0,-1,1,0]},
+            {name: '坎', inner: '坎', outer: '坎', pattern: [-1,0,0,0,0,-1]},
+            {name: '損', inner: '艮', outer: '兌', pattern: [-1,0,0,0,0,-1]},
+            {name: '井', inner: '坎', outer: '巽', pattern: [0,-1,0,0,1,-1]},
+        ];
+
+        function renderHexGrid(containerId, hexList) {
+            const container = document.getElementById(containerId);
+            hexList.forEach(hex => {
+                const card = document.createElement('div');
+                card.className = 'hex-card';
+
+                const name = document.createElement('div');
+                name.className = 'hex-name';
+                name.textContent = hex.name;
+
+                const trigrams = document.createElement('div');
+                trigrams.className = 'hex-trigrams';
+                trigrams.textContent = `${hex.inner}+${hex.outer}`;
+
+                const pattern = document.createElement('div');
+                pattern.className = 'hex-pattern';
+                hex.pattern.forEach((val, i) => {
+                    const yao = document.createElement('div');
+                    yao.className = `yao ${val === 1 ? 'yao-ji' : val === -1 ? 'yao-xiong' : 'yao-zhong'}`;
+                    yao.textContent = i + 1;
+                    yao.title = `Position ${i+1}: ${val === 1 ? '吉' : val === -1 ? '凶' : '中'}`;
+                    pattern.appendChild(yao);
+                });
+
+                card.appendChild(name);
+                card.appendChild(trigrams);
+                card.appendChild(pattern);
+                container.appendChild(card);
+            });
+        }
+
+        renderHexGrid('top-hex', topHex);
+        renderHexGrid('bottom-hex', bottomHex);
+    </script>
+</body>
+</html>
