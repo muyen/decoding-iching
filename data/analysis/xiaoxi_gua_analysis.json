@@ -1,0 +1,582 @@
+{
+  "xiaoxi": {
+    "復": {
+      "total": 6,
+      "ji": 2,
+      "xiong": 2,
+      "zhong": 2,
+      "by_position": [
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        }
+      ],
+      "kw": 24,
+      "binary": "100000",
+      "yang_count": 1,
+      "month": 11,
+      "phase": "yang_waxing"
+    },
+    "臨": {
+      "total": 6,
+      "ji": 4,
+      "xiong": 0,
+      "zhong": 2,
+      "by_position": [
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        }
+      ],
+      "kw": 19,
+      "binary": "110000",
+      "yang_count": 2,
+      "month": 12,
+      "phase": "yang_waxing"
+    },
+    "泰": {
+      "total": 6,
+      "ji": 2,
+      "xiong": 1,
+      "zhong": 3,
+      "by_position": [
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        }
+      ],
+      "kw": 11,
+      "binary": "111000",
+      "yang_count": 3,
+      "month": 1,
+      "phase": "yang_waxing"
+    },
+    "大壯": {
+      "total": 6,
+      "ji": 3,
+      "xiong": 2,
+      "zhong": 1,
+      "by_position": [
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        }
+      ],
+      "kw": 34,
+      "binary": "111100",
+      "yang_count": 4,
+      "month": 2,
+      "phase": "yang_waxing"
+    },
+    "夬": {
+      "total": 6,
+      "ji": 0,
+      "xiong": 3,
+      "zhong": 3,
+      "by_position": [
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        }
+      ],
+      "kw": 43,
+      "binary": "111110",
+      "yang_count": 5,
+      "month": 3,
+      "phase": "yang_waxing"
+    },
+    "乾": {
+      "total": 6,
+      "ji": 2,
+      "xiong": 1,
+      "zhong": 3,
+      "by_position": [
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        }
+      ],
+      "kw": 1,
+      "binary": "111111",
+      "yang_count": 6,
+      "month": 4,
+      "phase": "yang_waxing"
+    },
+    "姤": {
+      "total": 6,
+      "ji": 1,
+      "xiong": 3,
+      "zhong": 2,
+      "by_position": [
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        }
+      ],
+      "kw": 44,
+      "binary": "011111",
+      "yang_count": 5,
+      "month": 5,
+      "phase": "yin_waxing"
+    },
+    "遯": {
+      "total": 6,
+      "ji": 4,
+      "xiong": 1,
+      "zhong": 1,
+      "by_position": [
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        }
+      ],
+      "kw": 33,
+      "binary": "001111",
+      "yang_count": 4,
+      "month": 6,
+      "phase": "yin_waxing"
+    },
+    "否": {
+      "total": 6,
+      "ji": 3,
+      "xiong": 0,
+      "zhong": 3,
+      "by_position": [
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        }
+      ],
+      "kw": 12,
+      "binary": "000111",
+      "yang_count": 3,
+      "month": 7,
+      "phase": "yin_waxing"
+    },
+    "觀": {
+      "total": 6,
+      "ji": 2,
+      "xiong": 1,
+      "zhong": 3,
+      "by_position": [
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        }
+      ],
+      "kw": 20,
+      "binary": "000011",
+      "yang_count": 2,
+      "month": 8,
+      "phase": "yin_waxing"
+    },
+    "剝": {
+      "total": 6,
+      "ji": 1,
+      "xiong": 3,
+      "zhong": 2,
+      "by_position": [
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 1,
+          "zhong": 0
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        }
+      ],
+      "kw": 23,
+      "binary": "000001",
+      "yang_count": 1,
+      "month": 9,
+      "phase": "yin_waxing"
+    },
+    "坤": {
+      "total": 6,
+      "ji": 2,
+      "xiong": 0,
+      "zhong": 4,
+      "by_position": [
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        },
+        {
+          "ji": 1,
+          "xiong": 0,
+          "zhong": 0
+        },
+        {
+          "ji": 0,
+          "xiong": 0,
+          "zhong": 1
+        }
+      ],
+      "kw": 2,
+      "binary": "000000",
+      "yang_count": 0,
+      "month": 10,
+      "phase": "yin_waxing"
+    }
+  },
+  "non_xiaoxi": {
+    "total": 312,
+    "ji": 114,
+    "xiong": 51,
+    "zhong": 147
+  },
+  "yang_waxing": {
+    "total": 36,
+    "ji": 13,
+    "xiong": 9,
+    "zhong": 14
+  },
+  "yin_waxing": {
+    "total": 36,
+    "ji": 13,
+    "xiong": 8,
+    "zhong": 15
+  },
+  "by_yang_count": {
+    "6": {
+      "total": 6,
+      "ji": 2,
+      "xiong": 1,
+      "zhong": 3
+    },
+    "0": {
+      "total": 6,
+      "ji": 2,
+      "xiong": 0,
+      "zhong": 4
+    },
+    "3": {
+      "total": 12,
+      "ji": 5,
+      "xiong": 1,
+      "zhong": 6
+    },
+    "2": {
+      "total": 12,
+      "ji": 6,
+      "xiong": 1,
+      "zhong": 5
+    },
+    "1": {
+      "total": 12,
+      "ji": 3,
+      "xiong": 5,
+      "zhong": 4
+    },
+    "4": {
+      "total": 12,
+      "ji": 7,
+      "xiong": 3,
+      "zhong": 2
+    },
+    "5": {
+      "total": 12,
+      "ji": 1,
+      "xiong": 6,
+      "zhong": 5
+    }
+  }
+}

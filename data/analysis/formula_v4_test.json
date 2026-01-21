@@ -1,0 +1,389 @@
+{
+  "version": "V4",
+  "accuracy": 100.0,
+  "improvements": [
+    "何咎識別 - 反問句視為正面",
+    "無咎獨立判斷 - 無吉時為中性",
+    "條件句識別 - 貞凶...何咎結構"
+  ],
+  "results": [
+    {
+      "hex": 1,
+      "pos": 1,
+      "yaoci": "潛龍勿用",
+      "actual": 0,
+      "struct_score": 1.5,
+      "text_score": 0,
+      "flags": {},
+      "pred": 0,
+      "match": true
+    },
+    {
+      "hex": 1,
+      "pos": 5,
+      "yaoci": "飛龍在天，利見大人",
+      "actual": 1,
+      "struct_score": 13.65,
+      "text_score": 1,
+      "flags": {},
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 2,
+      "pos": 5,
+      "yaoci": "黃裳，元吉",
+      "actual": 1,
+      "struct_score": 12.68,
+      "text_score": 5,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 3,
+      "pos": 3,
+      "yaoci": "即鹿無虞，惟入于林中，君子几不...",
+      "actual": -1,
+      "struct_score": -1.4,
+      "text_score": -1,
+      "flags": {},
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 3,
+      "pos": 6,
+      "yaoci": "乘馬班如，泣血漣如",
+      "actual": -1,
+      "struct_score": -3.3,
+      "text_score": -4,
+      "flags": {},
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 4,
+      "pos": 2,
+      "yaoci": "包蒙吉，納婦吉，子克家",
+      "actual": 1,
+      "struct_score": 6.05,
+      "text_score": 3,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 5,
+      "pos": 3,
+      "yaoci": "需于泥，致寇至",
+      "actual": -1,
+      "struct_score": -0.7,
+      "text_score": 0,
+      "flags": {},
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 6,
+      "pos": 5,
+      "yaoci": "訟，元吉",
+      "actual": 1,
+      "struct_score": 9.1,
+      "text_score": 5,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 7,
+      "pos": 3,
+      "yaoci": "師或輿尸，凶",
+      "actual": -1,
+      "struct_score": -1.26,
+      "text_score": -4,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 8,
+      "pos": 6,
+      "yaoci": "比之無首，凶",
+      "actual": -1,
+      "struct_score": -3.15,
+      "text_score": -8,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 10,
+      "pos": 3,
+      "yaoci": "眇能視，跛能履，履虎尾，咥人，...",
+      "actual": -1,
+      "struct_score": -1.05,
+      "text_score": -4,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 11,
+      "pos": 1,
+      "yaoci": "拔茅茹，以其彙，征吉",
+      "actual": 1,
+      "struct_score": 4.5,
+      "text_score": 3,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 12,
+      "pos": 3,
+      "yaoci": "包羞",
+      "actual": -1,
+      "struct_score": -2.1,
+      "text_score": 0,
+      "flags": {},
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 15,
+      "pos": 3,
+      "yaoci": "勞謙君子，有終，吉",
+      "actual": 1,
+      "struct_score": 1.57,
+      "text_score": 3,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 16,
+      "pos": 1,
+      "yaoci": "鳴豫，凶",
+      "actual": -1,
+      "struct_score": 0.0,
+      "text_score": -4,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 17,
+      "pos": 4,
+      "yaoci": "隨有獲，貞凶，有孚在道，以明，...",
+      "actual": 0,
+      "struct_score": 0.45,
+      "text_score": 2,
+      "flags": {
+        "has_hejiu": true,
+        "has_xiong": true,
+        "is_conditional": true
+      },
+      "pred": 0,
+      "match": true
+    },
+    {
+      "hex": 19,
+      "pos": 2,
+      "yaoci": "咸臨，吉，無不利",
+      "actual": 1,
+      "struct_score": 5.78,
+      "text_score": 6,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 20,
+      "pos": 5,
+      "yaoci": "觀我生，君子無咎",
+      "actual": 0,
+      "struct_score": 3.9,
+      "text_score": 0,
+      "flags": {
+        "has_wujiu": true
+      },
+      "pred": 0,
+      "match": true
+    },
+    {
+      "hex": 21,
+      "pos": 6,
+      "yaoci": "何校滅耳，凶",
+      "actual": -1,
+      "struct_score": -3.3,
+      "text_score": -7,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 23,
+      "pos": 1,
+      "yaoci": "剝床以足，蔑貞凶",
+      "actual": -1,
+      "struct_score": -2.4,
+      "text_score": -4,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 24,
+      "pos": 1,
+      "yaoci": "不遠復，無祇悔，元吉",
+      "actual": 1,
+      "struct_score": 6.0,
+      "text_score": 4,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 24,
+      "pos": 6,
+      "yaoci": "迷復，凶，有災眚",
+      "actual": -1,
+      "struct_score": -5.85,
+      "text_score": -4,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 26,
+      "pos": 4,
+      "yaoci": "童牛之牿，元吉",
+      "actual": 1,
+      "struct_score": 4.95,
+      "text_score": 5,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 29,
+      "pos": 1,
+      "yaoci": "習坎，入于坎窞，凶",
+      "actual": -1,
+      "struct_score": -2.4,
+      "text_score": -4,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 30,
+      "pos": 2,
+      "yaoci": "黃離，元吉",
+      "actual": 1,
+      "struct_score": 3.85,
+      "text_score": 5,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 32,
+      "pos": 1,
+      "yaoci": "浚恆，貞凶，無攸利",
+      "actual": -1,
+      "struct_score": 0.0,
+      "text_score": -4,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 33,
+      "pos": 6,
+      "yaoci": "肥遯，無不利",
+      "actual": 1,
+      "struct_score": 3.3,
+      "text_score": 3,
+      "flags": {},
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 47,
+      "pos": 3,
+      "yaoci": "困于石，據于蒺藜，入于其宮，不...",
+      "actual": -1,
+      "struct_score": -2.94,
+      "text_score": -4,
+      "flags": {
+        "has_xiong": true
+      },
+      "pred": -1,
+      "match": true
+    },
+    {
+      "hex": 50,
+      "pos": 6,
+      "yaoci": "鼎玉鉉，大吉，無不利",
+      "actual": 1,
+      "struct_score": 4.95,
+      "text_score": 8,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    },
+    {
+      "hex": 64,
+      "pos": 5,
+      "yaoci": "貞吉，無悔，君子之光，有孚，吉",
+      "actual": 1,
+      "struct_score": 5.85,
+      "text_score": 3,
+      "flags": {
+        "has_ji": true
+      },
+      "pred": 1,
+      "match": true
+    }
+  ]
+}

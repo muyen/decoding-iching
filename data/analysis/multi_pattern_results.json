@@ -1,0 +1,2094 @@
+{
+  "special_positions": [
+    7,
+    14,
+    15,
+    16,
+    17,
+    21,
+    22,
+    24,
+    27,
+    28,
+    30,
+    32,
+    89,
+    98,
+    99,
+    101,
+    102,
+    115,
+    117,
+    118,
+    120,
+    139,
+    143,
+    144,
+    145,
+    147,
+    149,
+    193,
+    196,
+    198,
+    280,
+    282,
+    296,
+    298,
+    300,
+    373,
+    377
+  ],
+  "results": [
+    {
+      "name": "Fibonacci",
+      "category": "經典數列",
+      "position_match_rate": 0.10810810810810811,
+      "interval_match_rate": 0.6944444444444444,
+      "details": {
+        "matched_positions": [
+          21,
+          89,
+          144,
+          377
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          13,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "sequence_sample": [
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          34,
+          55,
+          89,
+          144,
+          233,
+          377,
+          610
+        ]
+      }
+    },
+    {
+      "name": "Lucas",
+      "category": "經典數列",
+      "position_match_rate": 0.02702702702702703,
+      "interval_match_rate": 0.7777777777777778,
+      "details": {
+        "matched_positions": [
+          7
+        ],
+        "matched_intervals": [
+          7,
+          1,
+          1,
+          1,
+          4,
+          1,
+          2,
+          3,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          4,
+          1,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        "sequence_sample": [
+          2,
+          1,
+          3,
+          4,
+          7,
+          11,
+          18,
+          29,
+          47,
+          76,
+          123,
+          199,
+          322,
+          521,
+          843
+        ]
+      }
+    },
+    {
+      "name": "Pell",
+      "category": "經典數列",
+      "position_match_rate": 0.0,
+      "interval_match_rate": 0.6111111111111112,
+      "details": {
+        "matched_positions": [],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "sequence_sample": [
+          0,
+          1,
+          2,
+          5,
+          12,
+          29,
+          70,
+          169,
+          408,
+          985,
+          2378,
+          5741,
+          13860,
+          33461,
+          80782
+        ]
+      }
+    },
+    {
+      "name": "Tribonacci",
+      "category": "經典數列",
+      "position_match_rate": 0.08108108108108109,
+      "interval_match_rate": 0.7777777777777778,
+      "details": {
+        "matched_positions": [
+          7,
+          24,
+          149
+        ],
+        "matched_intervals": [
+          7,
+          1,
+          1,
+          1,
+          4,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          13,
+          2,
+          1,
+          2,
+          4,
+          1,
+          1,
+          2,
+          2,
+          44,
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        "sequence_sample": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          4,
+          7,
+          13,
+          24,
+          44,
+          81,
+          149,
+          274,
+          504,
+          927
+        ]
+      }
+    },
+    {
+      "name": "Catalan",
+      "category": "經典數列",
+      "position_match_rate": 0.02702702702702703,
+      "interval_match_rate": 0.6388888888888888,
+      "details": {
+        "matched_positions": [
+          14
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          14,
+          2,
+          2
+        ],
+        "sequence_sample": [
+          1,
+          1,
+          2,
+          5,
+          14,
+          42,
+          132,
+          429,
+          1430,
+          4862,
+          16796,
+          58786,
+          208012,
+          742900,
+          2674440
+        ]
+      }
+    },
+    {
+      "name": "三角數",
+      "category": "多邊形數",
+      "position_match_rate": 0.13513513513513514,
+      "interval_match_rate": 0.3333333333333333,
+      "details": {
+        "matched_positions": [
+          15,
+          21,
+          28,
+          120,
+          300
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "sequence_sample": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          21,
+          28,
+          36,
+          45,
+          55,
+          66,
+          78,
+          91,
+          105,
+          120
+        ]
+      }
+    },
+    {
+      "name": "平方數",
+      "category": "多邊形數",
+      "position_match_rate": 0.08108108108108109,
+      "interval_match_rate": 0.3888888888888889,
+      "details": {
+        "matched_positions": [
+          16,
+          144,
+          196
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          9,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          4
+        ],
+        "sequence_sample": [
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49,
+          64,
+          81,
+          100,
+          121,
+          144,
+          169,
+          196,
+          225
+        ]
+      }
+    },
+    {
+      "name": "五角數",
+      "category": "多邊形數",
+      "position_match_rate": 0.08108108108108109,
+      "interval_match_rate": 0.2777777777777778,
+      "details": {
+        "matched_positions": [
+          22,
+          117,
+          145
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "sequence_sample": [
+          1,
+          5,
+          12,
+          22,
+          35,
+          51,
+          70,
+          92,
+          117,
+          145,
+          176,
+          210,
+          247,
+          287,
+          330
+        ]
+      }
+    },
+    {
+      "name": "六角數",
+      "category": "多邊形數",
+      "position_match_rate": 0.08108108108108109,
+      "interval_match_rate": 0.2777777777777778,
+      "details": {
+        "matched_positions": [
+          15,
+          28,
+          120
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "sequence_sample": [
+          1,
+          6,
+          15,
+          28,
+          45,
+          66,
+          91,
+          120,
+          153,
+          190,
+          231,
+          276,
+          325,
+          378,
+          435
+        ]
+      }
+    },
+    {
+      "name": "質數",
+      "category": "質數相關",
+      "position_match_rate": 0.21621621621621623,
+      "interval_match_rate": 0.5,
+      "details": {
+        "matched_positions": [
+          7,
+          17,
+          89,
+          101,
+          139,
+          149,
+          193,
+          373
+        ],
+        "matched_intervals": [
+          7,
+          2,
+          3,
+          2,
+          2,
+          2,
+          13,
+          2,
+          2,
+          19,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          2,
+          73
+        ],
+        "sequence_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          29,
+          31,
+          37,
+          41,
+          43,
+          47
+        ]
+      }
+    },
+    {
+      "name": "半質數",
+      "category": "質數相關",
+      "position_match_rate": 0.21621621621621623,
+      "interval_match_rate": 0.19444444444444445,
+      "details": {
+        "matched_positions": [
+          14,
+          15,
+          21,
+          22,
+          115,
+          118,
+          143,
+          145
+        ],
+        "matched_intervals": [
+          4,
+          57,
+          9,
+          4,
+          82,
+          14,
+          4
+        ],
+        "sequence_sample": [
+          4,
+          6,
+          9,
+          10,
+          14,
+          15,
+          21,
+          22,
+          25,
+          26,
+          33,
+          34,
+          35,
+          38,
+          39
+        ]
+      }
+    },
+    {
+      "name": "2的冪次",
+      "category": "冪次數",
+      "position_match_rate": 0.05405405405405406,
+      "interval_match_rate": 0.6944444444444444,
+      "details": {
+        "matched_positions": [
+          16,
+          32
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          4,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          4,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        "sequence_sample": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512
+        ]
+      }
+    },
+    {
+      "name": "3的冪次",
+      "category": "冪次數",
+      "position_match_rate": 0.02702702702702703,
+      "interval_match_rate": 0.3611111111111111,
+      "details": {
+        "matched_positions": [
+          27
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          9,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "sequence_sample": [
+          1,
+          3,
+          9,
+          27,
+          81,
+          243,
+          729,
+          2187
+        ]
+      }
+    },
+    {
+      "name": "階乘數",
+      "category": "冪次數",
+      "position_match_rate": 0.05405405405405406,
+      "interval_match_rate": 0.6111111111111112,
+      "details": {
+        "matched_positions": [
+          24,
+          120
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "sequence_sample": [
+          1,
+          2,
+          6,
+          24,
+          120,
+          720,
+          5040,
+          40320
+        ]
+      }
+    },
+    {
+      "name": "完美數",
+      "category": "特殊數",
+      "position_match_rate": 0.02702702702702703,
+      "interval_match_rate": 0.0,
+      "details": {
+        "matched_positions": [
+          28
+        ],
+        "matched_intervals": [],
+        "sequence_sample": [
+          6,
+          28,
+          496,
+          8128
+        ]
+      }
+    },
+    {
+      "name": "高合成數",
+      "category": "特殊數",
+      "position_match_rate": 0.05405405405405406,
+      "interval_match_rate": 0.6944444444444444,
+      "details": {
+        "matched_positions": [
+          24,
+          120
+        ],
+        "matched_intervals": [
+          1,
+          1,
+          1,
+          4,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          4,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        "sequence_sample": [
+          1,
+          2,
+          4,
+          6,
+          12,
+          24,
+          36,
+          48,
+          60,
+          120,
+          180,
+          240,
+          360,
+          720
+        ]
+      }
+    },
+    {
+      "name": "mod 3",
+      "category": "模運算",
+      "position_match_rate": 0.3783783783783784,
+      "interval_match_rate": 0.5,
+      "details": {
+        "modulus": 3,
+        "position_distribution": {
+          "1": 13,
+          "2": 10,
+          "0": 14
+        },
+        "interval_distribution": {
+          "1": 18,
+          "2": 14,
+          "0": 4
+        },
+        "concentration": 1.135135135135135,
+        "dominant_remainder": 0
+      }
+    },
+    {
+      "name": "mod 4",
+      "category": "模運算",
+      "position_match_rate": 0.2702702702702703,
+      "interval_match_rate": 0.3888888888888889,
+      "details": {
+        "modulus": 4,
+        "position_distribution": {
+          "3": 8,
+          "2": 9,
+          "0": 10,
+          "1": 10
+        },
+        "interval_distribution": {
+          "3": 4,
+          "1": 14,
+          "0": 4,
+          "2": 14
+        },
+        "concentration": 1.0810810810810811,
+        "dominant_remainder": 0
+      }
+    },
+    {
+      "name": "mod 5",
+      "category": "模運算",
+      "position_match_rate": 0.2702702702702703,
+      "interval_match_rate": 0.4166666666666667,
+      "details": {
+        "modulus": 5,
+        "position_distribution": {
+          "2": 10,
+          "4": 7,
+          "0": 7,
+          "1": 5,
+          "3": 8
+        },
+        "interval_distribution": {
+          "2": 15,
+          "1": 10,
+          "4": 7,
+          "3": 4
+        },
+        "concentration": 1.3513513513513513,
+        "dominant_remainder": 2
+      }
+    },
+    {
+      "name": "mod 6",
+      "category": "模運算",
+      "position_match_rate": 0.21621621621621623,
+      "interval_match_rate": 0.3888888888888889,
+      "details": {
+        "modulus": 6,
+        "position_distribution": {
+          "1": 6,
+          "2": 4,
+          "3": 6,
+          "4": 7,
+          "5": 6,
+          "0": 8
+        },
+        "interval_distribution": {
+          "1": 14,
+          "4": 4,
+          "2": 14,
+          "3": 4
+        },
+        "concentration": 1.2972972972972971,
+        "dominant_remainder": 0
+      }
+    },
+    {
+      "name": "mod 7",
+      "category": "模運算",
+      "position_match_rate": 0.21621621621621623,
+      "interval_match_rate": 0.3888888888888889,
+      "details": {
+        "modulus": 7,
+        "position_distribution": {
+          "0": 8,
+          "1": 4,
+          "2": 7,
+          "3": 5,
+          "6": 5,
+          "4": 5,
+          "5": 3
+        },
+        "interval_distribution": {
+          "0": 2,
+          "1": 11,
+          "4": 3,
+          "2": 14,
+          "3": 3,
+          "6": 1,
+          "5": 2
+        },
+        "concentration": 1.5135135135135136,
+        "dominant_remainder": 0
+      }
+    },
+    {
+      "name": "mod 8",
+      "category": "模運算",
+      "position_match_rate": 0.1891891891891892,
+      "interval_match_rate": 0.3611111111111111,
+      "details": {
+        "modulus": 8,
+        "position_distribution": {
+          "7": 3,
+          "6": 6,
+          "0": 7,
+          "1": 5,
+          "5": 5,
+          "3": 5,
+          "4": 3,
+          "2": 3
+        },
+        "interval_distribution": {
+          "7": 1,
+          "1": 13,
+          "4": 4,
+          "2": 13,
+          "3": 3,
+          "5": 1,
+          "6": 1
+        },
+        "concentration": 1.5135135135135136,
+        "dominant_remainder": 0
+      }
+    },
+    {
+      "name": "mod 9",
+      "category": "模運算",
+      "position_match_rate": 0.1891891891891892,
+      "interval_match_rate": 0.3611111111111111,
+      "details": {
+        "modulus": 9,
+        "position_distribution": {
+          "7": 4,
+          "5": 3,
+          "6": 2,
+          "8": 6,
+          "3": 7,
+          "4": 4,
+          "0": 5,
+          "1": 5,
+          "2": 1
+        },
+        "interval_distribution": {
+          "7": 1,
+          "1": 13,
+          "4": 4,
+          "2": 12,
+          "3": 3,
+          "0": 1,
+          "8": 1,
+          "5": 1
+        },
+        "concentration": 1.7027027027027029,
+        "dominant_remainder": 3
+      }
+    },
+    {
+      "name": "mod 10",
+      "category": "模運算",
+      "position_match_rate": 0.16216216216216217,
+      "interval_match_rate": 0.3611111111111111,
+      "details": {
+        "modulus": 10,
+        "position_distribution": {
+          "7": 6,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "1": 2,
+          "2": 4,
+          "8": 5,
+          "0": 4,
+          "9": 4,
+          "3": 3
+        },
+        "interval_distribution": {
+          "7": 2,
+          "1": 10,
+          "4": 5,
+          "2": 13,
+          "3": 4,
+          "9": 2
+        },
+        "concentration": 1.6216216216216215,
+        "dominant_remainder": 7
+      }
+    },
+    {
+      "name": "mod 11",
+      "category": "模運算",
+      "position_match_rate": 0.16216216216216217,
+      "interval_match_rate": 0.3888888888888889,
+      "details": {
+        "modulus": 11,
+        "position_distribution": {
+          "7": 4,
+          "3": 4,
+          "4": 2,
+          "5": 4,
+          "6": 4,
+          "10": 6,
+          "0": 4,
+          "2": 3,
+          "8": 2,
+          "1": 3,
+          "9": 1
+        },
+        "interval_distribution": {
+          "7": 2,
+          "1": 10,
+          "4": 3,
+          "2": 14,
+          "3": 3,
+          "9": 1,
+          "8": 1,
+          "0": 1,
+          "5": 1
+        },
+        "concentration": 1.7837837837837838,
+        "dominant_remainder": 10
+      }
+    },
+    {
+      "name": "mod 12",
+      "category": "模運算",
+      "position_match_rate": 0.13513513513513514,
+      "interval_match_rate": 0.3611111111111111,
+      "details": {
+        "modulus": 12,
+        "position_distribution": {
+          "7": 3,
+          "2": 2,
+          "3": 4,
+          "4": 4,
+          "5": 5,
+          "9": 2,
+          "10": 3,
+          "0": 4,
+          "6": 4,
+          "8": 2,
+          "11": 1,
+          "1": 3
+        },
+        "interval_distribution": {
+          "7": 2,
+          "1": 12,
+          "4": 3,
+          "2": 13,
+          "3": 2,
+          "9": 2,
+          "8": 1,
+          "10": 1
+        },
+        "concentration": 1.6216216216216215,
+        "dominant_remainder": 5
+      }
+    },
+    {
+      "name": "mod 13",
+      "category": "模運算",
+      "position_match_rate": 0.16216216216216217,
+      "interval_match_rate": 0.3333333333333333,
+      "details": {
+        "modulus": 13,
+        "position_distribution": {
+          "7": 3,
+          "1": 6,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "8": 2,
+          "9": 4,
+          "11": 5,
+          "6": 2,
+          "10": 2,
+          "0": 3,
+          "12": 1
+        },
+        "interval_distribution": {
+          "7": 1,
+          "1": 11,
+          "4": 4,
+          "2": 12,
+          "3": 2,
+          "5": 2,
+          "9": 1,
+          "0": 1,
+          "6": 1,
+          "8": 1
+        },
+        "concentration": 2.108108108108108,
+        "dominant_remainder": 1
+      }
+    },
+    {
+      "name": "mod 24",
+      "category": "模運算",
+      "position_match_rate": 0.08108108108108109,
+      "interval_match_rate": 0.3333333333333333,
+      "details": {
+        "modulus": 24,
+        "position_distribution": {
+          "7": 1,
+          "14": 1,
+          "15": 1,
+          "16": 2,
+          "17": 3,
+          "21": 2,
+          "22": 2,
+          "0": 3,
+          "3": 3,
+          "4": 2,
+          "6": 3,
+          "8": 2,
+          "2": 1,
+          "5": 2,
+          "19": 2,
+          "23": 1,
+          "1": 2,
+          "18": 1,
+          "10": 1,
+          "12": 1,
+          "13": 1
+        },
+        "interval_distribution": {
+          "7": 1,
+          "1": 11,
+          "4": 3,
+          "2": 12,
+          "3": 2,
+          "9": 2,
+          "13": 1,
+          "19": 1,
+          "20": 1,
+          "10": 1,
+          "14": 1
+        },
+        "concentration": 1.9459459459459458,
+        "dominant_remainder": 17
+      }
+    },
+    {
+      "name": "mod 60",
+      "category": "模運算",
+      "position_match_rate": 0.05405405405405406,
+      "interval_match_rate": 0.3333333333333333,
+      "details": {
+        "modulus": 60,
+        "position_distribution": {
+          "7": 1,
+          "14": 1,
+          "15": 1,
+          "16": 2,
+          "17": 2,
+          "21": 1,
+          "22": 1,
+          "24": 2,
+          "27": 2,
+          "28": 1,
+          "30": 1,
+          "32": 1,
+          "29": 2,
+          "38": 1,
+          "39": 1,
+          "41": 1,
+          "42": 2,
+          "55": 1,
+          "57": 1,
+          "58": 2,
+          "0": 2,
+          "19": 1,
+          "23": 1,
+          "25": 1,
+          "13": 2,
+          "18": 1,
+          "40": 1,
+          "56": 1
+        },
+        "interval_distribution": {
+          "7": 1,
+          "1": 10,
+          "4": 3,
+          "2": 12,
+          "3": 2,
+          "57": 1,
+          "9": 1,
+          "13": 2,
+          "19": 1,
+          "44": 1,
+          "22": 1,
+          "14": 1
+        },
+        "concentration": 3.243243243243243,
+        "dominant_remainder": 16
+      }
+    },
+    {
+      "name": "mod 64",
+      "category": "模運算",
+      "position_match_rate": 0.05405405405405406,
+      "interval_match_rate": 0.3333333333333333,
+      "details": {
+        "modulus": 64,
+        "position_distribution": {
+          "7": 1,
+          "14": 1,
+          "15": 2,
+          "16": 2,
+          "17": 2,
+          "21": 2,
+          "22": 1,
+          "24": 2,
+          "27": 1,
+          "28": 1,
+          "30": 1,
+          "32": 1,
+          "25": 1,
+          "34": 1,
+          "35": 1,
+          "37": 1,
+          "38": 1,
+          "51": 1,
+          "53": 2,
+          "54": 1,
+          "56": 1,
+          "11": 1,
+          "19": 1,
+          "1": 1,
+          "4": 1,
+          "6": 1,
+          "26": 1,
+          "40": 1,
+          "42": 1,
+          "44": 1,
+          "57": 1
+        },
+        "interval_distribution": {
+          "7": 1,
+          "1": 10,
+          "4": 3,
+          "2": 12,
+          "3": 2,
+          "57": 1,
+          "9": 2,
+          "13": 1,
+          "19": 1,
+          "44": 1,
+          "18": 1,
+          "14": 1
+        },
+        "concentration": 3.4594594594594597,
+        "dominant_remainder": 15
+      }
+    },
+    {
+      "name": "黃金比例 φ",
+      "category": "數學常數",
+      "position_match_rate": 0.2702702702702703,
+      "interval_match_rate": 0.5,
+      "details": {
+        "constant": 1.618033988749895,
+        "generated_positions": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          16,
+          17,
+          19,
+          21,
+          22,
+          24,
+          25,
+          27,
+          29,
+          30,
+          32
+        ],
+        "matched": [
+          14,
+          16,
+          17,
+          21,
+          22,
+          24,
+          27,
+          30,
+          32,
+          144
+        ]
+      }
+    },
+    {
+      "name": "自然對數 e",
+      "category": "數學常數",
+      "position_match_rate": 0.16216216216216217,
+      "interval_match_rate": 0.4444444444444444,
+      "details": {
+        "constant": 2.718281828459045,
+        "generated_positions": [
+          2,
+          5,
+          6,
+          8,
+          10,
+          13,
+          16,
+          18,
+          19,
+          21,
+          24,
+          27,
+          29,
+          32,
+          35,
+          38,
+          40,
+          43,
+          46,
+          48
+        ],
+        "matched": [
+          16,
+          21,
+          24,
+          27,
+          32,
+          89
+        ]
+      }
+    },
+    {
+      "name": "圓周率 π",
+      "category": "數學常數",
+      "position_match_rate": 0.16216216216216217,
+      "interval_match_rate": 0.3611111111111111,
+      "details": {
+        "constant": 3.141592653589793,
+        "generated_positions": [
+          1,
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          25,
+          28,
+          31,
+          34,
+          37,
+          38,
+          40,
+          43,
+          47,
+          50,
+          53,
+          56
+        ],
+        "matched": [
+          15,
+          21,
+          28,
+          120,
+          144,
+          147
+        ]
+      }
+    },
+    {
+      "name": "√2",
+      "category": "數學常數",
+      "position_match_rate": 0.24324324324324326,
+      "interval_match_rate": 0.8333333333333334,
+      "details": {
+        "constant": 1.4142135623730951,
+        "generated_positions": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "matched": [
+          7,
+          14,
+          15,
+          16,
+          21,
+          22,
+          24,
+          28,
+          32
+        ]
+      }
+    },
+    {
+      "name": "√3",
+      "category": "數學常數",
+      "position_match_rate": 0.16216216216216217,
+      "interval_match_rate": 0.8333333333333334,
+      "details": {
+        "constant": 1.7320508075688772,
+        "generated_positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          12,
+          13,
+          15,
+          17,
+          19,
+          20,
+          22,
+          24,
+          25,
+          27,
+          29,
+          31
+        ],
+        "matched": [
+          15,
+          17,
+          22,
+          24,
+          27,
+          32
+        ]
+      }
+    },
+    {
+      "name": "白銀比例",
+      "category": "數學常數",
+      "position_match_rate": 0.2972972972972973,
+      "interval_match_rate": 0.8611111111111112,
+      "details": {
+        "constant": 2.414213562373095,
+        "generated_positions": [
+          1,
+          2,
+          4,
+          7,
+          9,
+          11,
+          12,
+          14,
+          16,
+          19,
+          21,
+          24,
+          26,
+          28,
+          31,
+          33,
+          36,
+          38,
+          41,
+          43
+        ],
+        "matched": [
+          7,
+          14,
+          16,
+          21,
+          24,
+          28,
+          89,
+          98,
+          101,
+          115,
+          118
+        ]
+      }
+    },
+    {
+      "name": "塑料數",
+      "category": "數學常數",
+      "position_match_rate": 0.21621621621621623,
+      "interval_match_rate": 0.8888888888888888,
+      "details": {
+        "constant": 1.324717957244746,
+        "generated_positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23
+        ],
+        "matched": [
+          7,
+          14,
+          15,
+          17,
+          21,
+          22,
+          27,
+          30
+        ]
+      }
+    },
+    {
+      "name": "朔望月 29.53",
+      "category": "數學常數",
+      "position_match_rate": 0.05405405405405406,
+      "interval_match_rate": 0.0,
+      "details": {
+        "constant": 29.53059,
+        "generated_positions": [
+          12,
+          29,
+          59,
+          88,
+          118,
+          147,
+          177,
+          206,
+          236,
+          265,
+          295,
+          324,
+          354
+        ],
+        "matched": [
+          118,
+          147
+        ]
+      }
+    },
+    {
+      "name": "節氣 15.22",
+      "category": "數學常數",
+      "position_match_rate": 0.08108108108108109,
+      "interval_match_rate": 0.2777777777777778,
+      "details": {
+        "constant": 15.218425000000002,
+        "generated_positions": [
+          1,
+          15,
+          24,
+          30,
+          45,
+          60,
+          76,
+          91,
+          106,
+          121,
+          136,
+          152,
+          167,
+          182,
+          197,
+          213,
+          228,
+          243,
+          258,
+          273
+        ],
+        "matched": [
+          15,
+          24,
+          30
+        ]
+      }
+    },
+    {
+      "name": "默冬週期 19",
+      "category": "數學常數",
+      "position_match_rate": 0.0,
+      "interval_match_rate": 0.3333333333333333,
+      "details": {
+        "constant": 19.0,
+        "generated_positions": [
+          1,
+          19,
+          38,
+          57,
+          76,
+          95,
+          114,
+          133,
+          152,
+          171,
+          190,
+          209,
+          228,
+          247,
+          266,
+          285,
+          304,
+          323,
+          342,
+          361
+        ],
+        "matched": []
+      }
+    },
+    {
+      "name": "沙羅週期 18.03",
+      "category": "數學常數",
+      "position_match_rate": 0.05405405405405406,
+      "interval_match_rate": 0.2777777777777778,
+      "details": {
+        "constant": 18.03,
+        "generated_positions": [
+          1,
+          18,
+          20,
+          36,
+          54,
+          72,
+          90,
+          108,
+          126,
+          144,
+          162,
+          180,
+          198,
+          216,
+          234,
+          252,
+          270,
+          288,
+          306,
+          324
+        ],
+        "matched": [
+          144,
+          198
+        ]
+      }
+    },
+    {
+      "name": "八卦週期(8)",
+      "category": "中國傳統",
+      "position_match_rate": 0.1891891891891892,
+      "interval_match_rate": 0.0,
+      "details": {
+        "matched_positions": [
+          16,
+          24,
+          32,
+          120,
+          144,
+          280,
+          296
+        ],
+        "matched_intervals": [],
+        "sequence_sample": [
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+          104,
+          112,
+          120
+        ]
+      }
+    },
+    {
+      "name": "九宮週期(9)",
+      "category": "中國傳統",
+      "position_match_rate": 0.13513513513513514,
+      "interval_match_rate": 0.027777777777777776,
+      "details": {
+        "matched_positions": [
+          27,
+          99,
+          117,
+          144,
+          198
+        ],
+        "matched_intervals": [
+          9
+        ],
+        "sequence_sample": [
+          9,
+          18,
+          27,
+          36,
+          45,
+          54,
+          63,
+          72,
+          81,
+          90,
+          99,
+          108,
+          117,
+          126,
+          135
+        ]
+      }
+    },
+    {
+      "name": "天干週期(10)",
+      "category": "中國傳統",
+      "position_match_rate": 0.10810810810810811,
+      "interval_match_rate": 0.0,
+      "details": {
+        "matched_positions": [
+          30,
+          120,
+          280,
+          300
+        ],
+        "matched_intervals": [],
+        "sequence_sample": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130,
+          140,
+          150
+        ]
+      }
+    },
+    {
+      "name": "地支週期(12)",
+      "category": "中國傳統",
+      "position_match_rate": 0.10810810810810811,
+      "interval_match_rate": 0.0,
+      "details": {
+        "matched_positions": [
+          24,
+          120,
+          144,
+          300
+        ],
+        "matched_intervals": [],
+        "sequence_sample": [
+          12,
+          24,
+          36,
+          48,
+          60,
+          72,
+          84,
+          96,
+          108,
+          120,
+          132,
+          144,
+          156,
+          168,
+          180
+        ]
+      }
+    },
+    {
+      "name": "甲子週期(60)",
+      "category": "中國傳統",
+      "position_match_rate": 0.05405405405405406,
+      "interval_match_rate": 0.0,
+      "details": {
+        "matched_positions": [
+          120,
+          300
+        ],
+        "matched_intervals": [],
+        "sequence_sample": [
+          60,
+          120,
+          180,
+          240,
+          300,
+          360
+        ]
+      }
+    },
+    {
+      "name": "64卦週期",
+      "category": "中國傳統",
+      "position_match_rate": 0.0,
+      "interval_match_rate": 0.0,
+      "details": {
+        "matched_positions": [],
+        "matched_intervals": [],
+        "sequence_sample": [
+          64,
+          128,
+          192,
+          256,
+          320,
+          384
+        ]
+      }
+    },
+    {
+      "name": "八度 2:1",
+      "category": "數學常數",
+      "position_match_rate": 0.21621621621621623,
+      "interval_match_rate": 0.7777777777777778,
+      "details": {
+        "constant": 2.0,
+        "generated_positions": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          10,
+          11,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          23,
+          24,
+          26,
+          28,
+          30,
+          32
+        ],
+        "matched": [
+          14,
+          16,
+          22,
+          24,
+          28,
+          30,
+          32,
+          98
+        ]
+      }
+    },
+    {
+      "name": "五度 3:2",
+      "category": "數學常數",
+      "position_match_rate": 0.2702702702702703,
+      "interval_match_rate": 0.9444444444444444,
+      "details": {
+        "constant": 1.5,
+        "generated_positions": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          21,
+          22,
+          24,
+          25,
+          27
+        ],
+        "matched": [
+          7,
+          14,
+          15,
+          16,
+          21,
+          22,
+          24,
+          27,
+          28,
+          30
+        ]
+      }
+    },
+    {
+      "name": "四度 4:3",
+      "category": "數學常數",
+      "position_match_rate": 0.32432432432432434,
+      "interval_match_rate": 0.8888888888888888,
+      "details": {
+        "constant": 1.3333333333333333,
+        "generated_positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22
+        ],
+        "matched": [
+          14,
+          15,
+          16,
+          17,
+          21,
+          22,
+          24,
+          28,
+          30,
+          32,
+          89,
+          282
+        ]
+      }
+    },
+    {
+      "name": "大三度 5:4",
+      "category": "數學常數",
+      "position_match_rate": 0.32432432432432434,
+      "interval_match_rate": 0.8333333333333334,
+      "details": {
+        "constant": 1.25,
+        "generated_positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23
+        ],
+        "matched": [
+          7,
+          15,
+          16,
+          17,
+          21,
+          22,
+          27,
+          28,
+          30,
+          32,
+          98,
+          193
+        ]
+      }
+    },
+    {
+      "name": "小三度 6:5",
+      "category": "數學常數",
+      "position_match_rate": 0.2972972972972973,
+      "interval_match_rate": 0.9722222222222222,
+      "details": {
+        "constant": 1.2,
+        "generated_positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21
+        ],
+        "matched": [
+          7,
+          14,
+          15,
+          16,
+          21,
+          22,
+          24,
+          27,
+          28,
+          30,
+          32
+        ]
+      }
+    }
+  ]
+}

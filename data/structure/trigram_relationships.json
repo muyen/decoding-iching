@@ -1,0 +1,126 @@
+{
+  "complementary_pairs": [
+    {
+      "pair": [
+        "乾",
+        "坤"
+      ],
+      "relationship": "定位",
+      "meaning": "establish position (heaven-earth axis)"
+    },
+    {
+      "pair": [
+        "艮",
+        "兌"
+      ],
+      "relationship": "通氣",
+      "meaning": "exchange energy (mountain-lake)"
+    },
+    {
+      "pair": [
+        "震",
+        "巽"
+      ],
+      "relationship": "相薄",
+      "meaning": "interact closely (thunder-wind)"
+    },
+    {
+      "pair": [
+        "坎",
+        "離"
+      ],
+      "relationship": "不相射",
+      "meaning": "do not oppose (water-fire balance)"
+    }
+  ],
+  "fuxi_sequence": {
+    "description": "先天八卦 (Fu Xi / Before Heaven arrangement)",
+    "arrangement": [
+      {
+        "position": "South",
+        "trigram": "乾",
+        "binary": "111"
+      },
+      {
+        "position": "North",
+        "trigram": "坤",
+        "binary": "000"
+      },
+      {
+        "position": "East",
+        "trigram": "離",
+        "binary": "101"
+      },
+      {
+        "position": "West",
+        "trigram": "坎",
+        "binary": "010"
+      },
+      {
+        "position": "Northeast",
+        "trigram": "震",
+        "binary": "100"
+      },
+      {
+        "position": "Southwest",
+        "trigram": "巽",
+        "binary": "011"
+      },
+      {
+        "position": "Southeast",
+        "trigram": "兌",
+        "binary": "110"
+      },
+      {
+        "position": "Northwest",
+        "trigram": "艮",
+        "binary": "001"
+      }
+    ]
+  },
+  "king_wen_sequence": {
+    "description": "後天八卦 (King Wen / After Heaven arrangement)",
+    "arrangement": [
+      {
+        "position": "South",
+        "trigram": "離",
+        "binary": "101"
+      },
+      {
+        "position": "North",
+        "trigram": "坎",
+        "binary": "010"
+      },
+      {
+        "position": "East",
+        "trigram": "震",
+        "binary": "100"
+      },
+      {
+        "position": "West",
+        "trigram": "兌",
+        "binary": "110"
+      },
+      {
+        "position": "Northeast",
+        "trigram": "艮",
+        "binary": "001"
+      },
+      {
+        "position": "Southwest",
+        "trigram": "坤",
+        "binary": "000"
+      },
+      {
+        "position": "Southeast",
+        "trigram": "巽",
+        "binary": "011"
+      },
+      {
+        "position": "Northwest",
+        "trigram": "乾",
+        "binary": "111"
+      }
+    ]
+  }
+}

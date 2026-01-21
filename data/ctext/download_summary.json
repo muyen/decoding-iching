@@ -1,0 +1,35 @@
+{
+  "title": "周易完整文本",
+  "title_en": "Complete Zhou Yi Texts",
+  "source": "ctext.org",
+  "download_date": "2026-01-20T12:50:56.660457",
+  "statistics": {
+    "downloaded": 93,
+    "failed": 106,
+    "api_calls": 199,
+    "web_scrapes": 42
+  },
+  "duration_seconds": 189.82082986831665,
+  "files": {
+    "hexagrams": "zhouyi_64gua.json",
+    "tuan_zhuan": "yizhuan_tuanzhuan.json",
+    "xiang_zhuan": "yizhuan_xiangzhuan.json",
+    "xi_ci": "yizhuan_xici.json",
+    "wen_yan": "yizhuan_wenyan.json",
+    "shuo_gua": "yizhuan_shuogua.json",
+    "xu_gua": "yizhuan_xugua.json",
+    "za_gua": "yizhuan_zagua.json"
+  },
+  "structure": {
+    "hexagrams_count": 64,
+    "ten_wings": [
+      "tuan-zhuan",
+      "xiang-zhuan",
+      "xi-ci",
+      "wen-yan",
+      "shuo-gua",
+      "xu-gua",
+      "za-gua"
+    ]
+  }
+}

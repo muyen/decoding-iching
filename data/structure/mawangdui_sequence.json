@@ -1,0 +1,473 @@
+{
+  "title": "馬王堆帛書易經卦序",
+  "english_title": "Mawangdui Silk Manuscript Hexagram Sequence",
+  "date": "168 BCE (burial date)",
+  "description": "The Mawangdui silk manuscript arranges hexagrams by upper trigram, different from the King Wen sequence. Each group of 8 hexagrams shares the same upper trigram, starting with the pure hexagram.",
+  "source": "Reconstructed from academic sources (Shaughnessy 1997, et al.)",
+  "note": "The exact order within each octet is somewhat uncertain; this follows the most common scholarly reconstruction.",
+  "organization": {
+    "principle": "Grouped by upper trigram",
+    "upper_trigram_order": [
+      "乾",
+      "艮",
+      "坎",
+      "震",
+      "坤",
+      "兌",
+      "離",
+      "巽"
+    ],
+    "octets": 8,
+    "hexagrams_per_octet": 8
+  },
+  "sequence": [
+    {
+      "mawangdui_position": 1,
+      "name": "乾",
+      "binary": "111111",
+      "upper_trigram": "乾",
+      "lower_trigram": "乾"
+    },
+    {
+      "mawangdui_position": 2,
+      "name": "否",
+      "binary": "000111",
+      "upper_trigram": "乾",
+      "lower_trigram": "坤"
+    },
+    {
+      "mawangdui_position": 3,
+      "name": "遯",
+      "binary": "001111",
+      "upper_trigram": "乾",
+      "lower_trigram": "艮"
+    },
+    {
+      "mawangdui_position": 4,
+      "name": "履",
+      "binary": "110111",
+      "upper_trigram": "乾",
+      "lower_trigram": "兌"
+    },
+    {
+      "mawangdui_position": 5,
+      "name": "訟",
+      "binary": "010111",
+      "upper_trigram": "乾",
+      "lower_trigram": "坎"
+    },
+    {
+      "mawangdui_position": 6,
+      "name": "同人",
+      "binary": "101111",
+      "upper_trigram": "乾",
+      "lower_trigram": "離"
+    },
+    {
+      "mawangdui_position": 7,
+      "name": "無妄",
+      "binary": "100111",
+      "upper_trigram": "乾",
+      "lower_trigram": "震"
+    },
+    {
+      "mawangdui_position": 8,
+      "name": "姤",
+      "binary": "011111",
+      "upper_trigram": "乾",
+      "lower_trigram": "巽"
+    },
+    {
+      "mawangdui_position": 9,
+      "name": "艮",
+      "binary": "001001",
+      "upper_trigram": "艮",
+      "lower_trigram": "艮"
+    },
+    {
+      "mawangdui_position": 10,
+      "name": "大畜",
+      "binary": "111001",
+      "upper_trigram": "艮",
+      "lower_trigram": "乾"
+    },
+    {
+      "mawangdui_position": 11,
+      "name": "剝",
+      "binary": "000001",
+      "upper_trigram": "艮",
+      "lower_trigram": "坤"
+    },
+    {
+      "mawangdui_position": 12,
+      "name": "損",
+      "binary": "110001",
+      "upper_trigram": "艮",
+      "lower_trigram": "兌"
+    },
+    {
+      "mawangdui_position": 13,
+      "name": "蒙",
+      "binary": "010001",
+      "upper_trigram": "艮",
+      "lower_trigram": "坎"
+    },
+    {
+      "mawangdui_position": 14,
+      "name": "賁",
+      "binary": "101001",
+      "upper_trigram": "艮",
+      "lower_trigram": "離"
+    },
+    {
+      "mawangdui_position": 15,
+      "name": "頤",
+      "binary": "100001",
+      "upper_trigram": "艮",
+      "lower_trigram": "震"
+    },
+    {
+      "mawangdui_position": 16,
+      "name": "蠱",
+      "binary": "011001",
+      "upper_trigram": "艮",
+      "lower_trigram": "巽"
+    },
+    {
+      "mawangdui_position": 17,
+      "name": "坎",
+      "binary": "010010",
+      "upper_trigram": "坎",
+      "lower_trigram": "坎"
+    },
+    {
+      "mawangdui_position": 18,
+      "name": "需",
+      "binary": "111010",
+      "upper_trigram": "坎",
+      "lower_trigram": "乾"
+    },
+    {
+      "mawangdui_position": 19,
+      "name": "比",
+      "binary": "000010",
+      "upper_trigram": "坎",
+      "lower_trigram": "坤"
+    },
+    {
+      "mawangdui_position": 20,
+      "name": "蹇",
+      "binary": "001010",
+      "upper_trigram": "坎",
+      "lower_trigram": "艮"
+    },
+    {
+      "mawangdui_position": 21,
+      "name": "節",
+      "binary": "110010",
+      "upper_trigram": "坎",
+      "lower_trigram": "兌"
+    },
+    {
+      "mawangdui_position": 22,
+      "name": "既濟",
+      "binary": "101010",
+      "upper_trigram": "坎",
+      "lower_trigram": "離"
+    },
+    {
+      "mawangdui_position": 23,
+      "name": "屯",
+      "binary": "100010",
+      "upper_trigram": "坎",
+      "lower_trigram": "震"
+    },
+    {
+      "mawangdui_position": 24,
+      "name": "井",
+      "binary": "011010",
+      "upper_trigram": "坎",
+      "lower_trigram": "巽"
+    },
+    {
+      "mawangdui_position": 25,
+      "name": "震",
+      "binary": "100100",
+      "upper_trigram": "震",
+      "lower_trigram": "震"
+    },
+    {
+      "mawangdui_position": 26,
+      "name": "大壯",
+      "binary": "111100",
+      "upper_trigram": "震",
+      "lower_trigram": "乾"
+    },
+    {
+      "mawangdui_position": 27,
+      "name": "豫",
+      "binary": "000100",
+      "upper_trigram": "震",
+      "lower_trigram": "坤"
+    },
+    {
+      "mawangdui_position": 28,
+      "name": "小過",
+      "binary": "001100",
+      "upper_trigram": "震",
+      "lower_trigram": "艮"
+    },
+    {
+      "mawangdui_position": 29,
+      "name": "歸妹",
+      "binary": "110100",
+      "upper_trigram": "震",
+      "lower_trigram": "兌"
+    },
+    {
+      "mawangdui_position": 30,
+      "name": "解",
+      "binary": "010100",
+      "upper_trigram": "震",
+      "lower_trigram": "坎"
+    },
+    {
+      "mawangdui_position": 31,
+      "name": "豐",
+      "binary": "101100",
+      "upper_trigram": "震",
+      "lower_trigram": "離"
+    },
+    {
+      "mawangdui_position": 32,
+      "name": "恆",
+      "binary": "011100",
+      "upper_trigram": "震",
+      "lower_trigram": "巽"
+    },
+    {
+      "mawangdui_position": 33,
+      "name": "坤",
+      "binary": "000000",
+      "upper_trigram": "坤",
+      "lower_trigram": "坤"
+    },
+    {
+      "mawangdui_position": 34,
+      "name": "泰",
+      "binary": "111000",
+      "upper_trigram": "坤",
+      "lower_trigram": "乾"
+    },
+    {
+      "mawangdui_position": 35,
+      "name": "謙",
+      "binary": "001000",
+      "upper_trigram": "坤",
+      "lower_trigram": "艮"
+    },
+    {
+      "mawangdui_position": 36,
+      "name": "臨",
+      "binary": "110000",
+      "upper_trigram": "坤",
+      "lower_trigram": "兌"
+    },
+    {
+      "mawangdui_position": 37,
+      "name": "師",
+      "binary": "010000",
+      "upper_trigram": "坤",
+      "lower_trigram": "坎"
+    },
+    {
+      "mawangdui_position": 38,
+      "name": "明夷",
+      "binary": "101000",
+      "upper_trigram": "坤",
+      "lower_trigram": "離"
+    },
+    {
+      "mawangdui_position": 39,
+      "name": "復",
+      "binary": "100000",
+      "upper_trigram": "坤",
+      "lower_trigram": "震"
+    },
+    {
+      "mawangdui_position": 40,
+      "name": "升",
+      "binary": "011000",
+      "upper_trigram": "坤",
+      "lower_trigram": "巽"
+    },
+    {
+      "mawangdui_position": 41,
+      "name": "兌",
+      "binary": "110110",
+      "upper_trigram": "兌",
+      "lower_trigram": "兌"
+    },
+    {
+      "mawangdui_position": 42,
+      "name": "夬",
+      "binary": "111110",
+      "upper_trigram": "兌",
+      "lower_trigram": "乾"
+    },
+    {
+      "mawangdui_position": 43,
+      "name": "萃",
+      "binary": "000110",
+      "upper_trigram": "兌",
+      "lower_trigram": "坤"
+    },
+    {
+      "mawangdui_position": 44,
+      "name": "咸",
+      "binary": "001110",
+      "upper_trigram": "兌",
+      "lower_trigram": "艮"
+    },
+    {
+      "mawangdui_position": 45,
+      "name": "困",
+      "binary": "010110",
+      "upper_trigram": "兌",
+      "lower_trigram": "坎"
+    },
+    {
+      "mawangdui_position": 46,
+      "name": "革",
+      "binary": "101110",
+      "upper_trigram": "兌",
+      "lower_trigram": "離"
+    },
+    {
+      "mawangdui_position": 47,
+      "name": "隨",
+      "binary": "100110",
+      "upper_trigram": "兌",
+      "lower_trigram": "震"
+    },
+    {
+      "mawangdui_position": 48,
+      "name": "大過",
+      "binary": "011110",
+      "upper_trigram": "兌",
+      "lower_trigram": "巽"
+    },
+    {
+      "mawangdui_position": 49,
+      "name": "離",
+      "binary": "101101",
+      "upper_trigram": "離",
+      "lower_trigram": "離"
+    },
+    {
+      "mawangdui_position": 50,
+      "name": "大有",
+      "binary": "111101",
+      "upper_trigram": "離",
+      "lower_trigram": "乾"
+    },
+    {
+      "mawangdui_position": 51,
+      "name": "晉",
+      "binary": "000101",
+      "upper_trigram": "離",
+      "lower_trigram": "坤"
+    },
+    {
+      "mawangdui_position": 52,
+      "name": "旅",
+      "binary": "001101",
+      "upper_trigram": "離",
+      "lower_trigram": "艮"
+    },
+    {
+      "mawangdui_position": 53,
+      "name": "睽",
+      "binary": "110101",
+      "upper_trigram": "離",
+      "lower_trigram": "兌"
+    },
+    {
+      "mawangdui_position": 54,
+      "name": "未濟",
+      "binary": "010101",
+      "upper_trigram": "離",
+      "lower_trigram": "坎"
+    },
+    {
+      "mawangdui_position": 55,
+      "name": "噬嗑",
+      "binary": "100101",
+      "upper_trigram": "離",
+      "lower_trigram": "震"
+    },
+    {
+      "mawangdui_position": 56,
+      "name": "鼎",
+      "binary": "011101",
+      "upper_trigram": "離",
+      "lower_trigram": "巽"
+    },
+    {
+      "mawangdui_position": 57,
+      "name": "巽",
+      "binary": "011011",
+      "upper_trigram": "巽",
+      "lower_trigram": "巽"
+    },
+    {
+      "mawangdui_position": 58,
+      "name": "小畜",
+      "binary": "111011",
+      "upper_trigram": "巽",
+      "lower_trigram": "乾"
+    },
+    {
+      "mawangdui_position": 59,
+      "name": "觀",
+      "binary": "000011",
+      "upper_trigram": "巽",
+      "lower_trigram": "坤"
+    },
+    {
+      "mawangdui_position": 60,
+      "name": "漸",
+      "binary": "001011",
+      "upper_trigram": "巽",
+      "lower_trigram": "艮"
+    },
+    {
+      "mawangdui_position": 61,
+      "name": "中孚",
+      "binary": "110011",
+      "upper_trigram": "巽",
+      "lower_trigram": "兌"
+    },
+    {
+      "mawangdui_position": 62,
+      "name": "渙",
+      "binary": "010011",
+      "upper_trigram": "巽",
+      "lower_trigram": "坎"
+    },
+    {
+      "mawangdui_position": 63,
+      "name": "家人",
+      "binary": "101011",
+      "upper_trigram": "巽",
+      "lower_trigram": "離"
+    },
+    {
+      "mawangdui_position": 64,
+      "name": "益",
+      "binary": "100011",
+      "upper_trigram": "巽",
+      "lower_trigram": "震"
+    }
+  ]
+}

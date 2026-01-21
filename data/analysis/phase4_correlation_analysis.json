@@ -1,0 +1,1289 @@
+{
+  "metadata": {
+    "analysis_date": "2026-01-20",
+    "phase": 4,
+    "description": "Testing hypotheses about I Ching pattern correlations"
+  },
+  "hypotheses": {
+    "yang_meaning": {
+      "hypothesis": "Hexagrams with more yang lines have more active/creative meanings",
+      "method": "Count yang-associated vs yin-associated concept terms by yang line count",
+      "data": [
+        {
+          "hexagram": 1,
+          "name": "乾",
+          "yang_lines": 6,
+          "yang_concept_score": 8,
+          "yin_concept_score": 0,
+          "net_yang": 8
+        },
+        {
+          "hexagram": 2,
+          "name": "坤",
+          "yang_lines": 0,
+          "yang_concept_score": 5,
+          "yin_concept_score": 4,
+          "net_yang": 1
+        },
+        {
+          "hexagram": 3,
+          "name": "屯",
+          "yang_lines": 2,
+          "yang_concept_score": 5,
+          "yin_concept_score": 1,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 4,
+          "name": "蒙",
+          "yang_lines": 2,
+          "yang_concept_score": 3,
+          "yin_concept_score": 1,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 5,
+          "name": "需",
+          "yang_lines": 4,
+          "yang_concept_score": 5,
+          "yin_concept_score": 0,
+          "net_yang": 5
+        },
+        {
+          "hexagram": 6,
+          "name": "訟",
+          "yang_lines": 4,
+          "yang_concept_score": 8,
+          "yin_concept_score": 1,
+          "net_yang": 7
+        },
+        {
+          "hexagram": 7,
+          "name": "師",
+          "yang_lines": 1,
+          "yang_concept_score": 2,
+          "yin_concept_score": 1,
+          "net_yang": 1
+        },
+        {
+          "hexagram": 8,
+          "name": "比",
+          "yang_lines": 1,
+          "yang_concept_score": 1,
+          "yin_concept_score": 3,
+          "net_yang": -2
+        },
+        {
+          "hexagram": 9,
+          "name": "小畜",
+          "yang_lines": 5,
+          "yang_concept_score": 6,
+          "yin_concept_score": 5,
+          "net_yang": 1
+        },
+        {
+          "hexagram": 10,
+          "name": "履",
+          "yang_lines": 5,
+          "yang_concept_score": 3,
+          "yin_concept_score": 1,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 11,
+          "name": "泰",
+          "yang_lines": 3,
+          "yang_concept_score": 6,
+          "yin_concept_score": 8,
+          "net_yang": -2
+        },
+        {
+          "hexagram": 12,
+          "name": "否",
+          "yang_lines": 3,
+          "yang_concept_score": 6,
+          "yin_concept_score": 8,
+          "net_yang": -2
+        },
+        {
+          "hexagram": 13,
+          "name": "同人",
+          "yang_lines": 5,
+          "yang_concept_score": 5,
+          "yin_concept_score": 1,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 14,
+          "name": "大有",
+          "yang_lines": 5,
+          "yang_concept_score": 9,
+          "yin_concept_score": 2,
+          "net_yang": 7
+        },
+        {
+          "hexagram": 15,
+          "name": "謙",
+          "yang_lines": 1,
+          "yang_concept_score": 2,
+          "yin_concept_score": 0,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 16,
+          "name": "豫",
+          "yang_lines": 1,
+          "yang_concept_score": 9,
+          "yin_concept_score": 4,
+          "net_yang": 5
+        },
+        {
+          "hexagram": 17,
+          "name": "隨",
+          "yang_lines": 3,
+          "yang_concept_score": 4,
+          "yin_concept_score": 2,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 18,
+          "name": "蠱",
+          "yang_lines": 3,
+          "yang_concept_score": 5,
+          "yin_concept_score": 2,
+          "net_yang": 3
+        },
+        {
+          "hexagram": 19,
+          "name": "臨",
+          "yang_lines": 2,
+          "yang_concept_score": 3,
+          "yin_concept_score": 1,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 20,
+          "name": "觀",
+          "yang_lines": 2,
+          "yang_concept_score": 2,
+          "yin_concept_score": 1,
+          "net_yang": 1
+        },
+        {
+          "hexagram": 21,
+          "name": "噬嗑",
+          "yang_lines": 3,
+          "yang_concept_score": 5,
+          "yin_concept_score": 2,
+          "net_yang": 3
+        },
+        {
+          "hexagram": 22,
+          "name": "賁",
+          "yang_lines": 3,
+          "yang_concept_score": 6,
+          "yin_concept_score": 6,
+          "net_yang": 0
+        },
+        {
+          "hexagram": 23,
+          "name": "剝",
+          "yang_lines": 1,
+          "yang_concept_score": 4,
+          "yin_concept_score": 4,
+          "net_yang": 0
+        },
+        {
+          "hexagram": 24,
+          "name": "復",
+          "yang_lines": 1,
+          "yang_concept_score": 8,
+          "yin_concept_score": 5,
+          "net_yang": 3
+        },
+        {
+          "hexagram": 25,
+          "name": "無妄",
+          "yang_lines": 4,
+          "yang_concept_score": 10,
+          "yin_concept_score": 1,
+          "net_yang": 9
+        },
+        {
+          "hexagram": 26,
+          "name": "大畜",
+          "yang_lines": 4,
+          "yang_concept_score": 12,
+          "yin_concept_score": 1,
+          "net_yang": 11
+        },
+        {
+          "hexagram": 27,
+          "name": "頤",
+          "yang_lines": 2,
+          "yang_concept_score": 1,
+          "yin_concept_score": 0,
+          "net_yang": 1
+        },
+        {
+          "hexagram": 28,
+          "name": "大過",
+          "yang_lines": 4,
+          "yang_concept_score": 10,
+          "yin_concept_score": 1,
+          "net_yang": 9
+        },
+        {
+          "hexagram": 29,
+          "name": "坎",
+          "yang_lines": 2,
+          "yang_concept_score": 8,
+          "yin_concept_score": 0,
+          "net_yang": 8
+        },
+        {
+          "hexagram": 30,
+          "name": "離",
+          "yang_lines": 4,
+          "yang_concept_score": 4,
+          "yin_concept_score": 1,
+          "net_yang": 3
+        },
+        {
+          "hexagram": 31,
+          "name": "咸",
+          "yang_lines": 3,
+          "yang_concept_score": 1,
+          "yin_concept_score": 2,
+          "net_yang": -1
+        },
+        {
+          "hexagram": 32,
+          "name": "恆",
+          "yang_lines": 3,
+          "yang_concept_score": 5,
+          "yin_concept_score": 2,
+          "net_yang": 3
+        },
+        {
+          "hexagram": 33,
+          "name": "遯",
+          "yang_lines": 4,
+          "yang_concept_score": 2,
+          "yin_concept_score": 3,
+          "net_yang": -1
+        },
+        {
+          "hexagram": 34,
+          "name": "大壯",
+          "yang_lines": 4,
+          "yang_concept_score": 9,
+          "yin_concept_score": 0,
+          "net_yang": 9
+        },
+        {
+          "hexagram": 35,
+          "name": "晉",
+          "yang_lines": 2,
+          "yang_concept_score": 8,
+          "yin_concept_score": 2,
+          "net_yang": 6
+        },
+        {
+          "hexagram": 36,
+          "name": "明夷",
+          "yang_lines": 2,
+          "yang_concept_score": 9,
+          "yin_concept_score": 2,
+          "net_yang": 7
+        },
+        {
+          "hexagram": 37,
+          "name": "家人",
+          "yang_lines": 4,
+          "yang_concept_score": 2,
+          "yin_concept_score": 0,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 38,
+          "name": "睽",
+          "yang_lines": 4,
+          "yang_concept_score": 8,
+          "yin_concept_score": 3,
+          "net_yang": 5
+        },
+        {
+          "hexagram": 39,
+          "name": "蹇",
+          "yang_lines": 2,
+          "yang_concept_score": 5,
+          "yin_concept_score": 1,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 40,
+          "name": "解",
+          "yang_lines": 2,
+          "yang_concept_score": 8,
+          "yin_concept_score": 2,
+          "net_yang": 6
+        },
+        {
+          "hexagram": 41,
+          "name": "損",
+          "yang_lines": 3,
+          "yang_concept_score": 5,
+          "yin_concept_score": 1,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 42,
+          "name": "益",
+          "yang_lines": 3,
+          "yang_concept_score": 9,
+          "yin_concept_score": 0,
+          "net_yang": 9
+        },
+        {
+          "hexagram": 43,
+          "name": "夬",
+          "yang_lines": 5,
+          "yang_concept_score": 6,
+          "yin_concept_score": 2,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 44,
+          "name": "姤",
+          "yang_lines": 5,
+          "yang_concept_score": 5,
+          "yin_concept_score": 1,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 45,
+          "name": "萃",
+          "yang_lines": 2,
+          "yang_concept_score": 7,
+          "yin_concept_score": 2,
+          "net_yang": 5
+        },
+        {
+          "hexagram": 46,
+          "name": "升",
+          "yang_lines": 2,
+          "yang_concept_score": 9,
+          "yin_concept_score": 4,
+          "net_yang": 5
+        },
+        {
+          "hexagram": 47,
+          "name": "困",
+          "yang_lines": 3,
+          "yang_concept_score": 4,
+          "yin_concept_score": 0,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 48,
+          "name": "井",
+          "yang_lines": 3,
+          "yang_concept_score": 2,
+          "yin_concept_score": 1,
+          "net_yang": 1
+        },
+        {
+          "hexagram": 49,
+          "name": "革",
+          "yang_lines": 4,
+          "yang_concept_score": 4,
+          "yin_concept_score": 1,
+          "net_yang": 3
+        },
+        {
+          "hexagram": 50,
+          "name": "鼎",
+          "yang_lines": 4,
+          "yang_concept_score": 5,
+          "yin_concept_score": 1,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 51,
+          "name": "震",
+          "yang_lines": 2,
+          "yang_concept_score": 0,
+          "yin_concept_score": 2,
+          "net_yang": -2
+        },
+        {
+          "hexagram": 52,
+          "name": "艮",
+          "yang_lines": 2,
+          "yang_concept_score": 6,
+          "yin_concept_score": 6,
+          "net_yang": 0
+        },
+        {
+          "hexagram": 53,
+          "name": "漸",
+          "yang_lines": 3,
+          "yang_concept_score": 6,
+          "yin_concept_score": 1,
+          "net_yang": 5
+        },
+        {
+          "hexagram": 54,
+          "name": "歸妹",
+          "yang_lines": 3,
+          "yang_concept_score": 3,
+          "yin_concept_score": 1,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 55,
+          "name": "豐",
+          "yang_lines": 3,
+          "yang_concept_score": 4,
+          "yin_concept_score": 0,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 56,
+          "name": "旅",
+          "yang_lines": 3,
+          "yang_concept_score": 4,
+          "yin_concept_score": 6,
+          "net_yang": -2
+        },
+        {
+          "hexagram": 57,
+          "name": "巽",
+          "yang_lines": 4,
+          "yang_concept_score": 8,
+          "yin_concept_score": 4,
+          "net_yang": 4
+        },
+        {
+          "hexagram": 58,
+          "name": "兌",
+          "yang_lines": 4,
+          "yang_concept_score": 2,
+          "yin_concept_score": 2,
+          "net_yang": 0
+        },
+        {
+          "hexagram": 59,
+          "name": "渙",
+          "yang_lines": 3,
+          "yang_concept_score": 4,
+          "yin_concept_score": 2,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 60,
+          "name": "節",
+          "yang_lines": 3,
+          "yang_concept_score": 4,
+          "yin_concept_score": 1,
+          "net_yang": 3
+        },
+        {
+          "hexagram": 61,
+          "name": "中孚",
+          "yang_lines": 4,
+          "yang_concept_score": 3,
+          "yin_concept_score": 1,
+          "net_yang": 2
+        },
+        {
+          "hexagram": 62,
+          "name": "小過",
+          "yang_lines": 2,
+          "yang_concept_score": 7,
+          "yin_concept_score": 8,
+          "net_yang": -1
+        },
+        {
+          "hexagram": 63,
+          "name": "既濟",
+          "yang_lines": 3,
+          "yang_concept_score": 1,
+          "yin_concept_score": 5,
+          "net_yang": -4
+        },
+        {
+          "hexagram": 64,
+          "name": "未濟",
+          "yang_lines": 3,
+          "yang_concept_score": 1,
+          "yin_concept_score": 4,
+          "net_yang": -3
+        }
+      ],
+      "averages_by_yang_count": {
+        "0": {
+          "avg_yang_score": 5.0,
+          "avg_yin_score": 4.0,
+          "hexagram_count": 1
+        },
+        "1": {
+          "avg_yang_score": 4.33,
+          "avg_yin_score": 2.83,
+          "hexagram_count": 6
+        },
+        "2": {
+          "avg_yang_score": 5.4,
+          "avg_yin_score": 2.2,
+          "hexagram_count": 15
+        },
+        "3": {
+          "avg_yang_score": 4.25,
+          "avg_yin_score": 2.7,
+          "hexagram_count": 20
+        },
+        "4": {
+          "avg_yang_score": 6.13,
+          "avg_yin_score": 1.33,
+          "hexagram_count": 15
+        },
+        "5": {
+          "avg_yang_score": 5.67,
+          "avg_yin_score": 2.0,
+          "hexagram_count": 6
+        },
+        "6": {
+          "avg_yang_score": 8.0,
+          "avg_yin_score": 0.0,
+          "hexagram_count": 1
+        }
+      },
+      "correlation": 0.2769,
+      "conclusion": "Correlation coefficient: 0.2769. Positive correlation supports hypothesis"
+    },
+    "trigram_symbolism": {
+      "hypothesis": "Trigram symbolism from 說卦傳 predicts hexagram text content",
+      "method": "Check if trigram-associated symbols appear in hexagram texts",
+      "trigram_accuracy": {},
+      "overall_stats": {
+        "total_symbol_checks": 0,
+        "total_hits": 0,
+        "overall_accuracy": 0
+      },
+      "conclusion": "Overall symbol appearance rate: 0.00%. Trigram symbolism weakly predicts text content."
+    },
+    "sequence_position": {
+      "hypothesis": "Position in King Wen sequence reflects developmental stages",
+      "method": "Analyze fortune scores, concept density by sequence position",
+      "position_analysis": [],
+      "quartile_analysis": {
+        "Q1 (1-16)": {
+          "avg_fortune": 3.12,
+          "concept_totals": {
+            "fortune": 71,
+            "action": 40,
+            "virtue": 53,
+            "nature": 60,
+            "person": 45,
+            "time": 19,
+            "position": 60,
+            "state": 47
+          }
+        },
+        "Q2 (17-32)": {
+          "avg_fortune": 3.69,
+          "concept_totals": {
+            "fortune": 74,
+            "action": 48,
+            "virtue": 40,
+            "nature": 80,
+            "person": 22,
+            "time": 30,
+            "position": 44,
+            "state": 29
+          }
+        },
+        "Q3 (33-48)": {
+          "avg_fortune": 3.38,
+          "concept_totals": {
+            "fortune": 66,
+            "action": 41,
+            "virtue": 47,
+            "nature": 55,
+            "person": 34,
+            "time": 14,
+            "position": 45,
+            "state": 43
+          }
+        },
+        "Q4 (49-64)": {
+          "avg_fortune": 3.62,
+          "concept_totals": {
+            "fortune": 71,
+            "action": 35,
+            "virtue": 51,
+            "nature": 48,
+            "person": 28,
+            "time": 23,
+            "position": 48,
+            "state": 46
+          }
+        }
+      },
+      "canon_comparison": {
+        "upper_canon": {
+          "avg_fortune": 3.23,
+          "count": 30
+        },
+        "lower_canon": {
+          "avg_fortune": 3.65,
+          "count": 34
+        }
+      },
+      "conclusion": "Upper Canon avg fortune: 3.23, Lower Canon avg fortune: 3.65. Analysis shows systematic differences between canons."
+    },
+    "nuclear_influence": {
+      "hypothesis": "Nuclear hexagrams influence the meaning of containing hexagrams",
+      "method": "Calculate semantic similarity between hexagrams and their nuclear hexagrams",
+      "analysis": [
+        {
+          "hexagram": 1,
+          "name": "乾",
+          "nuclear_hexagram": 1,
+          "nuclear_name": "乾",
+          "similarity": 1.0
+        },
+        {
+          "hexagram": 2,
+          "name": "坤",
+          "nuclear_hexagram": 2,
+          "nuclear_name": "坤",
+          "similarity": 1.0
+        },
+        {
+          "hexagram": 3,
+          "name": "屯",
+          "nuclear_hexagram": 15,
+          "nuclear_name": "謙",
+          "similarity": 0.75
+        },
+        {
+          "hexagram": 4,
+          "name": "蒙",
+          "nuclear_hexagram": 16,
+          "nuclear_name": "豫",
+          "similarity": 0.6314
+        },
+        {
+          "hexagram": 5,
+          "name": "需",
+          "nuclear_hexagram": 49,
+          "nuclear_name": "革",
+          "similarity": 0.7616
+        },
+        {
+          "hexagram": 6,
+          "name": "訟",
+          "nuclear_hexagram": 50,
+          "nuclear_name": "鼎",
+          "similarity": 0.9108
+        },
+        {
+          "hexagram": 7,
+          "name": "師",
+          "nuclear_hexagram": 16,
+          "nuclear_name": "豫",
+          "similarity": 0.5876
+        },
+        {
+          "hexagram": 8,
+          "name": "比",
+          "nuclear_hexagram": 15,
+          "nuclear_name": "謙",
+          "similarity": 0.6436
+        },
+        {
+          "hexagram": 9,
+          "name": "小畜",
+          "nuclear_hexagram": 49,
+          "nuclear_name": "革",
+          "similarity": 0.5375
+        },
+        {
+          "hexagram": 10,
+          "name": "履",
+          "nuclear_hexagram": 50,
+          "nuclear_name": "鼎",
+          "similarity": 0.7294
+        },
+        {
+          "hexagram": 11,
+          "name": "泰",
+          "nuclear_hexagram": 17,
+          "nuclear_name": "隨",
+          "similarity": 0.7052
+        },
+        {
+          "hexagram": 12,
+          "name": "否",
+          "nuclear_hexagram": 18,
+          "nuclear_name": "蠱",
+          "similarity": 0.667
+        },
+        {
+          "hexagram": 13,
+          "name": "同人",
+          "nuclear_hexagram": 9,
+          "nuclear_name": "小畜",
+          "similarity": 0.7849
+        },
+        {
+          "hexagram": 14,
+          "name": "大有",
+          "nuclear_hexagram": 10,
+          "nuclear_name": "履",
+          "similarity": 0.6876
+        },
+        {
+          "hexagram": 15,
+          "name": "謙",
+          "nuclear_hexagram": 3,
+          "nuclear_name": "屯",
+          "similarity": 0.75
+        },
+        {
+          "hexagram": 16,
+          "name": "豫",
+          "nuclear_hexagram": 4,
+          "nuclear_name": "蒙",
+          "similarity": 0.6314
+        },
+        {
+          "hexagram": 17,
+          "name": "隨",
+          "nuclear_hexagram": 18,
+          "nuclear_name": "蠱",
+          "similarity": 0.8419
+        },
+        {
+          "hexagram": 18,
+          "name": "蠱",
+          "nuclear_hexagram": 17,
+          "nuclear_name": "隨",
+          "similarity": 0.8419
+        },
+        {
+          "hexagram": 19,
+          "name": "臨",
+          "nuclear_hexagram": 16,
+          "nuclear_name": "豫",
+          "similarity": 0.6128
+        },
+        {
+          "hexagram": 20,
+          "name": "觀",
+          "nuclear_hexagram": 15,
+          "nuclear_name": "謙",
+          "similarity": 0.8692
+        }
+      ],
+      "statistics": {
+        "avg_nuclear_similarity": 0.7315,
+        "random_baseline": 0.193,
+        "difference": 0.5386
+      },
+      "conclusion": "Avg nuclear similarity: 0.7315, random baseline: 0.1930. Nuclear hexagrams are more similar than random pairs."
+    },
+    "pair_meanings": {
+      "hypothesis": "King Wen pairs represent complementary life situations",
+      "method": "Analyze semantic similarity and concept opposition in pairs",
+      "pair_analysis": [
+        {
+          "pair_number": 1,
+          "hexagram_1": {
+            "number": 1,
+            "name": "乾"
+          },
+          "hexagram_2": {
+            "number": 2,
+            "name": "坤"
+          },
+          "relationship": "complement",
+          "semantic_similarity": 0.8555,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 2,
+          "hexagram_1": {
+            "number": 3,
+            "name": "屯"
+          },
+          "hexagram_2": {
+            "number": 4,
+            "name": "蒙"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8385,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 3,
+          "hexagram_1": {
+            "number": 5,
+            "name": "需"
+          },
+          "hexagram_2": {
+            "number": 6,
+            "name": "訟"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.9052,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 4,
+          "hexagram_1": {
+            "number": 7,
+            "name": "師"
+          },
+          "hexagram_2": {
+            "number": 8,
+            "name": "比"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.828,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 5,
+          "hexagram_1": {
+            "number": 9,
+            "name": "小畜"
+          },
+          "hexagram_2": {
+            "number": 10,
+            "name": "履"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.6347,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 6,
+          "hexagram_1": {
+            "number": 11,
+            "name": "泰"
+          },
+          "hexagram_2": {
+            "number": 12,
+            "name": "否"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.9462,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 7,
+          "hexagram_1": {
+            "number": 13,
+            "name": "同人"
+          },
+          "hexagram_2": {
+            "number": 14,
+            "name": "大有"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8658,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 8,
+          "hexagram_1": {
+            "number": 15,
+            "name": "謙"
+          },
+          "hexagram_2": {
+            "number": 16,
+            "name": "豫"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8305,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 9,
+          "hexagram_1": {
+            "number": 17,
+            "name": "隨"
+          },
+          "hexagram_2": {
+            "number": 18,
+            "name": "蠱"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8419,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 10,
+          "hexagram_1": {
+            "number": 19,
+            "name": "臨"
+          },
+          "hexagram_2": {
+            "number": 20,
+            "name": "觀"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.6456,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 11,
+          "hexagram_1": {
+            "number": 21,
+            "name": "噬嗑"
+          },
+          "hexagram_2": {
+            "number": 22,
+            "name": "賁"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8896,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 12,
+          "hexagram_1": {
+            "number": 23,
+            "name": "剝"
+          },
+          "hexagram_2": {
+            "number": 24,
+            "name": "復"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8202,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 13,
+          "hexagram_1": {
+            "number": 25,
+            "name": "無妄"
+          },
+          "hexagram_2": {
+            "number": 26,
+            "name": "大畜"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8292,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 14,
+          "hexagram_1": {
+            "number": 27,
+            "name": "頤"
+          },
+          "hexagram_2": {
+            "number": 28,
+            "name": "大過"
+          },
+          "relationship": "complement",
+          "semantic_similarity": 0.5908,
+          "fortune_contrast": 3
+        },
+        {
+          "pair_number": 15,
+          "hexagram_1": {
+            "number": 29,
+            "name": "坎"
+          },
+          "hexagram_2": {
+            "number": 30,
+            "name": "離"
+          },
+          "relationship": "complement",
+          "semantic_similarity": 0.7169,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 16,
+          "hexagram_1": {
+            "number": 31,
+            "name": "咸"
+          },
+          "hexagram_2": {
+            "number": 32,
+            "name": "恆"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.7898,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 17,
+          "hexagram_1": {
+            "number": 33,
+            "name": "遯"
+          },
+          "hexagram_2": {
+            "number": 34,
+            "name": "大壯"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.7767,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 18,
+          "hexagram_1": {
+            "number": 35,
+            "name": "晉"
+          },
+          "hexagram_2": {
+            "number": 36,
+            "name": "明夷"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.6299,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 19,
+          "hexagram_1": {
+            "number": 37,
+            "name": "家人"
+          },
+          "hexagram_2": {
+            "number": 38,
+            "name": "睽"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.6557,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 20,
+          "hexagram_1": {
+            "number": 39,
+            "name": "蹇"
+          },
+          "hexagram_2": {
+            "number": 40,
+            "name": "解"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.7825,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 21,
+          "hexagram_1": {
+            "number": 41,
+            "name": "損"
+          },
+          "hexagram_2": {
+            "number": 42,
+            "name": "益"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8253,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 22,
+          "hexagram_1": {
+            "number": 43,
+            "name": "夬"
+          },
+          "hexagram_2": {
+            "number": 44,
+            "name": "姤"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.4426,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 23,
+          "hexagram_1": {
+            "number": 45,
+            "name": "萃"
+          },
+          "hexagram_2": {
+            "number": 46,
+            "name": "升"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.8963,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 24,
+          "hexagram_1": {
+            "number": 47,
+            "name": "困"
+          },
+          "hexagram_2": {
+            "number": 48,
+            "name": "井"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.6917,
+          "fortune_contrast": 4
+        },
+        {
+          "pair_number": 25,
+          "hexagram_1": {
+            "number": 49,
+            "name": "革"
+          },
+          "hexagram_2": {
+            "number": 50,
+            "name": "鼎"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.6621,
+          "fortune_contrast": 1
+        },
+        {
+          "pair_number": 26,
+          "hexagram_1": {
+            "number": 51,
+            "name": "震"
+          },
+          "hexagram_2": {
+            "number": 52,
+            "name": "艮"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.7457,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 27,
+          "hexagram_1": {
+            "number": 53,
+            "name": "漸"
+          },
+          "hexagram_2": {
+            "number": 54,
+            "name": "歸妹"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.4679,
+          "fortune_contrast": 4
+        },
+        {
+          "pair_number": 28,
+          "hexagram_1": {
+            "number": 55,
+            "name": "豐"
+          },
+          "hexagram_2": {
+            "number": 56,
+            "name": "旅"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.6351,
+          "fortune_contrast": 2
+        },
+        {
+          "pair_number": 29,
+          "hexagram_1": {
+            "number": 57,
+            "name": "巽"
+          },
+          "hexagram_2": {
+            "number": 58,
+            "name": "兌"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.7154,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 30,
+          "hexagram_1": {
+            "number": 59,
+            "name": "渙"
+          },
+          "hexagram_2": {
+            "number": 60,
+            "name": "節"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.7452,
+          "fortune_contrast": 0
+        },
+        {
+          "pair_number": 31,
+          "hexagram_1": {
+            "number": 61,
+            "name": "中孚"
+          },
+          "hexagram_2": {
+            "number": 62,
+            "name": "小過"
+          },
+          "relationship": "complement",
+          "semantic_similarity": 0.8018,
+          "fortune_contrast": 1
+        },
+        {
+          "pair_number": 32,
+          "hexagram_1": {
+            "number": 63,
+            "name": "既濟"
+          },
+          "hexagram_2": {
+            "number": 64,
+            "name": "未濟"
+          },
+          "relationship": "inverse",
+          "semantic_similarity": 0.9045,
+          "fortune_contrast": 2
+        }
+      ],
+      "statistics": {
+        "avg_pair_similarity": 0.7565,
+        "avg_fortune_contrast": 1.22
+      },
+      "conclusion": "Avg pair similarity: 0.7565. Pairs show moderate complementarity in meaning."
+    }
+  },
+  "synthesis": {
+    "individual_scores": {
+      "yang_meaning_correlation": {
+        "weight": 0.2,
+        "score": 0.5538,
+        "finding": 0.2769
+      },
+      "trigram_symbolism_accuracy": {
+        "weight": 0.2,
+        "score": 0,
+        "finding": 0
+      },
+      "nuclear_influence": {
+        "weight": 0.2,
+        "score": 0.7315,
+        "finding": 0.7315
+      },
+      "pair_complementarity": {
+        "weight": 0.2,
+        "score": 0.7565,
+        "finding": 0.7565
+      },
+      "sequence_organization": {
+        "weight": 0.2,
+        "score": 0.7,
+        "finding": "Canon differences detected"
+      }
+    },
+    "overall_pattern_score": 0.5484,
+    "interpretation": "Moderate evidence of patterns - some correlations exist but not all hypotheses confirmed"
+  }
+}

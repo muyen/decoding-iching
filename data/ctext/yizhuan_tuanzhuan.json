@@ -1,0 +1,588 @@
+{
+  "title": "彖傳",
+  "title_en": "Tuan Zhuan",
+  "description": "Commentary on the Judgment",
+  "source": "ctext.org",
+  "download_date": "2026-01-20T12:49:20.720405",
+  "data": {
+    "name_zh": "彖傳",
+    "name_en": "Tuan Zhuan",
+    "description": "Commentary on the Judgment",
+    "sections": [
+      {
+        "slug": "qian2",
+        "name_zh": "乾",
+        "url": "https://ctext.org/book-of-changes/qian2/zh",
+        "content_zh": [
+          "乾:",
+          "大哉乾元，萬物資始，乃統天。雲行雨施，品物流形。大明始終，六位時成，時乘六龍以御天。乾道變化，各正性命，保合大和，乃利貞。首出庶物，萬國咸寧。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "kun2",
+        "name_zh": "坤",
+        "url": "https://ctext.org/book-of-changes/kun2/zh",
+        "content_zh": [
+          "坤:",
+          "至哉坤元，萬物資生，乃順承天。坤厚載物，德合无疆。含弘光大，品物咸亨。牝馬地類，行地无疆，柔順利貞。君子攸行，先迷失道，後順得常。西南得朋，乃與類行；東北喪朋，乃終有慶。安貞之吉，應地无疆。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "zhun1",
+        "name_zh": "屯",
+        "url": "https://ctext.org/book-of-changes/zhun1",
+        "content_zh": [
+          "屯:",
+          "屯，剛柔始交而難生，動乎險中，大亨貞。雷雨之動滿盈，天造草昧，宜建侯而不寧。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "meng1",
+        "name_zh": "蒙",
+        "url": "https://ctext.org/book-of-changes/meng1/zh",
+        "content_zh": [
+          "蒙:",
+          "蒙，山下有險，險而止，蒙。蒙亨，以亨行時中也。匪我求童蒙，童蒙求我，志應也。初噬告，以剛中也。再三瀆，瀆則不告，瀆蒙也。蒙以養正，聖功也。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "xu1",
+        "name_zh": "需",
+        "url": "https://ctext.org/book-of-changes/xu1/zh",
+        "content_zh": [
+          "需:",
+          "需，須也；險在前也。剛健而不陷，其義不困窮矣。需有孚，光亨，貞吉。位乎天位，以正中也。利涉大川，往有功也。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "song1",
+        "name_zh": "訟",
+        "url": "https://ctext.org/book-of-changes/song1/zh",
+        "content_zh": [
+          "訟:",
+          "訟，上剛下險，險而健訟。訟有孚窒，惕中吉，剛來而得中也。終凶；訟不可成也。利見大人；尚中正也。不利涉大川；入于淵也。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "shi1",
+        "name_zh": "師",
+        "url": "https://ctext.org/book-of-changes/shi1/zh",
+        "content_zh": [
+          "師:",
+          "師，眾也，貞正也，能以眾正，可以王矣。剛中而應，行險而順，以此毒天下，而民從之，吉又何咎矣。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "bi2",
+        "name_zh": "比",
+        "url": "https://ctext.org/book-of-changes/bi2/zh",
+        "content_zh": [
+          "比:",
+          "比，吉也，比，輔也，下順從也。原筮元永貞，无咎，以剛中也。不寧方來，上下應也。後夫凶，其道窮也。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "xiao-xu1",
+        "name_zh": "小畜",
+        "url": "https://ctext.org/book-of-changes/xiao-xu1/zh",
+        "content_zh": [
+          "小畜:",
+          "小畜，柔得位，而上下應之，曰小畜。健而巽，剛中而志行，乃亨。密雲不雨，尚往也。自我西郊，施未行也。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "lu2",
+        "name_zh": "履",
+        "url": "https://ctext.org/book-of-changes/lu2/zh",
+        "content_zh": [
+          "履:",
+          "履，柔履剛也。說而應乎乾，是以履虎尾，不咥人，亨。剛中正，履帝位而不疚，光明也。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "tai1",
+        "name_zh": "泰",
+        "url": "https://ctext.org/book-of-changes/tai1/zh",
+        "content_zh": [
+          "泰:",
+          "泰，小往大來，吉亨。則是天地交，而萬物通也；上下交，而其志同也。內陽而外陰，內健而外順，內君子而外小人，君子道長，小人道消也。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "pi1",
+        "name_zh": "否",
+        "url": "https://ctext.org/book-of-changes/pi1/zh",
+        "content_zh": [
+          "否:",
+          "否之匪人，不利君子貞。大往小來，則是天地不交，而萬物不通也；上下不交，而天下无邦也。內陰而外陽，內柔而外剛，內小人而外君子。小人道長，君子道消也。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "tong-ren1",
+        "name_zh": "同人",
+        "url": "https://ctext.org/book-of-changes/tong-ren1/zh",
+        "content_zh": [
+          "同人:",
+          "同人，柔得位得中，而應乎乾，曰同人。同人曰，同人于野，亨。利涉大川，乾行也。文明以健，中正而應，君子正也。唯君子為能通天下之志。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "da-you1",
+        "name_zh": "大有",
+        "url": "https://ctext.org/book-of-changes/da-you1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "qian3",
+        "name_zh": "謙",
+        "url": "https://ctext.org/book-of-changes/qian3/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "yu1",
+        "name_zh": "豫",
+        "url": "https://ctext.org/book-of-changes/yu1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "sui1",
+        "name_zh": "隨",
+        "url": "https://ctext.org/book-of-changes/sui1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "gu1",
+        "name_zh": "蠱",
+        "url": "https://ctext.org/book-of-changes/gu1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "lin1",
+        "name_zh": "臨",
+        "url": "https://ctext.org/book-of-changes/lin1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "guan1",
+        "name_zh": "觀",
+        "url": "https://ctext.org/book-of-changes/guan1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "shi-he1",
+        "name_zh": "噬嗑",
+        "url": "https://ctext.org/book-of-changes/shi-he1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "bi3",
+        "name_zh": "賁",
+        "url": "https://ctext.org/book-of-changes/bi3/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "bo1",
+        "name_zh": "剝",
+        "url": "https://ctext.org/book-of-changes/bo1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "fu1",
+        "name_zh": "復",
+        "url": "https://ctext.org/book-of-changes/fu1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "wu-wang1",
+        "name_zh": "无妄",
+        "url": "https://ctext.org/book-of-changes/wu-wang1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "da-xu1",
+        "name_zh": "大畜",
+        "url": "https://ctext.org/book-of-changes/da-xu1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "yi2",
+        "name_zh": "頤",
+        "url": "https://ctext.org/book-of-changes/yi2/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "da-guo1",
+        "name_zh": "大過",
+        "url": "https://ctext.org/book-of-changes/da-guo1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "kan1",
+        "name_zh": "坎",
+        "url": "https://ctext.org/book-of-changes/kan1/zh",
+        "content_zh": [
+          "Please confirm that you are a human user and not an automated program by entering the letters shown in the image below and clicking \"OK\":",
+          "請輸入下述認證圖案中的字並點擊“OK”，以便確認您是真人而並非電腦軟體：",
+          "If you are seeing this message frequently, this is because ctext.org assigns a low trust value to your access patterns. Trust is calculated based on a number of indicators, primarily the prior actions of users with similar access patterns to your own.The more ctext trusts you, the less frequently it will show you this page.",
+          "若您經常遇到此一頁面，這就代表ctext.org認為您目前的使用方式似乎有可疑之處。這種判斷是根據各種指標而定的，特別是其它與您訪問記錄類似的使用者過去的訪問記錄。本站越信任您，它就越少要求您輸入驗證碼。",
+          "To increase the trust assigned to your use of ctext:",
+          "若希望讓本站更信任您的使用，建議採取以下手段：",
+          "If accessing from within a university,ask your university library tosubscribe.若從學術性機構訪問，請建議您的學術構訂購ctext.org。Create an account and make constructive edits to the wiki.All edits are manually reviewedbefore trust is assigned - please read the instructions and policies before making edits.建立帳戶並參與維基區的編輯活動。請留意：所有編輯活動將會經過人工驗證後系統才會作信任判斷。敬請參考相關的使用說明和政策再進行編輯。"
+        ],
+        "content_en": null,
+        "source": "web"
+      },
+      {
+        "slug": "li1",
+        "name_zh": "離",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xian1",
+        "name_zh": "咸",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "heng1",
+        "name_zh": "恆",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "dun1",
+        "name_zh": "遯",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "da-zhuang1",
+        "name_zh": "大壯",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jin1",
+        "name_zh": "晉",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "ming-yi1",
+        "name_zh": "明夷",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jia-ren1",
+        "name_zh": "家人",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "kui1",
+        "name_zh": "睽",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jian2",
+        "name_zh": "蹇",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jie2",
+        "name_zh": "解",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "sun1",
+        "name_zh": "損",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "yi3",
+        "name_zh": "益",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "guai1",
+        "name_zh": "夬",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "gou1",
+        "name_zh": "姤",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "cui1",
+        "name_zh": "萃",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "sheng1",
+        "name_zh": "升",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "kun3",
+        "name_zh": "困",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jing1",
+        "name_zh": "井",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "ge1",
+        "name_zh": "革",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "ding1",
+        "name_zh": "鼎",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "zhen1",
+        "name_zh": "震",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "gen1",
+        "name_zh": "艮",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jian3",
+        "name_zh": "漸",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "gui-mei1",
+        "name_zh": "歸妹",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "feng1",
+        "name_zh": "豐",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "lu3",
+        "name_zh": "旅",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xun1",
+        "name_zh": "巽",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "dui1",
+        "name_zh": "兌",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "huan1",
+        "name_zh": "渙",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jie3",
+        "name_zh": "節",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "zhong-fu1",
+        "name_zh": "中孚",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xiao-guo1",
+        "name_zh": "小過",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "ji-ji1",
+        "name_zh": "既濟",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "wei-ji1",
+        "name_zh": "未濟",
+        "error": "Failed to download"
+      }
+    ]
+  }
+}

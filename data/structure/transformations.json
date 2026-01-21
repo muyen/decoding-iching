@@ -1,0 +1,2690 @@
+[
+  {
+    "from_hexagram": 1,
+    "to_hexagram": 44,
+    "changed_line": 1,
+    "from_binary": "111111",
+    "to_binary": "011111"
+  },
+  {
+    "from_hexagram": 1,
+    "to_hexagram": 13,
+    "changed_line": 2,
+    "from_binary": "111111",
+    "to_binary": "101111"
+  },
+  {
+    "from_hexagram": 1,
+    "to_hexagram": 10,
+    "changed_line": 3,
+    "from_binary": "111111",
+    "to_binary": "110111"
+  },
+  {
+    "from_hexagram": 1,
+    "to_hexagram": 9,
+    "changed_line": 4,
+    "from_binary": "111111",
+    "to_binary": "111011"
+  },
+  {
+    "from_hexagram": 1,
+    "to_hexagram": 14,
+    "changed_line": 5,
+    "from_binary": "111111",
+    "to_binary": "111101"
+  },
+  {
+    "from_hexagram": 1,
+    "to_hexagram": 43,
+    "changed_line": 6,
+    "from_binary": "111111",
+    "to_binary": "111110"
+  },
+  {
+    "from_hexagram": 2,
+    "to_hexagram": 24,
+    "changed_line": 1,
+    "from_binary": "000000",
+    "to_binary": "100000"
+  },
+  {
+    "from_hexagram": 2,
+    "to_hexagram": 7,
+    "changed_line": 2,
+    "from_binary": "000000",
+    "to_binary": "010000"
+  },
+  {
+    "from_hexagram": 2,
+    "to_hexagram": 15,
+    "changed_line": 3,
+    "from_binary": "000000",
+    "to_binary": "001000"
+  },
+  {
+    "from_hexagram": 2,
+    "to_hexagram": 16,
+    "changed_line": 4,
+    "from_binary": "000000",
+    "to_binary": "000100"
+  },
+  {
+    "from_hexagram": 2,
+    "to_hexagram": 8,
+    "changed_line": 5,
+    "from_binary": "000000",
+    "to_binary": "000010"
+  },
+  {
+    "from_hexagram": 2,
+    "to_hexagram": 23,
+    "changed_line": 6,
+    "from_binary": "000000",
+    "to_binary": "000001"
+  },
+  {
+    "from_hexagram": 3,
+    "to_hexagram": 8,
+    "changed_line": 1,
+    "from_binary": "100010",
+    "to_binary": "000010"
+  },
+  {
+    "from_hexagram": 3,
+    "to_hexagram": 60,
+    "changed_line": 2,
+    "from_binary": "100010",
+    "to_binary": "110010"
+  },
+  {
+    "from_hexagram": 3,
+    "to_hexagram": 63,
+    "changed_line": 3,
+    "from_binary": "100010",
+    "to_binary": "101010"
+  },
+  {
+    "from_hexagram": 3,
+    "to_hexagram": 17,
+    "changed_line": 4,
+    "from_binary": "100010",
+    "to_binary": "100110"
+  },
+  {
+    "from_hexagram": 3,
+    "to_hexagram": 24,
+    "changed_line": 5,
+    "from_binary": "100010",
+    "to_binary": "100000"
+  },
+  {
+    "from_hexagram": 3,
+    "to_hexagram": 42,
+    "changed_line": 6,
+    "from_binary": "100010",
+    "to_binary": "100011"
+  },
+  {
+    "from_hexagram": 4,
+    "to_hexagram": 41,
+    "changed_line": 1,
+    "from_binary": "010001",
+    "to_binary": "110001"
+  },
+  {
+    "from_hexagram": 4,
+    "to_hexagram": 23,
+    "changed_line": 2,
+    "from_binary": "010001",
+    "to_binary": "000001"
+  },
+  {
+    "from_hexagram": 4,
+    "to_hexagram": 18,
+    "changed_line": 3,
+    "from_binary": "010001",
+    "to_binary": "011001"
+  },
+  {
+    "from_hexagram": 4,
+    "to_hexagram": 64,
+    "changed_line": 4,
+    "from_binary": "010001",
+    "to_binary": "010101"
+  },
+  {
+    "from_hexagram": 4,
+    "to_hexagram": 59,
+    "changed_line": 5,
+    "from_binary": "010001",
+    "to_binary": "010011"
+  },
+  {
+    "from_hexagram": 4,
+    "to_hexagram": 7,
+    "changed_line": 6,
+    "from_binary": "010001",
+    "to_binary": "010000"
+  },
+  {
+    "from_hexagram": 5,
+    "to_hexagram": 48,
+    "changed_line": 1,
+    "from_binary": "111010",
+    "to_binary": "011010"
+  },
+  {
+    "from_hexagram": 5,
+    "to_hexagram": 63,
+    "changed_line": 2,
+    "from_binary": "111010",
+    "to_binary": "101010"
+  },
+  {
+    "from_hexagram": 5,
+    "to_hexagram": 60,
+    "changed_line": 3,
+    "from_binary": "111010",
+    "to_binary": "110010"
+  },
+  {
+    "from_hexagram": 5,
+    "to_hexagram": 43,
+    "changed_line": 4,
+    "from_binary": "111010",
+    "to_binary": "111110"
+  },
+  {
+    "from_hexagram": 5,
+    "to_hexagram": 11,
+    "changed_line": 5,
+    "from_binary": "111010",
+    "to_binary": "111000"
+  },
+  {
+    "from_hexagram": 5,
+    "to_hexagram": 9,
+    "changed_line": 6,
+    "from_binary": "111010",
+    "to_binary": "111011"
+  },
+  {
+    "from_hexagram": 6,
+    "to_hexagram": 10,
+    "changed_line": 1,
+    "from_binary": "010111",
+    "to_binary": "110111"
+  },
+  {
+    "from_hexagram": 6,
+    "to_hexagram": 12,
+    "changed_line": 2,
+    "from_binary": "010111",
+    "to_binary": "000111"
+  },
+  {
+    "from_hexagram": 6,
+    "to_hexagram": 44,
+    "changed_line": 3,
+    "from_binary": "010111",
+    "to_binary": "011111"
+  },
+  {
+    "from_hexagram": 6,
+    "to_hexagram": 59,
+    "changed_line": 4,
+    "from_binary": "010111",
+    "to_binary": "010011"
+  },
+  {
+    "from_hexagram": 6,
+    "to_hexagram": 64,
+    "changed_line": 5,
+    "from_binary": "010111",
+    "to_binary": "010101"
+  },
+  {
+    "from_hexagram": 6,
+    "to_hexagram": 47,
+    "changed_line": 6,
+    "from_binary": "010111",
+    "to_binary": "010110"
+  },
+  {
+    "from_hexagram": 7,
+    "to_hexagram": 19,
+    "changed_line": 1,
+    "from_binary": "010000",
+    "to_binary": "110000"
+  },
+  {
+    "from_hexagram": 7,
+    "to_hexagram": 2,
+    "changed_line": 2,
+    "from_binary": "010000",
+    "to_binary": "000000"
+  },
+  {
+    "from_hexagram": 7,
+    "to_hexagram": 46,
+    "changed_line": 3,
+    "from_binary": "010000",
+    "to_binary": "011000"
+  },
+  {
+    "from_hexagram": 7,
+    "to_hexagram": 40,
+    "changed_line": 4,
+    "from_binary": "010000",
+    "to_binary": "010100"
+  },
+  {
+    "from_hexagram": 7,
+    "to_hexagram": 29,
+    "changed_line": 5,
+    "from_binary": "010000",
+    "to_binary": "010010"
+  },
+  {
+    "from_hexagram": 7,
+    "to_hexagram": 4,
+    "changed_line": 6,
+    "from_binary": "010000",
+    "to_binary": "010001"
+  },
+  {
+    "from_hexagram": 8,
+    "to_hexagram": 3,
+    "changed_line": 1,
+    "from_binary": "000010",
+    "to_binary": "100010"
+  },
+  {
+    "from_hexagram": 8,
+    "to_hexagram": 29,
+    "changed_line": 2,
+    "from_binary": "000010",
+    "to_binary": "010010"
+  },
+  {
+    "from_hexagram": 8,
+    "to_hexagram": 39,
+    "changed_line": 3,
+    "from_binary": "000010",
+    "to_binary": "001010"
+  },
+  {
+    "from_hexagram": 8,
+    "to_hexagram": 45,
+    "changed_line": 4,
+    "from_binary": "000010",
+    "to_binary": "000110"
+  },
+  {
+    "from_hexagram": 8,
+    "to_hexagram": 2,
+    "changed_line": 5,
+    "from_binary": "000010",
+    "to_binary": "000000"
+  },
+  {
+    "from_hexagram": 8,
+    "to_hexagram": 20,
+    "changed_line": 6,
+    "from_binary": "000010",
+    "to_binary": "000011"
+  },
+  {
+    "from_hexagram": 9,
+    "to_hexagram": 57,
+    "changed_line": 1,
+    "from_binary": "111011",
+    "to_binary": "011011"
+  },
+  {
+    "from_hexagram": 9,
+    "to_hexagram": 37,
+    "changed_line": 2,
+    "from_binary": "111011",
+    "to_binary": "101011"
+  },
+  {
+    "from_hexagram": 9,
+    "to_hexagram": 61,
+    "changed_line": 3,
+    "from_binary": "111011",
+    "to_binary": "110011"
+  },
+  {
+    "from_hexagram": 9,
+    "to_hexagram": 1,
+    "changed_line": 4,
+    "from_binary": "111011",
+    "to_binary": "111111"
+  },
+  {
+    "from_hexagram": 9,
+    "to_hexagram": 26,
+    "changed_line": 5,
+    "from_binary": "111011",
+    "to_binary": "111001"
+  },
+  {
+    "from_hexagram": 9,
+    "to_hexagram": 5,
+    "changed_line": 6,
+    "from_binary": "111011",
+    "to_binary": "111010"
+  },
+  {
+    "from_hexagram": 10,
+    "to_hexagram": 6,
+    "changed_line": 1,
+    "from_binary": "110111",
+    "to_binary": "010111"
+  },
+  {
+    "from_hexagram": 10,
+    "to_hexagram": 25,
+    "changed_line": 2,
+    "from_binary": "110111",
+    "to_binary": "100111"
+  },
+  {
+    "from_hexagram": 10,
+    "to_hexagram": 1,
+    "changed_line": 3,
+    "from_binary": "110111",
+    "to_binary": "111111"
+  },
+  {
+    "from_hexagram": 10,
+    "to_hexagram": 61,
+    "changed_line": 4,
+    "from_binary": "110111",
+    "to_binary": "110011"
+  },
+  {
+    "from_hexagram": 10,
+    "to_hexagram": 38,
+    "changed_line": 5,
+    "from_binary": "110111",
+    "to_binary": "110101"
+  },
+  {
+    "from_hexagram": 10,
+    "to_hexagram": 58,
+    "changed_line": 6,
+    "from_binary": "110111",
+    "to_binary": "110110"
+  },
+  {
+    "from_hexagram": 11,
+    "to_hexagram": 46,
+    "changed_line": 1,
+    "from_binary": "111000",
+    "to_binary": "011000"
+  },
+  {
+    "from_hexagram": 11,
+    "to_hexagram": 36,
+    "changed_line": 2,
+    "from_binary": "111000",
+    "to_binary": "101000"
+  },
+  {
+    "from_hexagram": 11,
+    "to_hexagram": 19,
+    "changed_line": 3,
+    "from_binary": "111000",
+    "to_binary": "110000"
+  },
+  {
+    "from_hexagram": 11,
+    "to_hexagram": 34,
+    "changed_line": 4,
+    "from_binary": "111000",
+    "to_binary": "111100"
+  },
+  {
+    "from_hexagram": 11,
+    "to_hexagram": 5,
+    "changed_line": 5,
+    "from_binary": "111000",
+    "to_binary": "111010"
+  },
+  {
+    "from_hexagram": 11,
+    "to_hexagram": 26,
+    "changed_line": 6,
+    "from_binary": "111000",
+    "to_binary": "111001"
+  },
+  {
+    "from_hexagram": 12,
+    "to_hexagram": 25,
+    "changed_line": 1,
+    "from_binary": "000111",
+    "to_binary": "100111"
+  },
+  {
+    "from_hexagram": 12,
+    "to_hexagram": 6,
+    "changed_line": 2,
+    "from_binary": "000111",
+    "to_binary": "010111"
+  },
+  {
+    "from_hexagram": 12,
+    "to_hexagram": 33,
+    "changed_line": 3,
+    "from_binary": "000111",
+    "to_binary": "001111"
+  },
+  {
+    "from_hexagram": 12,
+    "to_hexagram": 20,
+    "changed_line": 4,
+    "from_binary": "000111",
+    "to_binary": "000011"
+  },
+  {
+    "from_hexagram": 12,
+    "to_hexagram": 35,
+    "changed_line": 5,
+    "from_binary": "000111",
+    "to_binary": "000101"
+  },
+  {
+    "from_hexagram": 12,
+    "to_hexagram": 45,
+    "changed_line": 6,
+    "from_binary": "000111",
+    "to_binary": "000110"
+  },
+  {
+    "from_hexagram": 13,
+    "to_hexagram": 33,
+    "changed_line": 1,
+    "from_binary": "101111",
+    "to_binary": "001111"
+  },
+  {
+    "from_hexagram": 13,
+    "to_hexagram": 1,
+    "changed_line": 2,
+    "from_binary": "101111",
+    "to_binary": "111111"
+  },
+  {
+    "from_hexagram": 13,
+    "to_hexagram": 25,
+    "changed_line": 3,
+    "from_binary": "101111",
+    "to_binary": "100111"
+  },
+  {
+    "from_hexagram": 13,
+    "to_hexagram": 37,
+    "changed_line": 4,
+    "from_binary": "101111",
+    "to_binary": "101011"
+  },
+  {
+    "from_hexagram": 13,
+    "to_hexagram": 30,
+    "changed_line": 5,
+    "from_binary": "101111",
+    "to_binary": "101101"
+  },
+  {
+    "from_hexagram": 13,
+    "to_hexagram": 49,
+    "changed_line": 6,
+    "from_binary": "101111",
+    "to_binary": "101110"
+  },
+  {
+    "from_hexagram": 14,
+    "to_hexagram": 50,
+    "changed_line": 1,
+    "from_binary": "111101",
+    "to_binary": "011101"
+  },
+  {
+    "from_hexagram": 14,
+    "to_hexagram": 30,
+    "changed_line": 2,
+    "from_binary": "111101",
+    "to_binary": "101101"
+  },
+  {
+    "from_hexagram": 14,
+    "to_hexagram": 38,
+    "changed_line": 3,
+    "from_binary": "111101",
+    "to_binary": "110101"
+  },
+  {
+    "from_hexagram": 14,
+    "to_hexagram": 26,
+    "changed_line": 4,
+    "from_binary": "111101",
+    "to_binary": "111001"
+  },
+  {
+    "from_hexagram": 14,
+    "to_hexagram": 1,
+    "changed_line": 5,
+    "from_binary": "111101",
+    "to_binary": "111111"
+  },
+  {
+    "from_hexagram": 14,
+    "to_hexagram": 34,
+    "changed_line": 6,
+    "from_binary": "111101",
+    "to_binary": "111100"
+  },
+  {
+    "from_hexagram": 15,
+    "to_hexagram": 36,
+    "changed_line": 1,
+    "from_binary": "001000",
+    "to_binary": "101000"
+  },
+  {
+    "from_hexagram": 15,
+    "to_hexagram": 46,
+    "changed_line": 2,
+    "from_binary": "001000",
+    "to_binary": "011000"
+  },
+  {
+    "from_hexagram": 15,
+    "to_hexagram": 2,
+    "changed_line": 3,
+    "from_binary": "001000",
+    "to_binary": "000000"
+  },
+  {
+    "from_hexagram": 15,
+    "to_hexagram": 62,
+    "changed_line": 4,
+    "from_binary": "001000",
+    "to_binary": "001100"
+  },
+  {
+    "from_hexagram": 15,
+    "to_hexagram": 39,
+    "changed_line": 5,
+    "from_binary": "001000",
+    "to_binary": "001010"
+  },
+  {
+    "from_hexagram": 15,
+    "to_hexagram": 52,
+    "changed_line": 6,
+    "from_binary": "001000",
+    "to_binary": "001001"
+  },
+  {
+    "from_hexagram": 16,
+    "to_hexagram": 51,
+    "changed_line": 1,
+    "from_binary": "000100",
+    "to_binary": "100100"
+  },
+  {
+    "from_hexagram": 16,
+    "to_hexagram": 40,
+    "changed_line": 2,
+    "from_binary": "000100",
+    "to_binary": "010100"
+  },
+  {
+    "from_hexagram": 16,
+    "to_hexagram": 62,
+    "changed_line": 3,
+    "from_binary": "000100",
+    "to_binary": "001100"
+  },
+  {
+    "from_hexagram": 16,
+    "to_hexagram": 2,
+    "changed_line": 4,
+    "from_binary": "000100",
+    "to_binary": "000000"
+  },
+  {
+    "from_hexagram": 16,
+    "to_hexagram": 45,
+    "changed_line": 5,
+    "from_binary": "000100",
+    "to_binary": "000110"
+  },
+  {
+    "from_hexagram": 16,
+    "to_hexagram": 35,
+    "changed_line": 6,
+    "from_binary": "000100",
+    "to_binary": "000101"
+  },
+  {
+    "from_hexagram": 17,
+    "to_hexagram": 45,
+    "changed_line": 1,
+    "from_binary": "100110",
+    "to_binary": "000110"
+  },
+  {
+    "from_hexagram": 17,
+    "to_hexagram": 58,
+    "changed_line": 2,
+    "from_binary": "100110",
+    "to_binary": "110110"
+  },
+  {
+    "from_hexagram": 17,
+    "to_hexagram": 49,
+    "changed_line": 3,
+    "from_binary": "100110",
+    "to_binary": "101110"
+  },
+  {
+    "from_hexagram": 17,
+    "to_hexagram": 3,
+    "changed_line": 4,
+    "from_binary": "100110",
+    "to_binary": "100010"
+  },
+  {
+    "from_hexagram": 17,
+    "to_hexagram": 51,
+    "changed_line": 5,
+    "from_binary": "100110",
+    "to_binary": "100100"
+  },
+  {
+    "from_hexagram": 17,
+    "to_hexagram": 25,
+    "changed_line": 6,
+    "from_binary": "100110",
+    "to_binary": "100111"
+  },
+  {
+    "from_hexagram": 18,
+    "to_hexagram": 26,
+    "changed_line": 1,
+    "from_binary": "011001",
+    "to_binary": "111001"
+  },
+  {
+    "from_hexagram": 18,
+    "to_hexagram": 52,
+    "changed_line": 2,
+    "from_binary": "011001",
+    "to_binary": "001001"
+  },
+  {
+    "from_hexagram": 18,
+    "to_hexagram": 4,
+    "changed_line": 3,
+    "from_binary": "011001",
+    "to_binary": "010001"
+  },
+  {
+    "from_hexagram": 18,
+    "to_hexagram": 50,
+    "changed_line": 4,
+    "from_binary": "011001",
+    "to_binary": "011101"
+  },
+  {
+    "from_hexagram": 18,
+    "to_hexagram": 57,
+    "changed_line": 5,
+    "from_binary": "011001",
+    "to_binary": "011011"
+  },
+  {
+    "from_hexagram": 18,
+    "to_hexagram": 46,
+    "changed_line": 6,
+    "from_binary": "011001",
+    "to_binary": "011000"
+  },
+  {
+    "from_hexagram": 19,
+    "to_hexagram": 7,
+    "changed_line": 1,
+    "from_binary": "110000",
+    "to_binary": "010000"
+  },
+  {
+    "from_hexagram": 19,
+    "to_hexagram": 24,
+    "changed_line": 2,
+    "from_binary": "110000",
+    "to_binary": "100000"
+  },
+  {
+    "from_hexagram": 19,
+    "to_hexagram": 11,
+    "changed_line": 3,
+    "from_binary": "110000",
+    "to_binary": "111000"
+  },
+  {
+    "from_hexagram": 19,
+    "to_hexagram": 54,
+    "changed_line": 4,
+    "from_binary": "110000",
+    "to_binary": "110100"
+  },
+  {
+    "from_hexagram": 19,
+    "to_hexagram": 60,
+    "changed_line": 5,
+    "from_binary": "110000",
+    "to_binary": "110010"
+  },
+  {
+    "from_hexagram": 19,
+    "to_hexagram": 41,
+    "changed_line": 6,
+    "from_binary": "110000",
+    "to_binary": "110001"
+  },
+  {
+    "from_hexagram": 20,
+    "to_hexagram": 42,
+    "changed_line": 1,
+    "from_binary": "000011",
+    "to_binary": "100011"
+  },
+  {
+    "from_hexagram": 20,
+    "to_hexagram": 59,
+    "changed_line": 2,
+    "from_binary": "000011",
+    "to_binary": "010011"
+  },
+  {
+    "from_hexagram": 20,
+    "to_hexagram": 53,
+    "changed_line": 3,
+    "from_binary": "000011",
+    "to_binary": "001011"
+  },
+  {
+    "from_hexagram": 20,
+    "to_hexagram": 12,
+    "changed_line": 4,
+    "from_binary": "000011",
+    "to_binary": "000111"
+  },
+  {
+    "from_hexagram": 20,
+    "to_hexagram": 23,
+    "changed_line": 5,
+    "from_binary": "000011",
+    "to_binary": "000001"
+  },
+  {
+    "from_hexagram": 20,
+    "to_hexagram": 8,
+    "changed_line": 6,
+    "from_binary": "000011",
+    "to_binary": "000010"
+  },
+  {
+    "from_hexagram": 21,
+    "to_hexagram": 35,
+    "changed_line": 1,
+    "from_binary": "100101",
+    "to_binary": "000101"
+  },
+  {
+    "from_hexagram": 21,
+    "to_hexagram": 38,
+    "changed_line": 2,
+    "from_binary": "100101",
+    "to_binary": "110101"
+  },
+  {
+    "from_hexagram": 21,
+    "to_hexagram": 30,
+    "changed_line": 3,
+    "from_binary": "100101",
+    "to_binary": "101101"
+  },
+  {
+    "from_hexagram": 21,
+    "to_hexagram": 27,
+    "changed_line": 4,
+    "from_binary": "100101",
+    "to_binary": "100001"
+  },
+  {
+    "from_hexagram": 21,
+    "to_hexagram": 25,
+    "changed_line": 5,
+    "from_binary": "100101",
+    "to_binary": "100111"
+  },
+  {
+    "from_hexagram": 21,
+    "to_hexagram": 51,
+    "changed_line": 6,
+    "from_binary": "100101",
+    "to_binary": "100100"
+  },
+  {
+    "from_hexagram": 22,
+    "to_hexagram": 52,
+    "changed_line": 1,
+    "from_binary": "101001",
+    "to_binary": "001001"
+  },
+  {
+    "from_hexagram": 22,
+    "to_hexagram": 26,
+    "changed_line": 2,
+    "from_binary": "101001",
+    "to_binary": "111001"
+  },
+  {
+    "from_hexagram": 22,
+    "to_hexagram": 27,
+    "changed_line": 3,
+    "from_binary": "101001",
+    "to_binary": "100001"
+  },
+  {
+    "from_hexagram": 22,
+    "to_hexagram": 30,
+    "changed_line": 4,
+    "from_binary": "101001",
+    "to_binary": "101101"
+  },
+  {
+    "from_hexagram": 22,
+    "to_hexagram": 37,
+    "changed_line": 5,
+    "from_binary": "101001",
+    "to_binary": "101011"
+  },
+  {
+    "from_hexagram": 22,
+    "to_hexagram": 36,
+    "changed_line": 6,
+    "from_binary": "101001",
+    "to_binary": "101000"
+  },
+  {
+    "from_hexagram": 23,
+    "to_hexagram": 27,
+    "changed_line": 1,
+    "from_binary": "000001",
+    "to_binary": "100001"
+  },
+  {
+    "from_hexagram": 23,
+    "to_hexagram": 4,
+    "changed_line": 2,
+    "from_binary": "000001",
+    "to_binary": "010001"
+  },
+  {
+    "from_hexagram": 23,
+    "to_hexagram": 52,
+    "changed_line": 3,
+    "from_binary": "000001",
+    "to_binary": "001001"
+  },
+  {
+    "from_hexagram": 23,
+    "to_hexagram": 35,
+    "changed_line": 4,
+    "from_binary": "000001",
+    "to_binary": "000101"
+  },
+  {
+    "from_hexagram": 23,
+    "to_hexagram": 20,
+    "changed_line": 5,
+    "from_binary": "000001",
+    "to_binary": "000011"
+  },
+  {
+    "from_hexagram": 23,
+    "to_hexagram": 2,
+    "changed_line": 6,
+    "from_binary": "000001",
+    "to_binary": "000000"
+  },
+  {
+    "from_hexagram": 24,
+    "to_hexagram": 2,
+    "changed_line": 1,
+    "from_binary": "100000",
+    "to_binary": "000000"
+  },
+  {
+    "from_hexagram": 24,
+    "to_hexagram": 19,
+    "changed_line": 2,
+    "from_binary": "100000",
+    "to_binary": "110000"
+  },
+  {
+    "from_hexagram": 24,
+    "to_hexagram": 36,
+    "changed_line": 3,
+    "from_binary": "100000",
+    "to_binary": "101000"
+  },
+  {
+    "from_hexagram": 24,
+    "to_hexagram": 51,
+    "changed_line": 4,
+    "from_binary": "100000",
+    "to_binary": "100100"
+  },
+  {
+    "from_hexagram": 24,
+    "to_hexagram": 3,
+    "changed_line": 5,
+    "from_binary": "100000",
+    "to_binary": "100010"
+  },
+  {
+    "from_hexagram": 24,
+    "to_hexagram": 27,
+    "changed_line": 6,
+    "from_binary": "100000",
+    "to_binary": "100001"
+  },
+  {
+    "from_hexagram": 25,
+    "to_hexagram": 12,
+    "changed_line": 1,
+    "from_binary": "100111",
+    "to_binary": "000111"
+  },
+  {
+    "from_hexagram": 25,
+    "to_hexagram": 10,
+    "changed_line": 2,
+    "from_binary": "100111",
+    "to_binary": "110111"
+  },
+  {
+    "from_hexagram": 25,
+    "to_hexagram": 13,
+    "changed_line": 3,
+    "from_binary": "100111",
+    "to_binary": "101111"
+  },
+  {
+    "from_hexagram": 25,
+    "to_hexagram": 42,
+    "changed_line": 4,
+    "from_binary": "100111",
+    "to_binary": "100011"
+  },
+  {
+    "from_hexagram": 25,
+    "to_hexagram": 21,
+    "changed_line": 5,
+    "from_binary": "100111",
+    "to_binary": "100101"
+  },
+  {
+    "from_hexagram": 25,
+    "to_hexagram": 17,
+    "changed_line": 6,
+    "from_binary": "100111",
+    "to_binary": "100110"
+  },
+  {
+    "from_hexagram": 26,
+    "to_hexagram": 18,
+    "changed_line": 1,
+    "from_binary": "111001",
+    "to_binary": "011001"
+  },
+  {
+    "from_hexagram": 26,
+    "to_hexagram": 22,
+    "changed_line": 2,
+    "from_binary": "111001",
+    "to_binary": "101001"
+  },
+  {
+    "from_hexagram": 26,
+    "to_hexagram": 41,
+    "changed_line": 3,
+    "from_binary": "111001",
+    "to_binary": "110001"
+  },
+  {
+    "from_hexagram": 26,
+    "to_hexagram": 14,
+    "changed_line": 4,
+    "from_binary": "111001",
+    "to_binary": "111101"
+  },
+  {
+    "from_hexagram": 26,
+    "to_hexagram": 9,
+    "changed_line": 5,
+    "from_binary": "111001",
+    "to_binary": "111011"
+  },
+  {
+    "from_hexagram": 26,
+    "to_hexagram": 11,
+    "changed_line": 6,
+    "from_binary": "111001",
+    "to_binary": "111000"
+  },
+  {
+    "from_hexagram": 27,
+    "to_hexagram": 23,
+    "changed_line": 1,
+    "from_binary": "100001",
+    "to_binary": "000001"
+  },
+  {
+    "from_hexagram": 27,
+    "to_hexagram": 41,
+    "changed_line": 2,
+    "from_binary": "100001",
+    "to_binary": "110001"
+  },
+  {
+    "from_hexagram": 27,
+    "to_hexagram": 22,
+    "changed_line": 3,
+    "from_binary": "100001",
+    "to_binary": "101001"
+  },
+  {
+    "from_hexagram": 27,
+    "to_hexagram": 21,
+    "changed_line": 4,
+    "from_binary": "100001",
+    "to_binary": "100101"
+  },
+  {
+    "from_hexagram": 27,
+    "to_hexagram": 42,
+    "changed_line": 5,
+    "from_binary": "100001",
+    "to_binary": "100011"
+  },
+  {
+    "from_hexagram": 27,
+    "to_hexagram": 24,
+    "changed_line": 6,
+    "from_binary": "100001",
+    "to_binary": "100000"
+  },
+  {
+    "from_hexagram": 28,
+    "to_hexagram": 43,
+    "changed_line": 1,
+    "from_binary": "011110",
+    "to_binary": "111110"
+  },
+  {
+    "from_hexagram": 28,
+    "to_hexagram": 31,
+    "changed_line": 2,
+    "from_binary": "011110",
+    "to_binary": "001110"
+  },
+  {
+    "from_hexagram": 28,
+    "to_hexagram": 47,
+    "changed_line": 3,
+    "from_binary": "011110",
+    "to_binary": "010110"
+  },
+  {
+    "from_hexagram": 28,
+    "to_hexagram": 48,
+    "changed_line": 4,
+    "from_binary": "011110",
+    "to_binary": "011010"
+  },
+  {
+    "from_hexagram": 28,
+    "to_hexagram": 32,
+    "changed_line": 5,
+    "from_binary": "011110",
+    "to_binary": "011100"
+  },
+  {
+    "from_hexagram": 28,
+    "to_hexagram": 44,
+    "changed_line": 6,
+    "from_binary": "011110",
+    "to_binary": "011111"
+  },
+  {
+    "from_hexagram": 29,
+    "to_hexagram": 60,
+    "changed_line": 1,
+    "from_binary": "010010",
+    "to_binary": "110010"
+  },
+  {
+    "from_hexagram": 29,
+    "to_hexagram": 8,
+    "changed_line": 2,
+    "from_binary": "010010",
+    "to_binary": "000010"
+  },
+  {
+    "from_hexagram": 29,
+    "to_hexagram": 48,
+    "changed_line": 3,
+    "from_binary": "010010",
+    "to_binary": "011010"
+  },
+  {
+    "from_hexagram": 29,
+    "to_hexagram": 47,
+    "changed_line": 4,
+    "from_binary": "010010",
+    "to_binary": "010110"
+  },
+  {
+    "from_hexagram": 29,
+    "to_hexagram": 7,
+    "changed_line": 5,
+    "from_binary": "010010",
+    "to_binary": "010000"
+  },
+  {
+    "from_hexagram": 29,
+    "to_hexagram": 59,
+    "changed_line": 6,
+    "from_binary": "010010",
+    "to_binary": "010011"
+  },
+  {
+    "from_hexagram": 30,
+    "to_hexagram": 56,
+    "changed_line": 1,
+    "from_binary": "101101",
+    "to_binary": "001101"
+  },
+  {
+    "from_hexagram": 30,
+    "to_hexagram": 14,
+    "changed_line": 2,
+    "from_binary": "101101",
+    "to_binary": "111101"
+  },
+  {
+    "from_hexagram": 30,
+    "to_hexagram": 21,
+    "changed_line": 3,
+    "from_binary": "101101",
+    "to_binary": "100101"
+  },
+  {
+    "from_hexagram": 30,
+    "to_hexagram": 22,
+    "changed_line": 4,
+    "from_binary": "101101",
+    "to_binary": "101001"
+  },
+  {
+    "from_hexagram": 30,
+    "to_hexagram": 13,
+    "changed_line": 5,
+    "from_binary": "101101",
+    "to_binary": "101111"
+  },
+  {
+    "from_hexagram": 30,
+    "to_hexagram": 55,
+    "changed_line": 6,
+    "from_binary": "101101",
+    "to_binary": "101100"
+  },
+  {
+    "from_hexagram": 31,
+    "to_hexagram": 49,
+    "changed_line": 1,
+    "from_binary": "001110",
+    "to_binary": "101110"
+  },
+  {
+    "from_hexagram": 31,
+    "to_hexagram": 28,
+    "changed_line": 2,
+    "from_binary": "001110",
+    "to_binary": "011110"
+  },
+  {
+    "from_hexagram": 31,
+    "to_hexagram": 45,
+    "changed_line": 3,
+    "from_binary": "001110",
+    "to_binary": "000110"
+  },
+  {
+    "from_hexagram": 31,
+    "to_hexagram": 39,
+    "changed_line": 4,
+    "from_binary": "001110",
+    "to_binary": "001010"
+  },
+  {
+    "from_hexagram": 31,
+    "to_hexagram": 62,
+    "changed_line": 5,
+    "from_binary": "001110",
+    "to_binary": "001100"
+  },
+  {
+    "from_hexagram": 31,
+    "to_hexagram": 33,
+    "changed_line": 6,
+    "from_binary": "001110",
+    "to_binary": "001111"
+  },
+  {
+    "from_hexagram": 32,
+    "to_hexagram": 34,
+    "changed_line": 1,
+    "from_binary": "011100",
+    "to_binary": "111100"
+  },
+  {
+    "from_hexagram": 32,
+    "to_hexagram": 62,
+    "changed_line": 2,
+    "from_binary": "011100",
+    "to_binary": "001100"
+  },
+  {
+    "from_hexagram": 32,
+    "to_hexagram": 40,
+    "changed_line": 3,
+    "from_binary": "011100",
+    "to_binary": "010100"
+  },
+  {
+    "from_hexagram": 32,
+    "to_hexagram": 46,
+    "changed_line": 4,
+    "from_binary": "011100",
+    "to_binary": "011000"
+  },
+  {
+    "from_hexagram": 32,
+    "to_hexagram": 28,
+    "changed_line": 5,
+    "from_binary": "011100",
+    "to_binary": "011110"
+  },
+  {
+    "from_hexagram": 32,
+    "to_hexagram": 50,
+    "changed_line": 6,
+    "from_binary": "011100",
+    "to_binary": "011101"
+  },
+  {
+    "from_hexagram": 33,
+    "to_hexagram": 13,
+    "changed_line": 1,
+    "from_binary": "001111",
+    "to_binary": "101111"
+  },
+  {
+    "from_hexagram": 33,
+    "to_hexagram": 44,
+    "changed_line": 2,
+    "from_binary": "001111",
+    "to_binary": "011111"
+  },
+  {
+    "from_hexagram": 33,
+    "to_hexagram": 12,
+    "changed_line": 3,
+    "from_binary": "001111",
+    "to_binary": "000111"
+  },
+  {
+    "from_hexagram": 33,
+    "to_hexagram": 53,
+    "changed_line": 4,
+    "from_binary": "001111",
+    "to_binary": "001011"
+  },
+  {
+    "from_hexagram": 33,
+    "to_hexagram": 56,
+    "changed_line": 5,
+    "from_binary": "001111",
+    "to_binary": "001101"
+  },
+  {
+    "from_hexagram": 33,
+    "to_hexagram": 31,
+    "changed_line": 6,
+    "from_binary": "001111",
+    "to_binary": "001110"
+  },
+  {
+    "from_hexagram": 34,
+    "to_hexagram": 32,
+    "changed_line": 1,
+    "from_binary": "111100",
+    "to_binary": "011100"
+  },
+  {
+    "from_hexagram": 34,
+    "to_hexagram": 55,
+    "changed_line": 2,
+    "from_binary": "111100",
+    "to_binary": "101100"
+  },
+  {
+    "from_hexagram": 34,
+    "to_hexagram": 54,
+    "changed_line": 3,
+    "from_binary": "111100",
+    "to_binary": "110100"
+  },
+  {
+    "from_hexagram": 34,
+    "to_hexagram": 11,
+    "changed_line": 4,
+    "from_binary": "111100",
+    "to_binary": "111000"
+  },
+  {
+    "from_hexagram": 34,
+    "to_hexagram": 43,
+    "changed_line": 5,
+    "from_binary": "111100",
+    "to_binary": "111110"
+  },
+  {
+    "from_hexagram": 34,
+    "to_hexagram": 14,
+    "changed_line": 6,
+    "from_binary": "111100",
+    "to_binary": "111101"
+  },
+  {
+    "from_hexagram": 35,
+    "to_hexagram": 21,
+    "changed_line": 1,
+    "from_binary": "000101",
+    "to_binary": "100101"
+  },
+  {
+    "from_hexagram": 35,
+    "to_hexagram": 64,
+    "changed_line": 2,
+    "from_binary": "000101",
+    "to_binary": "010101"
+  },
+  {
+    "from_hexagram": 35,
+    "to_hexagram": 56,
+    "changed_line": 3,
+    "from_binary": "000101",
+    "to_binary": "001101"
+  },
+  {
+    "from_hexagram": 35,
+    "to_hexagram": 23,
+    "changed_line": 4,
+    "from_binary": "000101",
+    "to_binary": "000001"
+  },
+  {
+    "from_hexagram": 35,
+    "to_hexagram": 12,
+    "changed_line": 5,
+    "from_binary": "000101",
+    "to_binary": "000111"
+  },
+  {
+    "from_hexagram": 35,
+    "to_hexagram": 16,
+    "changed_line": 6,
+    "from_binary": "000101",
+    "to_binary": "000100"
+  },
+  {
+    "from_hexagram": 36,
+    "to_hexagram": 15,
+    "changed_line": 1,
+    "from_binary": "101000",
+    "to_binary": "001000"
+  },
+  {
+    "from_hexagram": 36,
+    "to_hexagram": 11,
+    "changed_line": 2,
+    "from_binary": "101000",
+    "to_binary": "111000"
+  },
+  {
+    "from_hexagram": 36,
+    "to_hexagram": 24,
+    "changed_line": 3,
+    "from_binary": "101000",
+    "to_binary": "100000"
+  },
+  {
+    "from_hexagram": 36,
+    "to_hexagram": 55,
+    "changed_line": 4,
+    "from_binary": "101000",
+    "to_binary": "101100"
+  },
+  {
+    "from_hexagram": 36,
+    "to_hexagram": 63,
+    "changed_line": 5,
+    "from_binary": "101000",
+    "to_binary": "101010"
+  },
+  {
+    "from_hexagram": 36,
+    "to_hexagram": 22,
+    "changed_line": 6,
+    "from_binary": "101000",
+    "to_binary": "101001"
+  },
+  {
+    "from_hexagram": 37,
+    "to_hexagram": 53,
+    "changed_line": 1,
+    "from_binary": "101011",
+    "to_binary": "001011"
+  },
+  {
+    "from_hexagram": 37,
+    "to_hexagram": 9,
+    "changed_line": 2,
+    "from_binary": "101011",
+    "to_binary": "111011"
+  },
+  {
+    "from_hexagram": 37,
+    "to_hexagram": 42,
+    "changed_line": 3,
+    "from_binary": "101011",
+    "to_binary": "100011"
+  },
+  {
+    "from_hexagram": 37,
+    "to_hexagram": 13,
+    "changed_line": 4,
+    "from_binary": "101011",
+    "to_binary": "101111"
+  },
+  {
+    "from_hexagram": 37,
+    "to_hexagram": 22,
+    "changed_line": 5,
+    "from_binary": "101011",
+    "to_binary": "101001"
+  },
+  {
+    "from_hexagram": 37,
+    "to_hexagram": 63,
+    "changed_line": 6,
+    "from_binary": "101011",
+    "to_binary": "101010"
+  },
+  {
+    "from_hexagram": 38,
+    "to_hexagram": 64,
+    "changed_line": 1,
+    "from_binary": "110101",
+    "to_binary": "010101"
+  },
+  {
+    "from_hexagram": 38,
+    "to_hexagram": 21,
+    "changed_line": 2,
+    "from_binary": "110101",
+    "to_binary": "100101"
+  },
+  {
+    "from_hexagram": 38,
+    "to_hexagram": 14,
+    "changed_line": 3,
+    "from_binary": "110101",
+    "to_binary": "111101"
+  },
+  {
+    "from_hexagram": 38,
+    "to_hexagram": 41,
+    "changed_line": 4,
+    "from_binary": "110101",
+    "to_binary": "110001"
+  },
+  {
+    "from_hexagram": 38,
+    "to_hexagram": 10,
+    "changed_line": 5,
+    "from_binary": "110101",
+    "to_binary": "110111"
+  },
+  {
+    "from_hexagram": 38,
+    "to_hexagram": 54,
+    "changed_line": 6,
+    "from_binary": "110101",
+    "to_binary": "110100"
+  },
+  {
+    "from_hexagram": 39,
+    "to_hexagram": 63,
+    "changed_line": 1,
+    "from_binary": "001010",
+    "to_binary": "101010"
+  },
+  {
+    "from_hexagram": 39,
+    "to_hexagram": 48,
+    "changed_line": 2,
+    "from_binary": "001010",
+    "to_binary": "011010"
+  },
+  {
+    "from_hexagram": 39,
+    "to_hexagram": 8,
+    "changed_line": 3,
+    "from_binary": "001010",
+    "to_binary": "000010"
+  },
+  {
+    "from_hexagram": 39,
+    "to_hexagram": 31,
+    "changed_line": 4,
+    "from_binary": "001010",
+    "to_binary": "001110"
+  },
+  {
+    "from_hexagram": 39,
+    "to_hexagram": 15,
+    "changed_line": 5,
+    "from_binary": "001010",
+    "to_binary": "001000"
+  },
+  {
+    "from_hexagram": 39,
+    "to_hexagram": 53,
+    "changed_line": 6,
+    "from_binary": "001010",
+    "to_binary": "001011"
+  },
+  {
+    "from_hexagram": 40,
+    "to_hexagram": 54,
+    "changed_line": 1,
+    "from_binary": "010100",
+    "to_binary": "110100"
+  },
+  {
+    "from_hexagram": 40,
+    "to_hexagram": 16,
+    "changed_line": 2,
+    "from_binary": "010100",
+    "to_binary": "000100"
+  },
+  {
+    "from_hexagram": 40,
+    "to_hexagram": 32,
+    "changed_line": 3,
+    "from_binary": "010100",
+    "to_binary": "011100"
+  },
+  {
+    "from_hexagram": 40,
+    "to_hexagram": 7,
+    "changed_line": 4,
+    "from_binary": "010100",
+    "to_binary": "010000"
+  },
+  {
+    "from_hexagram": 40,
+    "to_hexagram": 47,
+    "changed_line": 5,
+    "from_binary": "010100",
+    "to_binary": "010110"
+  },
+  {
+    "from_hexagram": 40,
+    "to_hexagram": 64,
+    "changed_line": 6,
+    "from_binary": "010100",
+    "to_binary": "010101"
+  },
+  {
+    "from_hexagram": 41,
+    "to_hexagram": 4,
+    "changed_line": 1,
+    "from_binary": "110001",
+    "to_binary": "010001"
+  },
+  {
+    "from_hexagram": 41,
+    "to_hexagram": 27,
+    "changed_line": 2,
+    "from_binary": "110001",
+    "to_binary": "100001"
+  },
+  {
+    "from_hexagram": 41,
+    "to_hexagram": 26,
+    "changed_line": 3,
+    "from_binary": "110001",
+    "to_binary": "111001"
+  },
+  {
+    "from_hexagram": 41,
+    "to_hexagram": 38,
+    "changed_line": 4,
+    "from_binary": "110001",
+    "to_binary": "110101"
+  },
+  {
+    "from_hexagram": 41,
+    "to_hexagram": 61,
+    "changed_line": 5,
+    "from_binary": "110001",
+    "to_binary": "110011"
+  },
+  {
+    "from_hexagram": 41,
+    "to_hexagram": 19,
+    "changed_line": 6,
+    "from_binary": "110001",
+    "to_binary": "110000"
+  },
+  {
+    "from_hexagram": 42,
+    "to_hexagram": 20,
+    "changed_line": 1,
+    "from_binary": "100011",
+    "to_binary": "000011"
+  },
+  {
+    "from_hexagram": 42,
+    "to_hexagram": 61,
+    "changed_line": 2,
+    "from_binary": "100011",
+    "to_binary": "110011"
+  },
+  {
+    "from_hexagram": 42,
+    "to_hexagram": 37,
+    "changed_line": 3,
+    "from_binary": "100011",
+    "to_binary": "101011"
+  },
+  {
+    "from_hexagram": 42,
+    "to_hexagram": 25,
+    "changed_line": 4,
+    "from_binary": "100011",
+    "to_binary": "100111"
+  },
+  {
+    "from_hexagram": 42,
+    "to_hexagram": 27,
+    "changed_line": 5,
+    "from_binary": "100011",
+    "to_binary": "100001"
+  },
+  {
+    "from_hexagram": 42,
+    "to_hexagram": 3,
+    "changed_line": 6,
+    "from_binary": "100011",
+    "to_binary": "100010"
+  },
+  {
+    "from_hexagram": 43,
+    "to_hexagram": 28,
+    "changed_line": 1,
+    "from_binary": "111110",
+    "to_binary": "011110"
+  },
+  {
+    "from_hexagram": 43,
+    "to_hexagram": 49,
+    "changed_line": 2,
+    "from_binary": "111110",
+    "to_binary": "101110"
+  },
+  {
+    "from_hexagram": 43,
+    "to_hexagram": 58,
+    "changed_line": 3,
+    "from_binary": "111110",
+    "to_binary": "110110"
+  },
+  {
+    "from_hexagram": 43,
+    "to_hexagram": 5,
+    "changed_line": 4,
+    "from_binary": "111110",
+    "to_binary": "111010"
+  },
+  {
+    "from_hexagram": 43,
+    "to_hexagram": 34,
+    "changed_line": 5,
+    "from_binary": "111110",
+    "to_binary": "111100"
+  },
+  {
+    "from_hexagram": 43,
+    "to_hexagram": 1,
+    "changed_line": 6,
+    "from_binary": "111110",
+    "to_binary": "111111"
+  },
+  {
+    "from_hexagram": 44,
+    "to_hexagram": 1,
+    "changed_line": 1,
+    "from_binary": "011111",
+    "to_binary": "111111"
+  },
+  {
+    "from_hexagram": 44,
+    "to_hexagram": 33,
+    "changed_line": 2,
+    "from_binary": "011111",
+    "to_binary": "001111"
+  },
+  {
+    "from_hexagram": 44,
+    "to_hexagram": 6,
+    "changed_line": 3,
+    "from_binary": "011111",
+    "to_binary": "010111"
+  },
+  {
+    "from_hexagram": 44,
+    "to_hexagram": 57,
+    "changed_line": 4,
+    "from_binary": "011111",
+    "to_binary": "011011"
+  },
+  {
+    "from_hexagram": 44,
+    "to_hexagram": 50,
+    "changed_line": 5,
+    "from_binary": "011111",
+    "to_binary": "011101"
+  },
+  {
+    "from_hexagram": 44,
+    "to_hexagram": 28,
+    "changed_line": 6,
+    "from_binary": "011111",
+    "to_binary": "011110"
+  },
+  {
+    "from_hexagram": 45,
+    "to_hexagram": 17,
+    "changed_line": 1,
+    "from_binary": "000110",
+    "to_binary": "100110"
+  },
+  {
+    "from_hexagram": 45,
+    "to_hexagram": 47,
+    "changed_line": 2,
+    "from_binary": "000110",
+    "to_binary": "010110"
+  },
+  {
+    "from_hexagram": 45,
+    "to_hexagram": 31,
+    "changed_line": 3,
+    "from_binary": "000110",
+    "to_binary": "001110"
+  },
+  {
+    "from_hexagram": 45,
+    "to_hexagram": 8,
+    "changed_line": 4,
+    "from_binary": "000110",
+    "to_binary": "000010"
+  },
+  {
+    "from_hexagram": 45,
+    "to_hexagram": 16,
+    "changed_line": 5,
+    "from_binary": "000110",
+    "to_binary": "000100"
+  },
+  {
+    "from_hexagram": 45,
+    "to_hexagram": 12,
+    "changed_line": 6,
+    "from_binary": "000110",
+    "to_binary": "000111"
+  },
+  {
+    "from_hexagram": 46,
+    "to_hexagram": 11,
+    "changed_line": 1,
+    "from_binary": "011000",
+    "to_binary": "111000"
+  },
+  {
+    "from_hexagram": 46,
+    "to_hexagram": 15,
+    "changed_line": 2,
+    "from_binary": "011000",
+    "to_binary": "001000"
+  },
+  {
+    "from_hexagram": 46,
+    "to_hexagram": 7,
+    "changed_line": 3,
+    "from_binary": "011000",
+    "to_binary": "010000"
+  },
+  {
+    "from_hexagram": 46,
+    "to_hexagram": 32,
+    "changed_line": 4,
+    "from_binary": "011000",
+    "to_binary": "011100"
+  },
+  {
+    "from_hexagram": 46,
+    "to_hexagram": 48,
+    "changed_line": 5,
+    "from_binary": "011000",
+    "to_binary": "011010"
+  },
+  {
+    "from_hexagram": 46,
+    "to_hexagram": 18,
+    "changed_line": 6,
+    "from_binary": "011000",
+    "to_binary": "011001"
+  },
+  {
+    "from_hexagram": 47,
+    "to_hexagram": 58,
+    "changed_line": 1,
+    "from_binary": "010110",
+    "to_binary": "110110"
+  },
+  {
+    "from_hexagram": 47,
+    "to_hexagram": 45,
+    "changed_line": 2,
+    "from_binary": "010110",
+    "to_binary": "000110"
+  },
+  {
+    "from_hexagram": 47,
+    "to_hexagram": 28,
+    "changed_line": 3,
+    "from_binary": "010110",
+    "to_binary": "011110"
+  },
+  {
+    "from_hexagram": 47,
+    "to_hexagram": 29,
+    "changed_line": 4,
+    "from_binary": "010110",
+    "to_binary": "010010"
+  },
+  {
+    "from_hexagram": 47,
+    "to_hexagram": 40,
+    "changed_line": 5,
+    "from_binary": "010110",
+    "to_binary": "010100"
+  },
+  {
+    "from_hexagram": 47,
+    "to_hexagram": 6,
+    "changed_line": 6,
+    "from_binary": "010110",
+    "to_binary": "010111"
+  },
+  {
+    "from_hexagram": 48,
+    "to_hexagram": 5,
+    "changed_line": 1,
+    "from_binary": "011010",
+    "to_binary": "111010"
+  },
+  {
+    "from_hexagram": 48,
+    "to_hexagram": 39,
+    "changed_line": 2,
+    "from_binary": "011010",
+    "to_binary": "001010"
+  },
+  {
+    "from_hexagram": 48,
+    "to_hexagram": 29,
+    "changed_line": 3,
+    "from_binary": "011010",
+    "to_binary": "010010"
+  },
+  {
+    "from_hexagram": 48,
+    "to_hexagram": 28,
+    "changed_line": 4,
+    "from_binary": "011010",
+    "to_binary": "011110"
+  },
+  {
+    "from_hexagram": 48,
+    "to_hexagram": 46,
+    "changed_line": 5,
+    "from_binary": "011010",
+    "to_binary": "011000"
+  },
+  {
+    "from_hexagram": 48,
+    "to_hexagram": 57,
+    "changed_line": 6,
+    "from_binary": "011010",
+    "to_binary": "011011"
+  },
+  {
+    "from_hexagram": 49,
+    "to_hexagram": 31,
+    "changed_line": 1,
+    "from_binary": "101110",
+    "to_binary": "001110"
+  },
+  {
+    "from_hexagram": 49,
+    "to_hexagram": 43,
+    "changed_line": 2,
+    "from_binary": "101110",
+    "to_binary": "111110"
+  },
+  {
+    "from_hexagram": 49,
+    "to_hexagram": 17,
+    "changed_line": 3,
+    "from_binary": "101110",
+    "to_binary": "100110"
+  },
+  {
+    "from_hexagram": 49,
+    "to_hexagram": 63,
+    "changed_line": 4,
+    "from_binary": "101110",
+    "to_binary": "101010"
+  },
+  {
+    "from_hexagram": 49,
+    "to_hexagram": 55,
+    "changed_line": 5,
+    "from_binary": "101110",
+    "to_binary": "101100"
+  },
+  {
+    "from_hexagram": 49,
+    "to_hexagram": 13,
+    "changed_line": 6,
+    "from_binary": "101110",
+    "to_binary": "101111"
+  },
+  {
+    "from_hexagram": 50,
+    "to_hexagram": 14,
+    "changed_line": 1,
+    "from_binary": "011101",
+    "to_binary": "111101"
+  },
+  {
+    "from_hexagram": 50,
+    "to_hexagram": 56,
+    "changed_line": 2,
+    "from_binary": "011101",
+    "to_binary": "001101"
+  },
+  {
+    "from_hexagram": 50,
+    "to_hexagram": 64,
+    "changed_line": 3,
+    "from_binary": "011101",
+    "to_binary": "010101"
+  },
+  {
+    "from_hexagram": 50,
+    "to_hexagram": 18,
+    "changed_line": 4,
+    "from_binary": "011101",
+    "to_binary": "011001"
+  },
+  {
+    "from_hexagram": 50,
+    "to_hexagram": 44,
+    "changed_line": 5,
+    "from_binary": "011101",
+    "to_binary": "011111"
+  },
+  {
+    "from_hexagram": 50,
+    "to_hexagram": 32,
+    "changed_line": 6,
+    "from_binary": "011101",
+    "to_binary": "011100"
+  },
+  {
+    "from_hexagram": 51,
+    "to_hexagram": 16,
+    "changed_line": 1,
+    "from_binary": "100100",
+    "to_binary": "000100"
+  },
+  {
+    "from_hexagram": 51,
+    "to_hexagram": 54,
+    "changed_line": 2,
+    "from_binary": "100100",
+    "to_binary": "110100"
+  },
+  {
+    "from_hexagram": 51,
+    "to_hexagram": 55,
+    "changed_line": 3,
+    "from_binary": "100100",
+    "to_binary": "101100"
+  },
+  {
+    "from_hexagram": 51,
+    "to_hexagram": 24,
+    "changed_line": 4,
+    "from_binary": "100100",
+    "to_binary": "100000"
+  },
+  {
+    "from_hexagram": 51,
+    "to_hexagram": 17,
+    "changed_line": 5,
+    "from_binary": "100100",
+    "to_binary": "100110"
+  },
+  {
+    "from_hexagram": 51,
+    "to_hexagram": 21,
+    "changed_line": 6,
+    "from_binary": "100100",
+    "to_binary": "100101"
+  },
+  {
+    "from_hexagram": 52,
+    "to_hexagram": 22,
+    "changed_line": 1,
+    "from_binary": "001001",
+    "to_binary": "101001"
+  },
+  {
+    "from_hexagram": 52,
+    "to_hexagram": 18,
+    "changed_line": 2,
+    "from_binary": "001001",
+    "to_binary": "011001"
+  },
+  {
+    "from_hexagram": 52,
+    "to_hexagram": 23,
+    "changed_line": 3,
+    "from_binary": "001001",
+    "to_binary": "000001"
+  },
+  {
+    "from_hexagram": 52,
+    "to_hexagram": 56,
+    "changed_line": 4,
+    "from_binary": "001001",
+    "to_binary": "001101"
+  },
+  {
+    "from_hexagram": 52,
+    "to_hexagram": 53,
+    "changed_line": 5,
+    "from_binary": "001001",
+    "to_binary": "001011"
+  },
+  {
+    "from_hexagram": 52,
+    "to_hexagram": 15,
+    "changed_line": 6,
+    "from_binary": "001001",
+    "to_binary": "001000"
+  },
+  {
+    "from_hexagram": 53,
+    "to_hexagram": 37,
+    "changed_line": 1,
+    "from_binary": "001011",
+    "to_binary": "101011"
+  },
+  {
+    "from_hexagram": 53,
+    "to_hexagram": 57,
+    "changed_line": 2,
+    "from_binary": "001011",
+    "to_binary": "011011"
+  },
+  {
+    "from_hexagram": 53,
+    "to_hexagram": 20,
+    "changed_line": 3,
+    "from_binary": "001011",
+    "to_binary": "000011"
+  },
+  {
+    "from_hexagram": 53,
+    "to_hexagram": 33,
+    "changed_line": 4,
+    "from_binary": "001011",
+    "to_binary": "001111"
+  },
+  {
+    "from_hexagram": 53,
+    "to_hexagram": 52,
+    "changed_line": 5,
+    "from_binary": "001011",
+    "to_binary": "001001"
+  },
+  {
+    "from_hexagram": 53,
+    "to_hexagram": 39,
+    "changed_line": 6,
+    "from_binary": "001011",
+    "to_binary": "001010"
+  },
+  {
+    "from_hexagram": 54,
+    "to_hexagram": 40,
+    "changed_line": 1,
+    "from_binary": "110100",
+    "to_binary": "010100"
+  },
+  {
+    "from_hexagram": 54,
+    "to_hexagram": 51,
+    "changed_line": 2,
+    "from_binary": "110100",
+    "to_binary": "100100"
+  },
+  {
+    "from_hexagram": 54,
+    "to_hexagram": 34,
+    "changed_line": 3,
+    "from_binary": "110100",
+    "to_binary": "111100"
+  },
+  {
+    "from_hexagram": 54,
+    "to_hexagram": 19,
+    "changed_line": 4,
+    "from_binary": "110100",
+    "to_binary": "110000"
+  },
+  {
+    "from_hexagram": 54,
+    "to_hexagram": 58,
+    "changed_line": 5,
+    "from_binary": "110100",
+    "to_binary": "110110"
+  },
+  {
+    "from_hexagram": 54,
+    "to_hexagram": 38,
+    "changed_line": 6,
+    "from_binary": "110100",
+    "to_binary": "110101"
+  },
+  {
+    "from_hexagram": 55,
+    "to_hexagram": 62,
+    "changed_line": 1,
+    "from_binary": "101100",
+    "to_binary": "001100"
+  },
+  {
+    "from_hexagram": 55,
+    "to_hexagram": 34,
+    "changed_line": 2,
+    "from_binary": "101100",
+    "to_binary": "111100"
+  },
+  {
+    "from_hexagram": 55,
+    "to_hexagram": 51,
+    "changed_line": 3,
+    "from_binary": "101100",
+    "to_binary": "100100"
+  },
+  {
+    "from_hexagram": 55,
+    "to_hexagram": 36,
+    "changed_line": 4,
+    "from_binary": "101100",
+    "to_binary": "101000"
+  },
+  {
+    "from_hexagram": 55,
+    "to_hexagram": 49,
+    "changed_line": 5,
+    "from_binary": "101100",
+    "to_binary": "101110"
+  },
+  {
+    "from_hexagram": 55,
+    "to_hexagram": 30,
+    "changed_line": 6,
+    "from_binary": "101100",
+    "to_binary": "101101"
+  },
+  {
+    "from_hexagram": 56,
+    "to_hexagram": 30,
+    "changed_line": 1,
+    "from_binary": "001101",
+    "to_binary": "101101"
+  },
+  {
+    "from_hexagram": 56,
+    "to_hexagram": 50,
+    "changed_line": 2,
+    "from_binary": "001101",
+    "to_binary": "011101"
+  },
+  {
+    "from_hexagram": 56,
+    "to_hexagram": 35,
+    "changed_line": 3,
+    "from_binary": "001101",
+    "to_binary": "000101"
+  },
+  {
+    "from_hexagram": 56,
+    "to_hexagram": 52,
+    "changed_line": 4,
+    "from_binary": "001101",
+    "to_binary": "001001"
+  },
+  {
+    "from_hexagram": 56,
+    "to_hexagram": 33,
+    "changed_line": 5,
+    "from_binary": "001101",
+    "to_binary": "001111"
+  },
+  {
+    "from_hexagram": 56,
+    "to_hexagram": 62,
+    "changed_line": 6,
+    "from_binary": "001101",
+    "to_binary": "001100"
+  },
+  {
+    "from_hexagram": 57,
+    "to_hexagram": 9,
+    "changed_line": 1,
+    "from_binary": "011011",
+    "to_binary": "111011"
+  },
+  {
+    "from_hexagram": 57,
+    "to_hexagram": 53,
+    "changed_line": 2,
+    "from_binary": "011011",
+    "to_binary": "001011"
+  },
+  {
+    "from_hexagram": 57,
+    "to_hexagram": 59,
+    "changed_line": 3,
+    "from_binary": "011011",
+    "to_binary": "010011"
+  },
+  {
+    "from_hexagram": 57,
+    "to_hexagram": 44,
+    "changed_line": 4,
+    "from_binary": "011011",
+    "to_binary": "011111"
+  },
+  {
+    "from_hexagram": 57,
+    "to_hexagram": 18,
+    "changed_line": 5,
+    "from_binary": "011011",
+    "to_binary": "011001"
+  },
+  {
+    "from_hexagram": 57,
+    "to_hexagram": 48,
+    "changed_line": 6,
+    "from_binary": "011011",
+    "to_binary": "011010"
+  },
+  {
+    "from_hexagram": 58,
+    "to_hexagram": 47,
+    "changed_line": 1,
+    "from_binary": "110110",
+    "to_binary": "010110"
+  },
+  {
+    "from_hexagram": 58,
+    "to_hexagram": 17,
+    "changed_line": 2,
+    "from_binary": "110110",
+    "to_binary": "100110"
+  },
+  {
+    "from_hexagram": 58,
+    "to_hexagram": 43,
+    "changed_line": 3,
+    "from_binary": "110110",
+    "to_binary": "111110"
+  },
+  {
+    "from_hexagram": 58,
+    "to_hexagram": 60,
+    "changed_line": 4,
+    "from_binary": "110110",
+    "to_binary": "110010"
+  },
+  {
+    "from_hexagram": 58,
+    "to_hexagram": 54,
+    "changed_line": 5,
+    "from_binary": "110110",
+    "to_binary": "110100"
+  },
+  {
+    "from_hexagram": 58,
+    "to_hexagram": 10,
+    "changed_line": 6,
+    "from_binary": "110110",
+    "to_binary": "110111"
+  },
+  {
+    "from_hexagram": 59,
+    "to_hexagram": 61,
+    "changed_line": 1,
+    "from_binary": "010011",
+    "to_binary": "110011"
+  },
+  {
+    "from_hexagram": 59,
+    "to_hexagram": 20,
+    "changed_line": 2,
+    "from_binary": "010011",
+    "to_binary": "000011"
+  },
+  {
+    "from_hexagram": 59,
+    "to_hexagram": 57,
+    "changed_line": 3,
+    "from_binary": "010011",
+    "to_binary": "011011"
+  },
+  {
+    "from_hexagram": 59,
+    "to_hexagram": 6,
+    "changed_line": 4,
+    "from_binary": "010011",
+    "to_binary": "010111"
+  },
+  {
+    "from_hexagram": 59,
+    "to_hexagram": 4,
+    "changed_line": 5,
+    "from_binary": "010011",
+    "to_binary": "010001"
+  },
+  {
+    "from_hexagram": 59,
+    "to_hexagram": 29,
+    "changed_line": 6,
+    "from_binary": "010011",
+    "to_binary": "010010"
+  },
+  {
+    "from_hexagram": 60,
+    "to_hexagram": 29,
+    "changed_line": 1,
+    "from_binary": "110010",
+    "to_binary": "010010"
+  },
+  {
+    "from_hexagram": 60,
+    "to_hexagram": 3,
+    "changed_line": 2,
+    "from_binary": "110010",
+    "to_binary": "100010"
+  },
+  {
+    "from_hexagram": 60,
+    "to_hexagram": 5,
+    "changed_line": 3,
+    "from_binary": "110010",
+    "to_binary": "111010"
+  },
+  {
+    "from_hexagram": 60,
+    "to_hexagram": 58,
+    "changed_line": 4,
+    "from_binary": "110010",
+    "to_binary": "110110"
+  },
+  {
+    "from_hexagram": 60,
+    "to_hexagram": 19,
+    "changed_line": 5,
+    "from_binary": "110010",
+    "to_binary": "110000"
+  },
+  {
+    "from_hexagram": 60,
+    "to_hexagram": 61,
+    "changed_line": 6,
+    "from_binary": "110010",
+    "to_binary": "110011"
+  },
+  {
+    "from_hexagram": 61,
+    "to_hexagram": 59,
+    "changed_line": 1,
+    "from_binary": "110011",
+    "to_binary": "010011"
+  },
+  {
+    "from_hexagram": 61,
+    "to_hexagram": 42,
+    "changed_line": 2,
+    "from_binary": "110011",
+    "to_binary": "100011"
+  },
+  {
+    "from_hexagram": 61,
+    "to_hexagram": 9,
+    "changed_line": 3,
+    "from_binary": "110011",
+    "to_binary": "111011"
+  },
+  {
+    "from_hexagram": 61,
+    "to_hexagram": 10,
+    "changed_line": 4,
+    "from_binary": "110011",
+    "to_binary": "110111"
+  },
+  {
+    "from_hexagram": 61,
+    "to_hexagram": 41,
+    "changed_line": 5,
+    "from_binary": "110011",
+    "to_binary": "110001"
+  },
+  {
+    "from_hexagram": 61,
+    "to_hexagram": 60,
+    "changed_line": 6,
+    "from_binary": "110011",
+    "to_binary": "110010"
+  },
+  {
+    "from_hexagram": 62,
+    "to_hexagram": 55,
+    "changed_line": 1,
+    "from_binary": "001100",
+    "to_binary": "101100"
+  },
+  {
+    "from_hexagram": 62,
+    "to_hexagram": 32,
+    "changed_line": 2,
+    "from_binary": "001100",
+    "to_binary": "011100"
+  },
+  {
+    "from_hexagram": 62,
+    "to_hexagram": 16,
+    "changed_line": 3,
+    "from_binary": "001100",
+    "to_binary": "000100"
+  },
+  {
+    "from_hexagram": 62,
+    "to_hexagram": 15,
+    "changed_line": 4,
+    "from_binary": "001100",
+    "to_binary": "001000"
+  },
+  {
+    "from_hexagram": 62,
+    "to_hexagram": 31,
+    "changed_line": 5,
+    "from_binary": "001100",
+    "to_binary": "001110"
+  },
+  {
+    "from_hexagram": 62,
+    "to_hexagram": 56,
+    "changed_line": 6,
+    "from_binary": "001100",
+    "to_binary": "001101"
+  },
+  {
+    "from_hexagram": 63,
+    "to_hexagram": 39,
+    "changed_line": 1,
+    "from_binary": "101010",
+    "to_binary": "001010"
+  },
+  {
+    "from_hexagram": 63,
+    "to_hexagram": 5,
+    "changed_line": 2,
+    "from_binary": "101010",
+    "to_binary": "111010"
+  },
+  {
+    "from_hexagram": 63,
+    "to_hexagram": 3,
+    "changed_line": 3,
+    "from_binary": "101010",
+    "to_binary": "100010"
+  },
+  {
+    "from_hexagram": 63,
+    "to_hexagram": 49,
+    "changed_line": 4,
+    "from_binary": "101010",
+    "to_binary": "101110"
+  },
+  {
+    "from_hexagram": 63,
+    "to_hexagram": 36,
+    "changed_line": 5,
+    "from_binary": "101010",
+    "to_binary": "101000"
+  },
+  {
+    "from_hexagram": 63,
+    "to_hexagram": 37,
+    "changed_line": 6,
+    "from_binary": "101010",
+    "to_binary": "101011"
+  },
+  {
+    "from_hexagram": 64,
+    "to_hexagram": 38,
+    "changed_line": 1,
+    "from_binary": "010101",
+    "to_binary": "110101"
+  },
+  {
+    "from_hexagram": 64,
+    "to_hexagram": 35,
+    "changed_line": 2,
+    "from_binary": "010101",
+    "to_binary": "000101"
+  },
+  {
+    "from_hexagram": 64,
+    "to_hexagram": 50,
+    "changed_line": 3,
+    "from_binary": "010101",
+    "to_binary": "011101"
+  },
+  {
+    "from_hexagram": 64,
+    "to_hexagram": 4,
+    "changed_line": 4,
+    "from_binary": "010101",
+    "to_binary": "010001"
+  },
+  {
+    "from_hexagram": 64,
+    "to_hexagram": 6,
+    "changed_line": 5,
+    "from_binary": "010101",
+    "to_binary": "010111"
+  },
+  {
+    "from_hexagram": 64,
+    "to_hexagram": 40,
+    "changed_line": 6,
+    "from_binary": "010101",
+    "to_binary": "010100"
+  }
+]

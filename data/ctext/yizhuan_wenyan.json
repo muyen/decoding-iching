@@ -1,0 +1,24 @@
+{
+  "title": "文言",
+  "title_en": "Wen Yan",
+  "description": "Commentary on the Words of the Text",
+  "source": "ctext.org",
+  "download_date": "2026-01-20T12:50:52.592257",
+  "data": {
+    "name_zh": "文言",
+    "name_en": "Wen Yan",
+    "description": "Commentary on the Words of the Text",
+    "sections": [
+      {
+        "slug": "gan1",
+        "name_zh": "乾",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "kun6",
+        "name_zh": "坤",
+        "error": "Failed to download"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1487 @@
+{
+  "accuracy": 51.28205128205128,
+  "results": [
+    {
+      "hex": 1,
+      "pos": 1,
+      "actual": 0,
+      "score": 1.1,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": 0,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 1,
+      "pos": 2,
+      "actual": 1,
+      "score": 4.3,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": -0.15,
+        "interaction": 0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 1,
+      "pos": 3,
+      "actual": 0,
+      "score": -1.51,
+      "pred": -1,
+      "match": false,
+      "details": {
+        "base": -2,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.5,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 1,
+      "pos": 4,
+      "actual": 0,
+      "score": -1.11,
+      "pred": -1,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.3,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 1,
+      "pos": 5,
+      "actual": 1,
+      "score": 7.7,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 3,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": -0.15,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 1,
+      "pos": 6,
+      "actual": -1,
+      "score": -1.05,
+      "pred": -1,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 2,
+      "pos": 1,
+      "actual": -1,
+      "score": 0.2,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": 0,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 2,
+      "pos": 2,
+      "actual": 1,
+      "score": 4.44,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": -0.15,
+        "interaction": 0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 2,
+      "pos": 3,
+      "actual": 0,
+      "score": -2.55,
+      "pred": -1,
+      "match": false,
+      "details": {
+        "base": -2,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.5,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 2,
+      "pos": 4,
+      "actual": 0,
+      "score": -0.64,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.3,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 2,
+      "pos": 5,
+      "actual": 1,
+      "score": 6.65,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 3,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": -0.15,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 2,
+      "pos": 6,
+      "actual": -1,
+      "score": -0.96,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 3,
+      "pos": 1,
+      "actual": 0,
+      "score": 1.1,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": 0,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.4,
+        "interaction": 0,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 3,
+      "pos": 2,
+      "actual": 0,
+      "score": 4.46,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 2,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 0.95,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 3,
+      "pos": 3,
+      "actual": -1,
+      "score": -1.8,
+      "pred": -1,
+      "match": true,
+      "details": {
+        "base": -2,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.3,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 3,
+      "pos": 4,
+      "actual": 1,
+      "score": 0.45,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.6,
+        "interaction": 0,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 3,
+      "pos": 5,
+      "actual": 0,
+      "score": 6.73,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 3,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 0.75,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 3,
+      "pos": 6,
+      "actual": -1,
+      "score": -0.56,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.0,
+        "interaction": -0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 4,
+      "pos": 1,
+      "actual": 0,
+      "score": -0.05,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": 0,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.05,
+        "interaction": 0,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 4,
+      "pos": 2,
+      "actual": 1,
+      "score": 4.15,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": 0.75,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 4,
+      "pos": 3,
+      "actual": -1,
+      "score": -1.16,
+      "pred": -1,
+      "match": true,
+      "details": {
+        "base": -2,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.65,
+        "interaction": -0.3,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 4,
+      "pos": 4,
+      "actual": -1,
+      "score": -0.23,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": 0,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 4,
+      "pos": 5,
+      "actual": 1,
+      "score": 6.09,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 3,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": 0.9,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 4,
+      "pos": 6,
+      "actual": 0,
+      "score": -0.24,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.55,
+        "interaction": -0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 5,
+      "pos": 1,
+      "actual": 0,
+      "score": 1.2,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": 0,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.5,
+        "interaction": 0,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 5,
+      "pos": 2,
+      "actual": 0,
+      "score": 3.2,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 2,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": -0.15,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 5,
+      "pos": 3,
+      "actual": -1,
+      "score": -0.48,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -2,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.4,
+        "interaction": -0.2,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 5,
+      "pos": 4,
+      "actual": -1,
+      "score": 0.59,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.75,
+        "interaction": 0,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 5,
+      "pos": 5,
+      "actual": 1,
+      "score": 5.63,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 3,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": -0.2,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 5,
+      "pos": 6,
+      "actual": 0,
+      "score": -0.03,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.65,
+        "interaction": -0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 6,
+      "pos": 1,
+      "actual": 0,
+      "score": 0.32,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": 0,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.6,
+        "interaction": -0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 6,
+      "pos": 2,
+      "actual": 0,
+      "score": 2.6,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": -0.2,
+        "interaction": 0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 6,
+      "pos": 3,
+      "actual": 0,
+      "score": -0.99,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -2,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.75,
+        "interaction": -0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 6,
+      "pos": 4,
+      "actual": 0,
+      "score": -0.18,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.55,
+        "interaction": -0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 6,
+      "pos": 5,
+      "actual": 1,
+      "score": 4.92,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 3,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": -0.15,
+        "interaction": 0.5,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 6,
+      "pos": 6,
+      "actual": -1,
+      "score": -0.22,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.5,
+        "interaction": -0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 15,
+      "pos": 1,
+      "actual": 1,
+      "score": 0.2,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": 0,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 15,
+      "pos": 2,
+      "actual": 1,
+      "score": 4.57,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": -0.05,
+        "interaction": 0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 15,
+      "pos": 3,
+      "actual": 1,
+      "score": -0.36,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -2,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.45,
+        "interaction": -0.5,
+        "wujiu": 0.5,
+        "ruler_bonus": 0.5,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 15,
+      "pos": 4,
+      "actual": 1,
+      "score": -0.47,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.0,
+        "interaction": -0.3,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 15,
+      "pos": 5,
+      "actual": 0,
+      "score": 5.91,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 3,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": -0.15,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 15,
+      "pos": 6,
+      "actual": 0,
+      "score": -0.36,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.5,
+        "interaction": -0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 24,
+      "pos": 1,
+      "actual": 1,
+      "score": 2.47,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": 0,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.4,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 24,
+      "pos": 2,
+      "actual": 1,
+      "score": 4.64,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 0.0,
+        "interaction": 0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 24,
+      "pos": 3,
+      "actual": 0,
+      "score": -2.55,
+      "pred": -1,
+      "match": false,
+      "details": {
+        "base": -2,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.5,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 24,
+      "pos": 4,
+      "actual": 0,
+      "score": 0.12,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.5,
+        "interaction": -0.3,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 24,
+      "pos": 5,
+      "actual": 0,
+      "score": 5.91,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 3,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": -0.15,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 24,
+      "pos": 6,
+      "actual": -1,
+      "score": -0.96,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 25,
+      "pos": 1,
+      "actual": 1,
+      "score": 0.98,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": 0,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.25,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 25,
+      "pos": 2,
+      "actual": 1,
+      "score": 5.94,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 0.95,
+        "interaction": 0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 25,
+      "pos": 3,
+      "actual": -1,
+      "score": -1.77,
+      "pred": -1,
+      "match": true,
+      "details": {
+        "base": -2,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.6,
+        "interaction": -0.5,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 25,
+      "pos": 4,
+      "actual": 0,
+      "score": -1.05,
+      "pred": -1,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.1,
+        "interaction": -0.3,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 25,
+      "pos": 5,
+      "actual": 0,
+      "score": 9.12,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 3,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 0.8,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 25,
+      "pos": 6,
+      "actual": -1,
+      "score": -0.45,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.5,
+        "interaction": -0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 33,
+      "pos": 1,
+      "actual": -1,
+      "score": 0.5,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": 0,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.5,
+        "interaction": 0,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 33,
+      "pos": 2,
+      "actual": 1,
+      "score": 4.41,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 0.9,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 33,
+      "pos": 3,
+      "actual": 0,
+      "score": -0.88,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -2,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.1,
+        "interaction": -0.2,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 33,
+      "pos": 4,
+      "actual": 0,
+      "score": 0.0,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.5,
+        "interaction": 0,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 33,
+      "pos": 5,
+      "actual": 1,
+      "score": 6.78,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 3,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 0.8,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 33,
+      "pos": 6,
+      "actual": 1,
+      "score": -0.66,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "waiting"
+      }
+    },
+    {
+      "hex": 47,
+      "pos": 1,
+      "actual": -1,
+      "score": 0.32,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": 0,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.6,
+        "interaction": -0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 47,
+      "pos": 2,
+      "actual": 0,
+      "score": 2.6,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": 2,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": -0.2,
+        "interaction": 0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 47,
+      "pos": 3,
+      "actual": -1,
+      "score": -1.41,
+      "pred": -1,
+      "match": true,
+      "details": {
+        "base": -2,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.1,
+        "interaction": -0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 47,
+      "pos": 4,
+      "actual": 0,
+      "score": -0.18,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.55,
+        "interaction": -0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 47,
+      "pos": 5,
+      "actual": 0,
+      "score": 4.83,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 3,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": -0.25,
+        "interaction": 0.5,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 47,
+      "pos": 6,
+      "actual": 0,
+      "score": -0.45,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.0,
+        "interaction": -0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "adverse"
+      }
+    },
+    {
+      "hex": 50,
+      "pos": 1,
+      "actual": 0,
+      "score": 1.17,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": 0,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.6,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 50,
+      "pos": 2,
+      "actual": 0,
+      "score": 5.66,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 2,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": 0.85,
+        "interaction": 0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 50,
+      "pos": 3,
+      "actual": 0,
+      "score": -1.51,
+      "pred": -1,
+      "match": false,
+      "details": {
+        "base": -2,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": -0.15,
+        "interaction": -0.5,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 50,
+      "pos": 4,
+      "actual": -1,
+      "score": -0.47,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": 0.4,
+        "interaction": -0.3,
+        "wujiu": 0.2,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 50,
+      "pos": 5,
+      "actual": 1,
+      "score": 8.45,
+      "pred": 1,
+      "match": true,
+      "details": {
+        "base": 3,
+        "yinyang": 0,
+        "proper": 0,
+        "central": 0.8,
+        "correlation": 1.05,
+        "interaction": 0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 50,
+      "pos": 6,
+      "actual": 1,
+      "score": -1.0,
+      "pred": -1,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0.3,
+        "proper": 0,
+        "central": 0,
+        "correlation": -0.1,
+        "interaction": -0.3,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "favorable"
+      }
+    },
+    {
+      "hex": 63,
+      "pos": 1,
+      "actual": 1,
+      "score": 1.1,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": 0,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.4,
+        "interaction": 0,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 63,
+      "pos": 2,
+      "actual": 0,
+      "score": 4.57,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 2,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 1.05,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 63,
+      "pos": 3,
+      "actual": 0,
+      "score": -0.52,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -2,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.45,
+        "interaction": -0.3,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 63,
+      "pos": 4,
+      "actual": 0,
+      "score": 0.59,
+      "pred": 0,
+      "match": true,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.75,
+        "interaction": 0,
+        "wujiu": 0.5,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 63,
+      "pos": 5,
+      "actual": 0,
+      "score": 6.73,
+      "pred": 1,
+      "match": false,
+      "details": {
+        "base": 3,
+        "yinyang": 0.3,
+        "proper": 0.4,
+        "central": 0.8,
+        "correlation": 0.75,
+        "interaction": 0.1,
+        "wujiu": 0,
+        "ruler_bonus": 0.5,
+        "time_type": "transitional"
+      }
+    },
+    {
+      "hex": 63,
+      "pos": 6,
+      "actual": -1,
+      "score": -0.1,
+      "pred": 0,
+      "match": false,
+      "details": {
+        "base": -1,
+        "yinyang": 0,
+        "proper": 0.4,
+        "central": 0,
+        "correlation": 0.65,
+        "interaction": -0.2,
+        "wujiu": 0,
+        "ruler_bonus": 0,
+        "time_type": "transitional"
+      }
+    }
+  ]
+}

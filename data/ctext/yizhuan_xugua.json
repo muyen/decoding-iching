@@ -1,0 +1,19 @@
+{
+  "title": "序卦",
+  "title_en": "Xu Gua",
+  "description": "Sequence of the Hexagrams",
+  "source": "ctext.org",
+  "download_date": "2026-01-20T12:50:55.277210",
+  "data": {
+    "name_zh": "序卦",
+    "name_en": "Xu Gua",
+    "description": "Sequence of the Hexagrams",
+    "sections": [
+      {
+        "slug": "xu-gua",
+        "name_zh": "序卦",
+        "error": "Failed to download"
+      }
+    ]
+  }
+}

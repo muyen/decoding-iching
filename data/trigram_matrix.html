@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Trigram Combination Matrix</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 40px;
+        }
+        h1 { text-align: center; color: #ffd700; margin-bottom: 30px; }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        th, td {
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+        th {
+            background: #0f3460;
+            color: #ffd700;
+        }
+        td {
+            background: #16213e;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        td:hover {
+            background: #0f3460;
+        }
+        .hex-name { font-size: 20px; font-weight: bold; color: #ffd700; }
+        .hex-num { font-size: 11px; color: #888; }
+        .header-cell { font-size: 24px; }
+        .legend {
+            text-align: center;
+            margin-top: 20px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>八卦組合矩陣 · Trigram Combination Matrix</h1>
+    <table>
+        <tr>
+            <th></th>
+            <th class="header-cell">乾</th>
+            <th class="header-cell">兌</th>
+            <th class="header-cell">離</th>
+            <th class="header-cell">震</th>
+            <th class="header-cell">巽</th>
+            <th class="header-cell">坎</th>
+            <th class="header-cell">艮</th>
+            <th class="header-cell">坤</th>
+        </tr>
+        <tr>
+            <th class="header-cell">乾</th>
+            <td onclick="alert('#1 乾')">
+                <div class="hex-name">乾</div>
+                <div class="hex-num">#1</div>
+            </td>
+            <td onclick="alert('#10 履')">
+                <div class="hex-name">履</div>
+                <div class="hex-num">#10</div>
+            </td>
+            <td onclick="alert('#13 同人')">
+                <div class="hex-name">同人</div>
+                <div class="hex-num">#13</div>
+            </td>
+            <td onclick="alert('#25 無妄')">
+                <div class="hex-name">無妄</div>
+                <div class="hex-num">#25</div>
+            </td>
+            <td onclick="alert('#44 姤')">
+                <div class="hex-name">姤</div>
+                <div class="hex-num">#44</div>
+            </td>
+            <td onclick="alert('#6 訟')">
+                <div class="hex-name">訟</div>
+                <div class="hex-num">#6</div>
+            </td>
+            <td onclick="alert('#33 遯')">
+                <div class="hex-name">遯</div>
+                <div class="hex-num">#33</div>
+            </td>
+            <td onclick="alert('#12 否')">
+                <div class="hex-name">否</div>
+                <div class="hex-num">#12</div>
+            </td>
+        </tr>
+        <tr>
+            <th class="header-cell">兌</th>
+            <td onclick="alert('#43 夬')">
+                <div class="hex-name">夬</div>
+                <div class="hex-num">#43</div>
+            </td>
+            <td onclick="alert('#58 兌')">
+                <div class="hex-name">兌</div>
+                <div class="hex-num">#58</div>
+            </td>
+            <td onclick="alert('#49 革')">
+                <div class="hex-name">革</div>
+                <div class="hex-num">#49</div>
+            </td>
+            <td onclick="alert('#17 隨')">
+                <div class="hex-name">隨</div>
+                <div class="hex-num">#17</div>
+            </td>
+            <td onclick="alert('#28 大過')">
+                <div class="hex-name">大過</div>
+                <div class="hex-num">#28</div>
+            </td>
+            <td onclick="alert('#47 困')">
+                <div class="hex-name">困</div>
+                <div class="hex-num">#47</div>
+            </td>
+            <td onclick="alert('#31 咸')">
+                <div class="hex-name">咸</div>
+                <div class="hex-num">#31</div>
+            </td>
+            <td onclick="alert('#45 萃')">
+                <div class="hex-name">萃</div>
+                <div class="hex-num">#45</div>
+            </td>
+        </tr>
+        <tr>
+            <th class="header-cell">離</th>
+            <td onclick="alert('#14 大有')">
+                <div class="hex-name">大有</div>
+                <div class="hex-num">#14</div>
+            </td>
+            <td onclick="alert('#38 睽')">
+                <div class="hex-name">睽</div>
+                <div class="hex-num">#38</div>
+            </td>
+            <td onclick="alert('#30 離')">
+                <div class="hex-name">離</div>
+                <div class="hex-num">#30</div>
+            </td>
+            <td onclick="alert('#21 噬嗑')">
+                <div class="hex-name">噬嗑</div>
+                <div class="hex-num">#21</div>
+            </td>
+            <td onclick="alert('#50 鼎')">
+                <div class="hex-name">鼎</div>
+                <div class="hex-num">#50</div>
+            </td>
+            <td onclick="alert('#64 未濟')">
+                <div class="hex-name">未濟</div>
+                <div class="hex-num">#64</div>
+            </td>
+            <td onclick="alert('#56 旅')">
+                <div class="hex-name">旅</div>
+                <div class="hex-num">#56</div>
+            </td>
+            <td onclick="alert('#35 晉')">
+                <div class="hex-name">晉</div>
+                <div class="hex-num">#35</div>
+            </td>
+        </tr>
+        <tr>
+            <th class="header-cell">震</th>
+            <td onclick="alert('#34 大壯')">
+                <div class="hex-name">大壯</div>
+                <div class="hex-num">#34</div>
+            </td>
+            <td onclick="alert('#54 歸妹')">
+                <div class="hex-name">歸妹</div>
+                <div class="hex-num">#54</div>
+            </td>
+            <td onclick="alert('#55 豐')">
+                <div class="hex-name">豐</div>
+                <div class="hex-num">#55</div>
+            </td>
+            <td onclick="alert('#51 震')">
+                <div class="hex-name">震</div>
+                <div class="hex-num">#51</div>
+            </td>
+            <td onclick="alert('#32 恆')">
+                <div class="hex-name">恆</div>
+                <div class="hex-num">#32</div>
+            </td>
+            <td onclick="alert('#40 解')">
+                <div class="hex-name">解</div>
+                <div class="hex-num">#40</div>
+            </td>
+            <td onclick="alert('#62 小過')">
+                <div class="hex-name">小過</div>
+                <div class="hex-num">#62</div>
+            </td>
+            <td onclick="alert('#16 豫')">
+                <div class="hex-name">豫</div>
+                <div class="hex-num">#16</div>
+            </td>
+        </tr>
+        <tr>
+            <th class="header-cell">巽</th>
+            <td onclick="alert('#9 小畜')">
+                <div class="hex-name">小畜</div>
+                <div class="hex-num">#9</div>
+            </td>
+            <td onclick="alert('#61 中孚')">
+                <div class="hex-name">中孚</div>
+                <div class="hex-num">#61</div>
+            </td>
+            <td onclick="alert('#37 家人')">
+                <div class="hex-name">家人</div>
+                <div class="hex-num">#37</div>
+            </td>
+            <td onclick="alert('#42 益')">
+                <div class="hex-name">益</div>
+                <div class="hex-num">#42</div>
+            </td>
+            <td onclick="alert('#57 巽')">
+                <div class="hex-name">巽</div>
+                <div class="hex-num">#57</div>
+            </td>
+            <td onclick="alert('#59 渙')">
+                <div class="hex-name">渙</div>
+                <div class="hex-num">#59</div>
+            </td>
+            <td onclick="alert('#53 漸')">
+                <div class="hex-name">漸</div>
+                <div class="hex-num">#53</div>
+            </td>
+            <td onclick="alert('#20 觀')">
+                <div class="hex-name">觀</div>
+                <div class="hex-num">#20</div>
+            </td>
+        </tr>
+        <tr>
+            <th class="header-cell">坎</th>
+            <td onclick="alert('#5 需')">
+                <div class="hex-name">需</div>
+                <div class="hex-num">#5</div>
+            </td>
+            <td onclick="alert('#60 節')">
+                <div class="hex-name">節</div>
+                <div class="hex-num">#60</div>
+            </td>
+            <td onclick="alert('#63 既濟')">
+                <div class="hex-name">既濟</div>
+                <div class="hex-num">#63</div>
+            </td>
+            <td onclick="alert('#3 屯')">
+                <div class="hex-name">屯</div>
+                <div class="hex-num">#3</div>
+            </td>
+            <td onclick="alert('#48 井')">
+                <div class="hex-name">井</div>
+                <div class="hex-num">#48</div>
+            </td>
+            <td onclick="alert('#29 坎')">
+                <div class="hex-name">坎</div>
+                <div class="hex-num">#29</div>
+            </td>
+            <td onclick="alert('#39 蹇')">
+                <div class="hex-name">蹇</div>
+                <div class="hex-num">#39</div>
+            </td>
+            <td onclick="alert('#8 比')">
+                <div class="hex-name">比</div>
+                <div class="hex-num">#8</div>
+            </td>
+        </tr>
+        <tr>
+            <th class="header-cell">艮</th>
+            <td onclick="alert('#26 大畜')">
+                <div class="hex-name">大畜</div>
+                <div class="hex-num">#26</div>
+            </td>
+            <td onclick="alert('#41 損')">
+                <div class="hex-name">損</div>
+                <div class="hex-num">#41</div>
+            </td>
+            <td onclick="alert('#22 賁')">
+                <div class="hex-name">賁</div>
+                <div class="hex-num">#22</div>
+            </td>
+            <td onclick="alert('#27 頤')">
+                <div class="hex-name">頤</div>
+                <div class="hex-num">#27</div>
+            </td>
+            <td onclick="alert('#18 蠱')">
+                <div class="hex-name">蠱</div>
+                <div class="hex-num">#18</div>
+            </td>
+            <td onclick="alert('#4 蒙')">
+                <div class="hex-name">蒙</div>
+                <div class="hex-num">#4</div>
+            </td>
+            <td onclick="alert('#52 艮')">
+                <div class="hex-name">艮</div>
+                <div class="hex-num">#52</div>
+            </td>
+            <td onclick="alert('#23 剝')">
+                <div class="hex-name">剝</div>
+                <div class="hex-num">#23</div>
+            </td>
+        </tr>
+        <tr>
+            <th class="header-cell">坤</th>
+            <td onclick="alert('#11 泰')">
+                <div class="hex-name">泰</div>
+                <div class="hex-num">#11</div>
+            </td>
+            <td onclick="alert('#19 臨')">
+                <div class="hex-name">臨</div>
+                <div class="hex-num">#19</div>
+            </td>
+            <td onclick="alert('#36 明夷')">
+                <div class="hex-name">明夷</div>
+                <div class="hex-num">#36</div>
+            </td>
+            <td onclick="alert('#24 復')">
+                <div class="hex-name">復</div>
+                <div class="hex-num">#24</div>
+            </td>
+            <td onclick="alert('#46 升')">
+                <div class="hex-name">升</div>
+                <div class="hex-num">#46</div>
+            </td>
+            <td onclick="alert('#7 師')">
+                <div class="hex-name">師</div>
+                <div class="hex-num">#7</div>
+            </td>
+            <td onclick="alert('#15 謙')">
+                <div class="hex-name">謙</div>
+                <div class="hex-num">#15</div>
+            </td>
+            <td onclick="alert('#2 坤')">
+                <div class="hex-name">坤</div>
+                <div class="hex-num">#2</div>
+            </td>
+        </tr>
+    </table>
+    <div class="legend">
+        行 = 上卦 (Upper Trigram) · 列 = 下卦 (Lower Trigram)
+    </div>
+</body>
+</html>

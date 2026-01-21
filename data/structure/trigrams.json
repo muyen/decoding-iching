@@ -1,0 +1,74 @@
+{
+  "111": {
+    "name": "乾",
+    "pinyin": "qian",
+    "nature": "天",
+    "attribute": "健",
+    "family": "父",
+    "direction": "西北",
+    "element": "金"
+  },
+  "000": {
+    "name": "坤",
+    "pinyin": "kun",
+    "nature": "地",
+    "attribute": "順",
+    "family": "母",
+    "direction": "西南",
+    "element": "土"
+  },
+  "100": {
+    "name": "震",
+    "pinyin": "zhen",
+    "nature": "雷",
+    "attribute": "動",
+    "family": "長男",
+    "direction": "東",
+    "element": "木"
+  },
+  "011": {
+    "name": "巽",
+    "pinyin": "xun",
+    "nature": "風",
+    "attribute": "入",
+    "family": "長女",
+    "direction": "東南",
+    "element": "木"
+  },
+  "010": {
+    "name": "坎",
+    "pinyin": "kan",
+    "nature": "水",
+    "attribute": "陷",
+    "family": "中男",
+    "direction": "北",
+    "element": "水"
+  },
+  "101": {
+    "name": "離",
+    "pinyin": "li",
+    "nature": "火",
+    "attribute": "麗",
+    "family": "中女",
+    "direction": "南",
+    "element": "火"
+  },
+  "001": {
+    "name": "艮",
+    "pinyin": "gen",
+    "nature": "山",
+    "attribute": "止",
+    "family": "少男",
+    "direction": "東北",
+    "element": "土"
+  },
+  "110": {
+    "name": "兌",
+    "pinyin": "dui",
+    "nature": "澤",
+    "attribute": "說",
+    "family": "少女",
+    "direction": "西",
+    "element": "金"
+  }
+}

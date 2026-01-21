@@ -1,0 +1,151 @@
+{
+  "total_pairs": 2016,
+  "most_similar": [
+    {
+      "hex_a": 41,
+      "name_a": "損",
+      "hex_b": 42,
+      "name_b": "益",
+      "similarity": 0.503657
+    },
+    {
+      "hex_a": 63,
+      "name_a": "既濟",
+      "hex_b": 64,
+      "name_b": "未濟",
+      "similarity": 0.501333
+    },
+    {
+      "hex_a": 19,
+      "name_a": "臨",
+      "hex_b": 31,
+      "name_b": "咸",
+      "similarity": 0.369029
+    },
+    {
+      "hex_a": 28,
+      "name_a": "大過",
+      "hex_b": 62,
+      "name_b": "小過",
+      "similarity": 0.336576
+    },
+    {
+      "hex_a": 3,
+      "name_a": "屯",
+      "hex_b": 22,
+      "name_b": "賁",
+      "similarity": 0.30973
+    },
+    {
+      "hex_a": 11,
+      "name_a": "泰",
+      "hex_b": 12,
+      "name_b": "否",
+      "similarity": 0.290823
+    },
+    {
+      "hex_a": 9,
+      "name_a": "小畜",
+      "hex_b": 26,
+      "name_b": "大畜",
+      "similarity": 0.288484
+    },
+    {
+      "hex_a": 45,
+      "name_a": "萃",
+      "hex_b": 59,
+      "name_b": "渙",
+      "similarity": 0.241927
+    },
+    {
+      "hex_a": 2,
+      "name_a": "坤",
+      "hex_b": 6,
+      "name_b": "訟",
+      "similarity": 0.239005
+    },
+    {
+      "hex_a": 1,
+      "name_a": "乾",
+      "hex_b": 39,
+      "name_b": "蹇",
+      "similarity": 0.23431
+    }
+  ],
+  "least_similar": [
+    {
+      "hex_a": 23,
+      "name_a": "剝",
+      "hex_b": 51,
+      "name_b": "震",
+      "similarity": 0.006304
+    },
+    {
+      "hex_a": 21,
+      "name_a": "噬嗑",
+      "hex_b": 31,
+      "name_b": "咸",
+      "similarity": 0.006209
+    },
+    {
+      "hex_a": 14,
+      "name_a": "大有",
+      "hex_b": 31,
+      "name_b": "咸",
+      "similarity": 0.006102
+    },
+    {
+      "hex_a": 13,
+      "name_a": "同人",
+      "hex_b": 54,
+      "name_b": "歸妹",
+      "similarity": 0.006054
+    },
+    {
+      "hex_a": 9,
+      "name_a": "小畜",
+      "hex_b": 31,
+      "name_b": "咸",
+      "similarity": 0.005764
+    },
+    {
+      "hex_a": 29,
+      "name_a": "坎",
+      "hex_b": 54,
+      "name_b": "歸妹",
+      "similarity": 0.005727
+    },
+    {
+      "hex_a": 54,
+      "name_a": "歸妹",
+      "hex_b": 56,
+      "name_b": "旅",
+      "similarity": 0.00572
+    },
+    {
+      "hex_a": 4,
+      "name_a": "蒙",
+      "hex_b": 49,
+      "name_b": "革",
+      "similarity": 0.00549
+    },
+    {
+      "hex_a": 20,
+      "name_a": "觀",
+      "hex_b": 54,
+      "name_b": "歸妹",
+      "similarity": 0.004858
+    },
+    {
+      "hex_a": 20,
+      "name_a": "觀",
+      "hex_b": 51,
+      "name_b": "震",
+      "similarity": 0.003857
+    }
+  ],
+  "average_similarity": 0.055697,
+  "std_similarity": 0.04062,
+  "max_similarity": 0.503657,
+  "min_similarity": 0.003857
+}

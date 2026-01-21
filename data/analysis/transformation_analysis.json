@@ -1,0 +1,1095 @@
+{
+  "互卦": {
+    "correlations": [
+      {
+        "original": "乾",
+        "original_binary": "111111",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "乾",
+        "互卦_binary": "111111",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "坤",
+        "original_binary": "000000",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "坤",
+        "互卦_binary": "000000",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "屯",
+        "original_binary": "010100",
+        "original_ji_rate": 0.5,
+        "互卦": "未濟",
+        "互卦_binary": "101010",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "蒙",
+        "original_binary": "001010",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "既濟",
+        "互卦_binary": "010101",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "需",
+        "original_binary": "010111",
+        "original_ji_rate": 0.5,
+        "互卦": "睽",
+        "互卦_binary": "101110",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "訟",
+        "original_binary": "111010",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "家人",
+        "互卦_binary": "011101",
+        "互卦_ji_rate": 0.6666666666666666
+      },
+      {
+        "original": "師",
+        "original_binary": "000010",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "復",
+        "互卦_binary": "000100",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "比",
+        "original_binary": "010000",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "剝",
+        "互卦_binary": "001000",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "小畜",
+        "original_binary": "011111",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "乾",
+        "互卦_binary": "111111",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "履",
+        "original_binary": "111110",
+        "original_ji_rate": 0.5,
+        "互卦": "乾",
+        "互卦_binary": "111111",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "泰",
+        "original_binary": "000111",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "歸妹",
+        "互卦_binary": "100110",
+        "互卦_ji_rate": 0.0
+      },
+      {
+        "original": "否",
+        "original_binary": "111000",
+        "original_ji_rate": 0.5,
+        "互卦": "漸",
+        "互卦_binary": "011001",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "同人",
+        "original_binary": "111101",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "姤",
+        "互卦_binary": "111011",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "大有",
+        "original_binary": "101111",
+        "original_ji_rate": 0.5,
+        "互卦": "夬",
+        "互卦_binary": "110111",
+        "互卦_ji_rate": 0.0
+      },
+      {
+        "original": "謙",
+        "original_binary": "000001",
+        "original_ji_rate": 1.0,
+        "互卦": "坤",
+        "互卦_binary": "000000",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "豫",
+        "original_binary": "100000",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "坤",
+        "互卦_binary": "000000",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "隨",
+        "original_binary": "110100",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "未濟",
+        "互卦_binary": "101010",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "蠱",
+        "original_binary": "001011",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "既濟",
+        "互卦_binary": "010101",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "臨",
+        "original_binary": "000110",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "歸妹",
+        "互卦_binary": "100110",
+        "互卦_ji_rate": 0.0
+      },
+      {
+        "original": "觀",
+        "original_binary": "011000",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "漸",
+        "互卦_binary": "011001",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "噬嗑",
+        "original_binary": "101100",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "大過",
+        "互卦_binary": "110011",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "賁",
+        "original_binary": "001101",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "大過",
+        "互卦_binary": "110011",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "剝",
+        "original_binary": "001000",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "蹇",
+        "互卦_binary": "010001",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "復",
+        "original_binary": "000100",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "解",
+        "互卦_binary": "100010",
+        "互卦_ji_rate": 0.5
+      },
+      {
+        "original": "无妄",
+        "original_binary": "111100",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "姤",
+        "互卦_binary": "111011",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "大畜",
+        "original_binary": "001111",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "夬",
+        "互卦_binary": "110111",
+        "互卦_ji_rate": 0.0
+      },
+      {
+        "original": "頤",
+        "original_binary": "001100",
+        "original_ji_rate": 0.5,
+        "互卦": "大過",
+        "互卦_binary": "110011",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "大過",
+        "original_binary": "110011",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "頤",
+        "互卦_binary": "001100",
+        "互卦_ji_rate": 0.5
+      },
+      {
+        "original": "坎",
+        "original_binary": "010010",
+        "original_ji_rate": 0.0,
+        "互卦": "頤",
+        "互卦_binary": "001100",
+        "互卦_ji_rate": 0.5
+      },
+      {
+        "original": "離",
+        "original_binary": "101101",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "大過",
+        "互卦_binary": "110011",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "咸",
+        "original_binary": "110001",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "剝",
+        "互卦_binary": "001000",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "恆",
+        "original_binary": "100011",
+        "original_ji_rate": 0.0,
+        "互卦": "復",
+        "互卦_binary": "000100",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "遯",
+        "original_binary": "111001",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "漸",
+        "互卦_binary": "011001",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "大壯",
+        "original_binary": "100111",
+        "original_ji_rate": 0.5,
+        "互卦": "歸妹",
+        "互卦_binary": "100110",
+        "互卦_ji_rate": 0.0
+      },
+      {
+        "original": "晉",
+        "original_binary": "101000",
+        "original_ji_rate": 0.5,
+        "互卦": "蹇",
+        "互卦_binary": "010001",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "明夷",
+        "original_binary": "000101",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "解",
+        "互卦_binary": "100010",
+        "互卦_ji_rate": 0.5
+      },
+      {
+        "original": "家人",
+        "original_binary": "011101",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "姤",
+        "互卦_binary": "111011",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "睽",
+        "original_binary": "101110",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "夬",
+        "互卦_binary": "110111",
+        "互卦_ji_rate": 0.0
+      },
+      {
+        "original": "蹇",
+        "original_binary": "010001",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "剝",
+        "互卦_binary": "001000",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "解",
+        "original_binary": "100010",
+        "original_ji_rate": 0.5,
+        "互卦": "復",
+        "互卦_binary": "000100",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "損",
+        "original_binary": "001110",
+        "original_ji_rate": 0.5,
+        "互卦": "夬",
+        "互卦_binary": "110111",
+        "互卦_ji_rate": 0.0
+      },
+      {
+        "original": "益",
+        "original_binary": "011100",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "姤",
+        "互卦_binary": "111011",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "夬",
+        "original_binary": "110111",
+        "original_ji_rate": 0.0,
+        "互卦": "睽",
+        "互卦_binary": "101110",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "姤",
+        "original_binary": "111011",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "家人",
+        "互卦_binary": "011101",
+        "互卦_ji_rate": 0.6666666666666666
+      },
+      {
+        "original": "萃",
+        "original_binary": "110000",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "剝",
+        "互卦_binary": "001000",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "升",
+        "original_binary": "000011",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "復",
+        "互卦_binary": "000100",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "困",
+        "original_binary": "110010",
+        "original_ji_rate": 0.0,
+        "互卦": "頤",
+        "互卦_binary": "001100",
+        "互卦_ji_rate": 0.5
+      },
+      {
+        "original": "井",
+        "original_binary": "010011",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "頤",
+        "互卦_binary": "001100",
+        "互卦_ji_rate": 0.5
+      },
+      {
+        "original": "革",
+        "original_binary": "110101",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "未濟",
+        "互卦_binary": "101010",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "鼎",
+        "original_binary": "101011",
+        "original_ji_rate": 0.6666666666666666,
+        "互卦": "既濟",
+        "互卦_binary": "010101",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "震",
+        "original_binary": "100100",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "解",
+        "互卦_binary": "100010",
+        "互卦_ji_rate": 0.5
+      },
+      {
+        "original": "艮",
+        "original_binary": "001001",
+        "original_ji_rate": 0.0,
+        "互卦": "蹇",
+        "互卦_binary": "010001",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "漸",
+        "original_binary": "011001",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "漸",
+        "互卦_binary": "011001",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "歸妹",
+        "original_binary": "100110",
+        "original_ji_rate": 0.0,
+        "互卦": "歸妹",
+        "互卦_binary": "100110",
+        "互卦_ji_rate": 0.0
+      },
+      {
+        "original": "豐",
+        "original_binary": "100101",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "解",
+        "互卦_binary": "100010",
+        "互卦_ji_rate": 0.5
+      },
+      {
+        "original": "旅",
+        "original_binary": "101001",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "蹇",
+        "互卦_binary": "010001",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "巽",
+        "original_binary": "011011",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "家人",
+        "互卦_binary": "011101",
+        "互卦_ji_rate": 0.6666666666666666
+      },
+      {
+        "original": "兌",
+        "original_binary": "110110",
+        "original_ji_rate": 0.16666666666666666,
+        "互卦": "睽",
+        "互卦_binary": "101110",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "渙",
+        "original_binary": "011010",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "家人",
+        "互卦_binary": "011101",
+        "互卦_ji_rate": 0.6666666666666666
+      },
+      {
+        "original": "節",
+        "original_binary": "010110",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "睽",
+        "互卦_binary": "101110",
+        "互卦_ji_rate": 0.16666666666666666
+      },
+      {
+        "original": "中孚",
+        "original_binary": "011110",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "乾",
+        "互卦_binary": "111111",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "小過",
+        "original_binary": "100001",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "坤",
+        "互卦_binary": "000000",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "既濟",
+        "original_binary": "010101",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "未濟",
+        "互卦_binary": "101010",
+        "互卦_ji_rate": 0.3333333333333333
+      },
+      {
+        "original": "未濟",
+        "original_binary": "101010",
+        "original_ji_rate": 0.3333333333333333,
+        "互卦": "既濟",
+        "互卦_binary": "010101",
+        "互卦_ji_rate": 0.3333333333333333
+      }
+    ],
+    "analysis": {
+      "same_ji": 31,
+      "diff_ji": 33,
+      "total": 64
+    }
+  },
+  "錯卦": {
+    "pairs": [
+      {
+        "gua1": "乾",
+        "gua1_binary": "111111",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "坤",
+        "gua2_binary": "000000",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "屯",
+        "gua1_binary": "010100",
+        "gua1_ji_rate": 0.5,
+        "gua2": "鼎",
+        "gua2_binary": "101011",
+        "gua2_ji_rate": 0.6666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "蒙",
+        "gua1_binary": "001010",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "革",
+        "gua2_binary": "110101",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "需",
+        "gua1_binary": "010111",
+        "gua1_ji_rate": 0.5,
+        "gua2": "晉",
+        "gua2_binary": "101000",
+        "gua2_ji_rate": 0.5,
+        "is_self": false
+      },
+      {
+        "gua1": "訟",
+        "gua1_binary": "111010",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "明夷",
+        "gua2_binary": "000101",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "師",
+        "gua1_binary": "000010",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "同人",
+        "gua2_binary": "111101",
+        "gua2_ji_rate": 0.16666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "比",
+        "gua1_binary": "010000",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "大有",
+        "gua2_binary": "101111",
+        "gua2_ji_rate": 0.5,
+        "is_self": false
+      },
+      {
+        "gua1": "小畜",
+        "gua1_binary": "011111",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "豫",
+        "gua2_binary": "100000",
+        "gua2_ji_rate": 0.16666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "履",
+        "gua1_binary": "111110",
+        "gua1_ji_rate": 0.5,
+        "gua2": "謙",
+        "gua2_binary": "000001",
+        "gua2_ji_rate": 1.0,
+        "is_self": false
+      },
+      {
+        "gua1": "泰",
+        "gua1_binary": "000111",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "否",
+        "gua2_binary": "111000",
+        "gua2_ji_rate": 0.5,
+        "is_self": false
+      },
+      {
+        "gua1": "隨",
+        "gua1_binary": "110100",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "蠱",
+        "gua2_binary": "001011",
+        "gua2_ji_rate": 0.16666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "臨",
+        "gua1_binary": "000110",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "遯",
+        "gua2_binary": "111001",
+        "gua2_ji_rate": 0.6666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "觀",
+        "gua1_binary": "011000",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "大壯",
+        "gua2_binary": "100111",
+        "gua2_ji_rate": 0.5,
+        "is_self": false
+      },
+      {
+        "gua1": "噬嗑",
+        "gua1_binary": "101100",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "井",
+        "gua2_binary": "010011",
+        "gua2_ji_rate": 0.16666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "賁",
+        "gua1_binary": "001101",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "困",
+        "gua2_binary": "110010",
+        "gua2_ji_rate": 0.0,
+        "is_self": false
+      },
+      {
+        "gua1": "剝",
+        "gua1_binary": "001000",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "夬",
+        "gua2_binary": "110111",
+        "gua2_ji_rate": 0.0,
+        "is_self": false
+      },
+      {
+        "gua1": "復",
+        "gua1_binary": "000100",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "姤",
+        "gua2_binary": "111011",
+        "gua2_ji_rate": 0.16666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "无妄",
+        "gua1_binary": "111100",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "升",
+        "gua2_binary": "000011",
+        "gua2_ji_rate": 0.6666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "大畜",
+        "gua1_binary": "001111",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "萃",
+        "gua2_binary": "110000",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "頤",
+        "gua1_binary": "001100",
+        "gua1_ji_rate": 0.5,
+        "gua2": "大過",
+        "gua2_binary": "110011",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "坎",
+        "gua1_binary": "010010",
+        "gua1_ji_rate": 0.0,
+        "gua2": "離",
+        "gua2_binary": "101101",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "咸",
+        "gua1_binary": "110001",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "損",
+        "gua2_binary": "001110",
+        "gua2_ji_rate": 0.5,
+        "is_self": false
+      },
+      {
+        "gua1": "恆",
+        "gua1_binary": "100011",
+        "gua1_ji_rate": 0.0,
+        "gua2": "益",
+        "gua2_binary": "011100",
+        "gua2_ji_rate": 0.6666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "家人",
+        "gua1_binary": "011101",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "解",
+        "gua2_binary": "100010",
+        "gua2_ji_rate": 0.5,
+        "is_self": false
+      },
+      {
+        "gua1": "睽",
+        "gua1_binary": "101110",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "蹇",
+        "gua2_binary": "010001",
+        "gua2_ji_rate": 0.16666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "震",
+        "gua1_binary": "100100",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "巽",
+        "gua2_binary": "011011",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "艮",
+        "gua1_binary": "001001",
+        "gua1_ji_rate": 0.0,
+        "gua2": "兌",
+        "gua2_binary": "110110",
+        "gua2_ji_rate": 0.16666666666666666,
+        "is_self": false
+      },
+      {
+        "gua1": "漸",
+        "gua1_binary": "011001",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "歸妹",
+        "gua2_binary": "100110",
+        "gua2_ji_rate": 0.0,
+        "is_self": false
+      },
+      {
+        "gua1": "豐",
+        "gua1_binary": "100101",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "渙",
+        "gua2_binary": "011010",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "旅",
+        "gua1_binary": "101001",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "節",
+        "gua2_binary": "010110",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "中孚",
+        "gua1_binary": "011110",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "小過",
+        "gua2_binary": "100001",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      },
+      {
+        "gua1": "既濟",
+        "gua1_binary": "010101",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "未濟",
+        "gua2_binary": "101010",
+        "gua2_ji_rate": 0.3333333333333333,
+        "is_self": false
+      }
+    ],
+    "analysis": {
+      "same_ji": 23,
+      "diff_ji": 9,
+      "total": 32
+    }
+  },
+  "綜卦": {
+    "pairs": [
+      {
+        "gua1": "屯",
+        "gua1_binary": "010100",
+        "gua1_ji_rate": 0.5,
+        "gua2": "蒙",
+        "gua2_binary": "001010",
+        "gua2_ji_rate": 0.6666666666666666
+      },
+      {
+        "gua1": "需",
+        "gua1_binary": "010111",
+        "gua1_ji_rate": 0.5,
+        "gua2": "訟",
+        "gua2_binary": "111010",
+        "gua2_ji_rate": 0.6666666666666666
+      },
+      {
+        "gua1": "師",
+        "gua1_binary": "000010",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "比",
+        "gua2_binary": "010000",
+        "gua2_ji_rate": 0.6666666666666666
+      },
+      {
+        "gua1": "小畜",
+        "gua1_binary": "011111",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "履",
+        "gua2_binary": "111110",
+        "gua2_ji_rate": 0.5
+      },
+      {
+        "gua1": "泰",
+        "gua1_binary": "000111",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "否",
+        "gua2_binary": "111000",
+        "gua2_ji_rate": 0.5
+      },
+      {
+        "gua1": "同人",
+        "gua1_binary": "111101",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "大有",
+        "gua2_binary": "101111",
+        "gua2_ji_rate": 0.5
+      },
+      {
+        "gua1": "謙",
+        "gua1_binary": "000001",
+        "gua1_ji_rate": 1.0,
+        "gua2": "豫",
+        "gua2_binary": "100000",
+        "gua2_ji_rate": 0.16666666666666666
+      },
+      {
+        "gua1": "隨",
+        "gua1_binary": "110100",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "蠱",
+        "gua2_binary": "001011",
+        "gua2_ji_rate": 0.16666666666666666
+      },
+      {
+        "gua1": "臨",
+        "gua1_binary": "000110",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "觀",
+        "gua2_binary": "011000",
+        "gua2_ji_rate": 0.3333333333333333
+      },
+      {
+        "gua1": "噬嗑",
+        "gua1_binary": "101100",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "賁",
+        "gua2_binary": "001101",
+        "gua2_ji_rate": 0.3333333333333333
+      },
+      {
+        "gua1": "剝",
+        "gua1_binary": "001000",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "復",
+        "gua2_binary": "000100",
+        "gua2_ji_rate": 0.3333333333333333
+      },
+      {
+        "gua1": "无妄",
+        "gua1_binary": "111100",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "大畜",
+        "gua2_binary": "001111",
+        "gua2_ji_rate": 0.6666666666666666
+      },
+      {
+        "gua1": "咸",
+        "gua1_binary": "110001",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "恆",
+        "gua2_binary": "100011",
+        "gua2_ji_rate": 0.0
+      },
+      {
+        "gua1": "遯",
+        "gua1_binary": "111001",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "大壯",
+        "gua2_binary": "100111",
+        "gua2_ji_rate": 0.5
+      },
+      {
+        "gua1": "晉",
+        "gua1_binary": "101000",
+        "gua1_ji_rate": 0.5,
+        "gua2": "明夷",
+        "gua2_binary": "000101",
+        "gua2_ji_rate": 0.3333333333333333
+      },
+      {
+        "gua1": "家人",
+        "gua1_binary": "011101",
+        "gua1_ji_rate": 0.6666666666666666,
+        "gua2": "睽",
+        "gua2_binary": "101110",
+        "gua2_ji_rate": 0.16666666666666666
+      },
+      {
+        "gua1": "蹇",
+        "gua1_binary": "010001",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "解",
+        "gua2_binary": "100010",
+        "gua2_ji_rate": 0.5
+      },
+      {
+        "gua1": "損",
+        "gua1_binary": "001110",
+        "gua1_ji_rate": 0.5,
+        "gua2": "益",
+        "gua2_binary": "011100",
+        "gua2_ji_rate": 0.6666666666666666
+      },
+      {
+        "gua1": "夬",
+        "gua1_binary": "110111",
+        "gua1_ji_rate": 0.0,
+        "gua2": "姤",
+        "gua2_binary": "111011",
+        "gua2_ji_rate": 0.16666666666666666
+      },
+      {
+        "gua1": "萃",
+        "gua1_binary": "110000",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "升",
+        "gua2_binary": "000011",
+        "gua2_ji_rate": 0.6666666666666666
+      },
+      {
+        "gua1": "困",
+        "gua1_binary": "110010",
+        "gua1_ji_rate": 0.0,
+        "gua2": "井",
+        "gua2_binary": "010011",
+        "gua2_ji_rate": 0.16666666666666666
+      },
+      {
+        "gua1": "革",
+        "gua1_binary": "110101",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "鼎",
+        "gua2_binary": "101011",
+        "gua2_ji_rate": 0.6666666666666666
+      },
+      {
+        "gua1": "震",
+        "gua1_binary": "100100",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "艮",
+        "gua2_binary": "001001",
+        "gua2_ji_rate": 0.0
+      },
+      {
+        "gua1": "漸",
+        "gua1_binary": "011001",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "歸妹",
+        "gua2_binary": "100110",
+        "gua2_ji_rate": 0.0
+      },
+      {
+        "gua1": "豐",
+        "gua1_binary": "100101",
+        "gua1_ji_rate": 0.16666666666666666,
+        "gua2": "旅",
+        "gua2_binary": "101001",
+        "gua2_ji_rate": 0.3333333333333333
+      },
+      {
+        "gua1": "巽",
+        "gua1_binary": "011011",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "兌",
+        "gua2_binary": "110110",
+        "gua2_ji_rate": 0.16666666666666666
+      },
+      {
+        "gua1": "渙",
+        "gua1_binary": "011010",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "節",
+        "gua2_binary": "010110",
+        "gua2_ji_rate": 0.3333333333333333
+      },
+      {
+        "gua1": "既濟",
+        "gua1_binary": "010101",
+        "gua1_ji_rate": 0.3333333333333333,
+        "gua2": "未濟",
+        "gua2_binary": "101010",
+        "gua2_ji_rate": 0.3333333333333333
+      }
+    ],
+    "self_symmetric": [
+      {
+        "name": "乾",
+        "binary": "111111",
+        "ji_rate": 0.3333333333333333
+      },
+      {
+        "name": "坤",
+        "binary": "000000",
+        "ji_rate": 0.3333333333333333
+      },
+      {
+        "name": "頤",
+        "binary": "001100",
+        "ji_rate": 0.5
+      },
+      {
+        "name": "大過",
+        "binary": "110011",
+        "ji_rate": 0.3333333333333333
+      },
+      {
+        "name": "坎",
+        "binary": "010010",
+        "ji_rate": 0.0
+      },
+      {
+        "name": "離",
+        "binary": "101101",
+        "ji_rate": 0.3333333333333333
+      },
+      {
+        "name": "中孚",
+        "binary": "011110",
+        "ji_rate": 0.3333333333333333
+      },
+      {
+        "name": "小過",
+        "binary": "100001",
+        "ji_rate": 0.3333333333333333
+      }
+    ],
+    "analysis": {
+      "same_ji": 16,
+      "diff_ji": 12,
+      "total": 28
+    }
+  }
+}

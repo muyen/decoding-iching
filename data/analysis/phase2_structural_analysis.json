@@ -1,0 +1,2865 @@
+{
+  "metadata": {
+    "analysis_date": "2026-01-20",
+    "phase": 2,
+    "description": "Mathematical and structural analysis of I Ching hexagrams"
+  },
+  "sections": {
+    "king_wen_analysis": {
+      "title": "King Wen Sequence Mathematical Analysis",
+      "pair_analysis": {
+        "pairs": [
+          {
+            "pair_number": 1,
+            "hexagram_1": {
+              "number": 1,
+              "name": "乾",
+              "binary": "111111"
+            },
+            "hexagram_2": {
+              "number": 2,
+              "name": "坤",
+              "binary": "000000"
+            },
+            "relationship": "complement",
+            "h1_symmetric": true,
+            "h2_symmetric": true
+          },
+          {
+            "pair_number": 2,
+            "hexagram_1": {
+              "number": 3,
+              "name": "屯",
+              "binary": "100010"
+            },
+            "hexagram_2": {
+              "number": 4,
+              "name": "蒙",
+              "binary": "010001"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 3,
+            "hexagram_1": {
+              "number": 5,
+              "name": "需",
+              "binary": "111010"
+            },
+            "hexagram_2": {
+              "number": 6,
+              "name": "訟",
+              "binary": "010111"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 4,
+            "hexagram_1": {
+              "number": 7,
+              "name": "師",
+              "binary": "010000"
+            },
+            "hexagram_2": {
+              "number": 8,
+              "name": "比",
+              "binary": "000010"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 5,
+            "hexagram_1": {
+              "number": 9,
+              "name": "小畜",
+              "binary": "111011"
+            },
+            "hexagram_2": {
+              "number": 10,
+              "name": "履",
+              "binary": "110111"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 6,
+            "hexagram_1": {
+              "number": 11,
+              "name": "泰",
+              "binary": "111000"
+            },
+            "hexagram_2": {
+              "number": 12,
+              "name": "否",
+              "binary": "000111"
+            },
+            "relationship": "complement",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 7,
+            "hexagram_1": {
+              "number": 13,
+              "name": "同人",
+              "binary": "101111"
+            },
+            "hexagram_2": {
+              "number": 14,
+              "name": "大有",
+              "binary": "111101"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 8,
+            "hexagram_1": {
+              "number": 15,
+              "name": "謙",
+              "binary": "001000"
+            },
+            "hexagram_2": {
+              "number": 16,
+              "name": "豫",
+              "binary": "000100"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 9,
+            "hexagram_1": {
+              "number": 17,
+              "name": "隨",
+              "binary": "100110"
+            },
+            "hexagram_2": {
+              "number": 18,
+              "name": "蠱",
+              "binary": "011001"
+            },
+            "relationship": "complement",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 10,
+            "hexagram_1": {
+              "number": 19,
+              "name": "臨",
+              "binary": "110000"
+            },
+            "hexagram_2": {
+              "number": 20,
+              "name": "觀",
+              "binary": "000011"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 11,
+            "hexagram_1": {
+              "number": 21,
+              "name": "噬嗑",
+              "binary": "100101"
+            },
+            "hexagram_2": {
+              "number": 22,
+              "name": "賁",
+              "binary": "101001"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 12,
+            "hexagram_1": {
+              "number": 23,
+              "name": "剝",
+              "binary": "000001"
+            },
+            "hexagram_2": {
+              "number": 24,
+              "name": "復",
+              "binary": "100000"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 13,
+            "hexagram_1": {
+              "number": 25,
+              "name": "無妄",
+              "binary": "100111"
+            },
+            "hexagram_2": {
+              "number": 26,
+              "name": "大畜",
+              "binary": "111001"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 14,
+            "hexagram_1": {
+              "number": 27,
+              "name": "頤",
+              "binary": "100001"
+            },
+            "hexagram_2": {
+              "number": 28,
+              "name": "大過",
+              "binary": "011110"
+            },
+            "relationship": "complement",
+            "h1_symmetric": true,
+            "h2_symmetric": true
+          },
+          {
+            "pair_number": 15,
+            "hexagram_1": {
+              "number": 29,
+              "name": "坎",
+              "binary": "010010"
+            },
+            "hexagram_2": {
+              "number": 30,
+              "name": "離",
+              "binary": "101101"
+            },
+            "relationship": "complement",
+            "h1_symmetric": true,
+            "h2_symmetric": true
+          },
+          {
+            "pair_number": 16,
+            "hexagram_1": {
+              "number": 31,
+              "name": "咸",
+              "binary": "001110"
+            },
+            "hexagram_2": {
+              "number": 32,
+              "name": "恆",
+              "binary": "011100"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 17,
+            "hexagram_1": {
+              "number": 33,
+              "name": "遯",
+              "binary": "001111"
+            },
+            "hexagram_2": {
+              "number": 34,
+              "name": "大壯",
+              "binary": "111100"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 18,
+            "hexagram_1": {
+              "number": 35,
+              "name": "晉",
+              "binary": "000101"
+            },
+            "hexagram_2": {
+              "number": 36,
+              "name": "明夷",
+              "binary": "101000"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 19,
+            "hexagram_1": {
+              "number": 37,
+              "name": "家人",
+              "binary": "101011"
+            },
+            "hexagram_2": {
+              "number": 38,
+              "name": "睽",
+              "binary": "110101"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 20,
+            "hexagram_1": {
+              "number": 39,
+              "name": "蹇",
+              "binary": "001010"
+            },
+            "hexagram_2": {
+              "number": 40,
+              "name": "解",
+              "binary": "010100"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 21,
+            "hexagram_1": {
+              "number": 41,
+              "name": "損",
+              "binary": "110001"
+            },
+            "hexagram_2": {
+              "number": 42,
+              "name": "益",
+              "binary": "100011"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 22,
+            "hexagram_1": {
+              "number": 43,
+              "name": "夬",
+              "binary": "111110"
+            },
+            "hexagram_2": {
+              "number": 44,
+              "name": "姤",
+              "binary": "011111"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 23,
+            "hexagram_1": {
+              "number": 45,
+              "name": "萃",
+              "binary": "000110"
+            },
+            "hexagram_2": {
+              "number": 46,
+              "name": "升",
+              "binary": "011000"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 24,
+            "hexagram_1": {
+              "number": 47,
+              "name": "困",
+              "binary": "010110"
+            },
+            "hexagram_2": {
+              "number": 48,
+              "name": "井",
+              "binary": "011010"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 25,
+            "hexagram_1": {
+              "number": 49,
+              "name": "革",
+              "binary": "101110"
+            },
+            "hexagram_2": {
+              "number": 50,
+              "name": "鼎",
+              "binary": "011101"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 26,
+            "hexagram_1": {
+              "number": 51,
+              "name": "震",
+              "binary": "100100"
+            },
+            "hexagram_2": {
+              "number": 52,
+              "name": "艮",
+              "binary": "001001"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 27,
+            "hexagram_1": {
+              "number": 53,
+              "name": "漸",
+              "binary": "001011"
+            },
+            "hexagram_2": {
+              "number": 54,
+              "name": "歸妹",
+              "binary": "110100"
+            },
+            "relationship": "complement",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 28,
+            "hexagram_1": {
+              "number": 55,
+              "name": "豐",
+              "binary": "101100"
+            },
+            "hexagram_2": {
+              "number": 56,
+              "name": "旅",
+              "binary": "001101"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 29,
+            "hexagram_1": {
+              "number": 57,
+              "name": "巽",
+              "binary": "011011"
+            },
+            "hexagram_2": {
+              "number": 58,
+              "name": "兌",
+              "binary": "110110"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 30,
+            "hexagram_1": {
+              "number": 59,
+              "name": "渙",
+              "binary": "010011"
+            },
+            "hexagram_2": {
+              "number": 60,
+              "name": "節",
+              "binary": "110010"
+            },
+            "relationship": "inverse",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          },
+          {
+            "pair_number": 31,
+            "hexagram_1": {
+              "number": 61,
+              "name": "中孚",
+              "binary": "110011"
+            },
+            "hexagram_2": {
+              "number": 62,
+              "name": "小過",
+              "binary": "001100"
+            },
+            "relationship": "complement",
+            "h1_symmetric": true,
+            "h2_symmetric": true
+          },
+          {
+            "pair_number": 32,
+            "hexagram_1": {
+              "number": 63,
+              "name": "既濟",
+              "binary": "101010"
+            },
+            "hexagram_2": {
+              "number": 64,
+              "name": "未濟",
+              "binary": "010101"
+            },
+            "relationship": "complement",
+            "h1_symmetric": false,
+            "h2_symmetric": false
+          }
+        ],
+        "total_pairs": 32,
+        "relationship_distribution": {
+          "complement": 8,
+          "inverse": 24
+        },
+        "pairs_with_symmetric_hexagram": 4,
+        "insight": "King Wen pairs are organized as inverse (rotation) pairs, except for 4 complement pairs involving symmetric hexagrams"
+      },
+      "transition_analysis": {
+        "total_transitions": 63,
+        "change_distribution": {
+          "6": 9,
+          "2": 20,
+          "4": 19,
+          "3": 13,
+          "1": 2
+        },
+        "within_pair_avg_changes": 3.75,
+        "between_pair_avg_changes": 2.94,
+        "insight": "Within pairs average 3.75 line changes; between pairs average 2.94",
+        "notable_transitions": [
+          {
+            "from": 1,
+            "to": 2,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "from": 11,
+            "to": 12,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "from": 17,
+            "to": 18,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "from": 27,
+            "to": 28,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "from": 29,
+            "to": 30,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "from": 38,
+            "to": 39,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "from": 53,
+            "to": 54,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "from": 61,
+            "to": 62,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "from": 63,
+            "to": 64,
+            "lines_changed": 6,
+            "changed_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          }
+        ]
+      },
+      "yang_progression": {
+        "progression": [
+          {
+            "position": 1,
+            "name": "乾",
+            "yang_count": 6
+          },
+          {
+            "position": 2,
+            "name": "坤",
+            "yang_count": 0
+          },
+          {
+            "position": 3,
+            "name": "屯",
+            "yang_count": 2
+          },
+          {
+            "position": 4,
+            "name": "蒙",
+            "yang_count": 2
+          },
+          {
+            "position": 5,
+            "name": "需",
+            "yang_count": 4
+          },
+          {
+            "position": 6,
+            "name": "訟",
+            "yang_count": 4
+          },
+          {
+            "position": 7,
+            "name": "師",
+            "yang_count": 1
+          },
+          {
+            "position": 8,
+            "name": "比",
+            "yang_count": 1
+          },
+          {
+            "position": 9,
+            "name": "小畜",
+            "yang_count": 5
+          },
+          {
+            "position": 10,
+            "name": "履",
+            "yang_count": 5
+          },
+          {
+            "position": 11,
+            "name": "泰",
+            "yang_count": 3
+          },
+          {
+            "position": 12,
+            "name": "否",
+            "yang_count": 3
+          },
+          {
+            "position": 13,
+            "name": "同人",
+            "yang_count": 5
+          },
+          {
+            "position": 14,
+            "name": "大有",
+            "yang_count": 5
+          },
+          {
+            "position": 15,
+            "name": "謙",
+            "yang_count": 1
+          },
+          {
+            "position": 16,
+            "name": "豫",
+            "yang_count": 1
+          },
+          {
+            "position": 17,
+            "name": "隨",
+            "yang_count": 3
+          },
+          {
+            "position": 18,
+            "name": "蠱",
+            "yang_count": 3
+          },
+          {
+            "position": 19,
+            "name": "臨",
+            "yang_count": 2
+          },
+          {
+            "position": 20,
+            "name": "觀",
+            "yang_count": 2
+          },
+          {
+            "position": 21,
+            "name": "噬嗑",
+            "yang_count": 3
+          },
+          {
+            "position": 22,
+            "name": "賁",
+            "yang_count": 3
+          },
+          {
+            "position": 23,
+            "name": "剝",
+            "yang_count": 1
+          },
+          {
+            "position": 24,
+            "name": "復",
+            "yang_count": 1
+          },
+          {
+            "position": 25,
+            "name": "無妄",
+            "yang_count": 4
+          },
+          {
+            "position": 26,
+            "name": "大畜",
+            "yang_count": 4
+          },
+          {
+            "position": 27,
+            "name": "頤",
+            "yang_count": 2
+          },
+          {
+            "position": 28,
+            "name": "大過",
+            "yang_count": 4
+          },
+          {
+            "position": 29,
+            "name": "坎",
+            "yang_count": 2
+          },
+          {
+            "position": 30,
+            "name": "離",
+            "yang_count": 4
+          },
+          {
+            "position": 31,
+            "name": "咸",
+            "yang_count": 3
+          },
+          {
+            "position": 32,
+            "name": "恆",
+            "yang_count": 3
+          },
+          {
+            "position": 33,
+            "name": "遯",
+            "yang_count": 4
+          },
+          {
+            "position": 34,
+            "name": "大壯",
+            "yang_count": 4
+          },
+          {
+            "position": 35,
+            "name": "晉",
+            "yang_count": 2
+          },
+          {
+            "position": 36,
+            "name": "明夷",
+            "yang_count": 2
+          },
+          {
+            "position": 37,
+            "name": "家人",
+            "yang_count": 4
+          },
+          {
+            "position": 38,
+            "name": "睽",
+            "yang_count": 4
+          },
+          {
+            "position": 39,
+            "name": "蹇",
+            "yang_count": 2
+          },
+          {
+            "position": 40,
+            "name": "解",
+            "yang_count": 2
+          },
+          {
+            "position": 41,
+            "name": "損",
+            "yang_count": 3
+          },
+          {
+            "position": 42,
+            "name": "益",
+            "yang_count": 3
+          },
+          {
+            "position": 43,
+            "name": "夬",
+            "yang_count": 5
+          },
+          {
+            "position": 44,
+            "name": "姤",
+            "yang_count": 5
+          },
+          {
+            "position": 45,
+            "name": "萃",
+            "yang_count": 2
+          },
+          {
+            "position": 46,
+            "name": "升",
+            "yang_count": 2
+          },
+          {
+            "position": 47,
+            "name": "困",
+            "yang_count": 3
+          },
+          {
+            "position": 48,
+            "name": "井",
+            "yang_count": 3
+          },
+          {
+            "position": 49,
+            "name": "革",
+            "yang_count": 4
+          },
+          {
+            "position": 50,
+            "name": "鼎",
+            "yang_count": 4
+          },
+          {
+            "position": 51,
+            "name": "震",
+            "yang_count": 2
+          },
+          {
+            "position": 52,
+            "name": "艮",
+            "yang_count": 2
+          },
+          {
+            "position": 53,
+            "name": "漸",
+            "yang_count": 3
+          },
+          {
+            "position": 54,
+            "name": "歸妹",
+            "yang_count": 3
+          },
+          {
+            "position": 55,
+            "name": "豐",
+            "yang_count": 3
+          },
+          {
+            "position": 56,
+            "name": "旅",
+            "yang_count": 3
+          },
+          {
+            "position": 57,
+            "name": "巽",
+            "yang_count": 4
+          },
+          {
+            "position": 58,
+            "name": "兌",
+            "yang_count": 4
+          },
+          {
+            "position": 59,
+            "name": "渙",
+            "yang_count": 3
+          },
+          {
+            "position": 60,
+            "name": "節",
+            "yang_count": 3
+          },
+          {
+            "position": 61,
+            "name": "中孚",
+            "yang_count": 4
+          },
+          {
+            "position": 62,
+            "name": "小過",
+            "yang_count": 2
+          },
+          {
+            "position": 63,
+            "name": "既濟",
+            "yang_count": 3
+          },
+          {
+            "position": 64,
+            "name": "未濟",
+            "yang_count": 3
+          }
+        ],
+        "running_average_window": 8,
+        "running_average": [
+          2.5,
+          2.38,
+          3.0,
+          3.12,
+          3.25,
+          3.38,
+          3.5,
+          3.5,
+          3.5,
+          3.25,
+          3.0,
+          2.88,
+          2.75,
+          2.5,
+          2.25,
+          2.25,
+          2.25,
+          2.38,
+          2.5,
+          2.5,
+          2.75,
+          2.62,
+          2.75,
+          3.0,
+          3.25,
+          3.25,
+          3.25,
+          3.25,
+          3.0,
+          3.25,
+          3.25,
+          3.12,
+          3.0,
+          2.88,
+          2.75,
+          3.12,
+          3.5,
+          3.25,
+          3.0,
+          3.12,
+          3.25,
+          3.38,
+          3.5,
+          3.12,
+          2.75,
+          2.88,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.12,
+          3.25,
+          3.38,
+          3.25,
+          3.25,
+          3.25
+        ],
+        "upper_canon_avg_yang": 2.87,
+        "lower_canon_avg_yang": 3.12,
+        "insight": "Upper canon avg yang: 2.87, Lower canon avg yang: 3.12"
+      },
+      "trigram_patterns": {
+        "upper_trigram_counts": {
+          "乾": 8,
+          "坤": 8,
+          "坎": 8,
+          "艮": 8,
+          "巽": 8,
+          "離": 8,
+          "震": 8,
+          "兌": 8
+        },
+        "lower_trigram_counts": {
+          "乾": 8,
+          "坤": 8,
+          "震": 8,
+          "坎": 8,
+          "兌": 8,
+          "離": 8,
+          "艮": 8,
+          "巽": 8
+        },
+        "combined_trigram_counts": {
+          "乾": 16,
+          "坤": 16,
+          "坎": 16,
+          "艮": 16,
+          "巽": 16,
+          "離": 16,
+          "震": 16,
+          "兌": 16
+        },
+        "pure_hexagrams": [
+          {
+            "number": 1,
+            "name": "乾",
+            "trigram": "乾"
+          },
+          {
+            "number": 2,
+            "name": "坤",
+            "trigram": "坤"
+          },
+          {
+            "number": 29,
+            "name": "坎",
+            "trigram": "坎"
+          },
+          {
+            "number": 30,
+            "name": "離",
+            "trigram": "離"
+          },
+          {
+            "number": 51,
+            "name": "震",
+            "trigram": "震"
+          },
+          {
+            "number": 52,
+            "name": "艮",
+            "trigram": "艮"
+          },
+          {
+            "number": 57,
+            "name": "巽",
+            "trigram": "巽"
+          },
+          {
+            "number": 58,
+            "name": "兌",
+            "trigram": "兌"
+          }
+        ],
+        "total_pure_hexagrams": 8,
+        "insight": "8 pure hexagrams (same upper and lower trigram)"
+      },
+      "numerical_patterns": {
+        "decimal_values": [
+          {
+            "position": 1,
+            "name": "乾",
+            "binary": "111111",
+            "decimal": 63
+          },
+          {
+            "position": 2,
+            "name": "坤",
+            "binary": "000000",
+            "decimal": 0
+          },
+          {
+            "position": 3,
+            "name": "屯",
+            "binary": "100010",
+            "decimal": 34
+          },
+          {
+            "position": 4,
+            "name": "蒙",
+            "binary": "010001",
+            "decimal": 17
+          },
+          {
+            "position": 5,
+            "name": "需",
+            "binary": "111010",
+            "decimal": 58
+          },
+          {
+            "position": 6,
+            "name": "訟",
+            "binary": "010111",
+            "decimal": 23
+          },
+          {
+            "position": 7,
+            "name": "師",
+            "binary": "010000",
+            "decimal": 16
+          },
+          {
+            "position": 8,
+            "name": "比",
+            "binary": "000010",
+            "decimal": 2
+          },
+          {
+            "position": 9,
+            "name": "小畜",
+            "binary": "111011",
+            "decimal": 59
+          },
+          {
+            "position": 10,
+            "name": "履",
+            "binary": "110111",
+            "decimal": 55
+          },
+          {
+            "position": 11,
+            "name": "泰",
+            "binary": "111000",
+            "decimal": 56
+          },
+          {
+            "position": 12,
+            "name": "否",
+            "binary": "000111",
+            "decimal": 7
+          },
+          {
+            "position": 13,
+            "name": "同人",
+            "binary": "101111",
+            "decimal": 47
+          },
+          {
+            "position": 14,
+            "name": "大有",
+            "binary": "111101",
+            "decimal": 61
+          },
+          {
+            "position": 15,
+            "name": "謙",
+            "binary": "001000",
+            "decimal": 8
+          },
+          {
+            "position": 16,
+            "name": "豫",
+            "binary": "000100",
+            "decimal": 4
+          },
+          {
+            "position": 17,
+            "name": "隨",
+            "binary": "100110",
+            "decimal": 38
+          },
+          {
+            "position": 18,
+            "name": "蠱",
+            "binary": "011001",
+            "decimal": 25
+          },
+          {
+            "position": 19,
+            "name": "臨",
+            "binary": "110000",
+            "decimal": 48
+          },
+          {
+            "position": 20,
+            "name": "觀",
+            "binary": "000011",
+            "decimal": 3
+          },
+          {
+            "position": 21,
+            "name": "噬嗑",
+            "binary": "100101",
+            "decimal": 37
+          },
+          {
+            "position": 22,
+            "name": "賁",
+            "binary": "101001",
+            "decimal": 41
+          },
+          {
+            "position": 23,
+            "name": "剝",
+            "binary": "000001",
+            "decimal": 1
+          },
+          {
+            "position": 24,
+            "name": "復",
+            "binary": "100000",
+            "decimal": 32
+          },
+          {
+            "position": 25,
+            "name": "無妄",
+            "binary": "100111",
+            "decimal": 39
+          },
+          {
+            "position": 26,
+            "name": "大畜",
+            "binary": "111001",
+            "decimal": 57
+          },
+          {
+            "position": 27,
+            "name": "頤",
+            "binary": "100001",
+            "decimal": 33
+          },
+          {
+            "position": 28,
+            "name": "大過",
+            "binary": "011110",
+            "decimal": 30
+          },
+          {
+            "position": 29,
+            "name": "坎",
+            "binary": "010010",
+            "decimal": 18
+          },
+          {
+            "position": 30,
+            "name": "離",
+            "binary": "101101",
+            "decimal": 45
+          },
+          {
+            "position": 31,
+            "name": "咸",
+            "binary": "001110",
+            "decimal": 14
+          },
+          {
+            "position": 32,
+            "name": "恆",
+            "binary": "011100",
+            "decimal": 28
+          },
+          {
+            "position": 33,
+            "name": "遯",
+            "binary": "001111",
+            "decimal": 15
+          },
+          {
+            "position": 34,
+            "name": "大壯",
+            "binary": "111100",
+            "decimal": 60
+          },
+          {
+            "position": 35,
+            "name": "晉",
+            "binary": "000101",
+            "decimal": 5
+          },
+          {
+            "position": 36,
+            "name": "明夷",
+            "binary": "101000",
+            "decimal": 40
+          },
+          {
+            "position": 37,
+            "name": "家人",
+            "binary": "101011",
+            "decimal": 43
+          },
+          {
+            "position": 38,
+            "name": "睽",
+            "binary": "110101",
+            "decimal": 53
+          },
+          {
+            "position": 39,
+            "name": "蹇",
+            "binary": "001010",
+            "decimal": 10
+          },
+          {
+            "position": 40,
+            "name": "解",
+            "binary": "010100",
+            "decimal": 20
+          },
+          {
+            "position": 41,
+            "name": "損",
+            "binary": "110001",
+            "decimal": 49
+          },
+          {
+            "position": 42,
+            "name": "益",
+            "binary": "100011",
+            "decimal": 35
+          },
+          {
+            "position": 43,
+            "name": "夬",
+            "binary": "111110",
+            "decimal": 62
+          },
+          {
+            "position": 44,
+            "name": "姤",
+            "binary": "011111",
+            "decimal": 31
+          },
+          {
+            "position": 45,
+            "name": "萃",
+            "binary": "000110",
+            "decimal": 6
+          },
+          {
+            "position": 46,
+            "name": "升",
+            "binary": "011000",
+            "decimal": 24
+          },
+          {
+            "position": 47,
+            "name": "困",
+            "binary": "010110",
+            "decimal": 22
+          },
+          {
+            "position": 48,
+            "name": "井",
+            "binary": "011010",
+            "decimal": 26
+          },
+          {
+            "position": 49,
+            "name": "革",
+            "binary": "101110",
+            "decimal": 46
+          },
+          {
+            "position": 50,
+            "name": "鼎",
+            "binary": "011101",
+            "decimal": 29
+          },
+          {
+            "position": 51,
+            "name": "震",
+            "binary": "100100",
+            "decimal": 36
+          },
+          {
+            "position": 52,
+            "name": "艮",
+            "binary": "001001",
+            "decimal": 9
+          },
+          {
+            "position": 53,
+            "name": "漸",
+            "binary": "001011",
+            "decimal": 11
+          },
+          {
+            "position": 54,
+            "name": "歸妹",
+            "binary": "110100",
+            "decimal": 52
+          },
+          {
+            "position": 55,
+            "name": "豐",
+            "binary": "101100",
+            "decimal": 44
+          },
+          {
+            "position": 56,
+            "name": "旅",
+            "binary": "001101",
+            "decimal": 13
+          },
+          {
+            "position": 57,
+            "name": "巽",
+            "binary": "011011",
+            "decimal": 27
+          },
+          {
+            "position": 58,
+            "name": "兌",
+            "binary": "110110",
+            "decimal": 54
+          },
+          {
+            "position": 59,
+            "name": "渙",
+            "binary": "010011",
+            "decimal": 19
+          },
+          {
+            "position": 60,
+            "name": "節",
+            "binary": "110010",
+            "decimal": 50
+          },
+          {
+            "position": 61,
+            "name": "中孚",
+            "binary": "110011",
+            "decimal": 51
+          },
+          {
+            "position": 62,
+            "name": "小過",
+            "binary": "001100",
+            "decimal": 12
+          },
+          {
+            "position": 63,
+            "name": "既濟",
+            "binary": "101010",
+            "decimal": 42
+          },
+          {
+            "position": 64,
+            "name": "未濟",
+            "binary": "010101",
+            "decimal": 21
+          }
+        ],
+        "difference_distribution": {
+          "-63": 1,
+          "34": 3,
+          "-17": 2,
+          "41": 2,
+          "-35": 2,
+          "-7": 1,
+          "-14": 2,
+          "57": 1,
+          "-4": 2,
+          "1": 2,
+          "-49": 1,
+          "40": 1,
+          "14": 3,
+          "-53": 1,
+          "-13": 2,
+          "23": 1,
+          "-45": 1,
+          "4": 2,
+          "-40": 1,
+          "31": 2,
+          "7": 2,
+          "18": 2,
+          "-24": 1,
+          "-3": 1,
+          "-12": 1,
+          "27": 3,
+          "-31": 3,
+          "45": 1,
+          "-55": 1,
+          "35": 1,
+          "3": 1,
+          "10": 2,
+          "-43": 1,
+          "29": 1,
+          "-25": 1,
+          "-2": 1,
+          "20": 1,
+          "-27": 1,
+          "2": 1,
+          "-8": 1,
+          "-39": 1,
+          "30": 1,
+          "-21": 1
+        },
+        "fibonacci_matches": [
+          {
+            "position": 3,
+            "name": "屯",
+            "binary": "100010",
+            "decimal": 34
+          },
+          {
+            "position": 8,
+            "name": "比",
+            "binary": "000010",
+            "decimal": 2
+          },
+          {
+            "position": 10,
+            "name": "履",
+            "binary": "110111",
+            "decimal": 55
+          },
+          {
+            "position": 15,
+            "name": "謙",
+            "binary": "001000",
+            "decimal": 8
+          },
+          {
+            "position": 20,
+            "name": "觀",
+            "binary": "000011",
+            "decimal": 3
+          },
+          {
+            "position": 23,
+            "name": "剝",
+            "binary": "000001",
+            "decimal": 1
+          },
+          {
+            "position": 35,
+            "name": "晉",
+            "binary": "000101",
+            "decimal": 5
+          },
+          {
+            "position": 56,
+            "name": "旅",
+            "binary": "001101",
+            "decimal": 13
+          },
+          {
+            "position": 64,
+            "name": "未濟",
+            "binary": "010101",
+            "decimal": 21
+          }
+        ],
+        "total_sum": 2016,
+        "first_half_sum": 999,
+        "second_half_sum": 1017,
+        "sum_ratio": 0.9823,
+        "expected_sum": 2016,
+        "insight": "Total decimal sum: 2016, theoretical sum 0-63: 2016"
+      },
+      "canon_division": {
+        "upper_canon": {
+          "range": "1-30",
+          "theme": "Cosmic principles (Heaven, Earth → Water, Fire)",
+          "count": 30,
+          "avg_yang_lines": 2.87,
+          "symmetric_hexagrams": 6
+        },
+        "lower_canon": {
+          "range": "31-64",
+          "theme": "Human affairs (Influence, Duration → Before/After Completion)",
+          "count": 34,
+          "avg_yang_lines": 3.12,
+          "symmetric_hexagrams": 2
+        },
+        "division_ratio": "30:34",
+        "insight": "Upper Canon focuses on cosmic/natural principles; Lower Canon on human affairs and practical wisdom"
+      }
+    },
+    "sequence_comparison": {
+      "title": "Fu Xi vs King Wen Sequence Comparison",
+      "sequence_comparison": [
+        {
+          "fuxi_position": 1,
+          "king_wen_number": 2,
+          "name": "坤",
+          "binary": "000000",
+          "decimal": 0,
+          "displacement": 1
+        },
+        {
+          "fuxi_position": 2,
+          "king_wen_number": 23,
+          "name": "剝",
+          "binary": "000001",
+          "decimal": 1,
+          "displacement": 21
+        },
+        {
+          "fuxi_position": 3,
+          "king_wen_number": 8,
+          "name": "比",
+          "binary": "000010",
+          "decimal": 2,
+          "displacement": 5
+        },
+        {
+          "fuxi_position": 4,
+          "king_wen_number": 20,
+          "name": "觀",
+          "binary": "000011",
+          "decimal": 3,
+          "displacement": 16
+        },
+        {
+          "fuxi_position": 5,
+          "king_wen_number": 16,
+          "name": "豫",
+          "binary": "000100",
+          "decimal": 4,
+          "displacement": 11
+        },
+        {
+          "fuxi_position": 6,
+          "king_wen_number": 35,
+          "name": "晉",
+          "binary": "000101",
+          "decimal": 5,
+          "displacement": 29
+        },
+        {
+          "fuxi_position": 7,
+          "king_wen_number": 45,
+          "name": "萃",
+          "binary": "000110",
+          "decimal": 6,
+          "displacement": 38
+        },
+        {
+          "fuxi_position": 8,
+          "king_wen_number": 12,
+          "name": "否",
+          "binary": "000111",
+          "decimal": 7,
+          "displacement": 4
+        },
+        {
+          "fuxi_position": 9,
+          "king_wen_number": 15,
+          "name": "謙",
+          "binary": "001000",
+          "decimal": 8,
+          "displacement": 6
+        },
+        {
+          "fuxi_position": 10,
+          "king_wen_number": 52,
+          "name": "艮",
+          "binary": "001001",
+          "decimal": 9,
+          "displacement": 42
+        },
+        {
+          "fuxi_position": 11,
+          "king_wen_number": 39,
+          "name": "蹇",
+          "binary": "001010",
+          "decimal": 10,
+          "displacement": 28
+        },
+        {
+          "fuxi_position": 12,
+          "king_wen_number": 53,
+          "name": "漸",
+          "binary": "001011",
+          "decimal": 11,
+          "displacement": 41
+        },
+        {
+          "fuxi_position": 13,
+          "king_wen_number": 62,
+          "name": "小過",
+          "binary": "001100",
+          "decimal": 12,
+          "displacement": 49
+        },
+        {
+          "fuxi_position": 14,
+          "king_wen_number": 56,
+          "name": "旅",
+          "binary": "001101",
+          "decimal": 13,
+          "displacement": 42
+        },
+        {
+          "fuxi_position": 15,
+          "king_wen_number": 31,
+          "name": "咸",
+          "binary": "001110",
+          "decimal": 14,
+          "displacement": 16
+        },
+        {
+          "fuxi_position": 16,
+          "king_wen_number": 33,
+          "name": "遯",
+          "binary": "001111",
+          "decimal": 15,
+          "displacement": 17
+        },
+        {
+          "fuxi_position": 17,
+          "king_wen_number": 7,
+          "name": "師",
+          "binary": "010000",
+          "decimal": 16,
+          "displacement": 10
+        },
+        {
+          "fuxi_position": 18,
+          "king_wen_number": 4,
+          "name": "蒙",
+          "binary": "010001",
+          "decimal": 17,
+          "displacement": 14
+        },
+        {
+          "fuxi_position": 19,
+          "king_wen_number": 29,
+          "name": "坎",
+          "binary": "010010",
+          "decimal": 18,
+          "displacement": 10
+        },
+        {
+          "fuxi_position": 20,
+          "king_wen_number": 59,
+          "name": "渙",
+          "binary": "010011",
+          "decimal": 19,
+          "displacement": 39
+        },
+        {
+          "fuxi_position": 21,
+          "king_wen_number": 40,
+          "name": "解",
+          "binary": "010100",
+          "decimal": 20,
+          "displacement": 19
+        },
+        {
+          "fuxi_position": 22,
+          "king_wen_number": 64,
+          "name": "未濟",
+          "binary": "010101",
+          "decimal": 21,
+          "displacement": 42
+        },
+        {
+          "fuxi_position": 23,
+          "king_wen_number": 47,
+          "name": "困",
+          "binary": "010110",
+          "decimal": 22,
+          "displacement": 24
+        },
+        {
+          "fuxi_position": 24,
+          "king_wen_number": 6,
+          "name": "訟",
+          "binary": "010111",
+          "decimal": 23,
+          "displacement": 18
+        },
+        {
+          "fuxi_position": 25,
+          "king_wen_number": 46,
+          "name": "升",
+          "binary": "011000",
+          "decimal": 24,
+          "displacement": 21
+        },
+        {
+          "fuxi_position": 26,
+          "king_wen_number": 18,
+          "name": "蠱",
+          "binary": "011001",
+          "decimal": 25,
+          "displacement": 8
+        },
+        {
+          "fuxi_position": 27,
+          "king_wen_number": 48,
+          "name": "井",
+          "binary": "011010",
+          "decimal": 26,
+          "displacement": 21
+        },
+        {
+          "fuxi_position": 28,
+          "king_wen_number": 57,
+          "name": "巽",
+          "binary": "011011",
+          "decimal": 27,
+          "displacement": 29
+        },
+        {
+          "fuxi_position": 29,
+          "king_wen_number": 32,
+          "name": "恆",
+          "binary": "011100",
+          "decimal": 28,
+          "displacement": 3
+        },
+        {
+          "fuxi_position": 30,
+          "king_wen_number": 50,
+          "name": "鼎",
+          "binary": "011101",
+          "decimal": 29,
+          "displacement": 20
+        },
+        {
+          "fuxi_position": 31,
+          "king_wen_number": 28,
+          "name": "大過",
+          "binary": "011110",
+          "decimal": 30,
+          "displacement": 3
+        },
+        {
+          "fuxi_position": 32,
+          "king_wen_number": 44,
+          "name": "姤",
+          "binary": "011111",
+          "decimal": 31,
+          "displacement": 12
+        },
+        {
+          "fuxi_position": 33,
+          "king_wen_number": 24,
+          "name": "復",
+          "binary": "100000",
+          "decimal": 32,
+          "displacement": 9
+        },
+        {
+          "fuxi_position": 34,
+          "king_wen_number": 27,
+          "name": "頤",
+          "binary": "100001",
+          "decimal": 33,
+          "displacement": 7
+        },
+        {
+          "fuxi_position": 35,
+          "king_wen_number": 3,
+          "name": "屯",
+          "binary": "100010",
+          "decimal": 34,
+          "displacement": 32
+        },
+        {
+          "fuxi_position": 36,
+          "king_wen_number": 42,
+          "name": "益",
+          "binary": "100011",
+          "decimal": 35,
+          "displacement": 6
+        },
+        {
+          "fuxi_position": 37,
+          "king_wen_number": 51,
+          "name": "震",
+          "binary": "100100",
+          "decimal": 36,
+          "displacement": 14
+        },
+        {
+          "fuxi_position": 38,
+          "king_wen_number": 21,
+          "name": "噬嗑",
+          "binary": "100101",
+          "decimal": 37,
+          "displacement": 17
+        },
+        {
+          "fuxi_position": 39,
+          "king_wen_number": 17,
+          "name": "隨",
+          "binary": "100110",
+          "decimal": 38,
+          "displacement": 22
+        },
+        {
+          "fuxi_position": 40,
+          "king_wen_number": 25,
+          "name": "無妄",
+          "binary": "100111",
+          "decimal": 39,
+          "displacement": 15
+        },
+        {
+          "fuxi_position": 41,
+          "king_wen_number": 36,
+          "name": "明夷",
+          "binary": "101000",
+          "decimal": 40,
+          "displacement": 5
+        },
+        {
+          "fuxi_position": 42,
+          "king_wen_number": 22,
+          "name": "賁",
+          "binary": "101001",
+          "decimal": 41,
+          "displacement": 20
+        },
+        {
+          "fuxi_position": 43,
+          "king_wen_number": 63,
+          "name": "既濟",
+          "binary": "101010",
+          "decimal": 42,
+          "displacement": 20
+        },
+        {
+          "fuxi_position": 44,
+          "king_wen_number": 37,
+          "name": "家人",
+          "binary": "101011",
+          "decimal": 43,
+          "displacement": 7
+        },
+        {
+          "fuxi_position": 45,
+          "king_wen_number": 55,
+          "name": "豐",
+          "binary": "101100",
+          "decimal": 44,
+          "displacement": 10
+        },
+        {
+          "fuxi_position": 46,
+          "king_wen_number": 30,
+          "name": "離",
+          "binary": "101101",
+          "decimal": 45,
+          "displacement": 16
+        },
+        {
+          "fuxi_position": 47,
+          "king_wen_number": 49,
+          "name": "革",
+          "binary": "101110",
+          "decimal": 46,
+          "displacement": 2
+        },
+        {
+          "fuxi_position": 48,
+          "king_wen_number": 13,
+          "name": "同人",
+          "binary": "101111",
+          "decimal": 47,
+          "displacement": 35
+        },
+        {
+          "fuxi_position": 49,
+          "king_wen_number": 19,
+          "name": "臨",
+          "binary": "110000",
+          "decimal": 48,
+          "displacement": 30
+        },
+        {
+          "fuxi_position": 50,
+          "king_wen_number": 41,
+          "name": "損",
+          "binary": "110001",
+          "decimal": 49,
+          "displacement": 9
+        },
+        {
+          "fuxi_position": 51,
+          "king_wen_number": 60,
+          "name": "節",
+          "binary": "110010",
+          "decimal": 50,
+          "displacement": 9
+        },
+        {
+          "fuxi_position": 52,
+          "king_wen_number": 61,
+          "name": "中孚",
+          "binary": "110011",
+          "decimal": 51,
+          "displacement": 9
+        },
+        {
+          "fuxi_position": 53,
+          "king_wen_number": 54,
+          "name": "歸妹",
+          "binary": "110100",
+          "decimal": 52,
+          "displacement": 1
+        },
+        {
+          "fuxi_position": 54,
+          "king_wen_number": 38,
+          "name": "睽",
+          "binary": "110101",
+          "decimal": 53,
+          "displacement": 16
+        },
+        {
+          "fuxi_position": 55,
+          "king_wen_number": 58,
+          "name": "兌",
+          "binary": "110110",
+          "decimal": 54,
+          "displacement": 3
+        },
+        {
+          "fuxi_position": 56,
+          "king_wen_number": 10,
+          "name": "履",
+          "binary": "110111",
+          "decimal": 55,
+          "displacement": 46
+        },
+        {
+          "fuxi_position": 57,
+          "king_wen_number": 11,
+          "name": "泰",
+          "binary": "111000",
+          "decimal": 56,
+          "displacement": 46
+        },
+        {
+          "fuxi_position": 58,
+          "king_wen_number": 26,
+          "name": "大畜",
+          "binary": "111001",
+          "decimal": 57,
+          "displacement": 32
+        },
+        {
+          "fuxi_position": 59,
+          "king_wen_number": 5,
+          "name": "需",
+          "binary": "111010",
+          "decimal": 58,
+          "displacement": 54
+        },
+        {
+          "fuxi_position": 60,
+          "king_wen_number": 9,
+          "name": "小畜",
+          "binary": "111011",
+          "decimal": 59,
+          "displacement": 51
+        },
+        {
+          "fuxi_position": 61,
+          "king_wen_number": 34,
+          "name": "大壯",
+          "binary": "111100",
+          "decimal": 60,
+          "displacement": 27
+        },
+        {
+          "fuxi_position": 62,
+          "king_wen_number": 14,
+          "name": "大有",
+          "binary": "111101",
+          "decimal": 61,
+          "displacement": 48
+        },
+        {
+          "fuxi_position": 63,
+          "king_wen_number": 43,
+          "name": "夬",
+          "binary": "111110",
+          "decimal": 62,
+          "displacement": 20
+        },
+        {
+          "fuxi_position": 64,
+          "king_wen_number": 1,
+          "name": "乾",
+          "binary": "111111",
+          "decimal": 63,
+          "displacement": 63
+        }
+      ],
+      "statistics": {
+        "average_displacement": 21.25,
+        "max_displacement": 63,
+        "min_displacement": 1,
+        "same_position_count": 0
+      },
+      "displacement_distribution": {
+        "0 (same position)": 0,
+        "1-10": 21,
+        "11-20": 17,
+        "21-30": 10,
+        "31-40": 5,
+        "41+": 11
+      },
+      "same_position_hexagrams": [],
+      "insights": [
+        "Only 0 hexagrams are in the same position in both sequences",
+        "Average displacement: 21.25 positions",
+        "Fu Xi sequence is pure binary counting (mathematical)",
+        "King Wen sequence follows philosophical/practical organization"
+      ]
+    },
+    "graph_analysis": {
+      "title": "Transformation Graph Analysis",
+      "basic_properties": {
+        "nodes": 64,
+        "edges": 192,
+        "is_regular": true,
+        "regular_degree": 6
+      },
+      "degree_distribution": {
+        "6": 64
+      },
+      "connectivity": {
+        "is_connected": true,
+        "diameter": 6,
+        "radius": 6,
+        "center_nodes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "clustering": {
+        "average_clustering_coefficient": 0.0,
+        "sample_coefficients": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.0
+        }
+      },
+      "key_paths": {
+        "qian_to_kun": {
+          "path": [
+            1,
+            9,
+            37,
+            42,
+            3,
+            8,
+            2
+          ],
+          "length": 6,
+          "hexagram_names": [
+            "乾",
+            "小畜",
+            "家人",
+            "益",
+            "屯",
+            "比",
+            "坤"
+          ]
+        },
+        "qian_to_jiji": {
+          "path": [
+            1,
+            9,
+            37,
+            63
+          ],
+          "length": 3,
+          "hexagram_names": [
+            "乾",
+            "小畜",
+            "家人",
+            "既濟"
+          ]
+        },
+        "kun_to_weiji": {
+          "path": [
+            2,
+            7,
+            4,
+            64
+          ],
+          "length": 3,
+          "hexagram_names": [
+            "坤",
+            "師",
+            "蒙",
+            "未濟"
+          ]
+        },
+        "tai_to_pi": {
+          "path": [
+            11,
+            34,
+            32,
+            40,
+            64,
+            35,
+            12
+          ],
+          "length": 6,
+          "hexagram_names": [
+            "泰",
+            "大壯",
+            "恆",
+            "解",
+            "未濟",
+            "晉",
+            "否"
+          ]
+        }
+      },
+      "insights": [
+        "The graph is 6-regular: every hexagram connects to exactly 6 others",
+        "Graph diameter: 6 (max steps between any two hexagrams)",
+        "Average clustering coefficient: 0.0000",
+        "Graph is fully connected - any hexagram reachable from any other"
+      ]
+    },
+    "symmetry_analysis": {
+      "title": "Symmetry and Group Theory Analysis",
+      "reflection_symmetry": {
+        "count": 8,
+        "hexagrams": [
+          {
+            "number": 1,
+            "name": "乾",
+            "binary": "111111",
+            "yang_count": 6
+          },
+          {
+            "number": 2,
+            "name": "坤",
+            "binary": "000000",
+            "yang_count": 0
+          },
+          {
+            "number": 27,
+            "name": "頤",
+            "binary": "100001",
+            "yang_count": 2
+          },
+          {
+            "number": 28,
+            "name": "大過",
+            "binary": "011110",
+            "yang_count": 4
+          },
+          {
+            "number": 29,
+            "name": "坎",
+            "binary": "010010",
+            "yang_count": 2
+          },
+          {
+            "number": 30,
+            "name": "離",
+            "binary": "101101",
+            "yang_count": 4
+          },
+          {
+            "number": 61,
+            "name": "中孚",
+            "binary": "110011",
+            "yang_count": 4
+          },
+          {
+            "number": 62,
+            "name": "小過",
+            "binary": "001100",
+            "yang_count": 2
+          }
+        ],
+        "pattern": "Palindromic binary: lines 1=6, 2=5, 3=4",
+        "insight": "8 hexagrams are unchanged by 180° rotation"
+      },
+      "rotation_symmetry": {
+        "non_trivial_pairs": 28,
+        "pairs": [
+          {
+            "hexagram_1": {
+              "number": 3,
+              "name": "屯",
+              "binary": "100010"
+            },
+            "hexagram_2": {
+              "number": 4,
+              "name": "蒙",
+              "binary": "010001"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 5,
+              "name": "需",
+              "binary": "111010"
+            },
+            "hexagram_2": {
+              "number": 6,
+              "name": "訟",
+              "binary": "010111"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 7,
+              "name": "師",
+              "binary": "010000"
+            },
+            "hexagram_2": {
+              "number": 8,
+              "name": "比",
+              "binary": "000010"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 9,
+              "name": "小畜",
+              "binary": "111011"
+            },
+            "hexagram_2": {
+              "number": 10,
+              "name": "履",
+              "binary": "110111"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 11,
+              "name": "泰",
+              "binary": "111000"
+            },
+            "hexagram_2": {
+              "number": 12,
+              "name": "否",
+              "binary": "000111"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 13,
+              "name": "同人",
+              "binary": "101111"
+            },
+            "hexagram_2": {
+              "number": 14,
+              "name": "大有",
+              "binary": "111101"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 15,
+              "name": "謙",
+              "binary": "001000"
+            },
+            "hexagram_2": {
+              "number": 16,
+              "name": "豫",
+              "binary": "000100"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 17,
+              "name": "隨",
+              "binary": "100110"
+            },
+            "hexagram_2": {
+              "number": 18,
+              "name": "蠱",
+              "binary": "011001"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 19,
+              "name": "臨",
+              "binary": "110000"
+            },
+            "hexagram_2": {
+              "number": 20,
+              "name": "觀",
+              "binary": "000011"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 21,
+              "name": "噬嗑",
+              "binary": "100101"
+            },
+            "hexagram_2": {
+              "number": 22,
+              "name": "賁",
+              "binary": "101001"
+            }
+          }
+        ],
+        "self_symmetric": 8,
+        "total_orbits": 36,
+        "insight": "180° rotation partitions hexagrams into 28 pairs + 8 fixed points"
+      },
+      "complement_operation": {
+        "total_pairs": 32,
+        "pairs": [
+          {
+            "hexagram_1": {
+              "number": 1,
+              "name": "乾",
+              "binary": "111111"
+            },
+            "hexagram_2": {
+              "number": 2,
+              "name": "坤",
+              "binary": "000000"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 3,
+              "name": "屯",
+              "binary": "100010"
+            },
+            "hexagram_2": {
+              "number": 50,
+              "name": "鼎",
+              "binary": "011101"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 4,
+              "name": "蒙",
+              "binary": "010001"
+            },
+            "hexagram_2": {
+              "number": 49,
+              "name": "革",
+              "binary": "101110"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 5,
+              "name": "需",
+              "binary": "111010"
+            },
+            "hexagram_2": {
+              "number": 35,
+              "name": "晉",
+              "binary": "000101"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 6,
+              "name": "訟",
+              "binary": "010111"
+            },
+            "hexagram_2": {
+              "number": 36,
+              "name": "明夷",
+              "binary": "101000"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 7,
+              "name": "師",
+              "binary": "010000"
+            },
+            "hexagram_2": {
+              "number": 13,
+              "name": "同人",
+              "binary": "101111"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 8,
+              "name": "比",
+              "binary": "000010"
+            },
+            "hexagram_2": {
+              "number": 14,
+              "name": "大有",
+              "binary": "111101"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 9,
+              "name": "小畜",
+              "binary": "111011"
+            },
+            "hexagram_2": {
+              "number": 16,
+              "name": "豫",
+              "binary": "000100"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 10,
+              "name": "履",
+              "binary": "110111"
+            },
+            "hexagram_2": {
+              "number": 15,
+              "name": "謙",
+              "binary": "001000"
+            }
+          },
+          {
+            "hexagram_1": {
+              "number": 11,
+              "name": "泰",
+              "binary": "111000"
+            },
+            "hexagram_2": {
+              "number": 12,
+              "name": "否",
+              "binary": "000111"
+            }
+          }
+        ],
+        "insight": "Complement operation pairs every hexagram with its \"opposite\""
+      },
+      "nuclear_hexagrams": {
+        "nuclear_map": {
+          "1": {
+            "hexagram": {
+              "number": 1,
+              "name": "乾"
+            },
+            "nuclear_binary": "111111",
+            "nuclear_number": 1,
+            "nuclear_name": "乾"
+          },
+          "2": {
+            "hexagram": {
+              "number": 2,
+              "name": "坤"
+            },
+            "nuclear_binary": "000000",
+            "nuclear_number": 2,
+            "nuclear_name": "坤"
+          },
+          "3": {
+            "hexagram": {
+              "number": 3,
+              "name": "屯"
+            },
+            "nuclear_binary": "001000",
+            "nuclear_number": 15,
+            "nuclear_name": "謙"
+          },
+          "4": {
+            "hexagram": {
+              "number": 4,
+              "name": "蒙"
+            },
+            "nuclear_binary": "000100",
+            "nuclear_number": 16,
+            "nuclear_name": "豫"
+          },
+          "5": {
+            "hexagram": {
+              "number": 5,
+              "name": "需"
+            },
+            "nuclear_binary": "101110",
+            "nuclear_number": 49,
+            "nuclear_name": "革"
+          },
+          "6": {
+            "hexagram": {
+              "number": 6,
+              "name": "訟"
+            },
+            "nuclear_binary": "011101",
+            "nuclear_number": 50,
+            "nuclear_name": "鼎"
+          },
+          "7": {
+            "hexagram": {
+              "number": 7,
+              "name": "師"
+            },
+            "nuclear_binary": "000100",
+            "nuclear_number": 16,
+            "nuclear_name": "豫"
+          },
+          "8": {
+            "hexagram": {
+              "number": 8,
+              "name": "比"
+            },
+            "nuclear_binary": "001000",
+            "nuclear_number": 15,
+            "nuclear_name": "謙"
+          },
+          "9": {
+            "hexagram": {
+              "number": 9,
+              "name": "小畜"
+            },
+            "nuclear_binary": "101110",
+            "nuclear_number": 49,
+            "nuclear_name": "革"
+          },
+          "10": {
+            "hexagram": {
+              "number": 10,
+              "name": "履"
+            },
+            "nuclear_binary": "011101",
+            "nuclear_number": 50,
+            "nuclear_name": "鼎"
+          }
+        },
+        "most_common_nuclear": [
+          {
+            "number": 1,
+            "name": "乾",
+            "count": 4
+          },
+          {
+            "number": 2,
+            "name": "坤",
+            "count": 4
+          },
+          {
+            "number": 15,
+            "name": "謙",
+            "count": 4
+          },
+          {
+            "number": 16,
+            "name": "豫",
+            "count": 4
+          },
+          {
+            "number": 49,
+            "name": "革",
+            "count": 4
+          },
+          {
+            "number": 50,
+            "name": "鼎",
+            "count": 4
+          },
+          {
+            "number": 17,
+            "name": "隨",
+            "count": 4
+          },
+          {
+            "number": 18,
+            "name": "蠱",
+            "count": 4
+          },
+          {
+            "number": 9,
+            "name": "小畜",
+            "count": 4
+          },
+          {
+            "number": 10,
+            "name": "履",
+            "count": 4
+          }
+        ],
+        "fixed_points": [
+          {
+            "number": 1,
+            "name": "乾"
+          },
+          {
+            "number": 2,
+            "name": "坤"
+          },
+          {
+            "number": 63,
+            "name": "既濟"
+          },
+          {
+            "number": 64,
+            "name": "未濟"
+          }
+        ],
+        "insight": "4 hexagrams are their own nuclear hexagram"
+      },
+      "transformation_groups": {
+        "group": "Klein 4-group (Z₂ × Z₂)",
+        "operations": [
+          "Identity",
+          "Complement",
+          "Rotation",
+          "Complement+Rotation"
+        ],
+        "num_orbits": 20,
+        "orbit_size_distribution": {
+          "2": 8,
+          "4": 12
+        },
+        "sample_orbits": [
+          {
+            "size": 2,
+            "hexagrams": [
+              1,
+              2
+            ],
+            "names": [
+              "乾",
+              "坤"
+            ]
+          },
+          {
+            "size": 4,
+            "hexagrams": [
+              3,
+              4,
+              49,
+              50
+            ],
+            "names": [
+              "屯",
+              "蒙",
+              "革",
+              "鼎"
+            ]
+          },
+          {
+            "size": 4,
+            "hexagrams": [
+              5,
+              6,
+              35,
+              36
+            ],
+            "names": [
+              "需",
+              "訟",
+              "晉",
+              "明夷"
+            ]
+          },
+          {
+            "size": 4,
+            "hexagrams": [
+              7,
+              8,
+              13,
+              14
+            ],
+            "names": [
+              "師",
+              "比",
+              "同人",
+              "大有"
+            ]
+          },
+          {
+            "size": 4,
+            "hexagrams": [
+              9,
+              10,
+              15,
+              16
+            ],
+            "names": [
+              "小畜",
+              "履",
+              "謙",
+              "豫"
+            ]
+          }
+        ],
+        "insight": "Klein 4-group action partitions 64 hexagrams into 20 orbits"
+      }
+    }
+  }
+}

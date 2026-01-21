@@ -1,0 +1,19 @@
+{
+  "title": "說卦",
+  "title_en": "Shuo Gua",
+  "description": "Discussion of the Trigrams",
+  "source": "ctext.org",
+  "download_date": "2026-01-20T12:50:53.972942",
+  "data": {
+    "name_zh": "說卦",
+    "name_en": "Shuo Gua",
+    "description": "Discussion of the Trigrams",
+    "sections": [
+      {
+        "slug": "shuo-gua",
+        "name_zh": "說卦",
+        "error": "Failed to download"
+      }
+    ]
+  }
+}

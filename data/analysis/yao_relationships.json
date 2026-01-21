@@ -1,0 +1,76 @@
+{
+  "承乘": {
+    "yin_supports_yang": {
+      "total": 80,
+      "ji": 27,
+      "xiong": 13,
+      "zhong": 40
+    },
+    "yang_rides_yin": {
+      "total": 80,
+      "ji": 20,
+      "xiong": 18,
+      "zhong": 42
+    },
+    "same_polarity": {
+      "total": 160,
+      "ji": 65,
+      "xiong": 24,
+      "zhong": 71
+    }
+  },
+  "應": {
+    "zheng_ying": {
+      "total": 192,
+      "ji": 77,
+      "xiong": 30,
+      "zhong": 85
+    },
+    "bu_ying": {
+      "total": 192,
+      "ji": 63,
+      "xiong": 38,
+      "zhong": 91
+    }
+  },
+  "比": {
+    "adjacent_different": {
+      "total": 256,
+      "ji": 80,
+      "xiong": 52,
+      "zhong": 124
+    },
+    "adjacent_same": {
+      "total": 128,
+      "ji": 60,
+      "xiong": 16,
+      "zhong": 52
+    }
+  },
+  "中正": {
+    "zhong_zheng": {
+      "total": 64,
+      "ji": 26,
+      "xiong": 6,
+      "zhong": 32
+    },
+    "zhong_only": {
+      "total": 64,
+      "ji": 28,
+      "xiong": 9,
+      "zhong": 27
+    },
+    "zheng_only": {
+      "total": 128,
+      "ji": 38,
+      "xiong": 25,
+      "zhong": 65
+    },
+    "neither": {
+      "total": 128,
+      "ji": 48,
+      "xiong": 28,
+      "zhong": 52
+    }
+  }
+}

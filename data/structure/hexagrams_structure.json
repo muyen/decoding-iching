@@ -1,0 +1,5122 @@
+{
+  "1": {
+    "king_wen_number": 1,
+    "name": "乾",
+    "binary": "111111",
+    "decimal": 63,
+    "fuxi_position": 63,
+    "lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "inverse_hexagram": 1,
+    "complement_hexagram": 2,
+    "is_symmetric": true,
+    "yang_count": 6,
+    "yin_count": 0,
+    "canon": "upper",
+    "pair": 1,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "2": {
+    "king_wen_number": 2,
+    "name": "坤",
+    "binary": "000000",
+    "decimal": 0,
+    "fuxi_position": 0,
+    "lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "inverse_hexagram": 2,
+    "complement_hexagram": 1,
+    "is_symmetric": true,
+    "yang_count": 0,
+    "yin_count": 6,
+    "canon": "upper",
+    "pair": 1,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "3": {
+    "king_wen_number": 3,
+    "name": "屯",
+    "binary": "100010",
+    "decimal": 34,
+    "fuxi_position": 17,
+    "lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "inverse_hexagram": 4,
+    "complement_hexagram": 50,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "upper",
+    "pair": 2,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "4": {
+    "king_wen_number": 4,
+    "name": "蒙",
+    "binary": "010001",
+    "decimal": 17,
+    "fuxi_position": 34,
+    "lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "inverse_hexagram": 3,
+    "complement_hexagram": 49,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "upper",
+    "pair": 2,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "5": {
+    "king_wen_number": 5,
+    "name": "需",
+    "binary": "111010",
+    "decimal": 58,
+    "fuxi_position": 23,
+    "lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "inverse_hexagram": 6,
+    "complement_hexagram": 35,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "upper",
+    "pair": 3,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "6": {
+    "king_wen_number": 6,
+    "name": "訟",
+    "binary": "010111",
+    "decimal": 23,
+    "fuxi_position": 58,
+    "lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "inverse_hexagram": 5,
+    "complement_hexagram": 36,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "upper",
+    "pair": 3,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "7": {
+    "king_wen_number": 7,
+    "name": "師",
+    "binary": "010000",
+    "decimal": 16,
+    "fuxi_position": 2,
+    "lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "inverse_hexagram": 8,
+    "complement_hexagram": 13,
+    "is_symmetric": false,
+    "yang_count": 1,
+    "yin_count": 5,
+    "canon": "upper",
+    "pair": 4,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "8": {
+    "king_wen_number": 8,
+    "name": "比",
+    "binary": "000010",
+    "decimal": 2,
+    "fuxi_position": 16,
+    "lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "inverse_hexagram": 7,
+    "complement_hexagram": 14,
+    "is_symmetric": false,
+    "yang_count": 1,
+    "yin_count": 5,
+    "canon": "upper",
+    "pair": 4,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "9": {
+    "king_wen_number": 9,
+    "name": "小畜",
+    "binary": "111011",
+    "decimal": 59,
+    "fuxi_position": 55,
+    "lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "inverse_hexagram": 10,
+    "complement_hexagram": 16,
+    "is_symmetric": false,
+    "yang_count": 5,
+    "yin_count": 1,
+    "canon": "upper",
+    "pair": 5,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "10": {
+    "king_wen_number": 10,
+    "name": "履",
+    "binary": "110111",
+    "decimal": 55,
+    "fuxi_position": 59,
+    "lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "inverse_hexagram": 9,
+    "complement_hexagram": 15,
+    "is_symmetric": false,
+    "yang_count": 5,
+    "yin_count": 1,
+    "canon": "upper",
+    "pair": 5,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "11": {
+    "king_wen_number": 11,
+    "name": "泰",
+    "binary": "111000",
+    "decimal": 56,
+    "fuxi_position": 7,
+    "lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "inverse_hexagram": 12,
+    "complement_hexagram": 12,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "upper",
+    "pair": 6,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "12": {
+    "king_wen_number": 12,
+    "name": "否",
+    "binary": "000111",
+    "decimal": 7,
+    "fuxi_position": 56,
+    "lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "inverse_hexagram": 11,
+    "complement_hexagram": 11,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "upper",
+    "pair": 6,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "13": {
+    "king_wen_number": 13,
+    "name": "同人",
+    "binary": "101111",
+    "decimal": 47,
+    "fuxi_position": 61,
+    "lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "inverse_hexagram": 14,
+    "complement_hexagram": 7,
+    "is_symmetric": false,
+    "yang_count": 5,
+    "yin_count": 1,
+    "canon": "upper",
+    "pair": 7,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "14": {
+    "king_wen_number": 14,
+    "name": "大有",
+    "binary": "111101",
+    "decimal": 61,
+    "fuxi_position": 47,
+    "lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "inverse_hexagram": 13,
+    "complement_hexagram": 8,
+    "is_symmetric": false,
+    "yang_count": 5,
+    "yin_count": 1,
+    "canon": "upper",
+    "pair": 7,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "15": {
+    "king_wen_number": 15,
+    "name": "謙",
+    "binary": "001000",
+    "decimal": 8,
+    "fuxi_position": 4,
+    "lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "inverse_hexagram": 16,
+    "complement_hexagram": 10,
+    "is_symmetric": false,
+    "yang_count": 1,
+    "yin_count": 5,
+    "canon": "upper",
+    "pair": 8,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "16": {
+    "king_wen_number": 16,
+    "name": "豫",
+    "binary": "000100",
+    "decimal": 4,
+    "fuxi_position": 8,
+    "lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "inverse_hexagram": 15,
+    "complement_hexagram": 9,
+    "is_symmetric": false,
+    "yang_count": 1,
+    "yin_count": 5,
+    "canon": "upper",
+    "pair": 8,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "17": {
+    "king_wen_number": 17,
+    "name": "隨",
+    "binary": "100110",
+    "decimal": 38,
+    "fuxi_position": 25,
+    "lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "inverse_hexagram": 18,
+    "complement_hexagram": 18,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "upper",
+    "pair": 9,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "18": {
+    "king_wen_number": 18,
+    "name": "蠱",
+    "binary": "011001",
+    "decimal": 25,
+    "fuxi_position": 38,
+    "lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "inverse_hexagram": 17,
+    "complement_hexagram": 17,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "upper",
+    "pair": 9,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "19": {
+    "king_wen_number": 19,
+    "name": "臨",
+    "binary": "110000",
+    "decimal": 48,
+    "fuxi_position": 3,
+    "lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "inverse_hexagram": 20,
+    "complement_hexagram": 33,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "upper",
+    "pair": 10,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "20": {
+    "king_wen_number": 20,
+    "name": "觀",
+    "binary": "000011",
+    "decimal": 3,
+    "fuxi_position": 48,
+    "lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "inverse_hexagram": 19,
+    "complement_hexagram": 34,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "upper",
+    "pair": 10,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "21": {
+    "king_wen_number": 21,
+    "name": "噬嗑",
+    "binary": "100101",
+    "decimal": 37,
+    "fuxi_position": 41,
+    "lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "inverse_hexagram": 22,
+    "complement_hexagram": 48,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "upper",
+    "pair": 11,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "22": {
+    "king_wen_number": 22,
+    "name": "賁",
+    "binary": "101001",
+    "decimal": 41,
+    "fuxi_position": 37,
+    "lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "inverse_hexagram": 21,
+    "complement_hexagram": 47,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "upper",
+    "pair": 11,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "23": {
+    "king_wen_number": 23,
+    "name": "剝",
+    "binary": "000001",
+    "decimal": 1,
+    "fuxi_position": 32,
+    "lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "inverse_hexagram": 24,
+    "complement_hexagram": 43,
+    "is_symmetric": false,
+    "yang_count": 1,
+    "yin_count": 5,
+    "canon": "upper",
+    "pair": 12,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "24": {
+    "king_wen_number": 24,
+    "name": "復",
+    "binary": "100000",
+    "decimal": 32,
+    "fuxi_position": 1,
+    "lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "inverse_hexagram": 23,
+    "complement_hexagram": 44,
+    "is_symmetric": false,
+    "yang_count": 1,
+    "yin_count": 5,
+    "canon": "upper",
+    "pair": 12,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "25": {
+    "king_wen_number": 25,
+    "name": "無妄",
+    "binary": "100111",
+    "decimal": 39,
+    "fuxi_position": 57,
+    "lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "inverse_hexagram": 26,
+    "complement_hexagram": 46,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "upper",
+    "pair": 13,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "26": {
+    "king_wen_number": 26,
+    "name": "大畜",
+    "binary": "111001",
+    "decimal": 57,
+    "fuxi_position": 39,
+    "lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "inverse_hexagram": 25,
+    "complement_hexagram": 45,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "upper",
+    "pair": 13,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "27": {
+    "king_wen_number": 27,
+    "name": "頤",
+    "binary": "100001",
+    "decimal": 33,
+    "fuxi_position": 33,
+    "lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "inverse_hexagram": 27,
+    "complement_hexagram": 28,
+    "is_symmetric": true,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "upper",
+    "pair": 14,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "28": {
+    "king_wen_number": 28,
+    "name": "大過",
+    "binary": "011110",
+    "decimal": 30,
+    "fuxi_position": 30,
+    "lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "inverse_hexagram": 28,
+    "complement_hexagram": 27,
+    "is_symmetric": true,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "upper",
+    "pair": 14,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "29": {
+    "king_wen_number": 29,
+    "name": "坎",
+    "binary": "010010",
+    "decimal": 18,
+    "fuxi_position": 18,
+    "lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "inverse_hexagram": 29,
+    "complement_hexagram": 30,
+    "is_symmetric": true,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "upper",
+    "pair": 15,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "30": {
+    "king_wen_number": 30,
+    "name": "離",
+    "binary": "101101",
+    "decimal": 45,
+    "fuxi_position": 45,
+    "lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "inverse_hexagram": 30,
+    "complement_hexagram": 29,
+    "is_symmetric": true,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "upper",
+    "pair": 15,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "31": {
+    "king_wen_number": 31,
+    "name": "咸",
+    "binary": "001110",
+    "decimal": 14,
+    "fuxi_position": 28,
+    "lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "inverse_hexagram": 32,
+    "complement_hexagram": 41,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 16,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "32": {
+    "king_wen_number": 32,
+    "name": "恆",
+    "binary": "011100",
+    "decimal": 28,
+    "fuxi_position": 14,
+    "lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "inverse_hexagram": 31,
+    "complement_hexagram": 42,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 16,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "33": {
+    "king_wen_number": 33,
+    "name": "遯",
+    "binary": "001111",
+    "decimal": 15,
+    "fuxi_position": 60,
+    "lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "inverse_hexagram": 34,
+    "complement_hexagram": 19,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 17,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "34": {
+    "king_wen_number": 34,
+    "name": "大壯",
+    "binary": "111100",
+    "decimal": 60,
+    "fuxi_position": 15,
+    "lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "inverse_hexagram": 33,
+    "complement_hexagram": 20,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 17,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "35": {
+    "king_wen_number": 35,
+    "name": "晉",
+    "binary": "000101",
+    "decimal": 5,
+    "fuxi_position": 40,
+    "lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "inverse_hexagram": 36,
+    "complement_hexagram": 5,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 18,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "36": {
+    "king_wen_number": 36,
+    "name": "明夷",
+    "binary": "101000",
+    "decimal": 40,
+    "fuxi_position": 5,
+    "lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "inverse_hexagram": 35,
+    "complement_hexagram": 6,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 18,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "37": {
+    "king_wen_number": 37,
+    "name": "家人",
+    "binary": "101011",
+    "decimal": 43,
+    "fuxi_position": 53,
+    "lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "inverse_hexagram": 38,
+    "complement_hexagram": 40,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 19,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "38": {
+    "king_wen_number": 38,
+    "name": "睽",
+    "binary": "110101",
+    "decimal": 53,
+    "fuxi_position": 43,
+    "lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "inverse_hexagram": 37,
+    "complement_hexagram": 39,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 19,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "39": {
+    "king_wen_number": 39,
+    "name": "蹇",
+    "binary": "001010",
+    "decimal": 10,
+    "fuxi_position": 20,
+    "lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "inverse_hexagram": 40,
+    "complement_hexagram": 38,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 20,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "40": {
+    "king_wen_number": 40,
+    "name": "解",
+    "binary": "010100",
+    "decimal": 20,
+    "fuxi_position": 10,
+    "lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "inverse_hexagram": 39,
+    "complement_hexagram": 37,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 20,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "41": {
+    "king_wen_number": 41,
+    "name": "損",
+    "binary": "110001",
+    "decimal": 49,
+    "fuxi_position": 35,
+    "lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "inverse_hexagram": 42,
+    "complement_hexagram": 31,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 21,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "42": {
+    "king_wen_number": 42,
+    "name": "益",
+    "binary": "100011",
+    "decimal": 35,
+    "fuxi_position": 49,
+    "lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "inverse_hexagram": 41,
+    "complement_hexagram": 32,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 21,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "43": {
+    "king_wen_number": 43,
+    "name": "夬",
+    "binary": "111110",
+    "decimal": 62,
+    "fuxi_position": 31,
+    "lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "inverse_hexagram": 44,
+    "complement_hexagram": 23,
+    "is_symmetric": false,
+    "yang_count": 5,
+    "yin_count": 1,
+    "canon": "lower",
+    "pair": 22,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "44": {
+    "king_wen_number": 44,
+    "name": "姤",
+    "binary": "011111",
+    "decimal": 31,
+    "fuxi_position": 62,
+    "lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "inverse_hexagram": 43,
+    "complement_hexagram": 24,
+    "is_symmetric": false,
+    "yang_count": 5,
+    "yin_count": 1,
+    "canon": "lower",
+    "pair": 22,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "45": {
+    "king_wen_number": 45,
+    "name": "萃",
+    "binary": "000110",
+    "decimal": 6,
+    "fuxi_position": 24,
+    "lower_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "inverse_hexagram": 46,
+    "complement_hexagram": 26,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 23,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "46": {
+    "king_wen_number": 46,
+    "name": "升",
+    "binary": "011000",
+    "decimal": 24,
+    "fuxi_position": 6,
+    "lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "000",
+      "name": "坤",
+      "pinyin": "kun",
+      "nature": "地",
+      "attribute": "順",
+      "family": "母",
+      "direction": "西南",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "inverse_hexagram": 45,
+    "complement_hexagram": 25,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 23,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "47": {
+    "king_wen_number": 47,
+    "name": "困",
+    "binary": "010110",
+    "decimal": 22,
+    "fuxi_position": 26,
+    "lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "inverse_hexagram": 48,
+    "complement_hexagram": 22,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 24,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "48": {
+    "king_wen_number": 48,
+    "name": "井",
+    "binary": "011010",
+    "decimal": 26,
+    "fuxi_position": 22,
+    "lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "inverse_hexagram": 47,
+    "complement_hexagram": 21,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 24,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "49": {
+    "king_wen_number": 49,
+    "name": "革",
+    "binary": "101110",
+    "decimal": 46,
+    "fuxi_position": 29,
+    "lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "inverse_hexagram": 50,
+    "complement_hexagram": 4,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 25,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "50": {
+    "king_wen_number": 50,
+    "name": "鼎",
+    "binary": "011101",
+    "decimal": 29,
+    "fuxi_position": 46,
+    "lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "111",
+      "name": "乾",
+      "pinyin": "qian",
+      "nature": "天",
+      "attribute": "健",
+      "family": "父",
+      "direction": "西北",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "inverse_hexagram": 49,
+    "complement_hexagram": 3,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 25,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "51": {
+    "king_wen_number": 51,
+    "name": "震",
+    "binary": "100100",
+    "decimal": 36,
+    "fuxi_position": 9,
+    "lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "inverse_hexagram": 52,
+    "complement_hexagram": 57,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 26,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "52": {
+    "king_wen_number": 52,
+    "name": "艮",
+    "binary": "001001",
+    "decimal": 9,
+    "fuxi_position": 36,
+    "lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "inverse_hexagram": 51,
+    "complement_hexagram": 58,
+    "is_symmetric": false,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 26,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "53": {
+    "king_wen_number": 53,
+    "name": "漸",
+    "binary": "001011",
+    "decimal": 11,
+    "fuxi_position": 52,
+    "lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "inverse_hexagram": 54,
+    "complement_hexagram": 54,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 27,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "54": {
+    "king_wen_number": 54,
+    "name": "歸妹",
+    "binary": "110100",
+    "decimal": 52,
+    "fuxi_position": 11,
+    "lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "inverse_hexagram": 53,
+    "complement_hexagram": 53,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 27,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "55": {
+    "king_wen_number": 55,
+    "name": "豐",
+    "binary": "101100",
+    "decimal": 44,
+    "fuxi_position": 13,
+    "lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "inverse_hexagram": 56,
+    "complement_hexagram": 59,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 28,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "56": {
+    "king_wen_number": 56,
+    "name": "旅",
+    "binary": "001101",
+    "decimal": 13,
+    "fuxi_position": 44,
+    "lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "inverse_hexagram": 55,
+    "complement_hexagram": 60,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 28,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "57": {
+    "king_wen_number": 57,
+    "name": "巽",
+    "binary": "011011",
+    "decimal": 27,
+    "fuxi_position": 54,
+    "lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "inverse_hexagram": 58,
+    "complement_hexagram": 51,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 29,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "58": {
+    "king_wen_number": 58,
+    "name": "兌",
+    "binary": "110110",
+    "decimal": 54,
+    "fuxi_position": 27,
+    "lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "inverse_hexagram": 57,
+    "complement_hexagram": 52,
+    "is_symmetric": false,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 29,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "59": {
+    "king_wen_number": 59,
+    "name": "渙",
+    "binary": "010011",
+    "decimal": 19,
+    "fuxi_position": 50,
+    "lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "inverse_hexagram": 60,
+    "complement_hexagram": 55,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 30,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "60": {
+    "king_wen_number": 60,
+    "name": "節",
+    "binary": "110010",
+    "decimal": 50,
+    "fuxi_position": 19,
+    "lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "inverse_hexagram": 59,
+    "complement_hexagram": 56,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 30,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "61": {
+    "king_wen_number": 61,
+    "name": "中孚",
+    "binary": "110011",
+    "decimal": 51,
+    "fuxi_position": 51,
+    "lower_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "upper_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "inverse_hexagram": 61,
+    "complement_hexagram": 62,
+    "is_symmetric": true,
+    "yang_count": 4,
+    "yin_count": 2,
+    "canon": "lower",
+    "pair": 31,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  },
+  "62": {
+    "king_wen_number": 62,
+    "name": "小過",
+    "binary": "001100",
+    "decimal": 12,
+    "fuxi_position": 12,
+    "lower_trigram": {
+      "binary": "001",
+      "name": "艮",
+      "pinyin": "gen",
+      "nature": "山",
+      "attribute": "止",
+      "family": "少男",
+      "direction": "東北",
+      "element": "土"
+    },
+    "upper_trigram": {
+      "binary": "100",
+      "name": "震",
+      "pinyin": "zhen",
+      "nature": "雷",
+      "attribute": "動",
+      "family": "長男",
+      "direction": "東",
+      "element": "木"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "011",
+      "name": "巽",
+      "pinyin": "xun",
+      "nature": "風",
+      "attribute": "入",
+      "family": "長女",
+      "direction": "東南",
+      "element": "木"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "110",
+      "name": "兌",
+      "pinyin": "dui",
+      "nature": "澤",
+      "attribute": "說",
+      "family": "少女",
+      "direction": "西",
+      "element": "金"
+    },
+    "inverse_hexagram": 62,
+    "complement_hexagram": 61,
+    "is_symmetric": true,
+    "yang_count": 2,
+    "yin_count": 4,
+    "canon": "lower",
+    "pair": 31,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "63": {
+    "king_wen_number": 63,
+    "name": "既濟",
+    "binary": "101010",
+    "decimal": 42,
+    "fuxi_position": 21,
+    "lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "inverse_hexagram": 64,
+    "complement_hexagram": 64,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 32,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yang"
+      },
+      {
+        "position": 2,
+        "type": "yin"
+      },
+      {
+        "position": 3,
+        "type": "yang"
+      },
+      {
+        "position": 4,
+        "type": "yin"
+      },
+      {
+        "position": 5,
+        "type": "yang"
+      },
+      {
+        "position": 6,
+        "type": "yin"
+      }
+    ]
+  },
+  "64": {
+    "king_wen_number": 64,
+    "name": "未濟",
+    "binary": "010101",
+    "decimal": 21,
+    "fuxi_position": 42,
+    "lower_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "upper_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_lower_trigram": {
+      "binary": "101",
+      "name": "離",
+      "pinyin": "li",
+      "nature": "火",
+      "attribute": "麗",
+      "family": "中女",
+      "direction": "南",
+      "element": "火"
+    },
+    "nuclear_upper_trigram": {
+      "binary": "010",
+      "name": "坎",
+      "pinyin": "kan",
+      "nature": "水",
+      "attribute": "陷",
+      "family": "中男",
+      "direction": "北",
+      "element": "水"
+    },
+    "inverse_hexagram": 63,
+    "complement_hexagram": 63,
+    "is_symmetric": false,
+    "yang_count": 3,
+    "yin_count": 3,
+    "canon": "lower",
+    "pair": 32,
+    "lines": [
+      {
+        "position": 1,
+        "type": "yin"
+      },
+      {
+        "position": 2,
+        "type": "yang"
+      },
+      {
+        "position": 3,
+        "type": "yin"
+      },
+      {
+        "position": 4,
+        "type": "yang"
+      },
+      {
+        "position": 5,
+        "type": "yin"
+      },
+      {
+        "position": 6,
+        "type": "yang"
+      }
+    ]
+  }
+}

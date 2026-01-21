@@ -1,0 +1,649 @@
+{
+  "title": "64卦現代白話解釋",
+  "version": "1.0",
+  "method": "基於系統公式推導",
+  "formula": "卦義 = 上卦功能(作用於)下卦功能 × 交流係數",
+  "date": "2026-01-20",
+  "hexagrams": [
+    {
+      "number": 1,
+      "name": "乾",
+      "traditional_name": "乾為天",
+      "structure": {"upper": "乾", "lower": "乾", "binary": "111111"},
+      "core_meaning": "純粹的創造力",
+      "modern_explanation": "你正處於能量充沛、創造力最強的時期。這是一個全力以赴、積極進取的時刻。像天體運行永不停息，你也應該保持持續的努力和自我提升。",
+      "decision_advice": "適合：開創新事業、領導決策、獨立行動。不適合：被動等待、過度謙讓。",
+      "timing": "事情會順利進展，但需要持續付出。"
+    },
+    {
+      "number": 2,
+      "name": "坤",
+      "traditional_name": "坤為地",
+      "structure": {"upper": "坤", "lower": "坤", "binary": "000000"},
+      "core_meaning": "純粹的接受力",
+      "modern_explanation": "這是一個需要包容、順應、配合的時期。不是你主導的時候，而是支持他人、承載萬物的時刻。像大地一樣，厚德載物。",
+      "decision_advice": "適合：配合他人、執行計劃、穩定發展。不適合：強出頭、獨斷專行。",
+      "timing": "跟隨正確的領導者會帶來好結果。"
+    },
+    {
+      "number": 3,
+      "name": "屯",
+      "traditional_name": "水雷屯",
+      "structure": {"upper": "坎", "lower": "震", "binary": "010100"},
+      "core_meaning": "初生的艱難",
+      "modern_explanation": "事情正在萌芽階段，遇到了困難。這不是放棄的信號，而是新生事物必經的考驗。像種子破土一樣，需要力量和時間。",
+      "decision_advice": "適合：打基礎、建立團隊、尋求幫助。不適合：急於求成、孤軍奮戰。",
+      "timing": "初期困難，但堅持會有回報。"
+    },
+    {
+      "number": 4,
+      "name": "蒙",
+      "traditional_name": "山水蒙",
+      "structure": {"upper": "艮", "lower": "坎", "binary": "001010"},
+      "core_meaning": "蒙昧需要啟發",
+      "modern_explanation": "你或對方處於不清楚狀況的狀態。像山下有險水，看不清前路。這時需要的是學習、請教、獲得指導。",
+      "decision_advice": "適合：虛心求教、學習新知、接受培訓。不適合：自以為是、盲目行動。",
+      "timing": "找對老師或方法後，情況會明朗。"
+    },
+    {
+      "number": 5,
+      "name": "需",
+      "traditional_name": "水天需",
+      "structure": {"upper": "坎", "lower": "乾", "binary": "010111"},
+      "core_meaning": "等待時機",
+      "modern_explanation": "你有實力（乾），但前方有險阻（坎）。這不是退縮的時候，但也不能魯莽。需要等待正確的時機，像雲聚集到一定程度才會下雨。",
+      "decision_advice": "適合：準備充分、養精蓄銳、等待信號。不適合：冒進、急躁。",
+      "timing": "時機會來，但需要耐心。"
+    },
+    {
+      "number": 6,
+      "name": "訟",
+      "traditional_name": "天水訟",
+      "structure": {"upper": "乾", "lower": "坎", "binary": "111010"},
+      "core_meaning": "衝突爭訟",
+      "modern_explanation": "天（剛強）與水（流動）方向相反，形成對立。這是一個容易發生爭執、訴訟、矛盾的情境。即使有理，也不宜硬碰。",
+      "decision_advice": "適合：尋求調解、妥協讓步、見好就收。不適合：硬爭到底、訴諸法律。",
+      "timing": "爭訟不會有真正的贏家，適可而止。"
+    },
+    {
+      "number": 7,
+      "name": "師",
+      "traditional_name": "地水師",
+      "structure": {"upper": "坤", "lower": "坎", "binary": "000010"},
+      "core_meaning": "眾人之力",
+      "modern_explanation": "地中藏水，象徵大地包容眾多的力量。這是需要組織、領導、動員群眾的時候。軍隊需要紀律，團隊需要領導。",
+      "decision_advice": "適合：組建團隊、領導行動、執行紀律。不適合：單打獨鬥、無組織散漫。",
+      "timing": "有正確的領導和紀律才能成功。"
+    },
+    {
+      "number": 8,
+      "name": "比",
+      "traditional_name": "水地比",
+      "structure": {"upper": "坎", "lower": "坤", "binary": "010000"},
+      "core_meaning": "親近團結",
+      "modern_explanation": "水流在大地上，自然親近。這是一個適合結盟、親近、建立關係的時期。找到可以信任的人或組織，互相支持。",
+      "decision_advice": "適合：建立合作、親近盟友、尋求支持。不適合：孤立、猜疑。",
+      "timing": "找對人結盟會帶來好運。"
+    },
+    {
+      "number": 9,
+      "name": "小畜",
+      "traditional_name": "風天小畜",
+      "structure": {"upper": "巽", "lower": "乾", "binary": "011111"},
+      "core_meaning": "小有積蓄",
+      "modern_explanation": "柔風吹拂剛天，能夠小小地積累一些東西，但不是大豐收的時候。密雲不雨，醞釀中。",
+      "decision_advice": "適合：小規模積累、漸進式發展、培養實力。不適合：大動作、重大投資。",
+      "timing": "現在是積累期，大收穫還需要時間。"
+    },
+    {
+      "number": 10,
+      "name": "履",
+      "traditional_name": "天澤履",
+      "structure": {"upper": "乾", "lower": "兌", "binary": "111110"},
+      "core_meaning": "小心行走",
+      "modern_explanation": "踩在老虎尾巴上也不被咬——因為態度恭敬、行為謹慎。這是一個需要遵守規則、注重禮節的時期。",
+      "decision_advice": "適合：謹慎行事、遵守禮儀、尊重權威。不適合：冒犯、無禮、挑戰權威。",
+      "timing": "小心謹慎就能平安通過。"
+    },
+    {
+      "number": 11,
+      "name": "泰",
+      "traditional_name": "地天泰",
+      "structure": {"upper": "坤", "lower": "乾", "binary": "000111"},
+      "core_meaning": "通泰交流",
+      "modern_explanation": "地氣下降、天氣上升，上下交流、陰陽和諧。這是最好的時期，萬事通順，小的付出能獲得大的回報。",
+      "decision_advice": "適合：推進計劃、擴大發展、積極行動。不適合：錯過時機、過度謹慎。",
+      "timing": "好運當頭，要把握機會。"
+    },
+    {
+      "number": 12,
+      "name": "否",
+      "traditional_name": "天地否",
+      "structure": {"upper": "乾", "lower": "坤", "binary": "111000"},
+      "core_meaning": "閉塞不通",
+      "modern_explanation": "天氣上升、地氣下沉，上下不交流、溝通受阻。這是一個困難時期，付出多、回報少，需要忍耐。",
+      "decision_advice": "適合：收斂、保守、等待轉機。不適合：大動作、強求。",
+      "timing": "否極泰來，困難是暫時的。"
+    },
+    {
+      "number": 13,
+      "name": "同人",
+      "traditional_name": "天火同人",
+      "structure": {"upper": "乾", "lower": "離", "binary": "111101"},
+      "core_meaning": "志同道合",
+      "modern_explanation": "天與火同向上升，象徵志同道合的人聚在一起。這是適合團結、合作、建立共識的時期。",
+      "decision_advice": "適合：尋找同路人、公開合作、團隊行動。不適合：私心自用、小圈子。",
+      "timing": "與志同道合者一起會成功。"
+    },
+    {
+      "number": 14,
+      "name": "大有",
+      "traditional_name": "火天大有",
+      "structure": {"upper": "離", "lower": "乾", "binary": "101111"},
+      "core_meaning": "大有收穫",
+      "modern_explanation": "火在天上照耀萬物，光明普照。這是豐收、成功、富足的時期。你的能力和努力會得到認可和回報。",
+      "decision_advice": "適合：展示成果、接受榮譽、分享成功。不適合：驕傲自滿、獨佔利益。",
+      "timing": "豐收時期，但要懂得分享。"
+    },
+    {
+      "number": 15,
+      "name": "謙",
+      "traditional_name": "地山謙",
+      "structure": {"upper": "坤", "lower": "艮", "binary": "000001"},
+      "core_meaning": "謙虛低調",
+      "modern_explanation": "高山藏於地下，有實力但不顯露。這是需要謙虛、低調、不張揚的時期。越謙虛越能獲得尊重和成功。",
+      "decision_advice": "適合：謙遜待人、低調做事、不爭功。不適合：炫耀、驕傲、爭強好勝。",
+      "timing": "謙虛會帶來持久的好運。"
+    },
+    {
+      "number": 16,
+      "name": "豫",
+      "traditional_name": "雷地豫",
+      "structure": {"upper": "震", "lower": "坤", "binary": "100000"},
+      "core_meaning": "愉悅預備",
+      "modern_explanation": "雷聲從地下冒出，象徵愉悅、振奮的開始。這是準備行動、建立士氣的時候，但要預先做好準備。",
+      "decision_advice": "適合：準備行動、激勵團隊、享受過程。不適合：沉迷享樂、過度樂觀。",
+      "timing": "準備充分後再行動。"
+    },
+    {
+      "number": 17,
+      "name": "隨",
+      "traditional_name": "澤雷隨",
+      "structure": {"upper": "兌", "lower": "震", "binary": "110100"},
+      "core_meaning": "跟隨順從",
+      "modern_explanation": "澤水隨著雷動而流動。這是一個適合跟隨、順從、配合的時期。找到正確的領導者或趨勢，跟隨它。",
+      "decision_advice": "適合：跟隨領導、順應趨勢、靈活調整。不適合：固執己見、逆流而行。",
+      "timing": "跟對人、跟對趨勢會順利。"
+    },
+    {
+      "number": 18,
+      "name": "蠱",
+      "traditional_name": "山風蠱",
+      "structure": {"upper": "艮", "lower": "巽", "binary": "001011"},
+      "core_meaning": "腐敗需要整頓",
+      "modern_explanation": "山下有風吹動，腐敗的東西需要清理。這是一個需要改革、整頓、解決積弊的時期。不要迴避問題。",
+      "decision_advice": "適合：改革整頓、解決舊問題、推動變革。不適合：因循守舊、迴避問題。",
+      "timing": "先解決問題，後會順利。"
+    },
+    {
+      "number": 19,
+      "name": "臨",
+      "traditional_name": "地澤臨",
+      "structure": {"upper": "坤", "lower": "兌", "binary": "000110"},
+      "core_meaning": "臨近蒞臨",
+      "modern_explanation": "大地臨近澤水，象徵接近、監督、管理。這是一個需要親自介入、密切關注的時期。",
+      "decision_advice": "適合：親自處理、密切關注、加強管理。不適合：放任不管、疏於監督。",
+      "timing": "好運正在接近，要主動把握。"
+    },
+    {
+      "number": 20,
+      "name": "觀",
+      "traditional_name": "風地觀",
+      "structure": {"upper": "巽", "lower": "坤", "binary": "011000"},
+      "core_meaning": "觀察審視",
+      "modern_explanation": "風吹過大地，可以觀察萬物。這是一個需要觀察、審視、思考的時期，而不是行動的時候。",
+      "decision_advice": "適合：觀察形勢、深入思考、學習榜樣。不適合：倉促行動、主觀臆斷。",
+      "timing": "先觀察清楚再做決定。"
+    },
+    {
+      "number": 21,
+      "name": "噬嗑",
+      "traditional_name": "火雷噬嗑",
+      "structure": {"upper": "離", "lower": "震", "binary": "101100"},
+      "core_meaning": "咬合決斷",
+      "modern_explanation": "火與雷結合，象徵咬碎阻礙、果斷處理。這是需要果斷決定、清除障礙的時期。",
+      "decision_advice": "適合：果斷處理、清除障礙、執行紀律。不適合：猶豫不決、姑息養奸。",
+      "timing": "果斷行動會帶來好結果。"
+    },
+    {
+      "number": 22,
+      "name": "賁",
+      "traditional_name": "山火賁",
+      "structure": {"upper": "艮", "lower": "離", "binary": "001101"},
+      "core_meaning": "文飾美化",
+      "modern_explanation": "山下有火光照耀，形成美麗的景象。這是一個適合裝飾、美化、注重外表的時期，但不要只重表面。",
+      "decision_advice": "適合：美化外表、注重形象、適度裝飾。不適合：華而不實、過度包裝。",
+      "timing": "適當的包裝有助於成功，但實質更重要。"
+    },
+    {
+      "number": 23,
+      "name": "剝",
+      "traditional_name": "山地剝",
+      "structure": {"upper": "艮", "lower": "坤", "binary": "001000"},
+      "core_meaning": "剝落衰退",
+      "modern_explanation": "山附著在大地上，但正在剝落。這是一個衰退、失去、被剝奪的時期。不宜進取，應該收斂。",
+      "decision_advice": "適合：收斂保守、接受損失、等待時機。不適合：強求進取、冒險投資。",
+      "timing": "剝極必復，等待轉機。"
+    },
+    {
+      "number": 24,
+      "name": "復",
+      "traditional_name": "地雷復",
+      "structure": {"upper": "坤", "lower": "震", "binary": "000100"},
+      "core_meaning": "復返回歸",
+      "modern_explanation": "雷在地下重新蓄積力量，象徵復甦、回歸、重新開始。陽氣初生，希望重現。",
+      "decision_advice": "適合：重新開始、回歸正道、把握新機會。不適合：急躁冒進、重蹈覆轍。",
+      "timing": "轉機已到，但要穩步前進。"
+    },
+    {
+      "number": 25,
+      "name": "無妄",
+      "traditional_name": "天雷無妄",
+      "structure": {"upper": "乾", "lower": "震", "binary": "111100"},
+      "core_meaning": "純真無妄",
+      "modern_explanation": "天下有雷，象徵自然的運動，沒有人為造作。這是一個需要真誠、自然、不虛偽的時期。",
+      "decision_advice": "適合：真誠行事、順其自然、不強求。不適合：虛偽、投機取巧、妄想。",
+      "timing": "真誠會帶來好結果，妄想會帶來災難。"
+    },
+    {
+      "number": 26,
+      "name": "大畜",
+      "traditional_name": "山天大畜",
+      "structure": {"upper": "艮", "lower": "乾", "binary": "001111"},
+      "core_meaning": "大有積蓄",
+      "modern_explanation": "山畜養天的能量，象徵大量積累、蓄養實力。這是一個積累資源、培養人才的好時期。",
+      "decision_advice": "適合：積累資源、培養實力、儲備人才。不適合：過度消耗、急於求成。",
+      "timing": "積累到位後會有大作為。"
+    },
+    {
+      "number": 27,
+      "name": "頤",
+      "traditional_name": "山雷頤",
+      "structure": {"upper": "艮", "lower": "震", "binary": "001100"},
+      "core_meaning": "頤養滋養",
+      "modern_explanation": "山下有雷動，象徵口腔咀嚼，引申為滋養、養育。這是一個需要注意養生、培養的時期。",
+      "decision_advice": "適合：注重養生、培養人才、謹慎飲食。不適合：暴飲暴食、消耗過度。",
+      "timing": "養好身體和資源才能持久。"
+    },
+    {
+      "number": 28,
+      "name": "大過",
+      "traditional_name": "澤風大過",
+      "structure": {"upper": "兌", "lower": "巽", "binary": "110011"},
+      "core_meaning": "過度承擔",
+      "modern_explanation": "澤水壓在風木上，象徵過重的負擔。這是一個超出能力範圍、承擔過多的時期，需要特別處理。",
+      "decision_advice": "適合：非常手段、獨斷專行、關鍵時刻的決斷。不適合：常規方法、猶豫不決。",
+      "timing": "非常時期需要非常手段。"
+    },
+    {
+      "number": 29,
+      "name": "坎",
+      "traditional_name": "坎為水",
+      "structure": {"upper": "坎", "lower": "坎", "binary": "010010"},
+      "core_meaning": "重重險阻",
+      "modern_explanation": "一險接一險，重重困難。這是最危險的時期，但也是學習如何應對險境的機會。",
+      "decision_advice": "適合：謹慎應對、學習經驗、保持誠信。不適合：冒險、欺詐、放棄。",
+      "timing": "習慣了險境，就能應對自如。"
+    },
+    {
+      "number": 30,
+      "name": "離",
+      "traditional_name": "離為火",
+      "structure": {"upper": "離", "lower": "離", "binary": "101101"},
+      "core_meaning": "光明附麗",
+      "modern_explanation": "重重光明，但火需要依附燃料。這是一個光明、清晰、但需要依靠正確對象的時期。",
+      "decision_advice": "適合：依附正道、保持光明、柔順堅持。不適合：孤立無援、剛強硬碰。",
+      "timing": "依附正確的對象會持續發光。"
+    },
+    {
+      "number": 31,
+      "name": "咸",
+      "traditional_name": "澤山咸",
+      "structure": {"upper": "兌", "lower": "艮", "binary": "110001"},
+      "core_meaning": "感應相交",
+      "modern_explanation": "澤水滋潤山，山吸收水氣，象徵自然的感應、吸引。這是適合感情、合作、建立關係的時期。",
+      "decision_advice": "適合：建立感情、尋求合作、自然交往。不適合：強求、目的性太強。",
+      "timing": "無心的感應會帶來好緣分。"
+    },
+    {
+      "number": 32,
+      "name": "恆",
+      "traditional_name": "雷風恆",
+      "structure": {"upper": "震", "lower": "巽", "binary": "100011"},
+      "core_meaning": "恆久持續",
+      "modern_explanation": "雷動風隨，象徵長久的配合。這是一個需要恆心、持續、穩定的時期。",
+      "decision_advice": "適合：堅持不懈、穩定發展、長期規劃。不適合：三心二意、朝令夕改。",
+      "timing": "恆心會帶來成功。"
+    },
+    {
+      "number": 33,
+      "name": "遁",
+      "traditional_name": "天山遁",
+      "structure": {"upper": "乾", "lower": "艮", "binary": "111001"},
+      "core_meaning": "退避隱遁",
+      "modern_explanation": "天邊有山阻擋，象徵退避、隱藏。這是一個需要退讓、迴避、保存實力的時期。",
+      "decision_advice": "適合：及時退出、保存實力、避開鋒芒。不適合：硬碰、戀戰。",
+      "timing": "退一步海闊天空。"
+    },
+    {
+      "number": 34,
+      "name": "大壯",
+      "traditional_name": "雷天大壯",
+      "structure": {"upper": "震", "lower": "乾", "binary": "100111"},
+      "core_meaning": "強盛壯大",
+      "modern_explanation": "雷在天上響動，象徵力量強大。這是實力充沛、氣勢強盛的時期，但要防止過度。",
+      "decision_advice": "適合：積極進取、展現實力、正當競爭。不適合：魯莽、欺凌弱小。",
+      "timing": "實力強時要用正道，否則會反噬。"
+    },
+    {
+      "number": 35,
+      "name": "晉",
+      "traditional_name": "火地晉",
+      "structure": {"upper": "離", "lower": "坤", "binary": "101000"},
+      "core_meaning": "晉升上進",
+      "modern_explanation": "太陽從地平線升起，象徵晉升、提拔、進步。這是一個上升、受到認可的好時期。",
+      "decision_advice": "適合：積極表現、接受提拔、向上發展。不適合：謙讓過度、錯失機會。",
+      "timing": "晉升的機會已到。"
+    },
+    {
+      "number": 36,
+      "name": "明夷",
+      "traditional_name": "地火明夷",
+      "structure": {"upper": "坤", "lower": "離", "binary": "000101"},
+      "core_meaning": "光明受傷",
+      "modern_explanation": "太陽落入地下，光明被掩蓋。這是一個才華不被認可、遭受打壓的困難時期。",
+      "decision_advice": "適合：韜光養晦、保護自己、等待時機。不適合：鋒芒畢露、正面對抗。",
+      "timing": "暫時隱藏光芒，等待黎明。"
+    },
+    {
+      "number": 37,
+      "name": "家人",
+      "traditional_name": "風火家人",
+      "structure": {"upper": "巽", "lower": "離", "binary": "011101"},
+      "core_meaning": "家庭治理",
+      "modern_explanation": "風助火勢，象徵家庭的教化和傳承。這是一個需要關注家庭、內部管理的時期。",
+      "decision_advice": "適合：治理家庭、內部管理、言行一致。不適合：忽略家庭、內外不一。",
+      "timing": "家和萬事興。"
+    },
+    {
+      "number": 38,
+      "name": "睽",
+      "traditional_name": "火澤睽",
+      "structure": {"upper": "離", "lower": "兌", "binary": "101110"},
+      "core_meaning": "乖違離散",
+      "modern_explanation": "火向上、水向下，背道而馳。這是一個意見分歧、關係疏離的時期。",
+      "decision_advice": "適合：求同存異、處理小事、保持獨立。不適合：大型合作、強求一致。",
+      "timing": "分歧中求同，小事可成。"
+    },
+    {
+      "number": 39,
+      "name": "蹇",
+      "traditional_name": "水山蹇",
+      "structure": {"upper": "坎", "lower": "艮", "binary": "010001"},
+      "core_meaning": "艱難跛行",
+      "modern_explanation": "前有險水、後有高山，進退兩難。這是一個寸步難行的困難時期。",
+      "decision_advice": "適合：反省自身、尋求幫助、等待時機。不適合：強行前進、獨自硬撐。",
+      "timing": "找到貴人幫助才能度過難關。"
+    },
+    {
+      "number": 40,
+      "name": "解",
+      "traditional_name": "雷水解",
+      "structure": {"upper": "震", "lower": "坎", "binary": "100010"},
+      "core_meaning": "解除困難",
+      "modern_explanation": "雷雨過後，萬物復甦。困難已經解除，新的機會來臨。",
+      "decision_advice": "適合：把握時機、快速行動、寬恕過錯。不適合：拖延、斤斤計較。",
+      "timing": "問題已解決，要快速行動。"
+    },
+    {
+      "number": 41,
+      "name": "損",
+      "traditional_name": "山澤損",
+      "structure": {"upper": "艮", "lower": "兌", "binary": "001110"},
+      "core_meaning": "減損奉獻",
+      "modern_explanation": "山高澤低，下方減損以增益上方。這是一個需要犧牲、奉獻、減損自己的時期。",
+      "decision_advice": "適合：減少慾望、奉獻付出、投資未來。不適合：貪多、只顧眼前。",
+      "timing": "損小以獲大，捨得才有得。"
+    },
+    {
+      "number": 42,
+      "name": "益",
+      "traditional_name": "風雷益",
+      "structure": {"upper": "巽", "lower": "震", "binary": "011100"},
+      "core_meaning": "增益利他",
+      "modern_explanation": "風助雷勢，上方減損以增益下方。這是一個利他、獲益、受到幫助的好時期。",
+      "decision_advice": "適合：把握機會、接受幫助、大膽行動。不適合：猶豫、拒絕好意。",
+      "timing": "增益的機會要把握。"
+    },
+    {
+      "number": 43,
+      "name": "夬",
+      "traditional_name": "澤天夬",
+      "structure": {"upper": "兌", "lower": "乾", "binary": "110111"},
+      "core_meaning": "決斷去除",
+      "modern_explanation": "五陽決一陰，陽氣即將全勝。這是一個需要果斷決斷、去除不良因素的時期。",
+      "decision_advice": "適合：果斷決定、清除小人、公開聲明。不適合：暴力、私下報復。",
+      "timing": "決斷的時機已到，但要用正當方法。"
+    },
+    {
+      "number": 44,
+      "name": "姤",
+      "traditional_name": "天風姤",
+      "structure": {"upper": "乾", "lower": "巽", "binary": "111011"},
+      "core_meaning": "相遇邂逅",
+      "modern_explanation": "一陰初生於下，象徵意外的相遇。這是一個會有意外邂逅、新接觸的時期。",
+      "decision_advice": "適合：保持警覺、審慎評估新接觸。不適合：輕易投入、過度信任。",
+      "timing": "相遇是緣分，但要謹慎評估。"
+    },
+    {
+      "number": 45,
+      "name": "萃",
+      "traditional_name": "澤地萃",
+      "structure": {"upper": "兌", "lower": "坤", "binary": "110000"},
+      "core_meaning": "聚集集合",
+      "modern_explanation": "澤水聚集在大地上，象徵人才、資源的聚集。這是一個適合召集、團聚的時期。",
+      "decision_advice": "適合：召集會議、團隊聚集、集中資源。不適合：分散、各自為政。",
+      "timing": "聚集正確的人和資源會成功。"
+    },
+    {
+      "number": 46,
+      "name": "升",
+      "traditional_name": "地風升",
+      "structure": {"upper": "坤", "lower": "巽", "binary": "000011"},
+      "core_meaning": "上升進取",
+      "modern_explanation": "木從地下向上生長，象徵穩步上升、逐漸進步。",
+      "decision_advice": "適合：穩步前進、積極進取、見貴人。不適合：急躁、跳躍式發展。",
+      "timing": "穩步上升的機會已到。"
+    },
+    {
+      "number": 47,
+      "name": "困",
+      "traditional_name": "澤水困",
+      "structure": {"upper": "兌", "lower": "坎", "binary": "110010"},
+      "core_meaning": "困頓窮困",
+      "modern_explanation": "澤中無水，象徵資源枯竭、困頓無援。這是一個困難時期，但困境中見真心。",
+      "decision_advice": "適合：保持信念、堅守正道、以德服人。不適合：抱怨、走捷徑。",
+      "timing": "困境是考驗，堅持會有轉機。"
+    },
+    {
+      "number": 48,
+      "name": "井",
+      "traditional_name": "水風井",
+      "structure": {"upper": "坎", "lower": "巽", "binary": "010011"},
+      "core_meaning": "井養民眾",
+      "modern_explanation": "水從地下被汲取上來，象徵滋養、供給。這是一個提供價值、服務他人的時期。",
+      "decision_advice": "適合：服務他人、提供價值、修養自己。不適合：只取不給、荒廢才能。",
+      "timing": "像井一樣持續提供價值，會得到認可。"
+    },
+    {
+      "number": 49,
+      "name": "革",
+      "traditional_name": "澤火革",
+      "structure": {"upper": "兌", "lower": "離", "binary": "110101"},
+      "core_meaning": "變革更新",
+      "modern_explanation": "澤水與火相遇，相互轉化，象徵革命性的變化。這是一個需要改革、更新的時期。",
+      "decision_advice": "適合：推動改革、更新換代、改變現狀。不適合：因循守舊、抗拒改變。",
+      "timing": "時機成熟後再推動變革。"
+    },
+    {
+      "number": 50,
+      "name": "鼎",
+      "traditional_name": "火風鼎",
+      "structure": {"upper": "離", "lower": "巽", "binary": "101011"},
+      "core_meaning": "鼎新革故",
+      "modern_explanation": "火烹煮鼎中之物，象徵轉化、革新、養賢。這是一個適合創新、培養人才的時期。",
+      "decision_advice": "適合：創新改革、培養人才、接受新事物。不適合：守舊、拒絕改變。",
+      "timing": "革新會帶來好結果。"
+    },
+    {
+      "number": 51,
+      "name": "震",
+      "traditional_name": "震為雷",
+      "structure": {"upper": "震", "lower": "震", "binary": "100100"},
+      "core_meaning": "震動警醒",
+      "modern_explanation": "雷聲滾滾，震撼人心。這是一個受到衝擊、但衝擊後會更好的時期。",
+      "decision_advice": "適合：保持警覺、反省改進、化危為機。不適合：驚慌失措、放棄。",
+      "timing": "震驚過後會更好，保持冷靜。"
+    },
+    {
+      "number": 52,
+      "name": "艮",
+      "traditional_name": "艮為山",
+      "structure": {"upper": "艮", "lower": "艮", "binary": "001001"},
+      "core_meaning": "止靜不動",
+      "modern_explanation": "重山疊嶂，象徵停止、靜止。這是一個需要停下來、不妄動的時期。",
+      "decision_advice": "適合：停止行動、靜觀其變、反省思考。不適合：躁動、妄動。",
+      "timing": "該停則停，知止不殆。"
+    },
+    {
+      "number": 53,
+      "name": "漸",
+      "traditional_name": "風山漸",
+      "structure": {"upper": "巽", "lower": "艮", "binary": "011001"},
+      "core_meaning": "漸進發展",
+      "modern_explanation": "風吹山上，象徵緩慢、穩定的進展。這是一個需要循序漸進的時期。",
+      "decision_advice": "適合：穩步前進、按部就班、耐心等待。不適合：急躁、跳躍。",
+      "timing": "循序漸進會達到目標。"
+    },
+    {
+      "number": 54,
+      "name": "歸妹",
+      "traditional_name": "雷澤歸妹",
+      "structure": {"upper": "震", "lower": "兌", "binary": "100110"},
+      "core_meaning": "少女出嫁",
+      "modern_explanation": "雷動澤悅，象徵少女出嫁的情境。這是一個關於關係、歸屬的時期，但位置不正。",
+      "decision_advice": "適合：順從大局、接受安排、處理關係。不適合：強求、過高期望。",
+      "timing": "關係事宜需要謹慎處理。"
+    },
+    {
+      "number": 55,
+      "name": "豐",
+      "traditional_name": "雷火豐",
+      "structure": {"upper": "震", "lower": "離", "binary": "100101"},
+      "core_meaning": "豐盛盛大",
+      "modern_explanation": "雷火交加，象徵最盛大、最豐富的時刻。但盛極必衰，要珍惜。",
+      "decision_advice": "適合：把握高峰、盡情發揮、分享成果。不適合：浪費、驕傲。",
+      "timing": "豐盛時期，但要為衰退做準備。"
+    },
+    {
+      "number": 56,
+      "name": "旅",
+      "traditional_name": "火山旅",
+      "structure": {"upper": "離", "lower": "艮", "binary": "101001"},
+      "core_meaning": "旅行在外",
+      "modern_explanation": "火在山上燃燒，不能久留，象徵旅途、客居。這是一個身處異地、暫時狀態的時期。",
+      "decision_advice": "適合：謹慎行事、保持低調、不留太久。不適合：張揚、過度投入。",
+      "timing": "旅途中要謹慎，不宜久留。"
+    },
+    {
+      "number": 57,
+      "name": "巽",
+      "traditional_name": "巽為風",
+      "structure": {"upper": "巽", "lower": "巽", "binary": "011011"},
+      "core_meaning": "順從滲透",
+      "modern_explanation": "風無孔不入，象徵柔順地深入、反覆地滲透。這是一個需要柔順、持續、深入的時期。",
+      "decision_advice": "適合：柔順進取、反覆努力、深入了解。不適合：硬碰、一次性期望。",
+      "timing": "柔順堅持會達到目標。"
+    },
+    {
+      "number": 58,
+      "name": "兌",
+      "traditional_name": "兌為澤",
+      "structure": {"upper": "兌", "lower": "兌", "binary": "110110"},
+      "core_meaning": "喜悅交流",
+      "modern_explanation": "澤水相連，象徵朋友歡聚、喜悅交流。這是一個適合社交、交流的愉快時期。",
+      "decision_advice": "適合：社交交流、朋友聚會、分享喜悅。不適合：過度享樂、口舌是非。",
+      "timing": "喜悅的交流會帶來好結果。"
+    },
+    {
+      "number": 59,
+      "name": "渙",
+      "traditional_name": "風水渙",
+      "structure": {"upper": "巽", "lower": "坎", "binary": "011010"},
+      "core_meaning": "渙散分離",
+      "modern_explanation": "風吹水面，波紋四散，象徵分散、渙散。這是一個需要打破僵局、分散後重聚的時期。",
+      "decision_advice": "適合：打破僵局、分散風險、重新整合。不適合：維持現狀、抱團取暖。",
+      "timing": "先散後聚，會有新的格局。"
+    },
+    {
+      "number": 60,
+      "name": "節",
+      "traditional_name": "水澤節",
+      "structure": {"upper": "坎", "lower": "兌", "binary": "010110"},
+      "core_meaning": "節制有度",
+      "modern_explanation": "水在澤上有限制，象徵節制、有度、規範。這是一個需要自我約束、制定規則的時期。",
+      "decision_advice": "適合：自我節制、制定規則、量入為出。不適合：過度節儉、毫無約束。",
+      "timing": "適度節制會帶來好結果。"
+    },
+    {
+      "number": 61,
+      "name": "中孚",
+      "traditional_name": "風澤中孚",
+      "structure": {"upper": "巽", "lower": "兌", "binary": "011110"},
+      "core_meaning": "誠信感化",
+      "modern_explanation": "風吹澤上，象徵誠信的感化力量。這是一個需要真誠、信任的時期。",
+      "decision_advice": "適合：真誠待人、建立信任、言出必行。不適合：欺騙、失信。",
+      "timing": "誠信會帶來好結果和好關係。"
+    },
+    {
+      "number": 62,
+      "name": "小過",
+      "traditional_name": "雷山小過",
+      "structure": {"upper": "震", "lower": "艮", "binary": "100001"},
+      "core_meaning": "小有過越",
+      "modern_explanation": "雷在山上，聲大而山小，象徵小有過越、稍微超過。這是一個小事可過、大事不宜的時期。",
+      "decision_advice": "適合：處理小事、謹慎行事、稍微越界。不適合：大動作、過度冒險。",
+      "timing": "小事可成，大事不宜。"
+    },
+    {
+      "number": 63,
+      "name": "既濟",
+      "traditional_name": "水火既濟",
+      "structure": {"upper": "坎", "lower": "離", "binary": "010101"},
+      "core_meaning": "已經完成",
+      "modern_explanation": "水在火上，烹飪完成，象徵事情已經完成、各得其位。但要防止衰退。",
+      "decision_advice": "適合：鞏固成果、防止衰退、謹慎維持。不適合：掉以輕心、驕傲自滿。",
+      "timing": "事情已成，但要防止逆轉。"
+    },
+    {
+      "number": 64,
+      "name": "未濟",
+      "traditional_name": "火水未濟",
+      "structure": {"upper": "離", "lower": "坎", "binary": "101010"},
+      "core_meaning": "尚未完成",
+      "modern_explanation": "火在水上，各不相交，象徵事情尚未完成。但正因未完成，還有發展空間。",
+      "decision_advice": "適合：繼續努力、謹慎前行、保持希望。不適合：放棄、過度樂觀。",
+      "timing": "事情未成，但有希望。"
+    }
+  ]
+}

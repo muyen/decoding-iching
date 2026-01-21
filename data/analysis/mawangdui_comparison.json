@@ -1,0 +1,71 @@
+{
+  "displacement_stats": {
+    "mean_displacement": 16.78125,
+    "std_displacement": 12.539274238866458,
+    "max_displacement": 49,
+    "min_displacement": 0,
+    "stable_count": 12
+  },
+  "octet_results": {
+    "乾": {
+      "total": 42,
+      "ji": 18,
+      "xiong": 7,
+      "ji_rate": 0.42857142857142855,
+      "xiong_rate": 0.16666666666666666
+    },
+    "艮": {
+      "total": 48,
+      "ji": 18,
+      "xiong": 9,
+      "ji_rate": 0.375,
+      "xiong_rate": 0.1875
+    },
+    "坎": {
+      "total": 48,
+      "ji": 16,
+      "xiong": 3,
+      "ji_rate": 0.3333333333333333,
+      "xiong_rate": 0.0625
+    },
+    "震": {
+      "total": 48,
+      "ji": 11,
+      "xiong": 12,
+      "ji_rate": 0.22916666666666666,
+      "xiong_rate": 0.25
+    },
+    "坤": {
+      "total": 48,
+      "ji": 23,
+      "xiong": 6,
+      "ji_rate": 0.4791666666666667,
+      "xiong_rate": 0.125
+    },
+    "兌": {
+      "total": 48,
+      "ji": 12,
+      "xiong": 13,
+      "ji_rate": 0.25,
+      "xiong_rate": 0.2708333333333333
+    },
+    "離": {
+      "total": 48,
+      "ji": 18,
+      "xiong": 11,
+      "ji_rate": 0.375,
+      "xiong_rate": 0.22916666666666666
+    },
+    "巽": {
+      "total": 48,
+      "ji": 20,
+      "xiong": 6,
+      "ji_rate": 0.4166666666666667,
+      "xiong_rate": 0.125
+    }
+  },
+  "autocorrelations": {
+    "mawangdui": 0.10121058558558559,
+    "king_wen": -0.020821469248291556
+  }
+}

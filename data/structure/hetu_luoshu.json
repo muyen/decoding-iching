@@ -1,0 +1,146 @@
+{
+  "title": "河圖洛書",
+  "english_title": "Hetu (River Chart) and Luoshu (Luo Writing)",
+  "description": "Fundamental numeric diagrams in Chinese cosmology, traditionally associated with the origins of the I Ching",
+  "source": "Traditional Chinese cosmology, referenced in 繫辭傳",
+  "hetu": {
+    "chinese_name": "河圖",
+    "english_name": "River Chart",
+    "legend": "According to tradition, the Hetu emerged from the Yellow River on the back of a dragon-horse during the reign of Fu Xi",
+    "reference": "繫辭上傳: 河出圖，洛出書，聖人則之",
+    "structure": {
+      "description": "10 numbers arranged in a cross pattern representing the five phases",
+      "total_sum": 55,
+      "arrangement": {
+        "north": {"numbers": [1, 6], "element": "水", "element_english": "Water", "direction_chinese": "北"},
+        "south": {"numbers": [2, 7], "element": "火", "element_english": "Fire", "direction_chinese": "南"},
+        "east": {"numbers": [3, 8], "element": "木", "element_english": "Wood", "direction_chinese": "東"},
+        "west": {"numbers": [4, 9], "element": "金", "element_english": "Metal", "direction_chinese": "西"},
+        "center": {"numbers": [5, 10], "element": "土", "element_english": "Earth", "direction_chinese": "中"}
+      },
+      "pattern": [
+        "      7,2      ",
+        "  8,3  5,10  4,9",
+        "      1,6      "
+      ],
+      "generation_numbers": [1, 2, 3, 4, 5],
+      "completion_numbers": [6, 7, 8, 9, 10],
+      "generation_sum": 15,
+      "completion_sum": 40
+    },
+    "principles": {
+      "天地之數": {
+        "heaven_numbers": [1, 3, 5, 7, 9],
+        "heaven_sum": 25,
+        "earth_numbers": [2, 4, 6, 8, 10],
+        "earth_sum": 30,
+        "note": "天數五，地數五，五位相得而各有合"
+      },
+      "five_phases_generation": {
+        "water": "天一生水，地六成之",
+        "fire": "地二生火，天七成之",
+        "wood": "天三生木，地八成之",
+        "metal": "地四生金，天九成之",
+        "earth": "天五生土，地十成之"
+      }
+    },
+    "trigram_correspondence": {
+      "1_6_water": "坎",
+      "2_7_fire": "離",
+      "3_8_wood": "震/巽",
+      "4_9_metal": "乾/兌",
+      "5_10_earth": "坤/艮"
+    }
+  },
+  "luoshu": {
+    "chinese_name": "洛書",
+    "english_name": "Luo Writing",
+    "legend": "According to tradition, the Luoshu appeared on the back of a turtle emerging from the Luo River during the reign of Yu the Great",
+    "structure": {
+      "description": "3x3 magic square where all rows, columns, and diagonals sum to 15",
+      "magic_constant": 15,
+      "total_sum": 45,
+      "grid": [
+        [4, 9, 2],
+        [3, 5, 7],
+        [8, 1, 6]
+      ],
+      "pattern": [
+        "4  9  2",
+        "3  5  7",
+        "8  1  6"
+      ],
+      "properties": {
+        "rows": [[4, 9, 2], [3, 5, 7], [8, 1, 6]],
+        "columns": [[4, 3, 8], [9, 5, 1], [2, 7, 6]],
+        "diagonals": [[4, 5, 6], [2, 5, 8]],
+        "all_sums": 15
+      }
+    },
+    "directional_arrangement": {
+      "south": {"number": 9, "trigram": "離", "element": "火"},
+      "north": {"number": 1, "trigram": "坎", "element": "水"},
+      "east": {"number": 3, "trigram": "震", "element": "木"},
+      "west": {"number": 7, "trigram": "兌", "element": "金"},
+      "northeast": {"number": 8, "trigram": "艮", "element": "土"},
+      "northwest": {"number": 6, "trigram": "乾", "element": "金"},
+      "southeast": {"number": 4, "trigram": "巽", "element": "木"},
+      "southwest": {"number": 2, "trigram": "坤", "element": "土"},
+      "center": {"number": 5, "element": "土"}
+    },
+    "king_wen_bagua_correlation": {
+      "description": "The Luoshu numbers correspond to the King Wen (Later Heaven) trigram arrangement",
+      "mapping": {
+        "1": "坎 (Water, North)",
+        "2": "坤 (Earth, Southwest)",
+        "3": "震 (Thunder, East)",
+        "4": "巽 (Wind, Southeast)",
+        "5": "Center (Earth)",
+        "6": "乾 (Heaven, Northwest)",
+        "7": "兌 (Lake, West)",
+        "8": "艮 (Mountain, Northeast)",
+        "9": "離 (Fire, South)"
+      }
+    },
+    "mathematical_properties": {
+      "is_magic_square": true,
+      "order": 3,
+      "magic_constant": 15,
+      "is_normal": true,
+      "complementary_pairs": [
+        {"pair": [1, 9], "sum": 10, "positions": "opposite"},
+        {"pair": [2, 8], "sum": 10, "positions": "opposite"},
+        {"pair": [3, 7], "sum": 10, "positions": "opposite"},
+        {"pair": [4, 6], "sum": 10, "positions": "opposite"}
+      ],
+      "center_value": 5,
+      "note": "The only 3x3 normal magic square (up to rotation and reflection)"
+    }
+  },
+  "relationship": {
+    "hetu_luoshu_connection": "河圖為體，洛書為用 (Hetu is the substance, Luoshu is the function)",
+    "philosophical_significance": [
+      "Hetu represents the cosmic order of creation (先天)",
+      "Luoshu represents the practical order of application (後天)",
+      "Together they form the numerical foundation of I Ching cosmology"
+    ],
+    "iching_connection": {
+      "fuxi_bagua": "Associated with Hetu (River Chart) - represents cosmic/natural order",
+      "king_wen_bagua": "Associated with Luoshu (Luo Writing) - represents practical/human order",
+      "hexagram_derivation": "The 64 hexagrams can be derived from combinations based on these numeric patterns"
+    }
+  },
+  "analysis_notes": {
+    "computational_relevance": [
+      "Luoshu is the earliest known magic square (c. 2800 BCE traditionally)",
+      "The 3x3 structure relates to ternary/base-3 representations",
+      "Complementary pairs (summing to 10) mirror yin-yang balance",
+      "Magic constant 15 = sum of trigram generation numbers"
+    ],
+    "pattern_connections": [
+      "Luoshu numbers 1-9 map directly to King Wen trigram positions",
+      "This provides numerical basis for trigram-direction associations",
+      "The center 5 represents balance/earth - no trigram assigned"
+    ]
+  }
+}

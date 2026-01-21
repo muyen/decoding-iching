@@ -1,0 +1,3048 @@
+{
+  "statistics": {
+    "total": 384,
+    "ji": 138,
+    "zhong": 145,
+    "xiong": 101,
+    "ji_rate": 35.9375,
+    "zhong_rate": 37.76041666666667,
+    "xiong_rate": 26.302083333333332
+  },
+  "by_position": {
+    "1": {
+      "total": 64,
+      "ji": 22,
+      "zhong": 26,
+      "xiong": 16,
+      "ji_rate": 34.375,
+      "xiong_rate": 25.0
+    },
+    "2": {
+      "total": 64,
+      "ji": 30,
+      "zhong": 25,
+      "xiong": 9,
+      "ji_rate": 46.875,
+      "xiong_rate": 14.0625
+    },
+    "3": {
+      "total": 64,
+      "ji": 9,
+      "zhong": 23,
+      "xiong": 32,
+      "ji_rate": 14.0625,
+      "xiong_rate": 50.0
+    },
+    "4": {
+      "total": 64,
+      "ji": 23,
+      "zhong": 29,
+      "xiong": 12,
+      "ji_rate": 35.9375,
+      "xiong_rate": 18.75
+    },
+    "5": {
+      "total": 64,
+      "ji": 33,
+      "zhong": 20,
+      "xiong": 11,
+      "ji_rate": 51.5625,
+      "xiong_rate": 17.1875
+    },
+    "6": {
+      "total": 64,
+      "ji": 21,
+      "zhong": 22,
+      "xiong": 21,
+      "ji_rate": 32.8125,
+      "xiong_rate": 32.8125
+    }
+  },
+  "by_trigram": {
+    "upper": {
+      "乾": {
+        "total": 48,
+        "ji": 20,
+        "xiong": 12,
+        "ji_rate": 41.66666666666667
+      },
+      "坤": {
+        "total": 48,
+        "ji": 20,
+        "xiong": 7,
+        "ji_rate": 41.66666666666667
+      },
+      "坎": {
+        "total": 48,
+        "ji": 13,
+        "xiong": 7,
+        "ji_rate": 27.083333333333332
+      },
+      "艮": {
+        "total": 48,
+        "ji": 17,
+        "xiong": 12,
+        "ji_rate": 35.41666666666667
+      },
+      "巽": {
+        "total": 48,
+        "ji": 21,
+        "xiong": 14,
+        "ji_rate": 43.75
+      },
+      "離": {
+        "total": 48,
+        "ji": 17,
+        "xiong": 15,
+        "ji_rate": 35.41666666666667
+      },
+      "震": {
+        "total": 48,
+        "ji": 14,
+        "xiong": 19,
+        "ji_rate": 29.166666666666668
+      },
+      "兌": {
+        "total": 48,
+        "ji": 16,
+        "xiong": 15,
+        "ji_rate": 33.33333333333333
+      }
+    },
+    "lower": {
+      "乾": {
+        "total": 48,
+        "ji": 19,
+        "xiong": 11,
+        "ji_rate": 39.58333333333333
+      },
+      "坤": {
+        "total": 48,
+        "ji": 16,
+        "xiong": 10,
+        "ji_rate": 33.33333333333333
+      },
+      "震": {
+        "total": 48,
+        "ji": 20,
+        "xiong": 18,
+        "ji_rate": 41.66666666666667
+      },
+      "坎": {
+        "total": 48,
+        "ji": 17,
+        "xiong": 14,
+        "ji_rate": 35.41666666666667
+      },
+      "兌": {
+        "total": 48,
+        "ji": 21,
+        "xiong": 11,
+        "ji_rate": 43.75
+      },
+      "離": {
+        "total": 48,
+        "ji": 17,
+        "xiong": 8,
+        "ji_rate": 35.41666666666667
+      },
+      "艮": {
+        "total": 48,
+        "ji": 13,
+        "xiong": 14,
+        "ji_rate": 27.083333333333332
+      },
+      "巽": {
+        "total": 48,
+        "ji": 15,
+        "xiong": 15,
+        "ji_rate": 31.25
+      }
+    }
+  },
+  "accuracy": 39.84375,
+  "special_yaos": [
+    {
+      "gua_num": 1,
+      "gua_name": "乾",
+      "position": 3,
+      "text": "九三：君子終日乾乾，夕惕若，厲，無咎。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 2,
+      "gua_name": "坤",
+      "position": 2,
+      "text": "六二：直，方，大，不習無不利。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 2,
+      "gua_name": "坤",
+      "position": 6,
+      "text": "上六：龍戰於野，其血玄黃。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "position": 1,
+      "text": "初九：磐桓，利居貞，利建侯。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "position": 2,
+      "text": "六二：屯如邅如，乘馬班如，匪寇，婚媾。女子貞不字，十年乃字。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "position": 3,
+      "text": "六三：即鹿無虞，惟入于林中，君子几不如舍，往吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "position": 6,
+      "text": "上六：乘馬班如，泣血漣如。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "position": 3,
+      "text": "六三：勿用娶女，見金，夫不有躬，無攸利。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "position": 4,
+      "text": "六四：困蒙，吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "position": 6,
+      "text": "上九：擊蒙。不利為寇，利御寇。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 5,
+      "gua_name": "需",
+      "position": 2,
+      "text": "九二：需于沙，小有言，終吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+終吉"
+      ]
+    },
+    {
+      "gua_num": 5,
+      "gua_name": "需",
+      "position": 6,
+      "text": "上六：入于穴，有不速之客三人來，敬之終吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+終吉"
+      ]
+    },
+    {
+      "gua_num": 6,
+      "gua_name": "訟",
+      "position": 1,
+      "text": "初六：不永所事，小有言，終吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+終吉"
+      ]
+    },
+    {
+      "gua_num": 6,
+      "gua_name": "訟",
+      "position": 2,
+      "text": "九二：不克訟，歸而逋，其邑人三百戶，無眚。",
+      "judgment": -1,
+      "keywords": [
+        "-眚"
+      ]
+    },
+    {
+      "gua_num": 6,
+      "gua_name": "訟",
+      "position": 3,
+      "text": "六三：食舊德，貞厲，終吉。或從王事，無成。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+終吉",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 6,
+      "gua_name": "訟",
+      "position": 4,
+      "text": "九四：不克訟，復自命渝，安貞，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 6,
+      "gua_name": "訟",
+      "position": 6,
+      "text": "上九：或錫之鞶帶，終朝三褫之。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 7,
+      "gua_name": "師",
+      "position": 1,
+      "text": "初六：師出以律，否臧凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 7,
+      "gua_name": "師",
+      "position": 3,
+      "text": "六三：師或輿尸，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 7,
+      "gua_name": "師",
+      "position": 5,
+      "text": "六五：田有禽，利執言，無咎。長子帥師，弟子輿尸，貞凶。",
+      "judgment": -1,
+      "keywords": [
+        "+利",
+        "+無咎",
+        "-凶",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 7,
+      "gua_name": "師",
+      "position": 6,
+      "text": "上六：大君有命，開國承家，小人勿用。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 8,
+      "gua_name": "比",
+      "position": 1,
+      "text": "初六：有孚比之，無咎。有孚盈缶，終來有他，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 8,
+      "gua_name": "比",
+      "position": 2,
+      "text": "六二：比之自內，貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 8,
+      "gua_name": "比",
+      "position": 4,
+      "text": "六四：外比之，貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 9,
+      "gua_name": "小畜",
+      "position": 1,
+      "text": "初九：復自道，何其咎？吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 9,
+      "gua_name": "小畜",
+      "position": 2,
+      "text": "九二：牽復，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 9,
+      "gua_name": "小畜",
+      "position": 3,
+      "text": "九三：輿說輻，夫妻反目。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 9,
+      "gua_name": "小畜",
+      "position": 4,
+      "text": "六四：有孚，血去惕出，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 10,
+      "gua_name": "履",
+      "position": 1,
+      "text": "初九：素履往，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 10,
+      "gua_name": "履",
+      "position": 3,
+      "text": "六三：眇能視，跛能履，履虎尾，咥人，凶。武人為于大君。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 10,
+      "gua_name": "履",
+      "position": 5,
+      "text": "九五：夬履，貞厲。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 10,
+      "gua_name": "履",
+      "position": 6,
+      "text": "上九：視履考祥，其旋元吉。",
+      "judgment": 1,
+      "keywords": [
+        "+元吉",
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 11,
+      "gua_name": "泰",
+      "position": 1,
+      "text": "初九：拔茅茹，以其夤，征吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 11,
+      "gua_name": "泰",
+      "position": 2,
+      "text": "九二：包荒，用馮河，不遐遺，朋亡，得尚于中行。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 12,
+      "gua_name": "否",
+      "position": 1,
+      "text": "初六：拔茅茹，以其夤，貞吉亨。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+亨",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 12,
+      "gua_name": "否",
+      "position": 6,
+      "text": "上九：傾否，先否后喜。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 13,
+      "gua_name": "同人",
+      "position": 2,
+      "text": "六二：同人于宗，吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 13,
+      "gua_name": "同人",
+      "position": 4,
+      "text": "九四：乘其墉，弗克攻，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 13,
+      "gua_name": "同人",
+      "position": 5,
+      "text": "九五：同人，先號啕而后笑，大師克相遇。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 14,
+      "gua_name": "大有",
+      "position": 3,
+      "text": "九三：公用亨于天子，小人弗克。",
+      "judgment": 1,
+      "keywords": [
+        "+亨"
+      ]
+    },
+    {
+      "gua_num": 14,
+      "gua_name": "大有",
+      "position": 6,
+      "text": "上九：自天佑之，吉無不利。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+利",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 15,
+      "gua_name": "謙",
+      "position": 4,
+      "text": "六四：無不利，撝謙。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 15,
+      "gua_name": "謙",
+      "position": 5,
+      "text": "六五：不富，以其鄰，利用侵伐，無不利。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 15,
+      "gua_name": "謙",
+      "position": 6,
+      "text": "上六：鳴謙，利用行師，征邑國。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 16,
+      "gua_name": "豫",
+      "position": 1,
+      "text": "初六：鳴豫，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 16,
+      "gua_name": "豫",
+      "position": 2,
+      "text": "六二：介于石，不終日，貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 16,
+      "gua_name": "豫",
+      "position": 3,
+      "text": "六三：盱豫，悔。遲有悔。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 16,
+      "gua_name": "豫",
+      "position": 5,
+      "text": "六五：貞疾，恆不死。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 16,
+      "gua_name": "豫",
+      "position": 6,
+      "text": "上六：冥豫，成有渝，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "position": 1,
+      "text": "初九：官有渝，貞吉。出門交有功。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "position": 3,
+      "text": "六三：系丈夫，失小子。隨有求得，利居貞。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "position": 4,
+      "text": "九四：隨有獲，貞凶。有孚在道，以明，何咎？",
+      "judgment": -1,
+      "keywords": [
+        "-凶",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "position": 5,
+      "text": "九五：孚于嘉，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "position": 6,
+      "text": "上六：拘系之，乃從維之。王用亨于西山。",
+      "judgment": 1,
+      "keywords": [
+        "+亨"
+      ]
+    },
+    {
+      "gua_num": 18,
+      "gua_name": "蠱",
+      "position": 1,
+      "text": "初六：干父之蠱，有子，考無咎，厲，終吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+無咎",
+        "+終吉",
+        "-咎",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 18,
+      "gua_name": "蠱",
+      "position": 2,
+      "text": "九二：干母之蠱，不可貞。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 18,
+      "gua_name": "蠱",
+      "position": 3,
+      "text": "九三：干父之蠱，小有晦，無大咎。",
+      "judgment": -1,
+      "keywords": [
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 18,
+      "gua_name": "蠱",
+      "position": 4,
+      "text": "六四：裕父之蠱，往見吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 18,
+      "gua_name": "蠱",
+      "position": 5,
+      "text": "六五：干父之蠱，用譽。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 19,
+      "gua_name": "臨",
+      "position": 1,
+      "text": "初九：咸臨，貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 19,
+      "gua_name": "臨",
+      "position": 6,
+      "text": "上六：敦臨，吉，無咎。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "position": 2,
+      "text": "六二：窺觀，利女貞。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "position": 3,
+      "text": "六三：觀我生，進退。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "position": 4,
+      "text": "六四：觀國之光，利用賓于王。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "position": 6,
+      "text": "上九：觀其生，君子無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 21,
+      "gua_name": "噬嗑",
+      "position": 1,
+      "text": "初九：履校滅趾，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 21,
+      "gua_name": "噬嗑",
+      "position": 2,
+      "text": "六二：噬膚滅鼻，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 21,
+      "gua_name": "噬嗑",
+      "position": 3,
+      "text": "六三：噬臘肉，遇毒。小吝，無咎。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 21,
+      "gua_name": "噬嗑",
+      "position": 5,
+      "text": "六五：噬乾肉，得黃金，貞厲，無咎。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 22,
+      "gua_name": "賁",
+      "position": 2,
+      "text": "六二：賁其須。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 22,
+      "gua_name": "賁",
+      "position": 3,
+      "text": "九三：賁如濡如，永貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 22,
+      "gua_name": "賁",
+      "position": 6,
+      "text": "上九：白賁，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 23,
+      "gua_name": "剝",
+      "position": 1,
+      "text": "初六：剝床以足，蔑貞凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 23,
+      "gua_name": "剝",
+      "position": 2,
+      "text": "六二：剝床以辨，蔑貞凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 23,
+      "gua_name": "剝",
+      "position": 3,
+      "text": "六三：剝之，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 23,
+      "gua_name": "剝",
+      "position": 4,
+      "text": "六四：剝床以膚，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 23,
+      "gua_name": "剝",
+      "position": 5,
+      "text": "六五：貫魚，以宮人寵，無不利。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 23,
+      "gua_name": "剝",
+      "position": 6,
+      "text": "上九：碩果不食，君子得輿，小人剝廬。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "position": 1,
+      "text": "初九：不復遠，無只悔，元吉。",
+      "judgment": 1,
+      "keywords": [
+        "+元吉",
+        "+吉",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "position": 3,
+      "text": "六三：頻復，厲，無咎。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "position": 5,
+      "text": "六五：敦復，無悔。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "position": 6,
+      "text": "上六：迷復，凶，有災眚。用行師，終有大敗，以其國君凶。至于十年不克征。",
+      "judgment": -1,
+      "keywords": [
+        "-凶",
+        "-災",
+        "-眚"
+      ]
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "position": 1,
+      "text": "初九：無妄往，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "position": 3,
+      "text": "六三：無妄之災，或系之牛，行人之得，邑人之災。",
+      "judgment": -1,
+      "keywords": [
+        "-災"
+      ]
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "position": 6,
+      "text": "上九：無妄行，有眚，無攸利。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "-眚"
+      ]
+    },
+    {
+      "gua_num": 26,
+      "gua_name": "大畜",
+      "position": 2,
+      "text": "九二：輿說輻。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 26,
+      "gua_name": "大畜",
+      "position": 3,
+      "text": "九三：良馬逐，利艱貞。曰閑輿衛，利有攸往。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 26,
+      "gua_name": "大畜",
+      "position": 4,
+      "text": "六四：童豕之牿，元吉。",
+      "judgment": 1,
+      "keywords": [
+        "+元吉",
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 26,
+      "gua_name": "大畜",
+      "position": 6,
+      "text": "上九：何天之衢，亨。",
+      "judgment": 1,
+      "keywords": [
+        "+亨"
+      ]
+    },
+    {
+      "gua_num": 27,
+      "gua_name": "頤",
+      "position": 1,
+      "text": "初九：舍爾靈龜，觀我朵頤，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 27,
+      "gua_name": "頤",
+      "position": 2,
+      "text": "六二：顛頤，拂經，于丘頤，征凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 27,
+      "gua_name": "頤",
+      "position": 3,
+      "text": "六三：拂頤，貞凶，十年勿用，無攸利。",
+      "judgment": -1,
+      "keywords": [
+        "+利",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 27,
+      "gua_name": "頤",
+      "position": 4,
+      "text": "六四：顛頤吉，虎視眈眈，其欲逐逐，無咎。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 27,
+      "gua_name": "頤",
+      "position": 6,
+      "text": "上九：由頤，厲，吉，利涉大川。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+利",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 28,
+      "gua_name": "大過",
+      "position": 3,
+      "text": "九三：棟橈，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 28,
+      "gua_name": "大過",
+      "position": 4,
+      "text": "九四：棟隆，吉。有它吝。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 29,
+      "gua_name": "坎",
+      "position": 1,
+      "text": "初六：習坎，入于坎窞，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 29,
+      "gua_name": "坎",
+      "position": 2,
+      "text": "九二：坎有險，求小得。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 29,
+      "gua_name": "坎",
+      "position": 5,
+      "text": "九五：坎不盈，祇既平，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 30,
+      "gua_name": "離",
+      "position": 3,
+      "text": "九三：日昃之離，不鼓缶而歌，則大耋之嗟，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 30,
+      "gua_name": "離",
+      "position": 6,
+      "text": "上九：王用出征，有嘉折首，獲其匪丑，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 31,
+      "gua_name": "咸",
+      "position": 2,
+      "text": "六二：咸其腓，凶，居吉。",
+      "judgment": 0,
+      "keywords": [
+        "+吉",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 31,
+      "gua_name": "咸",
+      "position": 3,
+      "text": "九三：咸其股，執其隨，往吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 31,
+      "gua_name": "咸",
+      "position": 4,
+      "text": "九四：貞吉悔亡，憧憧往來，朋從爾思。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 31,
+      "gua_name": "咸",
+      "position": 5,
+      "text": "九五：咸其脢，無悔。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 31,
+      "gua_name": "咸",
+      "position": 6,
+      "text": "上六：咸其輔、頰、舌。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 32,
+      "gua_name": "恆",
+      "position": 1,
+      "text": "初六：浚恆，貞凶，無攸利。",
+      "judgment": -1,
+      "keywords": [
+        "+利",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 32,
+      "gua_name": "恆",
+      "position": 2,
+      "text": "九二：悔亡。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 32,
+      "gua_name": "恆",
+      "position": 3,
+      "text": "九三：不恆其德，或承之羞，貞吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 32,
+      "gua_name": "恆",
+      "position": 5,
+      "text": "六五：恆其德，貞婦人吉，夫子凶。",
+      "judgment": 0,
+      "keywords": [
+        "+吉",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "position": 1,
+      "text": "初六：遯尾，厲，勿用有攸往。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "position": 2,
+      "text": "六二：執之用黃牛之革，莫之勝說。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "position": 3,
+      "text": "九三：系遯，有疾厲，畜臣妾吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 34,
+      "gua_name": "大壯",
+      "position": 1,
+      "text": "初九：壯于趾，征凶，有孚。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 34,
+      "gua_name": "大壯",
+      "position": 2,
+      "text": "九二：貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 34,
+      "gua_name": "大壯",
+      "position": 3,
+      "text": "九三：小人用壯，君子用罔，貞厲。羝羊觸藩，羸其角。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 34,
+      "gua_name": "大壯",
+      "position": 4,
+      "text": "九四：貞吉悔亡，藩決不羸，壯于大輿之輹。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 34,
+      "gua_name": "大壯",
+      "position": 5,
+      "text": "六五：喪羊于易，無悔。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 34,
+      "gua_name": "大壯",
+      "position": 6,
+      "text": "上六：羝羊觸藩，不能退，不能遂，無攸利，艱則吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 35,
+      "gua_name": "晉",
+      "position": 1,
+      "text": "初六：晉如，摧如，貞吉。罔孚，裕，無咎。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+無咎",
+        "+貞吉",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 35,
+      "gua_name": "晉",
+      "position": 2,
+      "text": "六二：晉如，愁如，貞吉。受茲介福于其王母。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 35,
+      "gua_name": "晉",
+      "position": 3,
+      "text": "六三：眾允，悔亡。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 35,
+      "gua_name": "晉",
+      "position": 4,
+      "text": "九四：晉如碩鼠，貞厲。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 35,
+      "gua_name": "晉",
+      "position": 6,
+      "text": "上九：晉其角，維用伐邑，厲，吉，無咎，貞吝。",
+      "judgment": 0,
+      "keywords": [
+        "+吉",
+        "+無咎",
+        "-咎",
+        "-厲",
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 36,
+      "gua_name": "明夷",
+      "position": 6,
+      "text": "上六：不明晦，初登于天，后入于地。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 37,
+      "gua_name": "家人",
+      "position": 2,
+      "text": "六二：無攸遂，在中饋，貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 37,
+      "gua_name": "家人",
+      "position": 4,
+      "text": "六四：富家，大吉。",
+      "judgment": 1,
+      "keywords": [
+        "+大吉",
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 37,
+      "gua_name": "家人",
+      "position": 5,
+      "text": "九五：王假有家，勿恤吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 37,
+      "gua_name": "家人",
+      "position": 6,
+      "text": "上九：有孚威如，終吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+終吉"
+      ]
+    },
+    {
+      "gua_num": 38,
+      "gua_name": "睽",
+      "position": 1,
+      "text": "初九：悔亡，喪馬勿逐，自復。見惡人無咎。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 38,
+      "gua_name": "睽",
+      "position": 4,
+      "text": "九四：睽孤，遇元夫，交孚，厲，無咎。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 38,
+      "gua_name": "睽",
+      "position": 5,
+      "text": "六五：悔亡，厥宗噬膚，往何咎。",
+      "judgment": -1,
+      "keywords": [
+        "-咎",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 38,
+      "gua_name": "睽",
+      "position": 6,
+      "text": "上九：睽孤，見豕負涂，載鬼一車，先張之弧，后說之弧，匪寇婚媾，往遇雨則吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 39,
+      "gua_name": "蹇",
+      "position": 2,
+      "text": "六二：王臣蹇蹇，匪躬之故。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 39,
+      "gua_name": "蹇",
+      "position": 5,
+      "text": "九五：大蹇朋來。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 39,
+      "gua_name": "蹇",
+      "position": 6,
+      "text": "上六：往蹇來碩，吉。利見大人。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 40,
+      "gua_name": "解",
+      "position": 2,
+      "text": "九二：田獲三狐，得黃矢，貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 40,
+      "gua_name": "解",
+      "position": 3,
+      "text": "六三：負且乘，致寇至，貞吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 40,
+      "gua_name": "解",
+      "position": 6,
+      "text": "上六：公用射隼于高墉之上，獲之，無不利。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 41,
+      "gua_name": "損",
+      "position": 2,
+      "text": "九二：利貞，征凶，弗損益之。",
+      "judgment": -1,
+      "keywords": [
+        "+利",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 41,
+      "gua_name": "損",
+      "position": 4,
+      "text": "六四：損其疾，使遄有喜，無咎。",
+      "judgment": 1,
+      "keywords": [
+        "+無咎",
+        "+有喜",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 41,
+      "gua_name": "損",
+      "position": 6,
+      "text": "上九：弗損，益之，無咎，貞吉，利有攸往。得臣無家。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+利",
+        "+無咎",
+        "+貞吉",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 42,
+      "gua_name": "益",
+      "position": 1,
+      "text": "初九：利用為大作，元吉，無咎。",
+      "judgment": 1,
+      "keywords": [
+        "+元吉",
+        "+吉",
+        "+利",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 42,
+      "gua_name": "益",
+      "position": 2,
+      "text": "六二：或益之，十朋之龜弗克違，永貞吉。王用享于帝，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 42,
+      "gua_name": "益",
+      "position": 4,
+      "text": "六四：中行，告公從，利用為依遷國。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 42,
+      "gua_name": "益",
+      "position": 5,
+      "text": "九五：有孚惠心，勿問元吉。有孚惠我德。",
+      "judgment": 1,
+      "keywords": [
+        "+元吉",
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 43,
+      "gua_name": "夬",
+      "position": 1,
+      "text": "初九：壯于前趾，往不勝為吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 43,
+      "gua_name": "夬",
+      "position": 2,
+      "text": "九二：惕號，莫夜有戎，勿恤。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 43,
+      "gua_name": "夬",
+      "position": 3,
+      "text": "九三：壯于頄，有凶。君子夬夬獨行，遇雨若濡，有慍，無咎。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-凶",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 43,
+      "gua_name": "夬",
+      "position": 4,
+      "text": "九四：臀無膚，其行次且。牽羊悔亡，聞言不信。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 44,
+      "gua_name": "姤",
+      "position": 1,
+      "text": "初六：系于金柅，貞吉，有攸往，見凶，羸豕踟躅。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 44,
+      "gua_name": "姤",
+      "position": 2,
+      "text": "九二：包有魚，無咎，不利賓。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "+無咎",
+        "-咎",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 44,
+      "gua_name": "姤",
+      "position": 3,
+      "text": "九三：臀無膚，其行次且，厲，無大咎。",
+      "judgment": -1,
+      "keywords": [
+        "-咎",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 44,
+      "gua_name": "姤",
+      "position": 4,
+      "text": "九四：包無魚，起凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 44,
+      "gua_name": "姤",
+      "position": 5,
+      "text": "九五：以杞包瓜，含章，有隕自天。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 45,
+      "gua_name": "萃",
+      "position": 1,
+      "text": "初六：有孚不終，乃亂乃萃，若號，一握為笑，勿恤，往無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 45,
+      "gua_name": "萃",
+      "position": 2,
+      "text": "六二：引吉，無咎，孚乃利用禴。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+利",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 45,
+      "gua_name": "萃",
+      "position": 3,
+      "text": "六三：萃如，嗟如，無攸利，往無咎，小吝。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "+無咎",
+        "-咎",
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 45,
+      "gua_name": "萃",
+      "position": 4,
+      "text": "九四：大吉，無咎。",
+      "judgment": 1,
+      "keywords": [
+        "+大吉",
+        "+吉",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 45,
+      "gua_name": "萃",
+      "position": 5,
+      "text": "九五：萃有位，無咎。匪孚，元永貞，悔亡。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 45,
+      "gua_name": "萃",
+      "position": 6,
+      "text": "上六：齎咨涕洟，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 46,
+      "gua_name": "升",
+      "position": 1,
+      "text": "初六：允升，大吉。",
+      "judgment": 1,
+      "keywords": [
+        "+大吉",
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 46,
+      "gua_name": "升",
+      "position": 2,
+      "text": "九二：孚乃利用禴，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 46,
+      "gua_name": "升",
+      "position": 4,
+      "text": "六四：王用亨于岐山，吉無咎。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+亨",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 46,
+      "gua_name": "升",
+      "position": 6,
+      "text": "上六：冥升，利于不息之貞。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 47,
+      "gua_name": "困",
+      "position": 1,
+      "text": "初六：臀困于株木，入于幽谷，三歲不見。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 47,
+      "gua_name": "困",
+      "position": 5,
+      "text": "九五：劓刖，困于赤紱，乃徐有說，利用祭祀。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 47,
+      "gua_name": "困",
+      "position": 6,
+      "text": "上六：困于葛藟，于臲卼，曰動悔，有悔，征吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 48,
+      "gua_name": "井",
+      "position": 1,
+      "text": "初六：井泥不食，舊井無禽。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 48,
+      "gua_name": "井",
+      "position": 2,
+      "text": "九二：井谷射鮒，瓮敝漏。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 48,
+      "gua_name": "井",
+      "position": 3,
+      "text": "九三：井渫不食，為我民惻，可用汲，王明，并受其福。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 48,
+      "gua_name": "井",
+      "position": 4,
+      "text": "六四：井甃，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 48,
+      "gua_name": "井",
+      "position": 5,
+      "text": "九五：井冽，寒泉食。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 48,
+      "gua_name": "井",
+      "position": 6,
+      "text": "上六：井收勿幕，有孚元吉。",
+      "judgment": 1,
+      "keywords": [
+        "+元吉",
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 49,
+      "gua_name": "革",
+      "position": 1,
+      "text": "初九：鞏用黃牛之革。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 49,
+      "gua_name": "革",
+      "position": 2,
+      "text": "六二：己日乃革之，征吉，無咎。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 49,
+      "gua_name": "革",
+      "position": 4,
+      "text": "九四：悔亡，有孚改命，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 49,
+      "gua_name": "革",
+      "position": 6,
+      "text": "上六：君子豹變，小人革面，征凶，居貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "position": 3,
+      "text": "九三：鼎耳革，其行塞，雉膏不食，方雨虧悔，終吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+終吉",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "position": 4,
+      "text": "九四：鼎折足，覆公餗，其形渥，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "position": 6,
+      "text": "上九：鼎玉鉉，大吉，無不利。",
+      "judgment": 1,
+      "keywords": [
+        "+大吉",
+        "+吉",
+        "+利",
+        "-不利"
+      ]
+    },
+    {
+      "gua_num": 51,
+      "gua_name": "震",
+      "position": 1,
+      "text": "初九：震來虩虩，后笑言啞啞，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 51,
+      "gua_name": "震",
+      "position": 2,
+      "text": "六二：震來厲，億喪貝，躋于九陵，勿逐，七日得。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 51,
+      "gua_name": "震",
+      "position": 3,
+      "text": "六三：震蘇蘇，震行無眚。",
+      "judgment": -1,
+      "keywords": [
+        "-眚"
+      ]
+    },
+    {
+      "gua_num": 51,
+      "gua_name": "震",
+      "position": 5,
+      "text": "六五：震往來厲，億無喪，有事。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 52,
+      "gua_name": "艮",
+      "position": 1,
+      "text": "初六：艮其趾，無咎，利永貞。",
+      "judgment": 0,
+      "keywords": [
+        "+利",
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 52,
+      "gua_name": "艮",
+      "position": 2,
+      "text": "六二：艮其腓，不拯其隨，其心不快。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 52,
+      "gua_name": "艮",
+      "position": 3,
+      "text": "九三：艮其限，列其夤，厲薰心。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 52,
+      "gua_name": "艮",
+      "position": 4,
+      "text": "六四：艮其身，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 52,
+      "gua_name": "艮",
+      "position": 5,
+      "text": "六五：艮其輔，言有序，悔亡。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 52,
+      "gua_name": "艮",
+      "position": 6,
+      "text": "上九：敦艮，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 53,
+      "gua_name": "漸",
+      "position": 1,
+      "text": "初六：鴻漸于干，小子厲。有言，無咎。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 53,
+      "gua_name": "漸",
+      "position": 3,
+      "text": "九三：鴻漸于陸，夫征不復，婦孕不育，凶。利御寇。",
+      "judgment": -1,
+      "keywords": [
+        "+利",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 53,
+      "gua_name": "漸",
+      "position": 6,
+      "text": "上九：鴻漸于逵，其羽可用為儀，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 54,
+      "gua_name": "歸妹",
+      "position": 1,
+      "text": "初九：歸妹以娣，跛能履，征吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 54,
+      "gua_name": "歸妹",
+      "position": 2,
+      "text": "九二：眇能視，利幽人之貞。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 54,
+      "gua_name": "歸妹",
+      "position": 6,
+      "text": "上六：女承筐無實，士刲羊無血，無攸利。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 55,
+      "gua_name": "丰",
+      "position": 1,
+      "text": "初九：遇其配主，雖旬無咎，往有尚。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 55,
+      "gua_name": "丰",
+      "position": 3,
+      "text": "九三：丰其沛，日中見昧，折其右肱，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 56,
+      "gua_name": "旅",
+      "position": 1,
+      "text": "初六：旅瑣瑣，斯其所取災。",
+      "judgment": -1,
+      "keywords": [
+        "-災"
+      ]
+    },
+    {
+      "gua_num": 56,
+      "gua_name": "旅",
+      "position": 2,
+      "text": "六二：旅即次，懷其資，得童仆貞。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 56,
+      "gua_name": "旅",
+      "position": 3,
+      "text": "九三：旅焚其次，喪其童仆，貞厲。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 56,
+      "gua_name": "旅",
+      "position": 5,
+      "text": "六五：射雉一矢亡，終以譽命。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 56,
+      "gua_name": "旅",
+      "position": 6,
+      "text": "上九：鳥焚其巢，旅人先笑后號啕。喪牛于易，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 57,
+      "gua_name": "巽",
+      "position": 1,
+      "text": "初六：進退，利武人之貞。",
+      "judgment": 1,
+      "keywords": [
+        "+利"
+      ]
+    },
+    {
+      "gua_num": 57,
+      "gua_name": "巽",
+      "position": 3,
+      "text": "九三：頻巽，吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 57,
+      "gua_name": "巽",
+      "position": 4,
+      "text": "六四：悔亡，田獲三品。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 58,
+      "gua_name": "兌",
+      "position": 1,
+      "text": "初九：和兌，吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 58,
+      "gua_name": "兌",
+      "position": 4,
+      "text": "九四：商兌，未寧，介疾有喜。",
+      "judgment": 1,
+      "keywords": [
+        "+有喜"
+      ]
+    },
+    {
+      "gua_num": 58,
+      "gua_name": "兌",
+      "position": 5,
+      "text": "九五：孚于剝，有厲。",
+      "judgment": -1,
+      "keywords": [
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 58,
+      "gua_name": "兌",
+      "position": 6,
+      "text": "上六：引兌。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 59,
+      "gua_name": "渙",
+      "position": 2,
+      "text": "九二：渙奔其機，悔亡。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 59,
+      "gua_name": "渙",
+      "position": 3,
+      "text": "六三：渙其躬，無悔。",
+      "judgment": -1,
+      "keywords": [
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 59,
+      "gua_name": "渙",
+      "position": 6,
+      "text": "上九：渙其血，去逖出，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 60,
+      "gua_name": "節",
+      "position": 2,
+      "text": "九二：不出門庭，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 60,
+      "gua_name": "節",
+      "position": 4,
+      "text": "六四：安節，亨。",
+      "judgment": 1,
+      "keywords": [
+        "+亨"
+      ]
+    },
+    {
+      "gua_num": 61,
+      "gua_name": "中孚",
+      "position": 1,
+      "text": "初九：虞吉，有他不燕。",
+      "judgment": 1,
+      "keywords": [
+        "+吉"
+      ]
+    },
+    {
+      "gua_num": 61,
+      "gua_name": "中孚",
+      "position": 3,
+      "text": "六三：得敵，或鼓或罷，或泣或歌。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 61,
+      "gua_name": "中孚",
+      "position": 4,
+      "text": "六四：月几望，馬匹亡，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 62,
+      "gua_name": "小過",
+      "position": 1,
+      "text": "初六：飛鳥以凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 62,
+      "gua_name": "小過",
+      "position": 2,
+      "text": "六二：過其祖，遇其妣，不及其君，遇其臣，無咎。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    },
+    {
+      "gua_num": 62,
+      "gua_name": "小過",
+      "position": 3,
+      "text": "九三：弗過防之，從或戕之，凶。",
+      "judgment": -1,
+      "keywords": [
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 62,
+      "gua_name": "小過",
+      "position": 4,
+      "text": "九四：無咎，弗過遇之。往厲必戒，勿用永貞。",
+      "judgment": -1,
+      "keywords": [
+        "+無咎",
+        "-咎",
+        "-厲"
+      ]
+    },
+    {
+      "gua_num": 62,
+      "gua_name": "小過",
+      "position": 5,
+      "text": "六五：密云不雨，自我西郊，公弋，取彼在穴。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 62,
+      "gua_name": "小過",
+      "position": 6,
+      "text": "上六：弗遇過之，飛鳥離之，凶，是謂災眚。",
+      "judgment": -1,
+      "keywords": [
+        "-凶",
+        "-災",
+        "-眚"
+      ]
+    },
+    {
+      "gua_num": 63,
+      "gua_name": "既濟",
+      "position": 5,
+      "text": "九五：東鄰殺牛，不如西鄰之禴祭，實受其福。",
+      "judgment": 0,
+      "keywords": []
+    },
+    {
+      "gua_num": 64,
+      "gua_name": "未濟",
+      "position": 1,
+      "text": "初六：濡其尾，吝。",
+      "judgment": -1,
+      "keywords": [
+        "-吝"
+      ]
+    },
+    {
+      "gua_num": 64,
+      "gua_name": "未濟",
+      "position": 2,
+      "text": "九二：曳其輪，貞吉。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉"
+      ]
+    },
+    {
+      "gua_num": 64,
+      "gua_name": "未濟",
+      "position": 3,
+      "text": "六三：未濟，征凶，利涉大川。",
+      "judgment": -1,
+      "keywords": [
+        "+利",
+        "-凶"
+      ]
+    },
+    {
+      "gua_num": 64,
+      "gua_name": "未濟",
+      "position": 4,
+      "text": "九四：貞吉，悔亡，震用伐鬼方，三年有賞于大國。",
+      "judgment": 1,
+      "keywords": [
+        "+吉",
+        "+貞吉",
+        "-悔"
+      ]
+    },
+    {
+      "gua_num": 64,
+      "gua_name": "未濟",
+      "position": 6,
+      "text": "上九：有孚于飲酒，無咎，濡其首，有孚失是。",
+      "judgment": 0,
+      "keywords": [
+        "+無咎",
+        "-咎"
+      ]
+    }
+  ],
+  "pattern_analysis": {
+    "total_special": 231,
+    "positions": [
+      3,
+      8,
+      12,
+      13,
+      14,
+      15,
+      18,
+      21,
+      22,
+      24,
+      26,
+      30,
+      31,
+      32,
+      33,
+      34,
+      36,
+      37,
+      39,
+      41,
+      42,
+      43,
+      44,
+      46,
+      49,
+      50,
+      51,
+      52,
+      55,
+      57,
+      59,
+      60,
+      61,
+      62,
+      67,
+      72,
+      74,
+      76,
+      77,
+      81,
+      84,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      95,
+      96,
+      97,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      109,
+      114,
+      116,
+      117,
+      118,
+      120,
+      121,
+      122,
+      123,
+      125,
+      128,
+      129,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      141,
+      143,
+      144,
+      145,
+      147,
+      150,
+      152,
+      153,
+      154,
+      156,
+      157,
+      158,
+      159,
+      160,
+      162,
+      165,
+      166,
+      169,
+      170,
+      173,
+      177,
+      180,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      191,
+      193,
+      194,
+      195,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      210,
+      216,
+      218,
+      220,
+      221,
+      222,
+      223,
+      226,
+      227,
+      228,
+      230,
+      233,
+      234,
+      236,
+      237,
+      240,
+      242,
+      244,
+      246,
+      247,
+      248,
+      250,
+      251,
+      253,
+      254,
+      255,
+      256,
+      259,
+      260,
+      261,
+      262,
+      263,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      274,
+      276,
+      277,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      292,
+      294,
+      297,
+      298,
+      300,
+      301,
+      302,
+      303,
+      305,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      315,
+      318,
+      319,
+      320,
+      324,
+      325,
+      327,
+      331,
+      332,
+      333,
+      335,
+      336,
+      337,
+      339,
+      340,
+      343,
+      346,
+      347,
+      348,
+      350,
+      351,
+      354,
+      356,
+      358,
+      361,
+      363,
+      364,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      377,
+      379,
+      380,
+      381,
+      382,
+      384
+    ],
+    "intervals": [
+      5,
+      4,
+      1,
+      1,
+      1,
+      3,
+      3,
+      1,
+      2,
+      2,
+      4,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      3,
+      1,
+      1,
+      1,
+      3,
+      2,
+      2,
+      1,
+      1,
+      1,
+      5,
+      5,
+      2,
+      2,
+      1,
+      4,
+      3,
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      5,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      3,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      3,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      3,
+      1,
+      3,
+      1,
+      3,
+      4,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      6,
+      2,
+      2,
+      1,
+      1,
+      1,
+      3,
+      1,
+      1,
+      2,
+      3,
+      1,
+      2,
+      1,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      3,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      3,
+      1,
+      1,
+      4,
+      1,
+      2,
+      4,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      3,
+      3,
+      1,
+      1,
+      2,
+      1,
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5,
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    "interval_distribution": {
+      "5": 5,
+      "4": 9,
+      "1": 139,
+      "3": 23,
+      "2": 53,
+      "6": 1
+    },
+    "small_interval_ratio": 99.56521739130434,
+    "large_intervals": [],
+    "fibonacci_matches": 220,
+    "fibonacci_ratio": 95.65217391304348
+  }
+}

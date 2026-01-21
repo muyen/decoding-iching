@@ -1,0 +1,143 @@
+{
+  "nature_elements": {
+    "description": "Natural phenomena associated with each trigram",
+    "mapping": {
+      "乾": "天 (Heaven)",
+      "坤": "地 (Earth)",
+      "震": "雷 (Thunder)",
+      "巽": "風 (Wind)",
+      "坎": "水 (Water)",
+      "離": "火 (Fire)",
+      "艮": "山 (Mountain)",
+      "兌": "澤 (Lake/Marsh)"
+    }
+  },
+  "family_structure": {
+    "description": "Family roles - reveals generative principle",
+    "mapping": {
+      "乾": {
+        "role": "父",
+        "generation": "parent",
+        "gender": "male"
+      },
+      "坤": {
+        "role": "母",
+        "generation": "parent",
+        "gender": "female"
+      },
+      "震": {
+        "role": "長男",
+        "generation": "child",
+        "gender": "male",
+        "birth_order": 1
+      },
+      "巽": {
+        "role": "長女",
+        "generation": "child",
+        "gender": "female",
+        "birth_order": 1
+      },
+      "坎": {
+        "role": "中男",
+        "generation": "child",
+        "gender": "male",
+        "birth_order": 2
+      },
+      "離": {
+        "role": "中女",
+        "generation": "child",
+        "gender": "female",
+        "birth_order": 2
+      },
+      "艮": {
+        "role": "少男",
+        "generation": "child",
+        "gender": "male",
+        "birth_order": 3
+      },
+      "兌": {
+        "role": "少女",
+        "generation": "child",
+        "gender": "female",
+        "birth_order": 3
+      }
+    },
+    "generative_principle": "Children are formed by one parent line entering the other: 震 = yang entering yin at bottom (first attempt), etc."
+  },
+  "attributes": {
+    "description": "Core qualities/actions",
+    "mapping": {
+      "乾": {
+        "attribute": "健",
+        "meaning": "creative strength"
+      },
+      "坤": {
+        "attribute": "順",
+        "meaning": "receptive yielding"
+      },
+      "震": {
+        "attribute": "動",
+        "meaning": "movement, action"
+      },
+      "巽": {
+        "attribute": "入",
+        "meaning": "penetration, gentle influence"
+      },
+      "坎": {
+        "attribute": "陷",
+        "meaning": "danger, depth"
+      },
+      "離": {
+        "attribute": "麗",
+        "meaning": "clarity, attachment"
+      },
+      "艮": {
+        "attribute": "止",
+        "meaning": "stillness, stopping"
+      },
+      "兌": {
+        "attribute": "說",
+        "meaning": "joy, expression"
+      }
+    }
+  },
+  "body_parts": {
+    "description": "Somatic correspondences",
+    "mapping": {
+      "乾": "首 (head)",
+      "坤": "腹 (belly)",
+      "震": "足 (foot)",
+      "巽": "股 (thigh)",
+      "坎": "耳 (ear)",
+      "離": "目 (eye)",
+      "艮": "手 (hand)",
+      "兌": "口 (mouth)"
+    }
+  },
+  "animals": {
+    "description": "Primary animal associations",
+    "mapping": {
+      "乾": "馬 (horse)",
+      "坤": "牛 (ox)",
+      "震": "龍 (dragon)",
+      "巽": "雞 (chicken)",
+      "坎": "豕 (pig)",
+      "離": "雉 (pheasant)",
+      "艮": "狗 (dog)",
+      "兌": "羊 (sheep)"
+    }
+  },
+  "directions_kingwen": {
+    "description": "後天八卦方位 (King Wen directions)",
+    "mapping": {
+      "震": "東 (East)",
+      "巽": "東南 (Southeast)",
+      "離": "南 (South)",
+      "坤": "西南 (Southwest)",
+      "兌": "西 (West)",
+      "乾": "西北 (Northwest)",
+      "坎": "北 (North)",
+      "艮": "東北 (Northeast)"
+    }
+  }
+}

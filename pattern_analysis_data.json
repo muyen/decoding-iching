@@ -1,0 +1,1846 @@
+{
+  "summary": {
+    "total_samples": 180,
+    "predictable_count": 106,
+    "special_count": 74,
+    "accuracy": 0.5888888888888889
+  },
+  "special_yaos": [
+    {
+      "gua_num": 2,
+      "gua_name": "坤",
+      "yao_pos": 1,
+      "binary": "000000",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 7,
+      "grid_x": 0,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "yao_pos": 2,
+      "binary": "010001",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 14,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "yao_pos": 3,
+      "binary": "010001",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 15,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "yao_pos": 4,
+      "binary": "010001",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 16,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "yao_pos": 5,
+      "binary": "010001",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 17,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "yao_pos": 3,
+      "binary": "100010",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 21,
+      "grid_x": 4,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "yao_pos": 4,
+      "binary": "100010",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 22,
+      "grid_x": 4,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "yao_pos": 6,
+      "binary": "100010",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 24,
+      "grid_x": 4,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 5,
+      "gua_name": "需",
+      "yao_pos": 3,
+      "binary": "010111",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 27,
+      "grid_x": 2,
+      "grid_y": 7
+    },
+    {
+      "gua_num": 5,
+      "gua_name": "需",
+      "yao_pos": 4,
+      "binary": "010111",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 28,
+      "grid_x": 2,
+      "grid_y": 7
+    },
+    {
+      "gua_num": 5,
+      "gua_name": "需",
+      "yao_pos": 6,
+      "binary": "010111",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 30,
+      "grid_x": 2,
+      "grid_y": 7
+    },
+    {
+      "gua_num": 6,
+      "gua_name": "訟",
+      "yao_pos": 2,
+      "binary": "111010",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 32,
+      "grid_x": 7,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 15,
+      "gua_name": "謙",
+      "yao_pos": 5,
+      "binary": "000100",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 89,
+      "grid_x": 0,
+      "grid_y": 4
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "yao_pos": 2,
+      "binary": "011001",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 98,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "yao_pos": 3,
+      "binary": "011001",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 99,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "yao_pos": 5,
+      "binary": "011001",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 101,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "yao_pos": 6,
+      "binary": "011001",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 102,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "yao_pos": 1,
+      "binary": "110000",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 115,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "yao_pos": 3,
+      "binary": "110000",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 117,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "yao_pos": 4,
+      "binary": "110000",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 118,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "yao_pos": 6,
+      "binary": "110000",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 120,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "yao_pos": 1,
+      "binary": "000001",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 139,
+      "grid_x": 0,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "yao_pos": 5,
+      "binary": "000001",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 143,
+      "grid_x": 0,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "yao_pos": 6,
+      "binary": "000001",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 144,
+      "grid_x": 0,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "yao_pos": 1,
+      "binary": "111001",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 145,
+      "grid_x": 7,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "yao_pos": 3,
+      "binary": "111001",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 147,
+      "grid_x": 7,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "yao_pos": 5,
+      "binary": "111001",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 149,
+      "grid_x": 7,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "yao_pos": 1,
+      "binary": "111100",
+      "actual_result": -1,
+      "structure_prediction": 1,
+      "linear_position": 193,
+      "grid_x": 7,
+      "grid_y": 4
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "yao_pos": 4,
+      "binary": "111100",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 196,
+      "grid_x": 7,
+      "grid_y": 4
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "yao_pos": 6,
+      "binary": "111100",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 198,
+      "grid_x": 7,
+      "grid_y": 4
+    },
+    {
+      "gua_num": 47,
+      "gua_name": "困",
+      "yao_pos": 4,
+      "binary": "011010",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 280,
+      "grid_x": 3,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 47,
+      "gua_name": "困",
+      "yao_pos": 6,
+      "binary": "011010",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 282,
+      "grid_x": 3,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "yao_pos": 2,
+      "binary": "101110",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 296,
+      "grid_x": 5,
+      "grid_y": 6
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "yao_pos": 4,
+      "binary": "101110",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 298,
+      "grid_x": 5,
+      "grid_y": 6
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "yao_pos": 6,
+      "binary": "101110",
+      "actual_result": 1,
+      "structure_prediction": -1,
+      "linear_position": 300,
+      "grid_x": 5,
+      "grid_y": 6
+    },
+    {
+      "gua_num": 63,
+      "gua_name": "既濟",
+      "yao_pos": 1,
+      "binary": "010101",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 373,
+      "grid_x": 2,
+      "grid_y": 5
+    },
+    {
+      "gua_num": 63,
+      "gua_name": "既濟",
+      "yao_pos": 5,
+      "binary": "010101",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 377,
+      "grid_x": 2,
+      "grid_y": 5
+    },
+    {
+      "gua_num": 2,
+      "gua_name": "坤",
+      "yao_pos": 1,
+      "binary": "000000",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 7,
+      "grid_x": 0,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "yao_pos": 2,
+      "binary": "010001",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 14,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "yao_pos": 3,
+      "binary": "010001",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 15,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "yao_pos": 4,
+      "binary": "010001",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 16,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 3,
+      "gua_name": "屯",
+      "yao_pos": 5,
+      "binary": "010001",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 17,
+      "grid_x": 2,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "yao_pos": 3,
+      "binary": "100010",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 21,
+      "grid_x": 4,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "yao_pos": 4,
+      "binary": "100010",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 22,
+      "grid_x": 4,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 4,
+      "gua_name": "蒙",
+      "yao_pos": 6,
+      "binary": "100010",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 24,
+      "grid_x": 4,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 5,
+      "gua_name": "需",
+      "yao_pos": 3,
+      "binary": "010111",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 27,
+      "grid_x": 2,
+      "grid_y": 7
+    },
+    {
+      "gua_num": 5,
+      "gua_name": "需",
+      "yao_pos": 4,
+      "binary": "010111",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 28,
+      "grid_x": 2,
+      "grid_y": 7
+    },
+    {
+      "gua_num": 5,
+      "gua_name": "需",
+      "yao_pos": 6,
+      "binary": "010111",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 30,
+      "grid_x": 2,
+      "grid_y": 7
+    },
+    {
+      "gua_num": 6,
+      "gua_name": "訟",
+      "yao_pos": 2,
+      "binary": "111010",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 32,
+      "grid_x": 7,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 15,
+      "gua_name": "謙",
+      "yao_pos": 5,
+      "binary": "000100",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 89,
+      "grid_x": 0,
+      "grid_y": 4
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "yao_pos": 2,
+      "binary": "011001",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 98,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "yao_pos": 3,
+      "binary": "011001",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 99,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "yao_pos": 5,
+      "binary": "011001",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 101,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 17,
+      "gua_name": "隨",
+      "yao_pos": 6,
+      "binary": "011001",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 102,
+      "grid_x": 3,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "yao_pos": 1,
+      "binary": "110000",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 115,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "yao_pos": 3,
+      "binary": "110000",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 117,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "yao_pos": 4,
+      "binary": "110000",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 118,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 20,
+      "gua_name": "觀",
+      "yao_pos": 6,
+      "binary": "110000",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 120,
+      "grid_x": 6,
+      "grid_y": 0
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "yao_pos": 1,
+      "binary": "000001",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 139,
+      "grid_x": 0,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "yao_pos": 5,
+      "binary": "000001",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 143,
+      "grid_x": 0,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 24,
+      "gua_name": "復",
+      "yao_pos": 6,
+      "binary": "000001",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 144,
+      "grid_x": 0,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "yao_pos": 1,
+      "binary": "111001",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 145,
+      "grid_x": 7,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "yao_pos": 3,
+      "binary": "111001",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 147,
+      "grid_x": 7,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 25,
+      "gua_name": "無妄",
+      "yao_pos": 5,
+      "binary": "111001",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 149,
+      "grid_x": 7,
+      "grid_y": 1
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "yao_pos": 1,
+      "binary": "111100",
+      "actual_result": -1,
+      "structure_prediction": 1,
+      "linear_position": 193,
+      "grid_x": 7,
+      "grid_y": 4
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "yao_pos": 4,
+      "binary": "111100",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 196,
+      "grid_x": 7,
+      "grid_y": 4
+    },
+    {
+      "gua_num": 33,
+      "gua_name": "遯",
+      "yao_pos": 6,
+      "binary": "111100",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 198,
+      "grid_x": 7,
+      "grid_y": 4
+    },
+    {
+      "gua_num": 47,
+      "gua_name": "困",
+      "yao_pos": 4,
+      "binary": "011010",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 280,
+      "grid_x": 3,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 47,
+      "gua_name": "困",
+      "yao_pos": 6,
+      "binary": "011010",
+      "actual_result": 0,
+      "structure_prediction": -1,
+      "linear_position": 282,
+      "grid_x": 3,
+      "grid_y": 2
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "yao_pos": 2,
+      "binary": "101110",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 296,
+      "grid_x": 5,
+      "grid_y": 6
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "yao_pos": 4,
+      "binary": "101110",
+      "actual_result": -1,
+      "structure_prediction": 0,
+      "linear_position": 298,
+      "grid_x": 5,
+      "grid_y": 6
+    },
+    {
+      "gua_num": 50,
+      "gua_name": "鼎",
+      "yao_pos": 6,
+      "binary": "101110",
+      "actual_result": 1,
+      "structure_prediction": -1,
+      "linear_position": 300,
+      "grid_x": 5,
+      "grid_y": 6
+    },
+    {
+      "gua_num": 63,
+      "gua_name": "既濟",
+      "yao_pos": 1,
+      "binary": "010101",
+      "actual_result": 1,
+      "structure_prediction": 0,
+      "linear_position": 373,
+      "grid_x": 2,
+      "grid_y": 5
+    },
+    {
+      "gua_num": 63,
+      "gua_name": "既濟",
+      "yao_pos": 5,
+      "binary": "010101",
+      "actual_result": 0,
+      "structure_prediction": 1,
+      "linear_position": 377,
+      "grid_x": 2,
+      "grid_y": 5
+    }
+  ],
+  "linear_analysis": {
+    "total_samples": 180,
+    "special_count": 74,
+    "special_positions": [
+      7,
+      7,
+      14,
+      14,
+      15,
+      15,
+      16,
+      16,
+      17,
+      17,
+      21,
+      21,
+      22,
+      22,
+      24,
+      24,
+      27,
+      27,
+      28,
+      28,
+      30,
+      30,
+      32,
+      32,
+      89,
+      89,
+      98,
+      98,
+      99,
+      99,
+      101,
+      101,
+      102,
+      102,
+      115,
+      115,
+      117,
+      117,
+      118,
+      118,
+      120,
+      120,
+      139,
+      139,
+      143,
+      143,
+      144,
+      144,
+      145,
+      145,
+      147,
+      147,
+      149,
+      149,
+      193,
+      193,
+      196,
+      196,
+      198,
+      198,
+      280,
+      280,
+      282,
+      282,
+      296,
+      296,
+      298,
+      298,
+      300,
+      300,
+      373,
+      373,
+      377,
+      377
+    ],
+    "intervals": [
+      0,
+      7,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      4,
+      0,
+      1,
+      0,
+      2,
+      0,
+      3,
+      0,
+      1,
+      0,
+      2,
+      0,
+      2,
+      0,
+      57,
+      0,
+      9,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      0,
+      13,
+      0,
+      2,
+      0,
+      1,
+      0,
+      2,
+      0,
+      19,
+      0,
+      4,
+      0,
+      1,
+      0,
+      1,
+      0,
+      2,
+      0,
+      2,
+      0,
+      44,
+      0,
+      3,
+      0,
+      2,
+      0,
+      82,
+      0,
+      2,
+      0,
+      14,
+      0,
+      2,
+      0,
+      2,
+      0,
+      73,
+      0,
+      4,
+      0
+    ],
+    "fibonacci_matches": [
+      {
+        "position_pair": [
+          14,
+          15
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          15,
+          16
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          16,
+          17
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          21,
+          22
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          22,
+          24
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          24,
+          27
+        ],
+        "interval": 3,
+        "fibonacci_index": 3
+      },
+      {
+        "position_pair": [
+          27,
+          28
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          28,
+          30
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          30,
+          32
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          98,
+          99
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          99,
+          101
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          101,
+          102
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          102,
+          115
+        ],
+        "interval": 13,
+        "fibonacci_index": 6
+      },
+      {
+        "position_pair": [
+          115,
+          117
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          117,
+          118
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          118,
+          120
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          143,
+          144
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          144,
+          145
+        ],
+        "interval": 1,
+        "fibonacci_index": 0
+      },
+      {
+        "position_pair": [
+          145,
+          147
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          147,
+          149
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          193,
+          196
+        ],
+        "interval": 3,
+        "fibonacci_index": 3
+      },
+      {
+        "position_pair": [
+          196,
+          198
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          280,
+          282
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          296,
+          298
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      },
+      {
+        "position_pair": [
+          298,
+          300
+        ],
+        "interval": 2,
+        "fibonacci_index": 2
+      }
+    ],
+    "golden_ratio_analysis": {
+      "golden_point": 237.33,
+      "special_near_golden": [],
+      "phi": 1.618033988749895
+    },
+    "periodicity": {
+      "mod_7": {
+        "0": 16,
+        "1": 8,
+        "2": 14,
+        "3": 10,
+        "6": 10,
+        "4": 10,
+        "5": 6
+      },
+      "mod_8": {
+        "7": 6,
+        "6": 12,
+        "0": 14,
+        "1": 10,
+        "5": 10,
+        "3": 10,
+        "4": 6,
+        "2": 6
+      },
+      "mod_12": {
+        "7": 6,
+        "2": 4,
+        "3": 8,
+        "4": 8,
+        "5": 10,
+        "9": 4,
+        "10": 6,
+        "0": 8,
+        "6": 8,
+        "8": 4,
+        "11": 2,
+        "1": 6
+      },
+      "mod_24": {
+        "7": 2,
+        "14": 2,
+        "15": 2,
+        "16": 4,
+        "17": 6,
+        "21": 4,
+        "22": 4,
+        "0": 6,
+        "3": 6,
+        "4": 4,
+        "6": 6,
+        "8": 4,
+        "2": 2,
+        "5": 4,
+        "19": 4,
+        "23": 2,
+        "1": 4,
+        "18": 2,
+        "10": 2,
+        "12": 2,
+        "13": 2
+      },
+      "mod_60": {
+        "7": 2,
+        "14": 2,
+        "15": 2,
+        "16": 4,
+        "17": 4,
+        "21": 2,
+        "22": 2,
+        "24": 4,
+        "27": 4,
+        "28": 2,
+        "30": 2,
+        "32": 2,
+        "29": 4,
+        "38": 2,
+        "39": 2,
+        "41": 2,
+        "42": 4,
+        "55": 2,
+        "57": 2,
+        "58": 4,
+        "0": 4,
+        "19": 2,
+        "23": 2,
+        "25": 2,
+        "13": 4,
+        "18": 2,
+        "40": 2,
+        "56": 2
+      }
+    }
+  },
+  "bagua_analysis": {
+    "quadrant_analysis": {
+      "Q1_upper_right": {
+        "range": [
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "total": 36,
+        "special": 12
+      },
+      "Q2_upper_left": {
+        "range": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "total": 36,
+        "special": 12
+      },
+      "Q3_lower_left": {
+        "range": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "total": 60,
+        "special": 28
+      },
+      "Q4_lower_right": {
+        "range": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "total": 48,
+        "special": 22
+      }
+    },
+    "diagonal_analysis": {
+      "main_diagonal": {
+        "total": 24,
+        "special": 2
+      },
+      "anti_diagonal": {
+        "total": 12,
+        "special": 4
+      }
+    }
+  },
+  "mathematical_patterns": {
+    "fibonacci_correlation": {
+      "matches": 14,
+      "total": 74,
+      "ratio": 0.1891891891891892
+    },
+    "golden_ratio": {
+      "golden_positions": [
+        237,
+        147,
+        91,
+        56,
+        35,
+        21,
+        13,
+        8,
+        5
+      ],
+      "matches": 4,
+      "positions": [
+        7,
+        7,
+        14,
+        14,
+        15,
+        15,
+        16,
+        16,
+        17,
+        17,
+        21,
+        21,
+        22,
+        22,
+        24,
+        24,
+        27,
+        27,
+        28,
+        28,
+        30,
+        30,
+        32,
+        32,
+        89,
+        89,
+        98,
+        98,
+        99,
+        99,
+        101,
+        101,
+        102,
+        102,
+        115,
+        115,
+        117,
+        117,
+        118,
+        118,
+        120,
+        120,
+        139,
+        139,
+        143,
+        143,
+        144,
+        144,
+        145,
+        145,
+        147,
+        147,
+        149,
+        149,
+        193,
+        193,
+        196,
+        196,
+        198,
+        198,
+        280,
+        280,
+        282,
+        282,
+        296,
+        296,
+        298,
+        298,
+        300,
+        300,
+        373,
+        373,
+        377,
+        377
+      ]
+    },
+    "prime_numbers": {
+      "prime_positions": [
+        7,
+        7,
+        17,
+        17,
+        89,
+        89,
+        101,
+        101,
+        139,
+        139,
+        149,
+        149,
+        193,
+        193,
+        373,
+        373
+      ],
+      "prime_count": 16,
+      "prime_ratio": 0.21621621621621623
+    },
+    "modular_patterns": {}
+  },
+  "solar_terms": {
+    "gua_to_term_mapping": {
+      "1": {
+        "term_index": 0,
+        "term_name": "立春"
+      },
+      "2": {
+        "term_index": 0,
+        "term_name": "立春"
+      },
+      "3": {
+        "term_index": 0,
+        "term_name": "立春"
+      },
+      "4": {
+        "term_index": 1,
+        "term_name": "雨水"
+      },
+      "5": {
+        "term_index": 1,
+        "term_name": "雨水"
+      },
+      "6": {
+        "term_index": 1,
+        "term_name": "雨水"
+      },
+      "7": {
+        "term_index": 2,
+        "term_name": "驚蟄"
+      },
+      "8": {
+        "term_index": 2,
+        "term_name": "驚蟄"
+      },
+      "9": {
+        "term_index": 2,
+        "term_name": "驚蟄"
+      },
+      "10": {
+        "term_index": 3,
+        "term_name": "春分"
+      },
+      "11": {
+        "term_index": 3,
+        "term_name": "春分"
+      },
+      "12": {
+        "term_index": 3,
+        "term_name": "春分"
+      },
+      "13": {
+        "term_index": 4,
+        "term_name": "清明"
+      },
+      "14": {
+        "term_index": 4,
+        "term_name": "清明"
+      },
+      "15": {
+        "term_index": 4,
+        "term_name": "清明"
+      },
+      "16": {
+        "term_index": 5,
+        "term_name": "穀雨"
+      },
+      "17": {
+        "term_index": 5,
+        "term_name": "穀雨"
+      },
+      "18": {
+        "term_index": 5,
+        "term_name": "穀雨"
+      },
+      "19": {
+        "term_index": 6,
+        "term_name": "立夏"
+      },
+      "20": {
+        "term_index": 6,
+        "term_name": "立夏"
+      },
+      "21": {
+        "term_index": 6,
+        "term_name": "立夏"
+      },
+      "22": {
+        "term_index": 7,
+        "term_name": "小滿"
+      },
+      "23": {
+        "term_index": 7,
+        "term_name": "小滿"
+      },
+      "24": {
+        "term_index": 7,
+        "term_name": "小滿"
+      },
+      "25": {
+        "term_index": 8,
+        "term_name": "芒種"
+      },
+      "26": {
+        "term_index": 8,
+        "term_name": "芒種"
+      },
+      "27": {
+        "term_index": 8,
+        "term_name": "芒種"
+      },
+      "28": {
+        "term_index": 9,
+        "term_name": "夏至"
+      },
+      "29": {
+        "term_index": 9,
+        "term_name": "夏至"
+      },
+      "30": {
+        "term_index": 9,
+        "term_name": "夏至"
+      },
+      "31": {
+        "term_index": 10,
+        "term_name": "小暑"
+      },
+      "32": {
+        "term_index": 10,
+        "term_name": "小暑"
+      },
+      "33": {
+        "term_index": 10,
+        "term_name": "小暑"
+      },
+      "34": {
+        "term_index": 11,
+        "term_name": "大暑"
+      },
+      "35": {
+        "term_index": 11,
+        "term_name": "大暑"
+      },
+      "36": {
+        "term_index": 11,
+        "term_name": "大暑"
+      },
+      "37": {
+        "term_index": 12,
+        "term_name": "立秋"
+      },
+      "38": {
+        "term_index": 12,
+        "term_name": "立秋"
+      },
+      "39": {
+        "term_index": 12,
+        "term_name": "立秋"
+      },
+      "40": {
+        "term_index": 13,
+        "term_name": "處暑"
+      },
+      "41": {
+        "term_index": 13,
+        "term_name": "處暑"
+      },
+      "42": {
+        "term_index": 13,
+        "term_name": "處暑"
+      },
+      "43": {
+        "term_index": 14,
+        "term_name": "白露"
+      },
+      "44": {
+        "term_index": 14,
+        "term_name": "白露"
+      },
+      "45": {
+        "term_index": 14,
+        "term_name": "白露"
+      },
+      "46": {
+        "term_index": 15,
+        "term_name": "秋分"
+      },
+      "47": {
+        "term_index": 15,
+        "term_name": "秋分"
+      },
+      "48": {
+        "term_index": 15,
+        "term_name": "秋分"
+      },
+      "49": {
+        "term_index": 16,
+        "term_name": "寒露"
+      },
+      "50": {
+        "term_index": 16,
+        "term_name": "寒露"
+      },
+      "51": {
+        "term_index": 16,
+        "term_name": "寒露"
+      },
+      "52": {
+        "term_index": 17,
+        "term_name": "霜降"
+      },
+      "53": {
+        "term_index": 17,
+        "term_name": "霜降"
+      },
+      "54": {
+        "term_index": 17,
+        "term_name": "霜降"
+      },
+      "55": {
+        "term_index": 18,
+        "term_name": "立冬"
+      },
+      "56": {
+        "term_index": 18,
+        "term_name": "立冬"
+      },
+      "57": {
+        "term_index": 18,
+        "term_name": "立冬"
+      },
+      "58": {
+        "term_index": 19,
+        "term_name": "小雪"
+      },
+      "59": {
+        "term_index": 19,
+        "term_name": "小雪"
+      },
+      "60": {
+        "term_index": 19,
+        "term_name": "小雪"
+      },
+      "61": {
+        "term_index": 20,
+        "term_name": "大雪"
+      },
+      "62": {
+        "term_index": 20,
+        "term_name": "大雪"
+      },
+      "63": {
+        "term_index": 20,
+        "term_name": "大雪"
+      },
+      "64": {
+        "term_index": 21,
+        "term_name": "冬至"
+      }
+    },
+    "special_in_term": {
+      "立春": {
+        "special": 10,
+        "total": 36,
+        "ratio": 0.2777777777777778
+      },
+      "雨水": {
+        "special": 14,
+        "total": 36,
+        "ratio": 0.3888888888888889
+      },
+      "驚蟄": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "春分": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "清明": {
+        "special": 2,
+        "total": 12,
+        "ratio": 0.16666666666666666
+      },
+      "穀雨": {
+        "special": 8,
+        "total": 12,
+        "ratio": 0.6666666666666666
+      },
+      "立夏": {
+        "special": 8,
+        "total": 12,
+        "ratio": 0.6666666666666666
+      },
+      "小滿": {
+        "special": 6,
+        "total": 12,
+        "ratio": 0.5
+      },
+      "芒種": {
+        "special": 6,
+        "total": 12,
+        "ratio": 0.5
+      },
+      "夏至": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "小暑": {
+        "special": 6,
+        "total": 12,
+        "ratio": 0.5
+      },
+      "大暑": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "立秋": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "處暑": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "白露": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "秋分": {
+        "special": 4,
+        "total": 12,
+        "ratio": 0.3333333333333333
+      },
+      "寒露": {
+        "special": 6,
+        "total": 12,
+        "ratio": 0.5
+      },
+      "霜降": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "立冬": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "小雪": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "大雪": {
+        "special": 4,
+        "total": 12,
+        "ratio": 0.3333333333333333
+      },
+      "冬至": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "小寒": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      },
+      "大寒": {
+        "special": 0,
+        "total": 0,
+        "ratio": 0
+      }
+    }
+  }
+}

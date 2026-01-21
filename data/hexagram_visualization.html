@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Ching 64 Hexagrams Visualization</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+        }
+        h1 { text-align: center; margin-bottom: 20px; color: #ffd700; }
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .controls select, .controls input {
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 4px;
+            border: none;
+            background: #16213e;
+            color: #eee;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hexagram {
+            background: #16213e;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .hexagram:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+        }
+        .hexagram.selected {
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            border: 2px solid #ffd700;
+        }
+        .hex-number {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+        .hex-symbol {
+            font-size: 24px;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+        .hex-line {
+            width: 40px;
+            height: 4px;
+            margin: 3px auto;
+            background: #ffd700;
+        }
+        .hex-line.yin {
+            background: linear-gradient(90deg, #ffd700 35%, transparent 35%, transparent 65%, #ffd700 65%);
+        }
+        .hex-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffd700;
+            margin-top: 5px;
+        }
+        .hex-trigrams {
+            font-size: 11px;
+            color: #888;
+            margin-top: 3px;
+        }
+        .detail-panel {
+            position: fixed;
+            right: 20px;
+            top: 100px;
+            width: 300px;
+            background: #16213e;
+            border-radius: 8px;
+            padding: 20px;
+            display: none;
+        }
+        .detail-panel.show { display: block; }
+        .detail-panel h2 { color: #ffd700; margin-bottom: 15px; }
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid #333;
+        }
+        .yang-count {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            font-size: 11px;
+            margin-left: 5px;
+        }
+        .yang-0 { background: #000; }
+        .yang-1 { background: #1a1a1a; }
+        .yang-2 { background: #333; }
+        .yang-3 { background: #666; }
+        .yang-4 { background: #999; }
+        .yang-5 { background: #ccc; color: #000; }
+        .yang-6 { background: #fff; color: #000; }
+        .filter-info {
+            text-align: center;
+            margin: 10px 0;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>周易六十四卦 · 64 Hexagrams</h1>
+
+    <div class="controls">
+        <select id="orderSelect" onchange="reorder()">
+            <option value="kingwen">文王序 King Wen</option>
+            <option value="fuxi">先天 Fu Xi (Binary)</option>
+            <option value="mawangdui">馬王堆 Mawangdui</option>
+        </select>
+        <select id="filterTrigram" onchange="filterHexagrams()">
+            <option value="">All Trigrams</option>
+            <option value="乾">乾 (Heaven)</option>
+            <option value="坤">坤 (Earth)</option>
+            <option value="震">震 (Thunder)</option>
+            <option value="巽">巽 (Wind)</option>
+            <option value="坎">坎 (Water)</option>
+            <option value="離">離 (Fire)</option>
+            <option value="艮">艮 (Mountain)</option>
+            <option value="兌">兌 (Lake)</option>
+        </select>
+        <select id="filterYang" onchange="filterHexagrams()">
+            <option value="">All Yang Counts</option>
+            <option value="0">0 Yang</option>
+            <option value="1">1 Yang</option>
+            <option value="2">2 Yang</option>
+            <option value="3">3 Yang</option>
+            <option value="4">4 Yang</option>
+            <option value="5">5 Yang</option>
+            <option value="6">6 Yang</option>
+        </select>
+    </div>
+
+    <div class="filter-info" id="filterInfo"></div>
+
+    <div class="grid" id="hexagramGrid"></div>
+
+    <div class="detail-panel" id="detailPanel">
+        <h2 id="detailName"></h2>
+        <div id="detailContent"></div>
+    </div>
+
+    <script>
+    const hexagrams = [{"id": 1, "king_wen_number": 1, "name": "乾", "pinyin": null, "english": null, "binary_repr": "111111", "decimal_value": 63, "fuxi_position": 63, "mawangdui_position": 1, "upper_trigram_id": 1, "lower_trigram_id": 1, "nuclear_upper_id": 1, "nuclear_lower_id": 1, "inverse_hexagram_id": 1, "complement_hexagram_id": 2, "is_symmetric": 1, "yang_count": 6, "yin_count": 0, "canon": "upper", "pair_number": 1, "upper_trigram": "乾", "upper_nature": null, "lower_trigram": "乾", "lower_nature": null}, {"id": 2, "king_wen_number": 2, "name": "坤", "pinyin": null, "english": null, "binary_repr": "000000", "decimal_value": 0, "fuxi_position": 0, "mawangdui_position": 33, "upper_trigram_id": 2, "lower_trigram_id": 2, "nuclear_upper_id": 2, "nuclear_lower_id": 2, "inverse_hexagram_id": 2, "complement_hexagram_id": 1, "is_symmetric": 1, "yang_count": 0, "yin_count": 6, "canon": "upper", "pair_number": 1, "upper_trigram": "坤", "upper_nature": null, "lower_trigram": "坤", "lower_nature": null}, {"id": 3, "king_wen_number": 3, "name": "屯", "pinyin": null, "english": null, "binary_repr": "100010", "decimal_value": 34, "fuxi_position": 17, "mawangdui_position": 23, "upper_trigram_id": 5, "lower_trigram_id": 3, "nuclear_upper_id": 7, "nuclear_lower_id": 2, "inverse_hexagram_id": 4, "complement_hexagram_id": 50, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "upper", "pair_number": 2, "upper_trigram": "坎", "upper_nature": null, "lower_trigram": "震", "lower_nature": null}, {"id": 4, "king_wen_number": 4, "name": "蒙", "pinyin": null, "english": null, "binary_repr": "010001", "decimal_value": 17, "fuxi_position": 34, "mawangdui_position": 13, "upper_trigram_id": 7, "lower_trigram_id": 5, "nuclear_upper_id": 2, "nuclear_lower_id": 3, "inverse_hexagram_id": 3, "complement_hexagram_id": 49, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "upper", "pair_number": 2, "upper_trigram": "艮", "upper_nature": null, "lower_trigram": "坎", "lower_nature": null}, {"id": 5, "king_wen_number": 5, "name": "需", "pinyin": null, "english": null, "binary_repr": "111010", "decimal_value": 58, "fuxi_position": 23, "mawangdui_position": 18, "upper_trigram_id": 5, "lower_trigram_id": 1, "nuclear_upper_id": 6, "nuclear_lower_id": 8, "inverse_hexagram_id": 6, "complement_hexagram_id": 35, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "upper", "pair_number": 3, "upper_trigram": "坎", "upper_nature": null, "lower_trigram": "乾", "lower_nature": null}, {"id": 6, "king_wen_number": 6, "name": "訟", "pinyin": null, "english": null, "binary_repr": "010111", "decimal_value": 23, "fuxi_position": 58, "mawangdui_position": 5, "upper_trigram_id": 1, "lower_trigram_id": 5, "nuclear_upper_id": 4, "nuclear_lower_id": 6, "inverse_hexagram_id": 5, "complement_hexagram_id": 36, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "upper", "pair_number": 3, "upper_trigram": "乾", "upper_nature": null, "lower_trigram": "坎", "lower_nature": null}, {"id": 7, "king_wen_number": 7, "name": "師", "pinyin": null, "english": null, "binary_repr": "010000", "decimal_value": 16, "fuxi_position": 2, "mawangdui_position": 37, "upper_trigram_id": 2, "lower_trigram_id": 5, "nuclear_upper_id": 2, "nuclear_lower_id": 3, "inverse_hexagram_id": 8, "complement_hexagram_id": 13, "is_symmetric": 0, "yang_count": 1, "yin_count": 5, "canon": "upper", "pair_number": 4, "upper_trigram": "坤", "upper_nature": null, "lower_trigram": "坎", "lower_nature": null}, {"id": 8, "king_wen_number": 8, "name": "比", "pinyin": null, "english": null, "binary_repr": "000010", "decimal_value": 2, "fuxi_position": 16, "mawangdui_position": 19, "upper_trigram_id": 5, "lower_trigram_id": 2, "nuclear_upper_id": 7, "nuclear_lower_id": 2, "inverse_hexagram_id": 7, "complement_hexagram_id": 14, "is_symmetric": 0, "yang_count": 1, "yin_count": 5, "canon": "upper", "pair_number": 4, "upper_trigram": "坎", "upper_nature": null, "lower_trigram": "坤", "lower_nature": null}, {"id": 9, "king_wen_number": 9, "name": "小畜", "pinyin": null, "english": null, "binary_repr": "111011", "decimal_value": 59, "fuxi_position": 55, "mawangdui_position": 58, "upper_trigram_id": 4, "lower_trigram_id": 1, "nuclear_upper_id": 6, "nuclear_lower_id": 8, "inverse_hexagram_id": 10, "complement_hexagram_id": 16, "is_symmetric": 0, "yang_count": 5, "yin_count": 1, "canon": "upper", "pair_number": 5, "upper_trigram": "巽", "upper_nature": null, "lower_trigram": "乾", "lower_nature": null}, {"id": 10, "king_wen_number": 10, "name": "履", "pinyin": null, "english": null, "binary_repr": "110111", "decimal_value": 55, "fuxi_position": 59, "mawangdui_position": 4, "upper_trigram_id": 1, "lower_trigram_id": 8, "nuclear_upper_id": 4, "nuclear_lower_id": 6, "inverse_hexagram_id": 9, "complement_hexagram_id": 15, "is_symmetric": 0, "yang_count": 5, "yin_count": 1, "canon": "upper", "pair_number": 5, "upper_trigram": "乾", "upper_nature": null, "lower_trigram": "兌", "lower_nature": null}, {"id": 11, "king_wen_number": 11, "name": "泰", "pinyin": null, "english": null, "binary_repr": "111000", "decimal_value": 56, "fuxi_position": 7, "mawangdui_position": 34, "upper_trigram_id": 2, "lower_trigram_id": 1, "nuclear_upper_id": 3, "nuclear_lower_id": 8, "inverse_hexagram_id": 12, "complement_hexagram_id": 12, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "upper", "pair_number": 6, "upper_trigram": "坤", "upper_nature": null, "lower_trigram": "乾", "lower_nature": null}, {"id": 12, "king_wen_number": 12, "name": "否", "pinyin": null, "english": null, "binary_repr": "000111", "decimal_value": 7, "fuxi_position": 56, "mawangdui_position": 2, "upper_trigram_id": 1, "lower_trigram_id": 2, "nuclear_upper_id": 4, "nuclear_lower_id": 7, "inverse_hexagram_id": 11, "complement_hexagram_id": 11, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "upper", "pair_number": 6, "upper_trigram": "乾", "upper_nature": null, "lower_trigram": "坤", "lower_nature": null}, {"id": 13, "king_wen_number": 13, "name": "同人", "pinyin": null, "english": null, "binary_repr": "101111", "decimal_value": 47, "fuxi_position": 61, "mawangdui_position": 6, "upper_trigram_id": 1, "lower_trigram_id": 6, "nuclear_upper_id": 1, "nuclear_lower_id": 4, "inverse_hexagram_id": 14, "complement_hexagram_id": 7, "is_symmetric": 0, "yang_count": 5, "yin_count": 1, "canon": "upper", "pair_number": 7, "upper_trigram": "乾", "upper_nature": null, "lower_trigram": "離", "lower_nature": null}, {"id": 14, "king_wen_number": 14, "name": "大有", "pinyin": null, "english": null, "binary_repr": "111101", "decimal_value": 61, "fuxi_position": 47, "mawangdui_position": 50, "upper_trigram_id": 6, "lower_trigram_id": 1, "nuclear_upper_id": 8, "nuclear_lower_id": 1, "inverse_hexagram_id": 13, "complement_hexagram_id": 8, "is_symmetric": 0, "yang_count": 5, "yin_count": 1, "canon": "upper", "pair_number": 7, "upper_trigram": "離", "upper_nature": null, "lower_trigram": "乾", "lower_nature": null}, {"id": 15, "king_wen_number": 15, "name": "謙", "pinyin": null, "english": null, "binary_repr": "001000", "decimal_value": 8, "fuxi_position": 4, "mawangdui_position": 35, "upper_trigram_id": 2, "lower_trigram_id": 7, "nuclear_upper_id": 3, "nuclear_lower_id": 5, "inverse_hexagram_id": 16, "complement_hexagram_id": 10, "is_symmetric": 0, "yang_count": 1, "yin_count": 5, "canon": "upper", "pair_number": 8, "upper_trigram": "坤", "upper_nature": null, "lower_trigram": "艮", "lower_nature": null}, {"id": 16, "king_wen_number": 16, "name": "豫", "pinyin": null, "english": null, "binary_repr": "000100", "decimal_value": 4, "fuxi_position": 8, "mawangdui_position": 27, "upper_trigram_id": 3, "lower_trigram_id": 2, "nuclear_upper_id": 5, "nuclear_lower_id": 7, "inverse_hexagram_id": 15, "complement_hexagram_id": 9, "is_symmetric": 0, "yang_count": 1, "yin_count": 5, "canon": "upper", "pair_number": 8, "upper_trigram": "震", "upper_nature": null, "lower_trigram": "坤", "lower_nature": null}, {"id": 17, "king_wen_number": 17, "name": "隨", "pinyin": null, "english": null, "binary_repr": "100110", "decimal_value": 38, "fuxi_position": 25, "mawangdui_position": 47, "upper_trigram_id": 8, "lower_trigram_id": 3, "nuclear_upper_id": 4, "nuclear_lower_id": 7, "inverse_hexagram_id": 18, "complement_hexagram_id": 18, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "upper", "pair_number": 9, "upper_trigram": "兌", "upper_nature": null, "lower_trigram": "震", "lower_nature": null}, {"id": 18, "king_wen_number": 18, "name": "蠱", "pinyin": null, "english": null, "binary_repr": "011001", "decimal_value": 25, "fuxi_position": 38, "mawangdui_position": 16, "upper_trigram_id": 7, "lower_trigram_id": 4, "nuclear_upper_id": 3, "nuclear_lower_id": 8, "inverse_hexagram_id": 17, "complement_hexagram_id": 17, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "upper", "pair_number": 9, "upper_trigram": "艮", "upper_nature": null, "lower_trigram": "巽", "lower_nature": null}, {"id": 19, "king_wen_number": 19, "name": "臨", "pinyin": null, "english": null, "binary_repr": "110000", "decimal_value": 48, "fuxi_position": 3, "mawangdui_position": 36, "upper_trigram_id": 2, "lower_trigram_id": 8, "nuclear_upper_id": 2, "nuclear_lower_id": 3, "inverse_hexagram_id": 20, "complement_hexagram_id": 33, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "upper", "pair_number": 10, "upper_trigram": "坤", "upper_nature": null, "lower_trigram": "兌", "lower_nature": null}, {"id": 20, "king_wen_number": 20, "name": "觀", "pinyin": null, "english": null, "binary_repr": "000011", "decimal_value": 3, "fuxi_position": 48, "mawangdui_position": 59, "upper_trigram_id": 4, "lower_trigram_id": 2, "nuclear_upper_id": 7, "nuclear_lower_id": 2, "inverse_hexagram_id": 19, "complement_hexagram_id": 34, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "upper", "pair_number": 10, "upper_trigram": "巽", "upper_nature": null, "lower_trigram": "坤", "lower_nature": null}, {"id": 21, "king_wen_number": 21, "name": "噬嗑", "pinyin": null, "english": null, "binary_repr": "100101", "decimal_value": 37, "fuxi_position": 41, "mawangdui_position": 55, "upper_trigram_id": 6, "lower_trigram_id": 3, "nuclear_upper_id": 5, "nuclear_lower_id": 7, "inverse_hexagram_id": 22, "complement_hexagram_id": 48, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "upper", "pair_number": 11, "upper_trigram": "離", "upper_nature": null, "lower_trigram": "震", "lower_nature": null}, {"id": 22, "king_wen_number": 22, "name": "賁", "pinyin": null, "english": null, "binary_repr": "101001", "decimal_value": 41, "fuxi_position": 37, "mawangdui_position": 14, "upper_trigram_id": 7, "lower_trigram_id": 6, "nuclear_upper_id": 3, "nuclear_lower_id": 5, "inverse_hexagram_id": 21, "complement_hexagram_id": 47, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "upper", "pair_number": 11, "upper_trigram": "艮", "upper_nature": null, "lower_trigram": "離", "lower_nature": null}, {"id": 23, "king_wen_number": 23, "name": "剝", "pinyin": null, "english": null, "binary_repr": "000001", "decimal_value": 1, "fuxi_position": 32, "mawangdui_position": 11, "upper_trigram_id": 7, "lower_trigram_id": 2, "nuclear_upper_id": 2, "nuclear_lower_id": 2, "inverse_hexagram_id": 24, "complement_hexagram_id": 43, "is_symmetric": 0, "yang_count": 1, "yin_count": 5, "canon": "upper", "pair_number": 12, "upper_trigram": "艮", "upper_nature": null, "lower_trigram": "坤", "lower_nature": null}, {"id": 24, "king_wen_number": 24, "name": "復", "pinyin": null, "english": null, "binary_repr": "100000", "decimal_value": 32, "fuxi_position": 1, "mawangdui_position": 39, "upper_trigram_id": 2, "lower_trigram_id": 3, "nuclear_upper_id": 2, "nuclear_lower_id": 2, "inverse_hexagram_id": 23, "complement_hexagram_id": 44, "is_symmetric": 0, "yang_count": 1, "yin_count": 5, "canon": "upper", "pair_number": 12, "upper_trigram": "坤", "upper_nature": null, "lower_trigram": "震", "lower_nature": null}, {"id": 25, "king_wen_number": 25, "name": "無妄", "pinyin": null, "english": null, "binary_repr": "100111", "decimal_value": 39, "fuxi_position": 57, "mawangdui_position": 7, "upper_trigram_id": 1, "lower_trigram_id": 3, "nuclear_upper_id": 4, "nuclear_lower_id": 7, "inverse_hexagram_id": 26, "complement_hexagram_id": 46, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "upper", "pair_number": 13, "upper_trigram": "乾", "upper_nature": null, "lower_trigram": "震", "lower_nature": null}, {"id": 26, "king_wen_number": 26, "name": "大畜", "pinyin": null, "english": null, "binary_repr": "111001", "decimal_value": 57, "fuxi_position": 39, "mawangdui_position": 10, "upper_trigram_id": 7, "lower_trigram_id": 1, "nuclear_upper_id": 3, "nuclear_lower_id": 8, "inverse_hexagram_id": 25, "complement_hexagram_id": 45, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "upper", "pair_number": 13, "upper_trigram": "艮", "upper_nature": null, "lower_trigram": "乾", "lower_nature": null}, {"id": 27, "king_wen_number": 27, "name": "頤", "pinyin": null, "english": null, "binary_repr": "100001", "decimal_value": 33, "fuxi_position": 33, "mawangdui_position": 15, "upper_trigram_id": 7, "lower_trigram_id": 3, "nuclear_upper_id": 2, "nuclear_lower_id": 2, "inverse_hexagram_id": 27, "complement_hexagram_id": 28, "is_symmetric": 1, "yang_count": 2, "yin_count": 4, "canon": "upper", "pair_number": 14, "upper_trigram": "艮", "upper_nature": null, "lower_trigram": "震", "lower_nature": null}, {"id": 28, "king_wen_number": 28, "name": "大過", "pinyin": null, "english": null, "binary_repr": "011110", "decimal_value": 30, "fuxi_position": 30, "mawangdui_position": 48, "upper_trigram_id": 8, "lower_trigram_id": 4, "nuclear_upper_id": 1, "nuclear_lower_id": 1, "inverse_hexagram_id": 28, "complement_hexagram_id": 27, "is_symmetric": 1, "yang_count": 4, "yin_count": 2, "canon": "upper", "pair_number": 14, "upper_trigram": "兌", "upper_nature": null, "lower_trigram": "巽", "lower_nature": null}, {"id": 29, "king_wen_number": 29, "name": "坎", "pinyin": null, "english": null, "binary_repr": "010010", "decimal_value": 18, "fuxi_position": 18, "mawangdui_position": 17, "upper_trigram_id": 5, "lower_trigram_id": 5, "nuclear_upper_id": 7, "nuclear_lower_id": 3, "inverse_hexagram_id": 29, "complement_hexagram_id": 30, "is_symmetric": 1, "yang_count": 2, "yin_count": 4, "canon": "upper", "pair_number": 15, "upper_trigram": "坎", "upper_nature": null, "lower_trigram": "坎", "lower_nature": null}, {"id": 30, "king_wen_number": 30, "name": "離", "pinyin": null, "english": null, "binary_repr": "101101", "decimal_value": 45, "fuxi_position": 45, "mawangdui_position": 49, "upper_trigram_id": 6, "lower_trigram_id": 6, "nuclear_upper_id": 8, "nuclear_lower_id": 4, "inverse_hexagram_id": 30, "complement_hexagram_id": 29, "is_symmetric": 1, "yang_count": 4, "yin_count": 2, "canon": "upper", "pair_number": 15, "upper_trigram": "離", "upper_nature": null, "lower_trigram": "離", "lower_nature": null}, {"id": 31, "king_wen_number": 31, "name": "咸", "pinyin": null, "english": null, "binary_repr": "001110", "decimal_value": 14, "fuxi_position": 28, "mawangdui_position": 44, "upper_trigram_id": 8, "lower_trigram_id": 7, "nuclear_upper_id": 1, "nuclear_lower_id": 4, "inverse_hexagram_id": 32, "complement_hexagram_id": 41, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 16, "upper_trigram": "兌", "upper_nature": null, "lower_trigram": "艮", "lower_nature": null}, {"id": 32, "king_wen_number": 32, "name": "恆", "pinyin": null, "english": null, "binary_repr": "011100", "decimal_value": 28, "fuxi_position": 14, "mawangdui_position": 32, "upper_trigram_id": 3, "lower_trigram_id": 4, "nuclear_upper_id": 8, "nuclear_lower_id": 1, "inverse_hexagram_id": 31, "complement_hexagram_id": 42, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 16, "upper_trigram": "震", "upper_nature": null, "lower_trigram": "巽", "lower_nature": null}, {"id": 33, "king_wen_number": 33, "name": "遯", "pinyin": null, "english": null, "binary_repr": "001111", "decimal_value": 15, "fuxi_position": 60, "mawangdui_position": 3, "upper_trigram_id": 1, "lower_trigram_id": 7, "nuclear_upper_id": 1, "nuclear_lower_id": 4, "inverse_hexagram_id": 34, "complement_hexagram_id": 19, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 17, "upper_trigram": "乾", "upper_nature": null, "lower_trigram": "艮", "lower_nature": null}, {"id": 34, "king_wen_number": 34, "name": "大壯", "pinyin": null, "english": null, "binary_repr": "111100", "decimal_value": 60, "fuxi_position": 15, "mawangdui_position": 26, "upper_trigram_id": 3, "lower_trigram_id": 1, "nuclear_upper_id": 8, "nuclear_lower_id": 1, "inverse_hexagram_id": 33, "complement_hexagram_id": 20, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 17, "upper_trigram": "震", "upper_nature": null, "lower_trigram": "乾", "lower_nature": null}, {"id": 35, "king_wen_number": 35, "name": "晉", "pinyin": null, "english": null, "binary_repr": "000101", "decimal_value": 5, "fuxi_position": 40, "mawangdui_position": 51, "upper_trigram_id": 6, "lower_trigram_id": 2, "nuclear_upper_id": 5, "nuclear_lower_id": 7, "inverse_hexagram_id": 36, "complement_hexagram_id": 5, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 18, "upper_trigram": "離", "upper_nature": null, "lower_trigram": "坤", "lower_nature": null}, {"id": 36, "king_wen_number": 36, "name": "明夷", "pinyin": null, "english": null, "binary_repr": "101000", "decimal_value": 40, "fuxi_position": 5, "mawangdui_position": 38, "upper_trigram_id": 2, "lower_trigram_id": 6, "nuclear_upper_id": 3, "nuclear_lower_id": 5, "inverse_hexagram_id": 35, "complement_hexagram_id": 6, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 18, "upper_trigram": "坤", "upper_nature": null, "lower_trigram": "離", "lower_nature": null}, {"id": 37, "king_wen_number": 37, "name": "家人", "pinyin": null, "english": null, "binary_repr": "101011", "decimal_value": 43, "fuxi_position": 53, "mawangdui_position": 63, "upper_trigram_id": 4, "lower_trigram_id": 6, "nuclear_upper_id": 6, "nuclear_lower_id": 5, "inverse_hexagram_id": 38, "complement_hexagram_id": 40, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 19, "upper_trigram": "巽", "upper_nature": null, "lower_trigram": "離", "lower_nature": null}, {"id": 38, "king_wen_number": 38, "name": "睽", "pinyin": null, "english": null, "binary_repr": "110101", "decimal_value": 53, "fuxi_position": 43, "mawangdui_position": 53, "upper_trigram_id": 6, "lower_trigram_id": 8, "nuclear_upper_id": 5, "nuclear_lower_id": 6, "inverse_hexagram_id": 37, "complement_hexagram_id": 39, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 19, "upper_trigram": "離", "upper_nature": null, "lower_trigram": "兌", "lower_nature": null}, {"id": 39, "king_wen_number": 39, "name": "蹇", "pinyin": null, "english": null, "binary_repr": "001010", "decimal_value": 10, "fuxi_position": 20, "mawangdui_position": 20, "upper_trigram_id": 5, "lower_trigram_id": 7, "nuclear_upper_id": 6, "nuclear_lower_id": 5, "inverse_hexagram_id": 40, "complement_hexagram_id": 38, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 20, "upper_trigram": "坎", "upper_nature": null, "lower_trigram": "艮", "lower_nature": null}, {"id": 40, "king_wen_number": 40, "name": "解", "pinyin": null, "english": null, "binary_repr": "010100", "decimal_value": 20, "fuxi_position": 10, "mawangdui_position": 30, "upper_trigram_id": 3, "lower_trigram_id": 5, "nuclear_upper_id": 5, "nuclear_lower_id": 6, "inverse_hexagram_id": 39, "complement_hexagram_id": 37, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 20, "upper_trigram": "震", "upper_nature": null, "lower_trigram": "坎", "lower_nature": null}, {"id": 41, "king_wen_number": 41, "name": "損", "pinyin": null, "english": null, "binary_repr": "110001", "decimal_value": 49, "fuxi_position": 35, "mawangdui_position": 12, "upper_trigram_id": 7, "lower_trigram_id": 8, "nuclear_upper_id": 2, "nuclear_lower_id": 3, "inverse_hexagram_id": 42, "complement_hexagram_id": 31, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 21, "upper_trigram": "艮", "upper_nature": null, "lower_trigram": "兌", "lower_nature": null}, {"id": 42, "king_wen_number": 42, "name": "益", "pinyin": null, "english": null, "binary_repr": "100011", "decimal_value": 35, "fuxi_position": 49, "mawangdui_position": 64, "upper_trigram_id": 4, "lower_trigram_id": 3, "nuclear_upper_id": 7, "nuclear_lower_id": 2, "inverse_hexagram_id": 41, "complement_hexagram_id": 32, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 21, "upper_trigram": "巽", "upper_nature": null, "lower_trigram": "震", "lower_nature": null}, {"id": 43, "king_wen_number": 43, "name": "夬", "pinyin": null, "english": null, "binary_repr": "111110", "decimal_value": 62, "fuxi_position": 31, "mawangdui_position": 42, "upper_trigram_id": 8, "lower_trigram_id": 1, "nuclear_upper_id": 1, "nuclear_lower_id": 1, "inverse_hexagram_id": 44, "complement_hexagram_id": 23, "is_symmetric": 0, "yang_count": 5, "yin_count": 1, "canon": "lower", "pair_number": 22, "upper_trigram": "兌", "upper_nature": null, "lower_trigram": "乾", "lower_nature": null}, {"id": 44, "king_wen_number": 44, "name": "姤", "pinyin": null, "english": null, "binary_repr": "011111", "decimal_value": 31, "fuxi_position": 62, "mawangdui_position": 8, "upper_trigram_id": 1, "lower_trigram_id": 4, "nuclear_upper_id": 1, "nuclear_lower_id": 1, "inverse_hexagram_id": 43, "complement_hexagram_id": 24, "is_symmetric": 0, "yang_count": 5, "yin_count": 1, "canon": "lower", "pair_number": 22, "upper_trigram": "乾", "upper_nature": null, "lower_trigram": "巽", "lower_nature": null}, {"id": 45, "king_wen_number": 45, "name": "萃", "pinyin": null, "english": null, "binary_repr": "000110", "decimal_value": 6, "fuxi_position": 24, "mawangdui_position": 43, "upper_trigram_id": 8, "lower_trigram_id": 2, "nuclear_upper_id": 4, "nuclear_lower_id": 7, "inverse_hexagram_id": 46, "complement_hexagram_id": 26, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 23, "upper_trigram": "兌", "upper_nature": null, "lower_trigram": "坤", "lower_nature": null}, {"id": 46, "king_wen_number": 46, "name": "升", "pinyin": null, "english": null, "binary_repr": "011000", "decimal_value": 24, "fuxi_position": 6, "mawangdui_position": 40, "upper_trigram_id": 2, "lower_trigram_id": 4, "nuclear_upper_id": 3, "nuclear_lower_id": 8, "inverse_hexagram_id": 45, "complement_hexagram_id": 25, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 23, "upper_trigram": "坤", "upper_nature": null, "lower_trigram": "巽", "lower_nature": null}, {"id": 47, "king_wen_number": 47, "name": "困", "pinyin": null, "english": null, "binary_repr": "010110", "decimal_value": 22, "fuxi_position": 26, "mawangdui_position": 45, "upper_trigram_id": 8, "lower_trigram_id": 5, "nuclear_upper_id": 4, "nuclear_lower_id": 6, "inverse_hexagram_id": 48, "complement_hexagram_id": 22, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 24, "upper_trigram": "兌", "upper_nature": null, "lower_trigram": "坎", "lower_nature": null}, {"id": 48, "king_wen_number": 48, "name": "井", "pinyin": null, "english": null, "binary_repr": "011010", "decimal_value": 26, "fuxi_position": 22, "mawangdui_position": 24, "upper_trigram_id": 5, "lower_trigram_id": 4, "nuclear_upper_id": 6, "nuclear_lower_id": 8, "inverse_hexagram_id": 47, "complement_hexagram_id": 21, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 24, "upper_trigram": "坎", "upper_nature": null, "lower_trigram": "巽", "lower_nature": null}, {"id": 49, "king_wen_number": 49, "name": "革", "pinyin": null, "english": null, "binary_repr": "101110", "decimal_value": 46, "fuxi_position": 29, "mawangdui_position": 46, "upper_trigram_id": 8, "lower_trigram_id": 6, "nuclear_upper_id": 1, "nuclear_lower_id": 4, "inverse_hexagram_id": 50, "complement_hexagram_id": 4, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 25, "upper_trigram": "兌", "upper_nature": null, "lower_trigram": "離", "lower_nature": null}, {"id": 50, "king_wen_number": 50, "name": "鼎", "pinyin": null, "english": null, "binary_repr": "011101", "decimal_value": 29, "fuxi_position": 46, "mawangdui_position": 56, "upper_trigram_id": 6, "lower_trigram_id": 4, "nuclear_upper_id": 8, "nuclear_lower_id": 1, "inverse_hexagram_id": 49, "complement_hexagram_id": 3, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 25, "upper_trigram": "離", "upper_nature": null, "lower_trigram": "巽", "lower_nature": null}, {"id": 51, "king_wen_number": 51, "name": "震", "pinyin": null, "english": null, "binary_repr": "100100", "decimal_value": 36, "fuxi_position": 9, "mawangdui_position": 25, "upper_trigram_id": 3, "lower_trigram_id": 3, "nuclear_upper_id": 5, "nuclear_lower_id": 7, "inverse_hexagram_id": 52, "complement_hexagram_id": 57, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 26, "upper_trigram": "震", "upper_nature": null, "lower_trigram": "震", "lower_nature": null}, {"id": 52, "king_wen_number": 52, "name": "艮", "pinyin": null, "english": null, "binary_repr": "001001", "decimal_value": 9, "fuxi_position": 36, "mawangdui_position": 9, "upper_trigram_id": 7, "lower_trigram_id": 7, "nuclear_upper_id": 3, "nuclear_lower_id": 5, "inverse_hexagram_id": 51, "complement_hexagram_id": 58, "is_symmetric": 0, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 26, "upper_trigram": "艮", "upper_nature": null, "lower_trigram": "艮", "lower_nature": null}, {"id": 53, "king_wen_number": 53, "name": "漸", "pinyin": null, "english": null, "binary_repr": "001011", "decimal_value": 11, "fuxi_position": 52, "mawangdui_position": 60, "upper_trigram_id": 4, "lower_trigram_id": 7, "nuclear_upper_id": 6, "nuclear_lower_id": 5, "inverse_hexagram_id": 54, "complement_hexagram_id": 54, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 27, "upper_trigram": "巽", "upper_nature": null, "lower_trigram": "艮", "lower_nature": null}, {"id": 54, "king_wen_number": 54, "name": "歸妹", "pinyin": null, "english": null, "binary_repr": "110100", "decimal_value": 52, "fuxi_position": 11, "mawangdui_position": 29, "upper_trigram_id": 3, "lower_trigram_id": 8, "nuclear_upper_id": 5, "nuclear_lower_id": 6, "inverse_hexagram_id": 53, "complement_hexagram_id": 53, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 27, "upper_trigram": "震", "upper_nature": null, "lower_trigram": "兌", "lower_nature": null}, {"id": 55, "king_wen_number": 55, "name": "豐", "pinyin": null, "english": null, "binary_repr": "101100", "decimal_value": 44, "fuxi_position": 13, "mawangdui_position": 31, "upper_trigram_id": 3, "lower_trigram_id": 6, "nuclear_upper_id": 8, "nuclear_lower_id": 4, "inverse_hexagram_id": 56, "complement_hexagram_id": 59, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 28, "upper_trigram": "震", "upper_nature": null, "lower_trigram": "離", "lower_nature": null}, {"id": 56, "king_wen_number": 56, "name": "旅", "pinyin": null, "english": null, "binary_repr": "001101", "decimal_value": 13, "fuxi_position": 44, "mawangdui_position": 52, "upper_trigram_id": 6, "lower_trigram_id": 7, "nuclear_upper_id": 8, "nuclear_lower_id": 4, "inverse_hexagram_id": 55, "complement_hexagram_id": 60, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 28, "upper_trigram": "離", "upper_nature": null, "lower_trigram": "艮", "lower_nature": null}, {"id": 57, "king_wen_number": 57, "name": "巽", "pinyin": null, "english": null, "binary_repr": "011011", "decimal_value": 27, "fuxi_position": 54, "mawangdui_position": 57, "upper_trigram_id": 4, "lower_trigram_id": 4, "nuclear_upper_id": 6, "nuclear_lower_id": 8, "inverse_hexagram_id": 58, "complement_hexagram_id": 51, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 29, "upper_trigram": "巽", "upper_nature": null, "lower_trigram": "巽", "lower_nature": null}, {"id": 58, "king_wen_number": 58, "name": "兌", "pinyin": null, "english": null, "binary_repr": "110110", "decimal_value": 54, "fuxi_position": 27, "mawangdui_position": 41, "upper_trigram_id": 8, "lower_trigram_id": 8, "nuclear_upper_id": 4, "nuclear_lower_id": 6, "inverse_hexagram_id": 57, "complement_hexagram_id": 52, "is_symmetric": 0, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 29, "upper_trigram": "兌", "upper_nature": null, "lower_trigram": "兌", "lower_nature": null}, {"id": 59, "king_wen_number": 59, "name": "渙", "pinyin": null, "english": null, "binary_repr": "010011", "decimal_value": 19, "fuxi_position": 50, "mawangdui_position": 62, "upper_trigram_id": 4, "lower_trigram_id": 5, "nuclear_upper_id": 7, "nuclear_lower_id": 3, "inverse_hexagram_id": 60, "complement_hexagram_id": 55, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 30, "upper_trigram": "巽", "upper_nature": null, "lower_trigram": "坎", "lower_nature": null}, {"id": 60, "king_wen_number": 60, "name": "節", "pinyin": null, "english": null, "binary_repr": "110010", "decimal_value": 50, "fuxi_position": 19, "mawangdui_position": 21, "upper_trigram_id": 5, "lower_trigram_id": 8, "nuclear_upper_id": 7, "nuclear_lower_id": 3, "inverse_hexagram_id": 59, "complement_hexagram_id": 56, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 30, "upper_trigram": "坎", "upper_nature": null, "lower_trigram": "兌", "lower_nature": null}, {"id": 61, "king_wen_number": 61, "name": "中孚", "pinyin": null, "english": null, "binary_repr": "110011", "decimal_value": 51, "fuxi_position": 51, "mawangdui_position": 61, "upper_trigram_id": 4, "lower_trigram_id": 8, "nuclear_upper_id": 7, "nuclear_lower_id": 3, "inverse_hexagram_id": 61, "complement_hexagram_id": 62, "is_symmetric": 1, "yang_count": 4, "yin_count": 2, "canon": "lower", "pair_number": 31, "upper_trigram": "巽", "upper_nature": null, "lower_trigram": "兌", "lower_nature": null}, {"id": 62, "king_wen_number": 62, "name": "小過", "pinyin": null, "english": null, "binary_repr": "001100", "decimal_value": 12, "fuxi_position": 12, "mawangdui_position": 28, "upper_trigram_id": 3, "lower_trigram_id": 7, "nuclear_upper_id": 8, "nuclear_lower_id": 4, "inverse_hexagram_id": 62, "complement_hexagram_id": 61, "is_symmetric": 1, "yang_count": 2, "yin_count": 4, "canon": "lower", "pair_number": 31, "upper_trigram": "震", "upper_nature": null, "lower_trigram": "艮", "lower_nature": null}, {"id": 63, "king_wen_number": 63, "name": "既濟", "pinyin": null, "english": null, "binary_repr": "101010", "decimal_value": 42, "fuxi_position": 21, "mawangdui_position": 22, "upper_trigram_id": 5, "lower_trigram_id": 6, "nuclear_upper_id": 6, "nuclear_lower_id": 5, "inverse_hexagram_id": 64, "complement_hexagram_id": 64, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 32, "upper_trigram": "坎", "upper_nature": null, "lower_trigram": "離", "lower_nature": null}, {"id": 64, "king_wen_number": 64, "name": "未濟", "pinyin": null, "english": null, "binary_repr": "010101", "decimal_value": 21, "fuxi_position": 42, "mawangdui_position": 54, "upper_trigram_id": 6, "lower_trigram_id": 5, "nuclear_upper_id": 5, "nuclear_lower_id": 6, "inverse_hexagram_id": 63, "complement_hexagram_id": 63, "is_symmetric": 0, "yang_count": 3, "yin_count": 3, "canon": "lower", "pair_number": 32, "upper_trigram": "離", "upper_nature": null, "lower_trigram": "坎", "lower_nature": null}];
+
+    function drawHexagram(binary) {
+        let html = '';
+        for (let i = 5; i >= 0; i--) {
+            const isYang = binary[i] === '1';
+            html += `<div class="hex-line ${isYang ? 'yang' : 'yin'}"></div>`;
+        }
+        return html;
+    }
+
+    function renderGrid(order = 'kingwen') {
+        const grid = document.getElementById('hexagramGrid');
+        const filterTrigram = document.getElementById('filterTrigram').value;
+        const filterYang = document.getElementById('filterYang').value;
+
+        let sorted = [...hexagrams];
+
+        if (order === 'fuxi') {
+            sorted.sort((a, b) => a.fuxi_position - b.fuxi_position);
+        } else if (order === 'mawangdui') {
+            sorted.sort((a, b) => (a.mawangdui_position || 999) - (b.mawangdui_position || 999));
+        }
+
+        let filtered = sorted;
+        if (filterTrigram) {
+            filtered = filtered.filter(h =>
+                h.upper_trigram === filterTrigram || h.lower_trigram === filterTrigram
+            );
+        }
+        if (filterYang !== '') {
+            filtered = filtered.filter(h => h.yang_count === parseInt(filterYang));
+        }
+
+        document.getElementById('filterInfo').textContent =
+            `Showing ${filtered.length} of 64 hexagrams`;
+
+        grid.innerHTML = filtered.map(h => `
+            <div class="hexagram" data-kw="${h.king_wen_number}" onclick="showDetail(${h.king_wen_number})">
+                <div class="hex-number">#${h.king_wen_number}
+                    <span class="yang-count yang-${h.yang_count}">${h.yang_count}</span>
+                </div>
+                <div class="hex-symbol">${drawHexagram(h.binary_repr)}</div>
+                <div class="hex-name">${h.name}</div>
+                <div class="hex-trigrams">${h.upper_trigram}/${h.lower_trigram}</div>
+            </div>
+        `).join('');
+    }
+
+    function showDetail(kw) {
+        const h = hexagrams.find(x => x.king_wen_number === kw);
+        if (!h) return;
+
+        document.querySelectorAll('.hexagram').forEach(el => el.classList.remove('selected'));
+        document.querySelector(`.hexagram[data-kw="${kw}"]`)?.classList.add('selected');
+
+        document.getElementById('detailName').textContent = `#${h.king_wen_number} ${h.name}`;
+        document.getElementById('detailContent').innerHTML = `
+            <div class="detail-row"><span>Binary:</span><span>${h.binary_repr}</span></div>
+            <div class="detail-row"><span>Decimal:</span><span>${h.decimal_value}</span></div>
+            <div class="detail-row"><span>Upper:</span><span>${h.upper_trigram} (${h.upper_nature})</span></div>
+            <div class="detail-row"><span>Lower:</span><span>${h.lower_trigram} (${h.lower_nature})</span></div>
+            <div class="detail-row"><span>Yang Lines:</span><span>${h.yang_count}</span></div>
+            <div class="detail-row"><span>King Wen #:</span><span>${h.king_wen_number}</span></div>
+            <div class="detail-row"><span>Fu Xi #:</span><span>${h.fuxi_position}</span></div>
+            <div class="detail-row"><span>Mawangdui #:</span><span>${h.mawangdui_position || 'N/A'}</span></div>
+            <div class="detail-row"><span>Canon:</span><span>${h.canon}</span></div>
+            <div class="detail-row"><span>Pair:</span><span>${h.pair_number}</span></div>
+            <div class="detail-row"><span>Symmetric:</span><span>${h.is_symmetric ? 'Yes' : 'No'}</span></div>
+            <div class="detail-row"><span>Inverse →:</span><span>#${h.inverse_hexagram_id}</span></div>
+            <div class="detail-row"><span>Complement →:</span><span>#${h.complement_hexagram_id}</span></div>
+        `;
+        document.getElementById('detailPanel').classList.add('show');
+    }
+
+    function reorder() {
+        renderGrid(document.getElementById('orderSelect').value);
+    }
+
+    function filterHexagrams() {
+        renderGrid(document.getElementById('orderSelect').value);
+    }
+
+    // Initial render
+    renderGrid();
+    </script>
+</body>
+</html>

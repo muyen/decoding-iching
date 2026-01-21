@@ -1,0 +1,457 @@
+{
+  "title": "卦序比較 (Sequence Comparison)",
+  "sequences_compared": [
+    "馬王堆 (Mawangdui)",
+    "文王 (King Wen)"
+  ],
+  "comparison": [
+    {
+      "name": "乾",
+      "binary": "111111",
+      "mawangdui_position": 1,
+      "king_wen_position": 1,
+      "position_difference": 0
+    },
+    {
+      "name": "否",
+      "binary": "000111",
+      "mawangdui_position": 2,
+      "king_wen_position": 12,
+      "position_difference": 10
+    },
+    {
+      "name": "遯",
+      "binary": "001111",
+      "mawangdui_position": 3,
+      "king_wen_position": 33,
+      "position_difference": 30
+    },
+    {
+      "name": "履",
+      "binary": "110111",
+      "mawangdui_position": 4,
+      "king_wen_position": 10,
+      "position_difference": 6
+    },
+    {
+      "name": "訟",
+      "binary": "010111",
+      "mawangdui_position": 5,
+      "king_wen_position": 6,
+      "position_difference": 1
+    },
+    {
+      "name": "同人",
+      "binary": "101111",
+      "mawangdui_position": 6,
+      "king_wen_position": 13,
+      "position_difference": 7
+    },
+    {
+      "name": "無妄",
+      "binary": "100111",
+      "mawangdui_position": 7,
+      "king_wen_position": 25,
+      "position_difference": 18
+    },
+    {
+      "name": "姤",
+      "binary": "011111",
+      "mawangdui_position": 8,
+      "king_wen_position": 44,
+      "position_difference": 36
+    },
+    {
+      "name": "艮",
+      "binary": "001001",
+      "mawangdui_position": 9,
+      "king_wen_position": 52,
+      "position_difference": 43
+    },
+    {
+      "name": "大畜",
+      "binary": "111001",
+      "mawangdui_position": 10,
+      "king_wen_position": 26,
+      "position_difference": 16
+    },
+    {
+      "name": "剝",
+      "binary": "000001",
+      "mawangdui_position": 11,
+      "king_wen_position": 23,
+      "position_difference": 12
+    },
+    {
+      "name": "損",
+      "binary": "110001",
+      "mawangdui_position": 12,
+      "king_wen_position": 41,
+      "position_difference": 29
+    },
+    {
+      "name": "蒙",
+      "binary": "010001",
+      "mawangdui_position": 13,
+      "king_wen_position": 4,
+      "position_difference": 9
+    },
+    {
+      "name": "賁",
+      "binary": "101001",
+      "mawangdui_position": 14,
+      "king_wen_position": 22,
+      "position_difference": 8
+    },
+    {
+      "name": "頤",
+      "binary": "100001",
+      "mawangdui_position": 15,
+      "king_wen_position": 27,
+      "position_difference": 12
+    },
+    {
+      "name": "蠱",
+      "binary": "011001",
+      "mawangdui_position": 16,
+      "king_wen_position": 18,
+      "position_difference": 2
+    },
+    {
+      "name": "坎",
+      "binary": "010010",
+      "mawangdui_position": 17,
+      "king_wen_position": 29,
+      "position_difference": 12
+    },
+    {
+      "name": "需",
+      "binary": "111010",
+      "mawangdui_position": 18,
+      "king_wen_position": 5,
+      "position_difference": 13
+    },
+    {
+      "name": "比",
+      "binary": "000010",
+      "mawangdui_position": 19,
+      "king_wen_position": 8,
+      "position_difference": 11
+    },
+    {
+      "name": "蹇",
+      "binary": "001010",
+      "mawangdui_position": 20,
+      "king_wen_position": 39,
+      "position_difference": 19
+    },
+    {
+      "name": "節",
+      "binary": "110010",
+      "mawangdui_position": 21,
+      "king_wen_position": 60,
+      "position_difference": 39
+    },
+    {
+      "name": "既濟",
+      "binary": "101010",
+      "mawangdui_position": 22,
+      "king_wen_position": 63,
+      "position_difference": 41
+    },
+    {
+      "name": "屯",
+      "binary": "100010",
+      "mawangdui_position": 23,
+      "king_wen_position": 3,
+      "position_difference": 20
+    },
+    {
+      "name": "井",
+      "binary": "011010",
+      "mawangdui_position": 24,
+      "king_wen_position": 48,
+      "position_difference": 24
+    },
+    {
+      "name": "震",
+      "binary": "100100",
+      "mawangdui_position": 25,
+      "king_wen_position": 51,
+      "position_difference": 26
+    },
+    {
+      "name": "大壯",
+      "binary": "111100",
+      "mawangdui_position": 26,
+      "king_wen_position": 34,
+      "position_difference": 8
+    },
+    {
+      "name": "豫",
+      "binary": "000100",
+      "mawangdui_position": 27,
+      "king_wen_position": 16,
+      "position_difference": 11
+    },
+    {
+      "name": "小過",
+      "binary": "001100",
+      "mawangdui_position": 28,
+      "king_wen_position": 62,
+      "position_difference": 34
+    },
+    {
+      "name": "歸妹",
+      "binary": "110100",
+      "mawangdui_position": 29,
+      "king_wen_position": 54,
+      "position_difference": 25
+    },
+    {
+      "name": "解",
+      "binary": "010100",
+      "mawangdui_position": 30,
+      "king_wen_position": 40,
+      "position_difference": 10
+    },
+    {
+      "name": "豐",
+      "binary": "101100",
+      "mawangdui_position": 31,
+      "king_wen_position": 55,
+      "position_difference": 24
+    },
+    {
+      "name": "恆",
+      "binary": "011100",
+      "mawangdui_position": 32,
+      "king_wen_position": 32,
+      "position_difference": 0
+    },
+    {
+      "name": "坤",
+      "binary": "000000",
+      "mawangdui_position": 33,
+      "king_wen_position": 2,
+      "position_difference": 31
+    },
+    {
+      "name": "泰",
+      "binary": "111000",
+      "mawangdui_position": 34,
+      "king_wen_position": 11,
+      "position_difference": 23
+    },
+    {
+      "name": "謙",
+      "binary": "001000",
+      "mawangdui_position": 35,
+      "king_wen_position": 15,
+      "position_difference": 20
+    },
+    {
+      "name": "臨",
+      "binary": "110000",
+      "mawangdui_position": 36,
+      "king_wen_position": 19,
+      "position_difference": 17
+    },
+    {
+      "name": "師",
+      "binary": "010000",
+      "mawangdui_position": 37,
+      "king_wen_position": 7,
+      "position_difference": 30
+    },
+    {
+      "name": "明夷",
+      "binary": "101000",
+      "mawangdui_position": 38,
+      "king_wen_position": 36,
+      "position_difference": 2
+    },
+    {
+      "name": "復",
+      "binary": "100000",
+      "mawangdui_position": 39,
+      "king_wen_position": 24,
+      "position_difference": 15
+    },
+    {
+      "name": "升",
+      "binary": "011000",
+      "mawangdui_position": 40,
+      "king_wen_position": 46,
+      "position_difference": 6
+    },
+    {
+      "name": "兌",
+      "binary": "110110",
+      "mawangdui_position": 41,
+      "king_wen_position": 58,
+      "position_difference": 17
+    },
+    {
+      "name": "夬",
+      "binary": "111110",
+      "mawangdui_position": 42,
+      "king_wen_position": 43,
+      "position_difference": 1
+    },
+    {
+      "name": "萃",
+      "binary": "000110",
+      "mawangdui_position": 43,
+      "king_wen_position": 45,
+      "position_difference": 2
+    },
+    {
+      "name": "咸",
+      "binary": "001110",
+      "mawangdui_position": 44,
+      "king_wen_position": 31,
+      "position_difference": 13
+    },
+    {
+      "name": "困",
+      "binary": "010110",
+      "mawangdui_position": 45,
+      "king_wen_position": 47,
+      "position_difference": 2
+    },
+    {
+      "name": "革",
+      "binary": "101110",
+      "mawangdui_position": 46,
+      "king_wen_position": 49,
+      "position_difference": 3
+    },
+    {
+      "name": "隨",
+      "binary": "100110",
+      "mawangdui_position": 47,
+      "king_wen_position": 17,
+      "position_difference": 30
+    },
+    {
+      "name": "大過",
+      "binary": "011110",
+      "mawangdui_position": 48,
+      "king_wen_position": 28,
+      "position_difference": 20
+    },
+    {
+      "name": "離",
+      "binary": "101101",
+      "mawangdui_position": 49,
+      "king_wen_position": 30,
+      "position_difference": 19
+    },
+    {
+      "name": "大有",
+      "binary": "111101",
+      "mawangdui_position": 50,
+      "king_wen_position": 14,
+      "position_difference": 36
+    },
+    {
+      "name": "晉",
+      "binary": "000101",
+      "mawangdui_position": 51,
+      "king_wen_position": 35,
+      "position_difference": 16
+    },
+    {
+      "name": "旅",
+      "binary": "001101",
+      "mawangdui_position": 52,
+      "king_wen_position": 56,
+      "position_difference": 4
+    },
+    {
+      "name": "睽",
+      "binary": "110101",
+      "mawangdui_position": 53,
+      "king_wen_position": 38,
+      "position_difference": 15
+    },
+    {
+      "name": "未濟",
+      "binary": "010101",
+      "mawangdui_position": 54,
+      "king_wen_position": 64,
+      "position_difference": 10
+    },
+    {
+      "name": "噬嗑",
+      "binary": "100101",
+      "mawangdui_position": 55,
+      "king_wen_position": 21,
+      "position_difference": 34
+    },
+    {
+      "name": "鼎",
+      "binary": "011101",
+      "mawangdui_position": 56,
+      "king_wen_position": 50,
+      "position_difference": 6
+    },
+    {
+      "name": "巽",
+      "binary": "011011",
+      "mawangdui_position": 57,
+      "king_wen_position": 57,
+      "position_difference": 0
+    },
+    {
+      "name": "小畜",
+      "binary": "111011",
+      "mawangdui_position": 58,
+      "king_wen_position": 9,
+      "position_difference": 49
+    },
+    {
+      "name": "觀",
+      "binary": "000011",
+      "mawangdui_position": 59,
+      "king_wen_position": 20,
+      "position_difference": 39
+    },
+    {
+      "name": "漸",
+      "binary": "001011",
+      "mawangdui_position": 60,
+      "king_wen_position": 53,
+      "position_difference": 7
+    },
+    {
+      "name": "中孚",
+      "binary": "110011",
+      "mawangdui_position": 61,
+      "king_wen_position": 61,
+      "position_difference": 0
+    },
+    {
+      "name": "渙",
+      "binary": "010011",
+      "mawangdui_position": 62,
+      "king_wen_position": 59,
+      "position_difference": 3
+    },
+    {
+      "name": "家人",
+      "binary": "101011",
+      "mawangdui_position": 63,
+      "king_wen_position": 37,
+      "position_difference": 26
+    },
+    {
+      "name": "益",
+      "binary": "100011",
+      "mawangdui_position": 64,
+      "king_wen_position": 42,
+      "position_difference": 22
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "繫辭",
+  "title_en": "Xi Ci",
+  "description": "Great Commentary (Appended Statements)",
+  "source": "ctext.org",
+  "download_date": "2026-01-20T12:50:49.910299",
+  "data": {
+    "name_zh": "繫辭",
+    "name_en": "Xi Ci",
+    "description": "Great Commentary (Appended Statements)",
+    "sections": [
+      {
+        "slug": "xi-ci-shang",
+        "name_zh": "繫辭上",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xi-ci-xia",
+        "name_zh": "繫辭下",
+        "error": "Failed to download"
+      }
+    ]
+  }
+}

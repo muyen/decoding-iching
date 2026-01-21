@@ -1,0 +1,1443 @@
+{
+  "hexagrams": {
+    "1": {
+      "name": "乾",
+      "binary": "111111",
+      "upper": "乾",
+      "lower": "乾",
+      "complement": 2,
+      "rotation_pair": 1,
+      "shao_yong_pos": 63,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "2": {
+      "name": "坤",
+      "binary": "000000",
+      "upper": "坤",
+      "lower": "坤",
+      "complement": 1,
+      "rotation_pair": 2,
+      "shao_yong_pos": 0,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "3": {
+      "name": "屯",
+      "binary": "010001",
+      "upper": "坎",
+      "lower": "震",
+      "complement": 50,
+      "rotation_pair": 4,
+      "shao_yong_pos": 17,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "4": {
+      "name": "蒙",
+      "binary": "100010",
+      "upper": "艮",
+      "lower": "坎",
+      "complement": 49,
+      "rotation_pair": 3,
+      "shao_yong_pos": 34,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "5": {
+      "name": "需",
+      "binary": "010111",
+      "upper": "坎",
+      "lower": "乾",
+      "complement": 35,
+      "rotation_pair": 6,
+      "shao_yong_pos": 23,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "6": {
+      "name": "訟",
+      "binary": "111010",
+      "upper": "乾",
+      "lower": "坎",
+      "complement": 36,
+      "rotation_pair": 5,
+      "shao_yong_pos": 58,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "7": {
+      "name": "師",
+      "binary": "000010",
+      "upper": "坤",
+      "lower": "坎",
+      "complement": 13,
+      "rotation_pair": 8,
+      "shao_yong_pos": 2,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "8": {
+      "name": "比",
+      "binary": "010000",
+      "upper": "坎",
+      "lower": "坤",
+      "complement": 14,
+      "rotation_pair": 7,
+      "shao_yong_pos": 16,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "9": {
+      "name": "小畜",
+      "binary": "110111",
+      "upper": "巽",
+      "lower": "乾",
+      "complement": 16,
+      "rotation_pair": 10,
+      "shao_yong_pos": 55,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "10": {
+      "name": "履",
+      "binary": "111011",
+      "upper": "乾",
+      "lower": "兌",
+      "complement": 15,
+      "rotation_pair": 9,
+      "shao_yong_pos": 59,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "11": {
+      "name": "泰",
+      "binary": "000111",
+      "upper": "坤",
+      "lower": "乾",
+      "complement": 12,
+      "rotation_pair": 12,
+      "shao_yong_pos": 7,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "12": {
+      "name": "否",
+      "binary": "111000",
+      "upper": "乾",
+      "lower": "坤",
+      "complement": 11,
+      "rotation_pair": 11,
+      "shao_yong_pos": 56,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "13": {
+      "name": "同人",
+      "binary": "111101",
+      "upper": "乾",
+      "lower": "離",
+      "complement": 7,
+      "rotation_pair": 14,
+      "shao_yong_pos": 61,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "14": {
+      "name": "大有",
+      "binary": "101111",
+      "upper": "離",
+      "lower": "乾",
+      "complement": 8,
+      "rotation_pair": 13,
+      "shao_yong_pos": 47,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "15": {
+      "name": "謙",
+      "binary": "000100",
+      "upper": "坤",
+      "lower": "艮",
+      "complement": 10,
+      "rotation_pair": 16,
+      "shao_yong_pos": 4,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "16": {
+      "name": "豫",
+      "binary": "001000",
+      "upper": "震",
+      "lower": "坤",
+      "complement": 9,
+      "rotation_pair": 15,
+      "shao_yong_pos": 8,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "17": {
+      "name": "隨",
+      "binary": "011001",
+      "upper": "兌",
+      "lower": "震",
+      "complement": 18,
+      "rotation_pair": 18,
+      "shao_yong_pos": 25,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "18": {
+      "name": "蠱",
+      "binary": "100110",
+      "upper": "艮",
+      "lower": "巽",
+      "complement": 17,
+      "rotation_pair": 17,
+      "shao_yong_pos": 38,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "19": {
+      "name": "臨",
+      "binary": "000011",
+      "upper": "坤",
+      "lower": "兌",
+      "complement": 33,
+      "rotation_pair": 20,
+      "shao_yong_pos": 3,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "20": {
+      "name": "觀",
+      "binary": "110000",
+      "upper": "巽",
+      "lower": "坤",
+      "complement": 34,
+      "rotation_pair": 19,
+      "shao_yong_pos": 48,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "21": {
+      "name": "噬嗑",
+      "binary": "101001",
+      "upper": "離",
+      "lower": "震",
+      "complement": 48,
+      "rotation_pair": 22,
+      "shao_yong_pos": 41,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "22": {
+      "name": "賁",
+      "binary": "100101",
+      "upper": "艮",
+      "lower": "離",
+      "complement": 47,
+      "rotation_pair": 21,
+      "shao_yong_pos": 37,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "23": {
+      "name": "剝",
+      "binary": "100000",
+      "upper": "艮",
+      "lower": "坤",
+      "complement": 43,
+      "rotation_pair": 24,
+      "shao_yong_pos": 32,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "24": {
+      "name": "復",
+      "binary": "000001",
+      "upper": "坤",
+      "lower": "震",
+      "complement": 44,
+      "rotation_pair": 23,
+      "shao_yong_pos": 1,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "25": {
+      "name": "無妄",
+      "binary": "111001",
+      "upper": "乾",
+      "lower": "震",
+      "complement": 46,
+      "rotation_pair": 26,
+      "shao_yong_pos": 57,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "26": {
+      "name": "大畜",
+      "binary": "100111",
+      "upper": "艮",
+      "lower": "乾",
+      "complement": 45,
+      "rotation_pair": 25,
+      "shao_yong_pos": 39,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "27": {
+      "name": "頤",
+      "binary": "100001",
+      "upper": "艮",
+      "lower": "震",
+      "complement": 28,
+      "rotation_pair": 27,
+      "shao_yong_pos": 33,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "28": {
+      "name": "大過",
+      "binary": "011110",
+      "upper": "兌",
+      "lower": "巽",
+      "complement": 27,
+      "rotation_pair": 28,
+      "shao_yong_pos": 30,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "29": {
+      "name": "坎",
+      "binary": "010010",
+      "upper": "坎",
+      "lower": "坎",
+      "complement": 30,
+      "rotation_pair": 29,
+      "shao_yong_pos": 18,
+      "is_astronomical": true,
+      "is_xiaoxi": false
+    },
+    "30": {
+      "name": "離",
+      "binary": "101101",
+      "upper": "離",
+      "lower": "離",
+      "complement": 29,
+      "rotation_pair": 30,
+      "shao_yong_pos": 45,
+      "is_astronomical": true,
+      "is_xiaoxi": false
+    },
+    "31": {
+      "name": "咸",
+      "binary": "011100",
+      "upper": "兌",
+      "lower": "艮",
+      "complement": 41,
+      "rotation_pair": 32,
+      "shao_yong_pos": 28,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "32": {
+      "name": "恆",
+      "binary": "001110",
+      "upper": "震",
+      "lower": "巽",
+      "complement": 42,
+      "rotation_pair": 31,
+      "shao_yong_pos": 14,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "33": {
+      "name": "遯",
+      "binary": "111100",
+      "upper": "乾",
+      "lower": "艮",
+      "complement": 19,
+      "rotation_pair": 34,
+      "shao_yong_pos": 60,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "34": {
+      "name": "大壯",
+      "binary": "001111",
+      "upper": "震",
+      "lower": "乾",
+      "complement": 20,
+      "rotation_pair": 33,
+      "shao_yong_pos": 15,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "35": {
+      "name": "晉",
+      "binary": "101000",
+      "upper": "離",
+      "lower": "坤",
+      "complement": 5,
+      "rotation_pair": 36,
+      "shao_yong_pos": 40,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "36": {
+      "name": "明夷",
+      "binary": "000101",
+      "upper": "坤",
+      "lower": "離",
+      "complement": 6,
+      "rotation_pair": 35,
+      "shao_yong_pos": 5,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "37": {
+      "name": "家人",
+      "binary": "110101",
+      "upper": "巽",
+      "lower": "離",
+      "complement": 40,
+      "rotation_pair": 38,
+      "shao_yong_pos": 53,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "38": {
+      "name": "睽",
+      "binary": "101011",
+      "upper": "離",
+      "lower": "兌",
+      "complement": 39,
+      "rotation_pair": 37,
+      "shao_yong_pos": 43,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "39": {
+      "name": "蹇",
+      "binary": "010100",
+      "upper": "坎",
+      "lower": "艮",
+      "complement": 38,
+      "rotation_pair": 40,
+      "shao_yong_pos": 20,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "40": {
+      "name": "解",
+      "binary": "001010",
+      "upper": "震",
+      "lower": "坎",
+      "complement": 37,
+      "rotation_pair": 39,
+      "shao_yong_pos": 10,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "41": {
+      "name": "損",
+      "binary": "100011",
+      "upper": "艮",
+      "lower": "兌",
+      "complement": 31,
+      "rotation_pair": 42,
+      "shao_yong_pos": 35,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "42": {
+      "name": "益",
+      "binary": "110001",
+      "upper": "巽",
+      "lower": "震",
+      "complement": 32,
+      "rotation_pair": 41,
+      "shao_yong_pos": 49,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "43": {
+      "name": "夬",
+      "binary": "011111",
+      "upper": "兌",
+      "lower": "乾",
+      "complement": 23,
+      "rotation_pair": 44,
+      "shao_yong_pos": 31,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "44": {
+      "name": "姤",
+      "binary": "111110",
+      "upper": "乾",
+      "lower": "巽",
+      "complement": 24,
+      "rotation_pair": 43,
+      "shao_yong_pos": 62,
+      "is_astronomical": false,
+      "is_xiaoxi": true
+    },
+    "45": {
+      "name": "萃",
+      "binary": "011000",
+      "upper": "兌",
+      "lower": "坤",
+      "complement": 26,
+      "rotation_pair": 46,
+      "shao_yong_pos": 24,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "46": {
+      "name": "升",
+      "binary": "000110",
+      "upper": "坤",
+      "lower": "巽",
+      "complement": 25,
+      "rotation_pair": 45,
+      "shao_yong_pos": 6,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "47": {
+      "name": "困",
+      "binary": "011010",
+      "upper": "兌",
+      "lower": "坎",
+      "complement": 22,
+      "rotation_pair": 48,
+      "shao_yong_pos": 26,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "48": {
+      "name": "井",
+      "binary": "010110",
+      "upper": "坎",
+      "lower": "巽",
+      "complement": 21,
+      "rotation_pair": 47,
+      "shao_yong_pos": 22,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "49": {
+      "name": "革",
+      "binary": "011101",
+      "upper": "兌",
+      "lower": "離",
+      "complement": 4,
+      "rotation_pair": 50,
+      "shao_yong_pos": 29,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "50": {
+      "name": "鼎",
+      "binary": "101110",
+      "upper": "離",
+      "lower": "巽",
+      "complement": 3,
+      "rotation_pair": 49,
+      "shao_yong_pos": 46,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "51": {
+      "name": "震",
+      "binary": "001001",
+      "upper": "震",
+      "lower": "震",
+      "complement": 57,
+      "rotation_pair": 52,
+      "shao_yong_pos": 9,
+      "is_astronomical": true,
+      "is_xiaoxi": false
+    },
+    "52": {
+      "name": "艮",
+      "binary": "100100",
+      "upper": "艮",
+      "lower": "艮",
+      "complement": 58,
+      "rotation_pair": 51,
+      "shao_yong_pos": 36,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "53": {
+      "name": "漸",
+      "binary": "110100",
+      "upper": "巽",
+      "lower": "艮",
+      "complement": 54,
+      "rotation_pair": 54,
+      "shao_yong_pos": 52,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "54": {
+      "name": "歸妹",
+      "binary": "001011",
+      "upper": "震",
+      "lower": "兌",
+      "complement": 53,
+      "rotation_pair": 53,
+      "shao_yong_pos": 11,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "55": {
+      "name": "豐",
+      "binary": "001101",
+      "upper": "震",
+      "lower": "離",
+      "complement": 59,
+      "rotation_pair": 56,
+      "shao_yong_pos": 13,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "56": {
+      "name": "旅",
+      "binary": "101100",
+      "upper": "離",
+      "lower": "艮",
+      "complement": 60,
+      "rotation_pair": 55,
+      "shao_yong_pos": 44,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "57": {
+      "name": "巽",
+      "binary": "110110",
+      "upper": "巽",
+      "lower": "巽",
+      "complement": 51,
+      "rotation_pair": 58,
+      "shao_yong_pos": 54,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "58": {
+      "name": "兌",
+      "binary": "011011",
+      "upper": "兌",
+      "lower": "兌",
+      "complement": 52,
+      "rotation_pair": 57,
+      "shao_yong_pos": 27,
+      "is_astronomical": true,
+      "is_xiaoxi": false
+    },
+    "59": {
+      "name": "渙",
+      "binary": "110010",
+      "upper": "巽",
+      "lower": "坎",
+      "complement": 55,
+      "rotation_pair": 60,
+      "shao_yong_pos": 50,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "60": {
+      "name": "節",
+      "binary": "010011",
+      "upper": "坎",
+      "lower": "兌",
+      "complement": 56,
+      "rotation_pair": 59,
+      "shao_yong_pos": 19,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "61": {
+      "name": "中孚",
+      "binary": "110011",
+      "upper": "巽",
+      "lower": "兌",
+      "complement": 62,
+      "rotation_pair": 61,
+      "shao_yong_pos": 51,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "62": {
+      "name": "小過",
+      "binary": "001100",
+      "upper": "震",
+      "lower": "艮",
+      "complement": 61,
+      "rotation_pair": 62,
+      "shao_yong_pos": 12,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "63": {
+      "name": "既濟",
+      "binary": "010101",
+      "upper": "坎",
+      "lower": "離",
+      "complement": 64,
+      "rotation_pair": 64,
+      "shao_yong_pos": 21,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    },
+    "64": {
+      "name": "未濟",
+      "binary": "101010",
+      "upper": "離",
+      "lower": "坎",
+      "complement": 63,
+      "rotation_pair": 63,
+      "shao_yong_pos": 42,
+      "is_astronomical": false,
+      "is_xiaoxi": false
+    }
+  },
+  "sequence_analysis": {
+    "king_wen": {
+      "transition_ratio": {
+        "even_changes": 48,
+        "odd_changes": 15,
+        "ratio": "48:15",
+        "matches_3_1": true
+      },
+      "pair_analysis": {
+        "rotation_pairs": 28,
+        "complement_pairs": 8,
+        "total_pairs": 32
+      },
+      "fibonacci_intervals": []
+    },
+    "shao_yong": {
+      "binary_progression": true,
+      "complement_sum": [
+        {
+          "pair": [
+            0,
+            63
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            1,
+            62
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            2,
+            61
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            3,
+            60
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            4,
+            59
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            5,
+            58
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            6,
+            57
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            7,
+            56
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            8,
+            55
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            9,
+            54
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            10,
+            53
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            11,
+            52
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            12,
+            51
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            13,
+            50
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            14,
+            49
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            15,
+            48
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            16,
+            47
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            17,
+            46
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            18,
+            45
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            19,
+            44
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            20,
+            43
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            21,
+            42
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            22,
+            41
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            23,
+            40
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            24,
+            39
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            25,
+            38
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            26,
+            37
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            27,
+            36
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            28,
+            35
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            29,
+            34
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            30,
+            33
+          ],
+          "sum": 63,
+          "is_63": true
+        },
+        {
+          "pair": [
+            31,
+            32
+          ],
+          "sum": 63,
+          "is_63": true
+        }
+      ]
+    },
+    "mawangdui": {
+      "palace_structure": {
+        "乾": [
+          1,
+          44,
+          33,
+          12,
+          20,
+          23,
+          35,
+          14
+        ],
+        "坤": [
+          2,
+          24,
+          19,
+          11,
+          34,
+          43,
+          5,
+          8
+        ],
+        "震": [
+          51,
+          16,
+          40,
+          32,
+          46,
+          48,
+          28,
+          17
+        ],
+        "艮": [
+          52,
+          22,
+          26,
+          41,
+          38,
+          10,
+          61,
+          53
+        ],
+        "坎": [
+          29,
+          60,
+          3,
+          63,
+          49,
+          55,
+          36,
+          7
+        ],
+        "離": [
+          30,
+          56,
+          50,
+          64,
+          4,
+          59,
+          6,
+          13
+        ],
+        "巽": [
+          57,
+          9,
+          37,
+          42,
+          25,
+          21,
+          27,
+          18
+        ],
+        "兌": [
+          58,
+          47,
+          45,
+          31,
+          39,
+          15,
+          62,
+          54
+        ]
+      },
+      "special_yao_distribution": {}
+    },
+    "comparison": {
+      "special_gua_in_samples": [
+        33,
+        2,
+        3,
+        4,
+        5,
+        6,
+        15,
+        47,
+        17,
+        50,
+        20,
+        24,
+        25,
+        63
+      ],
+      "king_wen_positions": [
+        33,
+        2,
+        3,
+        4,
+        5,
+        6,
+        15,
+        47,
+        17,
+        50,
+        20,
+        24,
+        25,
+        63
+      ],
+      "shao_yong_positions": [
+        60,
+        0,
+        17,
+        34,
+        23,
+        58,
+        4,
+        26,
+        25,
+        46,
+        48,
+        1,
+        57,
+        21
+      ],
+      "astronomical_overlap": [],
+      "xiaoxi_overlap": [
+        33,
+        2,
+        20,
+        24
+      ]
+    }
+  },
+  "fibonacci_analysis": {
+    "hexagram_positions": {},
+    "interval_analysis": {
+      "intervals": [
+        7,
+        1,
+        1,
+        1,
+        4,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        57,
+        9,
+        1,
+        2,
+        1,
+        13,
+        2,
+        1,
+        2,
+        19,
+        4,
+        1,
+        1,
+        2,
+        2,
+        44,
+        3,
+        2,
+        82,
+        2,
+        14,
+        2,
+        2,
+        73,
+        4
+      ],
+      "fibonacci_matches": 25,
+      "total_intervals": 36,
+      "match_ratio": 0.6944444444444444,
+      "matched_values": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        1,
+        2,
+        1,
+        13,
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "golden_ratio_analysis": {
+      "golden_points": [
+        237.3,
+        146.7,
+        90.7,
+        146.7
+      ],
+      "special_near_golden": [
+        [
+          89,
+          90.65010335991924
+        ],
+        [
+          98,
+          90.65010335991924
+        ],
+        [
+          99,
+          90.65010335991924
+        ],
+        [
+          139,
+          146.6749483200404
+        ],
+        [
+          139,
+          146.67494832004041
+        ],
+        [
+          143,
+          146.6749483200404
+        ],
+        [
+          143,
+          146.67494832004041
+        ],
+        [
+          144,
+          146.6749483200404
+        ],
+        [
+          144,
+          146.67494832004041
+        ],
+        [
+          145,
+          146.6749483200404
+        ],
+        [
+          145,
+          146.67494832004041
+        ],
+        [
+          147,
+          146.6749483200404
+        ],
+        [
+          147,
+          146.67494832004041
+        ],
+        [
+          149,
+          146.6749483200404
+        ],
+        [
+          149,
+          146.67494832004041
+        ]
+      ],
+      "phi": 1.618033988749895
+    },
+    "cook_classification": {
+      "by_yang_count": {
+        "6": 1,
+        "0": 1,
+        "2": 15,
+        "4": 15,
+        "1": 6,
+        "5": 6,
+        "3": 20
+      },
+      "fibonacci_match": {
+        "class_6": [
+          1,
+          1
+        ],
+        "class_5": [
+          6,
+          6
+        ],
+        "class_4": [
+          15,
+          15
+        ],
+        "class_3": [
+          20,
+          20
+        ],
+        "class_2": [
+          15,
+          15
+        ],
+        "class_1": [
+          6,
+          6
+        ],
+        "class_0": [
+          1,
+          1
+        ]
+      },
+      "note": "Cook使用Fibonacci數(1,1,2,3,5,8,13,21)進行分類"
+    }
+  },
+  "astronomical_analysis": {
+    "solstice_equinox": {
+      "冬至": {
+        "hexagram": 29,
+        "name": "坎",
+        "binary": "010010",
+        "is_pure": true,
+        "trigram": "坎"
+      },
+      "夏至": {
+        "hexagram": 30,
+        "name": "離",
+        "binary": "101101",
+        "is_pure": true,
+        "trigram": "離"
+      },
+      "春分": {
+        "hexagram": 51,
+        "name": "震",
+        "binary": "001001",
+        "is_pure": true,
+        "trigram": "震"
+      },
+      "秋分": {
+        "hexagram": 58,
+        "name": "兌",
+        "binary": "011011",
+        "is_pure": true,
+        "trigram": "兌"
+      }
+    },
+    "twelve_xiaoxi": {
+      "子月": {
+        "hexagram": 24,
+        "name": "復",
+        "yang_lines": 1,
+        "solar_term": "冬至",
+        "binary": "000001"
+      },
+      "丑月": {
+        "hexagram": 19,
+        "name": "臨",
+        "yang_lines": 2,
+        "solar_term": "大寒",
+        "binary": "000011"
+      },
+      "寅月": {
+        "hexagram": 11,
+        "name": "泰",
+        "yang_lines": 3,
+        "solar_term": "立春",
+        "binary": "000111"
+      },
+      "卯月": {
+        "hexagram": 34,
+        "name": "大壯",
+        "yang_lines": 4,
+        "solar_term": "驚蟄",
+        "binary": "001111"
+      },
+      "辰月": {
+        "hexagram": 43,
+        "name": "夬",
+        "yang_lines": 5,
+        "solar_term": "清明",
+        "binary": "011111"
+      },
+      "巳月": {
+        "hexagram": 1,
+        "name": "乾",
+        "yang_lines": 6,
+        "solar_term": "小滿",
+        "binary": "111111"
+      },
+      "午月": {
+        "hexagram": 44,
+        "name": "姤",
+        "yang_lines": 5,
+        "solar_term": "夏至",
+        "binary": "111110"
+      },
+      "未月": {
+        "hexagram": 33,
+        "name": "遯",
+        "yang_lines": 4,
+        "solar_term": "大暑",
+        "binary": "111100"
+      },
+      "申月": {
+        "hexagram": 12,
+        "name": "否",
+        "yang_lines": 3,
+        "solar_term": "立秋",
+        "binary": "111000"
+      },
+      "酉月": {
+        "hexagram": 20,
+        "name": "觀",
+        "yang_lines": 2,
+        "solar_term": "秋分",
+        "binary": "110000"
+      },
+      "戌月": {
+        "hexagram": 23,
+        "name": "剝",
+        "yang_lines": 1,
+        "solar_term": "霜降",
+        "binary": "100000"
+      },
+      "亥月": {
+        "hexagram": 2,
+        "name": "坤",
+        "yang_lines": 0,
+        "solar_term": "小雪",
+        "binary": "000000"
+      }
+    },
+    "sixty_cycle": {},
+    "special_yao_correlation": {
+      "special_in_astronomical": [],
+      "special_in_xiaoxi": [
+        33,
+        2,
+        20,
+        24
+      ],
+      "astronomical_total": 4,
+      "xiaoxi_total": 12
+    }
+  }
+}

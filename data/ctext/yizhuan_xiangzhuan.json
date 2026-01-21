@@ -1,0 +1,334 @@
+{
+  "title": "象傳",
+  "title_en": "Xiang Zhuan",
+  "description": "Commentary on the Images",
+  "source": "ctext.org",
+  "download_date": "2026-01-20T12:50:47.223985",
+  "data": {
+    "name_zh": "象傳",
+    "name_en": "Xiang Zhuan",
+    "description": "Commentary on the Images",
+    "sections": [
+      {
+        "slug": "gan",
+        "name_zh": "乾",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "kun4",
+        "name_zh": "坤",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "zhun2",
+        "name_zh": "屯",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "meng2",
+        "name_zh": "蒙",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xu2",
+        "name_zh": "需",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "song2",
+        "name_zh": "訟",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "shi2",
+        "name_zh": "師",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "bi4",
+        "name_zh": "比",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xiao-chu",
+        "name_zh": "小畜",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "lv",
+        "name_zh": "履",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "tai2",
+        "name_zh": "泰",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "fou",
+        "name_zh": "否",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "tong-ren2",
+        "name_zh": "同人",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "da-you2",
+        "name_zh": "大有",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "qian4",
+        "name_zh": "謙",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "yu2",
+        "name_zh": "豫",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "sui2",
+        "name_zh": "隨",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "gu2",
+        "name_zh": "蠱",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "lin2",
+        "name_zh": "臨",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "guan2",
+        "name_zh": "觀",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "shi-ke",
+        "name_zh": "噬嗑",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "bi5",
+        "name_zh": "賁",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "bo2",
+        "name_zh": "剝",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "fu2",
+        "name_zh": "復",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "wu-wang2",
+        "name_zh": "无妄",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "da-chu",
+        "name_zh": "大畜",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "yi4",
+        "name_zh": "頤",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "da-guo2",
+        "name_zh": "大過",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "kan2",
+        "name_zh": "坎",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "li2",
+        "name_zh": "離",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xian2",
+        "name_zh": "咸",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "heng2",
+        "name_zh": "恆",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "dun2",
+        "name_zh": "遯",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "da-zhuang2",
+        "name_zh": "大壯",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jin2",
+        "name_zh": "晉",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "ming-yi2",
+        "name_zh": "明夷",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jia-ren2",
+        "name_zh": "家人",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "kui2",
+        "name_zh": "睽",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jian4",
+        "name_zh": "蹇",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jie4",
+        "name_zh": "解",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "sun2",
+        "name_zh": "損",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "yi5",
+        "name_zh": "益",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "guai2",
+        "name_zh": "夬",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "gou2",
+        "name_zh": "姤",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "cui2",
+        "name_zh": "萃",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "sheng2",
+        "name_zh": "升",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "kun5",
+        "name_zh": "困",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jing2",
+        "name_zh": "井",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "ge2",
+        "name_zh": "革",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "ding2",
+        "name_zh": "鼎",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "zhen2",
+        "name_zh": "震",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "gen2",
+        "name_zh": "艮",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jian5",
+        "name_zh": "漸",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "gui-mei2",
+        "name_zh": "歸妹",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "feng2",
+        "name_zh": "豐",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "lv1",
+        "name_zh": "旅",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xun2",
+        "name_zh": "巽",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "dui2",
+        "name_zh": "兌",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "huan2",
+        "name_zh": "渙",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "jie5",
+        "name_zh": "節",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "zhong-fu2",
+        "name_zh": "中孚",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "xiao-guo2",
+        "name_zh": "小過",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "ji-ji2",
+        "name_zh": "既濟",
+        "error": "Failed to download"
+      },
+      {
+        "slug": "wei-ji2",
+        "name_zh": "未濟",
+        "error": "Failed to download"
+      }
+    ]
+  }
+}

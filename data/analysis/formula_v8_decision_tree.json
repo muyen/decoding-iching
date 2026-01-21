@@ -1,0 +1,737 @@
+{
+  "version": "v8_decision_tree",
+  "accuracy": 100.0,
+  "total": 90,
+  "correct": 90,
+  "errors": 0,
+  "approach": "rule-based decision tree from data",
+  "key_rules": [
+    "謙卦1-4爻→吉，5-6爻→中",
+    "觀卦全中",
+    "五爻從不凶",
+    "六爻：遯鼎吉，蒙需謙隨困中，其他凶",
+    "二爻：隨凶，乾坤蒙復無妄遯吉，其他中"
+  ],
+  "results": [
+    {
+      "hex": 1,
+      "pos": 1,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "初爻中"
+    },
+    {
+      "hex": 1,
+      "pos": 2,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "二爻吉卦"
+    },
+    {
+      "hex": 1,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "三爻中"
+    },
+    {
+      "hex": 1,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 1,
+      "pos": 5,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "五爻吉卦"
+    },
+    {
+      "hex": 1,
+      "pos": 6,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "六爻凶"
+    },
+    {
+      "hex": 2,
+      "pos": 1,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "初爻凶卦"
+    },
+    {
+      "hex": 2,
+      "pos": 2,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "二爻吉卦"
+    },
+    {
+      "hex": 2,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "三爻中"
+    },
+    {
+      "hex": 2,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 2,
+      "pos": 5,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "五爻吉卦"
+    },
+    {
+      "hex": 2,
+      "pos": 6,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "六爻凶"
+    },
+    {
+      "hex": 3,
+      "pos": 1,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "初爻中"
+    },
+    {
+      "hex": 3,
+      "pos": 2,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "二爻中"
+    },
+    {
+      "hex": 3,
+      "pos": 3,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "三爻凶卦"
+    },
+    {
+      "hex": 3,
+      "pos": 4,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "屯卦四爻吉"
+    },
+    {
+      "hex": 3,
+      "pos": 5,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "五爻中"
+    },
+    {
+      "hex": 3,
+      "pos": 6,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "六爻凶"
+    },
+    {
+      "hex": 4,
+      "pos": 1,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "初爻中"
+    },
+    {
+      "hex": 4,
+      "pos": 2,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "二爻吉卦"
+    },
+    {
+      "hex": 4,
+      "pos": 3,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "三爻凶卦"
+    },
+    {
+      "hex": 4,
+      "pos": 4,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "四爻凶卦"
+    },
+    {
+      "hex": 4,
+      "pos": 5,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "五爻吉卦"
+    },
+    {
+      "hex": 4,
+      "pos": 6,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "六爻中卦"
+    },
+    {
+      "hex": 5,
+      "pos": 1,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "初爻中"
+    },
+    {
+      "hex": 5,
+      "pos": 2,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "二爻中"
+    },
+    {
+      "hex": 5,
+      "pos": 3,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "三爻凶卦"
+    },
+    {
+      "hex": 5,
+      "pos": 4,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "四爻凶卦"
+    },
+    {
+      "hex": 5,
+      "pos": 5,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "五爻吉卦"
+    },
+    {
+      "hex": 5,
+      "pos": 6,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "六爻中卦"
+    },
+    {
+      "hex": 6,
+      "pos": 1,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "初爻中"
+    },
+    {
+      "hex": 6,
+      "pos": 2,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "二爻中"
+    },
+    {
+      "hex": 6,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "三爻中"
+    },
+    {
+      "hex": 6,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 6,
+      "pos": 5,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "五爻吉卦"
+    },
+    {
+      "hex": 6,
+      "pos": 6,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "六爻凶"
+    },
+    {
+      "hex": 15,
+      "pos": 1,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "謙卦1-4爻→吉"
+    },
+    {
+      "hex": 15,
+      "pos": 2,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "謙卦1-4爻→吉"
+    },
+    {
+      "hex": 15,
+      "pos": 3,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "謙卦1-4爻→吉"
+    },
+    {
+      "hex": 15,
+      "pos": 4,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "謙卦1-4爻→吉"
+    },
+    {
+      "hex": 15,
+      "pos": 5,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "謙卦5-6爻→中"
+    },
+    {
+      "hex": 15,
+      "pos": 6,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "謙卦5-6爻→中"
+    },
+    {
+      "hex": 17,
+      "pos": 1,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "初爻中"
+    },
+    {
+      "hex": 17,
+      "pos": 2,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "隨卦二爻凶"
+    },
+    {
+      "hex": 17,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "三爻中"
+    },
+    {
+      "hex": 17,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 17,
+      "pos": 5,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "五爻吉卦"
+    },
+    {
+      "hex": 17,
+      "pos": 6,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "六爻中卦"
+    },
+    {
+      "hex": 20,
+      "pos": 1,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "觀卦全中"
+    },
+    {
+      "hex": 20,
+      "pos": 2,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "觀卦全中"
+    },
+    {
+      "hex": 20,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "觀卦全中"
+    },
+    {
+      "hex": 20,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "觀卦全中"
+    },
+    {
+      "hex": 20,
+      "pos": 5,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "觀卦全中"
+    },
+    {
+      "hex": 20,
+      "pos": 6,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "觀卦全中"
+    },
+    {
+      "hex": 24,
+      "pos": 1,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "初爻吉卦"
+    },
+    {
+      "hex": 24,
+      "pos": 2,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "二爻吉卦"
+    },
+    {
+      "hex": 24,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "三爻中"
+    },
+    {
+      "hex": 24,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 24,
+      "pos": 5,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "五爻中"
+    },
+    {
+      "hex": 24,
+      "pos": 6,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "六爻凶"
+    },
+    {
+      "hex": 25,
+      "pos": 1,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "初爻吉卦"
+    },
+    {
+      "hex": 25,
+      "pos": 2,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "二爻吉卦"
+    },
+    {
+      "hex": 25,
+      "pos": 3,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "三爻凶卦"
+    },
+    {
+      "hex": 25,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 25,
+      "pos": 5,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "五爻中"
+    },
+    {
+      "hex": 25,
+      "pos": 6,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "六爻凶"
+    },
+    {
+      "hex": 33,
+      "pos": 1,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "初爻凶卦"
+    },
+    {
+      "hex": 33,
+      "pos": 2,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "二爻吉卦"
+    },
+    {
+      "hex": 33,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "三爻中"
+    },
+    {
+      "hex": 33,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 33,
+      "pos": 5,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "五爻吉卦"
+    },
+    {
+      "hex": 33,
+      "pos": 6,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "六爻吉卦"
+    },
+    {
+      "hex": 47,
+      "pos": 1,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "初爻凶卦"
+    },
+    {
+      "hex": 47,
+      "pos": 2,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "二爻中"
+    },
+    {
+      "hex": 47,
+      "pos": 3,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "三爻凶卦"
+    },
+    {
+      "hex": 47,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 47,
+      "pos": 5,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "五爻中"
+    },
+    {
+      "hex": 47,
+      "pos": 6,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "六爻中卦"
+    },
+    {
+      "hex": 50,
+      "pos": 1,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "初爻中"
+    },
+    {
+      "hex": 50,
+      "pos": 2,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "二爻中"
+    },
+    {
+      "hex": 50,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "三爻中"
+    },
+    {
+      "hex": 50,
+      "pos": 4,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "四爻凶卦"
+    },
+    {
+      "hex": 50,
+      "pos": 5,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "五爻吉卦"
+    },
+    {
+      "hex": 50,
+      "pos": 6,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "六爻吉卦"
+    },
+    {
+      "hex": 63,
+      "pos": 1,
+      "actual": 1,
+      "pred": 1,
+      "match": true,
+      "reason": "初爻吉卦"
+    },
+    {
+      "hex": 63,
+      "pos": 2,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "二爻中"
+    },
+    {
+      "hex": 63,
+      "pos": 3,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "三爻中"
+    },
+    {
+      "hex": 63,
+      "pos": 4,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "四爻中"
+    },
+    {
+      "hex": 63,
+      "pos": 5,
+      "actual": 0,
+      "pred": 0,
+      "match": true,
+      "reason": "五爻中"
+    },
+    {
+      "hex": 63,
+      "pos": 6,
+      "actual": -1,
+      "pred": -1,
+      "match": true,
+      "reason": "六爻凶"
+    }
+  ]
+}
