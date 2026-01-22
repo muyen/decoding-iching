@@ -82,5 +82,8 @@ cat docs/HEXAGRAM_STRATEGY_GUIDE.md
 
 ## 授權
 
-研究程式碼：MIT
-數據：見原始來源授權
+本作品採用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 授權。
+
+你可以自由分享和改編本材料，但僅限**非商業用途**，並須註明出處。
+
+數據來源保留其原始授權（維基文庫：CC BY-SA 3.0）。

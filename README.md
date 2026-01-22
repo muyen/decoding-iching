@@ -89,5 +89,8 @@ Please open an issue first to discuss.
 
 ## License
 
-Research code: MIT
-Data: See original sources for licensing
+This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You are free to share and adapt this material for **non-commercial purposes** with attribution.
+
+Data sources retain their original licenses (Wikisource: CC BY-SA 3.0).
