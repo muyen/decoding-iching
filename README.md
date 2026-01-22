@@ -86,22 +86,29 @@ iching/
 └── book/              # Book manuscript (Chinese)
 ```
 
-## Quick Start
+## Start Here
 
-```bash
-python3 scripts/core/iching_lookup_predictor.py   # 100% accuracy predictor
-python3 scripts/core/hexagram_explainer.py        # Plain language explanations
-```
+**Just want to read the findings?**
+- `docs/KEY_DISCOVERIES.md` — Main research findings
+- `docs/HEXAGRAM_STRATEGY_GUIDE.md` — Practical 64-hexagram navigation guide
+- `docs/visualization.html` — Interactive 8×8 heatmap
 
-## Documentation
+**Want to explore the data?**
+- `data/iching.db` — SQLite database with all 384 lines
+- `data/structure/` — Hexagram relationships and trigram mappings
 
-Most docs are in **Chinese** (繁體中文). For English readers:
-- Use an LLM to translate docs you're interested in
-- Open an issue for translation requests — I'll prioritize based on demand
+Most docs are in **Chinese** (繁體中文). Use an LLM to translate, or open an issue for translation requests.
 
-**Key docs:**
-- `docs/KEY_DISCOVERIES.md` — Main findings
-- `docs/HEXAGRAM_STRATEGY_GUIDE.md` — Practical 64-hexagram guide
+## Validate Our Findings
+
+We welcome others to examine our data and scripts to verify these findings.
+
+The research is reproducible:
+- Raw data in `data/`
+- Analysis scripts in `scripts/`
+- All 384 lines labeled and categorized
+
+If you find errors or have alternative interpretations, please open an issue. **Rigorous criticism makes the research stronger.**
 
 ## License
 

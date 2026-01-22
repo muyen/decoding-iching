@@ -86,17 +86,27 @@ iching/
 └── book/              # 書稿（中文）
 ```
 
-## 快速開始
+## 從這裡開始
 
-```bash
-python3 scripts/core/iching_lookup_predictor.py   # 100%準確率預測器
-python3 scripts/core/hexagram_explainer.py        # 白話解釋
-```
+**想直接看研究發現？**
+- `docs/KEY_DISCOVERIES.md` — 關鍵研究發現
+- `docs/HEXAGRAM_STRATEGY_GUIDE.md` — 六十四卦導航指南
+- `docs/visualization.html` — 互動式 8×8 熱力圖
 
-## 重要文檔
+**想探索數據？**
+- `data/iching.db` — SQLite 資料庫，含384爻
+- `data/structure/` — 卦象關係與八卦映射
 
-- `docs/KEY_DISCOVERIES.md` — 關鍵發現
-- `docs/HEXAGRAM_STRATEGY_GUIDE.md` — 六十四卦實用指南
+## 歡迎驗證
+
+我們歡迎其他人檢視數據和腳本，驗證這些發現。
+
+研究可重現：
+- 原始數據在 `data/`
+- 分析腳本在 `scripts/`
+- 384爻全部標註分類
+
+如果發現錯誤或有不同見解，請開 issue。**嚴謹的批評讓研究更強。**
 
 ## 授權
 
