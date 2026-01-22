@@ -1,10 +1,10 @@
 # Scripts Inventory
 
-**Total: 21 scripts in 4 folders**
+**Total: 26 scripts in 4 folders**
 
 ---
 
-## core/ (8 scripts)
+## core/ (9 scripts)
 
 Main predictors and analysis tools.
 
@@ -18,12 +18,13 @@ Main predictors and analysis tools.
 | `cuozong_graph_analysis.py` | 錯綜卦 network analysis |
 | `biangua_analysis.py` | 變卦 (single-line change) analysis |
 | `generate_strategy_guide.py` | Generate 64-hexagram strategy doc |
+| `xor_lesson.py` | XOR pattern insights (book content) |
 
 ---
 
-## analysis/ (4 scripts)
+## analysis/ (8 scripts)
 
-Phase-based analysis pipeline.
+Statistical and structural analysis.
 
 | Script | Purpose |
 |--------|---------|
@@ -31,6 +32,10 @@ Phase-based analysis pipeline.
 | `phase3_textual_analysis.py` | Textual analysis |
 | `phase4_correlation_analysis.py` | Correlation analysis |
 | `phase5_synthesis.py` | Synthesis |
+| `statistical_analysis.py` | Chi-square, Bayesian analysis |
+| `final_xor_analysis.py` | XOR pattern analysis |
+| `verify_dimensions.py` | Dimension-吉率 relationship |
+| `compare_samples.py` | Sample bias detection |
 
 ---
 
@@ -61,8 +66,8 @@ Data infrastructure and utilities.
 
 ---
 
-## Deleted (81 scripts)
+## Deleted (82 scripts)
 
-- **Data fetching** (7): download_*.py, scrape_*.py, extract_zhouyi.py, extract_yizhuan.py
+- **Data fetching** (8): download_*.py, scrape_*.py, extract_zhouyi.py, extract_yizhuan.py
 - **Formula iterations** (16): formula_v3 through v17, improved_formula_test
 - **Exploratory** (58): One-time analysis scripts used during research
