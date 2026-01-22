@@ -32,6 +32,32 @@ Data proof:
 
 **The I Ching is not about predicting your fate — it's about knowing when and how to change.**
 
+### The Direction Map: Where Should You Go?
+
+We built a complete navigation system for all 64 hexagrams:
+
+| Category | Meaning | Action |
+|----------|---------|--------|
+| 吸引子 (Attractor) | Good here, worse if you leave | **Stay** |
+| 排斥子 (Repeller) | Bad here, better if you leave | **Leave** |
+| 福地 (Blessed Land) | High fortune rate | **Maintain** |
+| 困境 (Difficult) | Low fortune rate | **Change** |
+| 陷阱 (Trap) | Bad here, neighbors also bad | **Choose carefully** |
+
+For each hexagram, we provide:
+- Current fortune rate
+- Neighbor average (what happens if you change)
+- Recommended path (which hexagram to transition to)
+- Which line to change for best outcome
+
+Example: **師卦 (7)** → 17% fortune, neighbors average 44%
+- Recommendation: **Leave**
+- Best path: 師 → 臨 (change line 6 → 83% fortune)
+
+### Interactive 8×8 Heatmap
+
+Open `docs/visualization.html` or `data/trigram_matrix.html` to see the fortune distribution across all 64 hexagrams as an interactive heatmap.
+
 ---
 
 ## Technical Achievement
