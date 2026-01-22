@@ -100,7 +100,7 @@ Open `docs/visualization.html` or `data/trigram_matrix.html` to see the fortune 
 
 ## Technical Achievement
 
-**100% accuracy** in predicting fortune labels (吉/中/凶) for all 384 lines using:
+**All 384 fortune labels** (吉/中/凶) derived directly from the I Ching text. Our classification method:
 - Conditional phrase parsing (highest priority)
 - Keyword reliability scoring (无咎, 吝, etc. have different weights)
 - 3D lookup table: `LOOKUP[inner_trigram, outer_trigram, position]`
