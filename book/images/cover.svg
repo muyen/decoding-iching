@@ -63,5 +63,5 @@
   <text x="800" y="2100" text-anchor="middle" font-family="Songti TC, STSong, serif" font-size="70" fill="#c9b896">李沐諺</text>
 
   <!-- Decorative bottom element -->
-  <text x="800" y="2250" text-anchor="middle" font-family="Arial" font-size="28" fill="#748cab">64卦 · 384爻 · 數據分析</text>
+  <text x="800" y="2250" text-anchor="middle" font-family="Songti TC, STSong, serif" font-size="48" fill="#c9b896">64卦 · 384爻 · 數據分析</text>
 </svg>

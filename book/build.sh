@@ -53,6 +53,9 @@ concatenate_chapters() {
     cat "${BOOK_DIR}/front_matter/02_dedication.md" >> "${output_file}"
     echo -e "\n\n---\n\n" >> "${output_file}"
 
+    cat "${BOOK_DIR}/front_matter/02b_executive_summary.md" >> "${output_file}"
+    echo -e "\n\n---\n\n" >> "${output_file}"
+
     cat "${BOOK_DIR}/front_matter/03_introduction.md" >> "${output_file}"
     echo -e "\n\n---\n\n" >> "${output_file}"
 
@@ -65,7 +68,7 @@ concatenate_chapters() {
 
     # Part 2
     echo -e "# 第二部分：核心發現\n\n" >> "${output_file}"
-    for chapter in 06 07 08 09 10 11 12 13; do
+    for chapter in 06 07 08 09 10 13; do
         cat "${BOOK_DIR}/chapters/${chapter}_"*.md >> "${output_file}"
         echo -e "\n\n---\n\n" >> "${output_file}"
     done
@@ -79,14 +82,14 @@ concatenate_chapters() {
 
     # Part 4
     echo -e "# 第四部分：深入理解\n\n" >> "${output_file}"
-    for chapter in 20 21 22 23 24 25; do
+    for chapter in 20 21 22 23 24; do
         cat "${BOOK_DIR}/chapters/${chapter}_"*.md >> "${output_file}"
         echo -e "\n\n---\n\n" >> "${output_file}"
     done
 
     # Appendices
     echo -e "# 附錄\n\n" >> "${output_file}"
-    for appendix in A1 A2 A3; do
+    for appendix in A1 A2 A3 A4; do
         cat "${BOOK_DIR}/chapters/${appendix}_"*.md >> "${output_file}"
         echo -e "\n\n---\n\n" >> "${output_file}"
     done

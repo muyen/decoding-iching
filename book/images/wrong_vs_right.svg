@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#c62828"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2e7d32"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="#fff"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">一般人 vs 真正用法</text>
+
+  <!-- Divider line -->
+  <line x1="300" y1="60" x2="300" y2="380" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+
+  <!-- Left side - Wrong way -->
+  <text x="150" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#c62828" font-weight="bold">❌ 一般人</text>
+
+  <!-- Wrong way boxes -->
+  <rect x="75" y="100" width="150" height="40" rx="5" fill="#ffcdd2"/>
+  <text x="150" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#c62828">占卦</text>
+
+  <line x1="150" y1="140" x2="150" y2="165" stroke="#c62828" stroke-width="2" marker-end="url(#arrow-red)"/>
+
+  <rect x="75" y="175" width="150" height="40" rx="5" fill="#ffcdd2"/>
+  <text x="150" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#c62828">看結果</text>
+
+  <line x1="150" y1="215" x2="150" y2="240" stroke="#c62828" stroke-width="2" marker-end="url(#arrow-red)"/>
+
+  <rect x="75" y="250" width="150" height="40" rx="5" fill="#ffcdd2"/>
+  <text x="150" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#c62828">認命</text>
+
+  <line x1="150" y1="290" x2="150" y2="315" stroke="#c62828" stroke-width="2" marker-end="url(#arrow-red)"/>
+
+  <rect x="75" y="325" width="150" height="40" rx="5" fill="#c62828"/>
+  <text x="150" y="351" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">結束 😞</text>
+
+  <!-- Stuck indicator -->
+  <text x="235" y="270" font-family="Arial, sans-serif" font-size="12" fill="#c62828">← 卡在這裡</text>
+
+  <!-- Right side - Correct way -->
+  <text x="450" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#2e7d32" font-weight="bold">✓ 真正用法</text>
+
+  <!-- Correct way boxes -->
+  <rect x="375" y="90" width="150" height="35" rx="5" fill="#c8e6c9"/>
+  <text x="450" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2e7d32">占卦</text>
+
+  <line x1="450" y1="125" x2="450" y2="140" stroke="#2e7d32" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <rect x="375" y="150" width="150" height="35" rx="5" fill="#c8e6c9"/>
+  <text x="450" y="173" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2e7d32">認清現狀</text>
+
+  <line x1="450" y1="185" x2="450" y2="200" stroke="#2e7d32" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <rect x="375" y="210" width="150" height="35" rx="5" fill="#a5d6a7"/>
+  <text x="450" y="233" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2e7d32">選方向</text>
+
+  <line x1="450" y1="245" x2="450" y2="260" stroke="#2e7d32" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <rect x="375" y="270" width="150" height="35" rx="5" fill="#81c784"/>
+  <text x="450" y="293" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1b5e20" font-weight="bold">行動</text>
+
+  <line x1="450" y1="305" x2="450" y2="320" stroke="#2e7d32" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <rect x="375" y="330" width="150" height="40" rx="5" fill="#2e7d32"/>
+  <text x="450" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">改變！🎯</text>
+
+  <!-- Key point indicator -->
+  <text x="540" y="290" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32" font-weight="bold">← 重點！</text>
+
+</svg>

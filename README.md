@@ -1,119 +1,155 @@
-# I Ching Pattern Analysis Research
+# 易經模式分析研究
 
-Reverse-engineering the I Ching (易經) using computational methods and AI-assisted pattern recognition.
+**[English](README_EN.md)** | 繁體中文
 
-## What We Discovered
+用計算方法與 AI 輔助模式識別，逆向工程解碼易經。
 
-After analyzing all 384 lines of the I Ching as data, we found patterns that **contradict 2000 years of traditional interpretation**:
+## 核心價值：決策工具，不是算命
 
-### "无咎" (No Blame) Doesn't Mean Good Fortune
-Traditional view: 无咎 = auspicious
-**Data shows**: Only 28% fortune (吉), 65% neutral (中)
-
-### "Being Steadfast" (貞) Can Be Dangerous
-Traditional view: 貞 (righteousness/persistence) always leads to fortune
-**Data shows**: 16% of 貞 combinations are actually 凶 (misfortune)
-- 恆卦初六「浚恆，貞凶」— excessive persistence brings misfortune
-- 節卦上六「苦節，貞凶」— excessive restraint brings misfortune
-
-### Position 4 is NOT the "Dangerous Position"
-Traditional view: "四多懼" — the 4th line is fearful/dangerous
-**Data shows**: Position 4 has the **highest** 无咎 rate (22.2%) — it's actually the best position for recovery
-
-### The Core Message: Change = Good
 ```
-易 = Change
-能變 = Fortune
-不變 = Misfortune
+一般人用易經：
+占卦 → 看結果 → 認命 → 結束
+              ↑
+           卡在這裡
+
+真正的用法：
+占卦 → 認清現狀 → 選方向 → 行動 → 改變
+                          ↓
+                     這才是重點
 ```
-Data proof:
-- Staying in a bad position: **0%** fortune rate
-- Actively changing from a bad position: **44%** average fortune rate among neighbors
 
-**The I Ching is not about predicting your fate — it's about knowing when and how to change.**
+**為什麼大多數人用錯了？**
 
-### The Direction Map: Where Should You Go?
+| 原因 | 結果 |
+|------|------|
+| 不知道卦有「類型」| 不知道該留還是走 |
+| 不知道有「路徑」| 不知道往哪走 |
+| 不知道有「時機」| 不知道什麼時候動 |
+| 把易經當算命 | 被動等待 |
 
-We built a complete navigation system for all 64 hexagrams:
+**這個研究解決什麼？**
 
-| Category | Meaning | Action |
-|----------|---------|--------|
-| 吸引子 (Attractor) | Good here, worse if you leave | **Stay** |
-| 排斥子 (Repeller) | Bad here, better if you leave | **Leave** |
-| 福地 (Blessed Land) | High fortune rate | **Maintain** |
-| 困境 (Difficult) | Low fortune rate | **Change** |
-| 陷阱 (Trap) | Bad here, neighbors also bad | **Choose carefully** |
+占到卦 → 查這本書 →
+- 這是什麼類型？（吸引子/排斥子/陷阱）
+- 我該留還是走？
+- 往哪走？（推薦路徑）
+- 哪個爻變最安全？
+- **行動！**
 
-For each hexagram, we provide:
-- Current fortune rate
-- Neighbor average (what happens if you change)
-- Recommended path (which hexagram to transition to)
-- Which line to change for best outcome
-
-Example: **師卦 (7)** → 17% fortune, neighbors average 44%
-- Recommendation: **Leave**
-- Best path: 師 → 臨 (change line 6 → 83% fortune)
-
-### Interactive 8×8 Heatmap
-
-Open `docs/visualization.html` or `data/trigram_matrix.html` to see the fortune distribution across all 64 hexagrams as an interactive heatmap.
+易經的力量一直在那裡，只是大多數人不知道怎麼用。
 
 ---
 
-## Technical Achievement
+## 我們發現了什麼
 
-**100% accuracy** in predicting fortune labels (吉/中/凶) for all 384 lines using:
-- Conditional phrase parsing (highest priority)
-- Keyword reliability scoring (无咎, 吝, etc. have different weights)
-- 3D lookup table: `LOOKUP[inner_trigram, outer_trigram, position]`
+把384爻當作數據分析後，我們發現了**顛覆2000年傳統解讀**的模式：
 
-Key insight: Fortune is **not** a linear formula — it's a non-linear interaction between trigrams and position.
+### 「无咎」不是吉
+傳統觀點：无咎 = 吉祥
+**數據顯示**：只有 28% 吉，65% 中
 
-## Project Structure
+### 「守正」可能招凶
+傳統觀點：貞（守正）必然導致吉祥
+**數據顯示**：16% 的貞組合反而是凶
+- 恆卦初六「浚恆，貞凶」— 過度追求恆久反而凶
+- 節卦上六「苦節，貞凶」— 過度節制反而凶
+
+### 四爻不是「凶位」
+傳統觀點：「四多懼」— 四爻是危險位置
+**數據顯示**：四爻的无咎率**最高**（22.2%）— 其實是最能化險為夷的位置
+
+### 核心訊息：變 = 吉
+```
+易 = 變
+能變 = 吉
+不變 = 凶
+```
+數據證明：
+- 在差的位置不動：**0%** 吉率
+- 在差的位置主動變：**44%** 鄰居平均吉率
+
+**易經不是告訴你命運如何，而是告訴你何時、如何改變。**
+
+### 方向地圖：你該往哪裡走？
+
+我們建立了完整的64卦導航系統：
+
+| 類型 | 含義 | 行動 |
+|------|------|------|
+| 吸引子 | 自己好，變出去差 | **留下** |
+| 排斥子 | 自己差，變出去好 | **離開** |
+| 福地 | 吉率高 | **維持** |
+| 困境 | 吉率低 | **改變** |
+| 陷阱 | 自己差，鄰居也差 | **謹慎選擇** |
+
+每個卦提供：
+- 當前吉率
+- 鄰居平均（變化後的預期）
+- 推薦路徑（往哪個卦走）
+- 變哪一爻最佳
+
+例：**師卦 (7)** → 17% 吉率，鄰居平均 44%
+- 建議：**離開**
+- 最佳路徑：師 → 臨（變第6爻 → 83% 吉率）
+
+### 互動式 8×8 熱力圖
+
+開啟 `docs/visualization.html` 或 `data/trigram_matrix.html` 查看64卦吉凶分佈的互動熱力圖。
+
+---
+
+## 技術成果
+
+**100% 準確率**預測所有384爻的吉凶標籤，基於：
+- 條件句解析（最高優先）
+- 關鍵詞可信度評分（无咎、吝等權重不同）
+- 三維查表：`LOOKUP[下卦, 上卦, 爻位]`
+
+關鍵發現：吉凶**不是**線性公式，而是卦象與爻位的非線性交互。
+
+## 專案結構
 
 ```
 iching/
-├── scripts/           # 26 analysis scripts
-│   ├── core/          # Predictors (100% lookup, 90.6% rule-based)
-│   ├── analysis/      # Statistical analysis
-│   ├── visualization/ # 2D/3D visualization
-│   └── infrastructure/# Database utilities
+├── scripts/           # 26個分析腳本
+│   ├── core/          # 預測器（100%查表、90.6%規則）
+│   ├── analysis/      # 統計分析
+│   ├── visualization/ # 2D/3D視覺化
+│   └── infrastructure/# 資料庫工具
 ├── data/
-│   ├── iching.db      # SQLite database (384 lines)
-│   ├── structure/     # Hexagram relationships
-│   └── commentaries/  # Classical Chinese texts
-├── docs/              # Research documentation (Chinese)
-└── book/              # Book manuscript (Chinese)
+│   ├── iching.db      # SQLite資料庫（384爻）
+│   ├── structure/     # 卦象關係
+│   └── commentaries/  # 古典中文原典
+├── docs/              # 研究文檔（中文）
+└── book/              # 書稿（中文）
 ```
 
-## Start Here
+## 從這裡開始
 
-**📖 [Download the Ebook (EPUB)](https://github.com/muyen/iching-analysis/releases)** — Best way to read the full research (Chinese)
+**📖 [下載電子書 (EPUB)](https://github.com/muyen/iching-analysis/releases)** — 閱讀完整研究的最佳方式
 
-**Or browse the docs:**
-- `docs/KEY_DISCOVERIES.md` — Main research findings
-- `docs/HEXAGRAM_STRATEGY_GUIDE.md` — Practical 64-hexagram navigation guide
-- `docs/visualization.html` — Interactive 8×8 heatmap
+**或瀏覽文檔：**
+- `docs/KEY_DISCOVERIES.md` — 關鍵研究發現
+- `docs/HEXAGRAM_STRATEGY_GUIDE.md` — 六十四卦導航指南
+- `docs/visualization.html` — 互動式 8×8 熱力圖
 
-**Want to explore the data?**
-- `data/iching.db` — SQLite database with all 384 lines
-- `data/structure/` — Hexagram relationships and trigram mappings
+**想探索數據？**
+- `data/iching.db` — SQLite 資料庫，含384爻
+- `data/structure/` — 卦象關係與八卦映射
 
-Most docs are in **Chinese** (繁體中文). Use an LLM to translate, or open an issue for translation requests.
+## 歡迎驗證
 
-## Validate Our Findings
+我們歡迎其他人檢視數據和腳本，驗證這些發現。
 
-We welcome others to examine our data and scripts to verify these findings.
+研究可重現：
+- 原始數據在 `data/`
+- 分析腳本在 `scripts/`
+- 384爻全部標註分類
 
-The research is reproducible:
-- Raw data in `data/`
-- Analysis scripts in `scripts/`
-- All 384 lines labeled and categorized
+如果發現錯誤或有不同見解，請開 issue。**嚴謹的批評讓研究更強。**
 
-If you find errors or have alternative interpretations, please open an issue. **Rigorous criticism makes the research stronger.**
+## 授權
 
-## License
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — 非商業用途，須註明出處。
 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — Non-commercial use with attribution.
-
-For commercial licensing, please contact me.
+如需商業授權，請與我聯絡。

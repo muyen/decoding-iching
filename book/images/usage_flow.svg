@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="700" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">易經決策流程</text>
+
+  <!-- Step 1 -->
+  <rect x="150" y="70" width="300" height="60" rx="10" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <text x="300" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">1. 你在哪裡？</text>
+  <text x="300" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white">判斷內在 + 外在 = 你的卦</text>
+
+  <!-- Arrow 1 -->
+  <line x1="300" y1="130" x2="300" y2="160" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2 -->
+  <rect x="150" y="170" width="300" height="60" rx="10" fill="#2196F3" stroke="#1976D2" stroke-width="2"/>
+  <text x="300" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">2. 查附錄A4</text>
+  <text x="300" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white">找到卦 → 看類型 🟢🟡🔴</text>
+
+  <!-- Arrow 2 -->
+  <line x1="300" y1="230" x2="300" y2="260" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3 - Decision -->
+  <polygon points="300,270 420,330 300,390 180,330" fill="#FF9800" stroke="#F57C00" stroke-width="2"/>
+  <text x="300" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">3. 該留</text>
+  <text x="300" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">還是該走？</text>
+
+  <!-- Left branch - Stay -->
+  <line x1="180" y1="330" x2="100" y2="330" stroke="#333" stroke-width="2"/>
+  <line x1="100" y1="330" x2="100" y2="420" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="90" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4CAF50" font-weight="bold">🟢留</text>
+
+  <!-- Right branch - Go -->
+  <line x1="420" y1="330" x2="500" y2="330" stroke="#333" stroke-width="2"/>
+  <line x1="500" y1="330" x2="500" y2="420" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="510" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f44336" font-weight="bold">🔴走</text>
+
+  <!-- Stay box -->
+  <rect x="25" y="430" width="150" height="50" rx="8" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <text x="100" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">維持現狀</text>
+
+  <!-- Go box - Step 4 -->
+  <rect x="425" y="430" width="150" height="60" rx="8" fill="#9C27B0" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="500" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">4. 往哪走？</text>
+  <text x="500" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">看「最佳變爻」欄</text>
+
+  <!-- Arrow to Step 5 -->
+  <line x1="500" y1="490" x2="500" y2="520" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 5 -->
+  <rect x="425" y="530" width="150" height="60" rx="8" fill="#E91E63" stroke="#C2185B" stroke-width="2"/>
+  <text x="500" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">5. 具體行動</text>
+  <text x="500" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">爻位 → 行動計劃</text>
+
+  <!-- Both arrows to final -->
+  <line x1="100" y1="480" x2="100" y2="620" stroke="#333" stroke-width="2"/>
+  <line x1="100" y1="620" x2="250" y2="620" stroke="#333" stroke-width="2"/>
+  <line x1="500" y1="590" x2="500" y2="620" stroke="#333" stroke-width="2"/>
+  <line x1="500" y1="620" x2="350" y2="620" stroke="#333" stroke-width="2"/>
+  <line x1="300" y1="620" x2="300" y2="640" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Final -->
+  <rect x="175" y="650" width="250" height="40" rx="10" fill="#333" stroke="#000" stroke-width="2"/>
+  <text x="300" y="677" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">改變！</text>
+
+</svg>

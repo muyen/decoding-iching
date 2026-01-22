@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="550" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">什麼是「變爻」？</text>
+  <text x="350" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">變一個爻 = 變一條線 = 變成另一個卦</text>
+
+  <!-- Example section -->
+  <text x="350" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333" font-weight="bold">範例：師卦 變第6爻 → 臨卦</text>
+
+  <!-- Left hexagram - 師卦 -->
+  <text x="150" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#c62828" font-weight="bold">師卦 (17%吉)</text>
+
+  <!-- Lines for 師卦 (坎上坤下 = 010 000) -->
+  <rect x="100" y="160" width="100" height="10" fill="#333"/> <!-- 6 yang -->
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="12" fill="#e91e63" font-weight="bold">← 第6爻 (要變這個!)</text>
+
+  <rect x="100" y="185" width="45" height="10" fill="#333"/>
+  <rect x="155" y="185" width="45" height="10" fill="#333"/> <!-- 5 yin -->
+  <text x="220" y="195" font-family="Arial, sans-serif" font-size="11" fill="#666">第5爻</text>
+
+  <rect x="100" y="210" width="100" height="10" fill="#333"/> <!-- 4 yang -->
+  <text x="220" y="220" font-family="Arial, sans-serif" font-size="11" fill="#666">第4爻</text>
+
+  <rect x="100" y="235" width="45" height="10" fill="#333"/>
+  <rect x="155" y="235" width="45" height="10" fill="#333"/> <!-- 3 yin -->
+  <text x="220" y="245" font-family="Arial, sans-serif" font-size="11" fill="#666">第3爻</text>
+
+  <rect x="100" y="260" width="45" height="10" fill="#333"/>
+  <rect x="155" y="260" width="45" height="10" fill="#333"/> <!-- 2 yin -->
+  <text x="220" y="270" font-family="Arial, sans-serif" font-size="11" fill="#666">第2爻</text>
+
+  <rect x="100" y="285" width="45" height="10" fill="#333"/>
+  <rect x="155" y="285" width="45" height="10" fill="#333"/> <!-- 1 yin -->
+  <text x="220" y="295" font-family="Arial, sans-serif" font-size="11" fill="#666">第1爻</text>
+
+  <!-- Arrow -->
+  <line x1="280" y1="225" x2="370" y2="225" stroke="#333" stroke-width="3" marker-end="url(#arr)"/>
+  <text x="325" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e91e63" font-weight="bold">變!</text>
+
+  <!-- Right hexagram - 臨卦 -->
+  <text x="500" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2e7d32" font-weight="bold">臨卦 (83%吉)</text>
+
+  <!-- Lines for 臨卦 (坤上兌下 = 000 011) -->
+  <rect x="450" y="160" width="45" height="10" fill="#e91e63"/>
+  <rect x="505" y="160" width="45" height="10" fill="#e91e63"/> <!-- 6 yin - CHANGED! -->
+  <text x="570" y="170" font-family="Arial, sans-serif" font-size="12" fill="#e91e63" font-weight="bold">← 變了!</text>
+
+  <rect x="450" y="185" width="45" height="10" fill="#333"/>
+  <rect x="505" y="185" width="45" height="10" fill="#333"/> <!-- 5 yin -->
+
+  <rect x="450" y="210" width="100" height="10" fill="#333"/> <!-- 4 yang -->
+
+  <rect x="450" y="235" width="45" height="10" fill="#333"/>
+  <rect x="505" y="235" width="45" height="10" fill="#333"/> <!-- 3 yin -->
+
+  <rect x="450" y="260" width="45" height="10" fill="#333"/>
+  <rect x="505" y="260" width="45" height="10" fill="#333"/> <!-- 2 yin -->
+
+  <rect x="450" y="285" width="45" height="10" fill="#333"/>
+  <rect x="505" y="285" width="45" height="10" fill="#333"/> <!-- 1 yin -->
+
+  <!-- Divider -->
+  <line x1="50" y1="330" x2="650" y2="330" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Bottom explanation -->
+  <text x="350" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#333" font-weight="bold">六個爻位代表什麼？</text>
+
+  <!-- Position meanings table -->
+  <rect x="50" y="385" width="600" height="140" rx="10" fill="#fff" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <text x="120" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">爻位</text>
+  <text x="280" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">代表層面</text>
+  <text x="500" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">改變這個 = 改變...</text>
+
+  <line x1="60" y1="425" x2="640" y2="425" stroke="#eee" stroke-width="1"/>
+
+  <!-- Data rows -->
+  <text x="120" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9c27b0">第6爻</text>
+  <text x="280" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">終結、轉型</text>
+  <text x="500" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#666">結束方式、如何轉型</text>
+
+  <text x="120" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#673ab7">第5爻</text>
+  <text x="280" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">主導、核心</text>
+  <text x="500" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#666">核心策略、主導方式</text>
+
+  <text x="120" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#3f51b5">第4爻</text>
+  <text x="280" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">適應、調整</text>
+  <text x="500" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#666">外在調整、適應方式</text>
+
+  <text x="120" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2196f3">第3爻</text>
+  <text x="280" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">轉折、決定</text>
+  <text x="500" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#666">關鍵決定、轉折點</text>
+
+  <text x="120" y="528" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">第2爻=發展  第1爻=根本</text>
+
+</svg>
