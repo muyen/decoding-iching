@@ -2,8 +2,8 @@
 # Book Metadata for Amazon KDP
 # Used by Pandoc for EPUB/PDF generation
 
-title: "解碼易經：用數據科學逆向工程三千年預測系統"
-subtitle: "Decoding the I Ching: Reverse-Engineering a 3,000-Year-Old Prediction System with Data Science"
+title: "解碼易經"
+subtitle: "用數據科學逆向工程三千年的智慧"
 author: "李沐諺 (Arsene Lee)"
 date: "2026"
 lang: zh-TW
