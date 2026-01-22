@@ -23,6 +23,10 @@ Thumbs.db
 *.swp
 *.swo
 
+# Tool configs
+.claude/
+.playwright-mcp/
+
 # Database
 *.db-journal
 
