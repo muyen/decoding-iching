@@ -29,9 +29,5 @@ Thumbs.db
 # Temp files
 *.tmp
 *.temp
-data/chinese-poetry
-data/wilhelm-dataset
-data/zhouyi-64gua
-
 # Experimental research (not ready for publication)
 experimental/
