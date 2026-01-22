@@ -88,7 +88,9 @@ iching/
 
 ## 從這裡開始
 
-**想直接看研究發現？**
+**📖 [下載電子書 (EPUB)](https://github.com/muyen/iching-analysis/releases)** — 閱讀完整研究的最佳方式
+
+**或瀏覽文檔：**
 - `docs/KEY_DISCOVERIES.md` — 關鍵研究發現
 - `docs/HEXAGRAM_STRATEGY_GUIDE.md` — 六十四卦導航指南
 - `docs/visualization.html` — 互動式 8×8 熱力圖

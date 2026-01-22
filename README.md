@@ -88,7 +88,9 @@ iching/
 
 ## Start Here
 
-**Just want to read the findings?**
+**📖 [Download the Ebook (EPUB)](https://github.com/muyen/iching-analysis/releases)** — Best way to read the full research (Chinese)
+
+**Or browse the docs:**
 - `docs/KEY_DISCOVERIES.md` — Main research findings
 - `docs/HEXAGRAM_STRATEGY_GUIDE.md` — Practical 64-hexagram navigation guide
 - `docs/visualization.html` — Interactive 8×8 heatmap
