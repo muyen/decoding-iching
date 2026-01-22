@@ -1,28 +1,29 @@
 # Scripts Inventory
 
-## KEEP - Core Analysis (Essential)
+**Total: 21 scripts in 4 folders**
 
-| Script | Purpose | Status |
-|--------|---------|--------|
-| `iching_lookup_predictor.py` | 100% accuracy predictor | ✅ Verified |
-| `deep_graph_analysis.py` | Graph theory, attractors/repellers | ✅ Verified |
-| `generate_strategy_guide.py` | 64-hexagram strategy guide | ✅ Verified |
-| `cuozong_graph_analysis.py` | 錯綜卦 analysis | ✅ Verified |
-| `hexagram_explainer.py` | Plain Chinese explanations | ✅ Keep |
-| `hexagram_chemistry.py` | Trigram interaction model | ✅ Keep |
+---
 
-## KEEP - Data Infrastructure
+## core/ (8 scripts)
+
+Main predictors and analysis tools.
 
 | Script | Purpose |
 |--------|---------|
-| `create_database.py` | SQLite database creation |
-| `analysis_tools.py` | Common utilities |
-| `generate_hexagram_structure.py` | Structure JSON |
-| `generate_embeddings.py` | Text embeddings |
-| `extract_yizhuan.py` | Ten Wings extraction |
-| `extract_shuogua_mappings.py` | Trigram mappings |
+| `rule_based_predictor.py` | Rule-based predictor (90.6% accuracy) |
+| `iching_lookup_predictor.py` | Lookup predictor (100% accuracy) |
+| `hexagram_explainer.py` | Plain Chinese explanations |
+| `hexagram_chemistry.py` | Trigram interaction model |
+| `deep_graph_analysis.py` | Graph theory, attractors/repellers |
+| `cuozong_graph_analysis.py` | 錯綜卦 network analysis |
+| `biangua_analysis.py` | 變卦 (single-line change) analysis |
+| `generate_strategy_guide.py` | Generate 64-hexagram strategy doc |
 
-## KEEP - Phase Analysis
+---
+
+## analysis/ (4 scripts)
+
+Phase-based analysis pipeline.
 
 | Script | Purpose |
 |--------|---------|
@@ -31,42 +32,37 @@
 | `phase4_correlation_analysis.py` | Correlation analysis |
 | `phase5_synthesis.py` | Synthesis |
 
-## DELETED - Data Fetching (data already collected)
+---
 
-- `download_ctext.py` - ctext.org downloads
-- `download_wikisource_*.py` - Wikisource commentary downloads
-- `scrape_jiaoshi_yilin.py` - Jiaoshi Yilin scraper
-- `extract_yizhuan.py` - Ten Wings extraction
-- `extract_zhouyi.py` - Zhouyi text extraction
+## visualization/ (3 scripts)
 
-## CAN DELETE - Formula Iterations (Superseded)
+Visualization tools.
 
-These were iterations leading to final predictor:
-- `formula_v3_test.py` through `formula_v17_ml.py` (15 files)
-
-## CAN DELETE - Exploratory (One-time use)
-
-- `advanced_*.py` - Exploratory analysis
-- `reverse_engineer*.py` - Exploration phase
-- Various pattern exploration scripts
-
-## CAN ARCHIVE - Useful but not essential
-
-- `physics_analogy_analysis.py` - Quantum speculation
-- `validate_yilin.py` - Jiaoshi Yilin (disproven)
-- Various visualization scripts
+| Script | Purpose |
+|--------|---------|
+| `visualize_hexagrams.py` | 2D hexagram visualization |
+| `visualization_3d.py` | 3D visualization |
+| `pattern_visualization.py` | Pattern charts |
 
 ---
 
-## Summary
+## infrastructure/ (6 scripts)
 
-| Category | Count | Action |
-|----------|-------|--------|
-| Essential | ~15 | Keep |
-| Infrastructure | ~10 | Keep |
-| Phase Analysis | 4 | Keep |
-| Downloads | 5 | Keep |
-| Formula iterations | 15 | Delete |
-| Exploratory | ~50 | Delete/Archive |
+Data infrastructure and utilities.
 
-**Recommended: Keep ~35 scripts, delete/archive ~73**
+| Script | Purpose |
+|--------|---------|
+| `create_database.py` | SQLite database creation |
+| `analysis_tools.py` | Common utilities |
+| `generate_hexagram_structure.py` | Generate structure JSON |
+| `generate_embeddings.py` | Text embeddings |
+| `extract_shuogua_mappings.py` | Trigram mappings from 說卦傳 |
+| `create_mawangdui_sequence.py` | Mawangdui sequence data |
+
+---
+
+## Deleted (81 scripts)
+
+- **Data fetching** (7): download_*.py, scrape_*.py, extract_zhouyi.py, extract_yizhuan.py
+- **Formula iterations** (16): formula_v3 through v17, improved_formula_test
+- **Exploratory** (58): One-time analysis scripts used during research
