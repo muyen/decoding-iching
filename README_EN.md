@@ -150,6 +150,10 @@ The research is reproducible:
 
 If you find errors or have alternative interpretations, please open an issue. **Rigorous criticism makes the research stronger.**
 
+## Related Projects
+
+- **[Meihua Yishu 梅花易數](https://github.com/muyen/meihua-yishu)** — Meihua divination AI skill for Claude, ChatGPT, Gemini, and other LLMs. Provides a complete hexagram casting and interpretation system.
+
 ## License
 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — Non-commercial use with attribution.

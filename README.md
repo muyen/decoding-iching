@@ -148,6 +148,10 @@ iching/
 
 如果發現錯誤或有不同見解，請開 issue。**嚴謹的批評讓研究更強。**
 
+## 相關專案
+
+- **[梅花易數 Meihua Yishu](https://github.com/muyen/meihua-yishu)** — 梅花易數 AI 技能，可用於 Claude、ChatGPT、Gemini 等。提供完整的起卦與解卦系統。
+
 ## 授權
 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — 非商業用途，須註明出處。
