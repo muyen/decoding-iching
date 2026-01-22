@@ -126,7 +126,7 @@ iching/
 
 ## 從這裡開始
 
-**📖 [下載電子書 (EPUB)](https://github.com/muyen/iching-analysis/releases)** — 閱讀完整研究的最佳方式
+**📖 [下載電子書 (EPUB)](https://github.com/muyen/decoding-iching/releases)** — 閱讀完整研究的最佳方式
 
 **或瀏覽文檔：**
 - `docs/KEY_DISCOVERIES.md` — 關鍵研究發現
