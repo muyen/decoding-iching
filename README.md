@@ -93,4 +93,6 @@ This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licens
 
 You are free to share and adapt this material for **non-commercial purposes** with attribution.
 
+For commercial licensing, please contact me.
+
 Data sources retain their original licenses (Wikisource: CC BY-SA 3.0).
