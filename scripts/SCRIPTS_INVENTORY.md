@@ -31,12 +31,13 @@
 | `phase4_correlation_analysis.py` | Correlation analysis |
 | `phase5_synthesis.py` | Synthesis |
 
-## KEEP - Downloads
+## DELETED - Data Fetching (data already collected)
 
-| Script | Purpose |
-|--------|---------|
-| `download_wikisource_*.py` | Commentary downloads |
-| `create_mawangdui_sequence.py` | Mawangdui data |
+- `download_ctext.py` - ctext.org downloads
+- `download_wikisource_*.py` - Wikisource commentary downloads
+- `scrape_jiaoshi_yilin.py` - Jiaoshi Yilin scraper
+- `extract_yizhuan.py` - Ten Wings extraction
+- `extract_zhouyi.py` - Zhouyi text extraction
 
 ## CAN DELETE - Formula Iterations (Superseded)
 
