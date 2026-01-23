@@ -58,6 +58,26 @@ Traditional view: 貞 (righteousness/persistence) always leads to fortune
 Traditional view: "四多懼" — the 4th line is fearful/dangerous
 **Data shows**: Position 4 has the **highest** 无咎 rate (22.2%) — it's actually the best position for recovery
 
+### Five Elements (五行) is NOT the Original Logic
+Traditional view: I Ching and Five Elements (金木水火土) are inseparable
+**Triple verification proves this wrong:**
+
+**1. Text Search**: "五行" "相生" "相剋" appear **0 times** in 384 lines + Ten Wings
+
+**2. Statistical Analysis:**
+- Five Elements only adds +0.3% prediction accuracy
+- Earlier/Later Heaven mappings show <1% difference
+
+**3. Head-to-Head Comparison:**
+| System | Effect Range | Explanatory Power |
+|--------|-------------|-------------------|
+| Trigram Virtues (卦德) | 1.50 | High |
+| Five Elements (五行) | 0.30 | Low |
+
+**Trigram Virtues have 5x the explanatory power of Five Elements.**
+
+The original logic is recorded in Shuogua (說卦傳): "乾健、坤順、震動、巽入、坎陷、離麗、艮止、兌說"
+
 ### The Core Message: Change = Good
 ```
 易 = Change
